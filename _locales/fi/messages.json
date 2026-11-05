@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Paikallinen aika kaikkialla"
+  },
+  "extDesc": {
+    "message": "Lopeta aikavyöhykkeiden laskeminen päässäsi. Muunna 3pm EST, 9:00 UTC, 14:00 CET suoraan sisällössä Calendarissa, Slackissa, Discordissa ja GitHubissa."
+  },
+  "actionTitle": {
+    "message": "Paikallinen aika kaikkialla"
+  },
+  "popupTitle": {
+    "message": "Paikallinen aika kaikkialla"
+  },
+  "popupStatusActive": {
+    "message": "Aktiivinen"
+  },
+  "popupStatusPaused": {
+    "message": "Keskeytetty"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Tila: aktiivinen"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Tila: keskeytetty tällä isännällä"
+  },
+  "popupStatLabel": {
+    "message": "Tällä sivulla"
+  },
+  "popupStatHintSingular": {
+    "message": "aika muunnettu tällä välilehdellä tämän istunnon aikana."
+  },
+  "popupStatHintPlural": {
+    "message": "aikaa muunnettu tällä välilehdellä tämän istunnon aikana."
+  },
+  "popupStatAriaLabel": {
+    "message": "Muunnetut ajat tällä sivulla"
+  },
+  "popupPauseOnHost": {
+    "message": "Keskeytä tällä isännällä"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Lopeta muuntaminen tällä sivustolla, kunnes otat sen taas käyttöön."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Lopeta muuntaminen isännällä $1, kunnes otat sen taas käyttöön."
+  },
+  "popupShowInline": {
+    "message": "Näytä muunnokset tekstissä"
+  },
+  "popupShowInlineSub": {
+    "message": "Lisää pieni paikallisen ajan merkki jokaisen aikavyöhykkeellisen ajan viereen."
+  },
+  "popupShowBadge": {
+    "message": "Näytä merkki"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passiivinen laskuri muunnetuista ajoista sivun kulmassa."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Muunnosasetukset"
+  },
+  "popupLicenseHave": {
+    "message": "Onko sinulla lisenssiavain?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Lisenssiavain"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktivoi"
+  },
+  "popupLicenseVerifying": {
+    "message": "Vahvistetaan..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Anna ensin lisenssiavain."
+  },
+  "popupLicenseActivated": {
+    "message": "Lisenssi aktivoitu. Pro avattu."
+  },
+  "popupLicenseFailed": {
+    "message": "Avainta ei voitu vahvistaa. Tarkista avain ja yritä uudelleen."
+  },
+  "popupLicenseError": {
+    "message": "Vahvistus epäonnistui. Yritä hetken kuluttua uudelleen."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Tehnyt zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Lisää työkaluja"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Avaa kaikki isännät ja ICS-vienti"
+  },
+  "popupSrActive": {
+    "message": "Muunnokset ovat aktiivisia tällä isännällä."
+  },
+  "popupSrPaused": {
+    "message": "Muunnokset on keskeytetty tällä isännällä."
+  },
+  "optionsTitle": {
+    "message": "Paikallinen aika kaikkialla -asetukset"
+  },
+  "optionsSub": {
+    "message": "Muunna aikavyöhykkeelliset ajat suoraan sisällössä isännillä, joihin kokouskutsut saapuvat."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Muunnokset"
+  },
+  "optionsConversionsTitle": {
+    "message": "Saa muunnokset sivulle omalla tavallasi"
+  },
+  "optionsInlineTitle": {
+    "message": "Muunna ajat suoraan sivun sisällössä"
+  },
+  "optionsInlineSub": {
+    "message": "Lisää pieni paikallisen ajan merkki jokaisen aikavyöhykkeellisen ajan viereen."
+  },
+  "optionsBadgeTitle": {
+    "message": "Pidä passiivista laskuria muunnoksista kulmassa"
+  },
+  "optionsBadgeSub": {
+    "message": "Passiivinen laskuri muunnetuista ajoista tällä välilehdellä."
+  },
+  "optionsPauseTitle": {
+    "message": "Mykistä muunnokset isännällä"
+  },
+  "optionsPauseSub": {
+    "message": "Käytä Paikallinen aika kaikkialla -ponnahdusikkunaa isännällä keskeyttääksesi tai jatkaaksesi muunnoksia juuri sillä sivustolla."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Ajan muoto"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Järjestelmä"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 tunnin"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 tunnin"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Ajan muodon asetus"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Isännät"
+  },
+  "optionsHostsTitle": {
+    "message": "Sivustot, joilla ajat muunnetaan"
+  },
+  "optionsHostsCountPro": {
+    "message": "Rajattomasti mukautettuja isäntiä Prolla"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 / $2 mukautettua isäntää käytetty"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Oletusisännät, muuntavat joka käynnillä"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Lisäämäsi isännät, muuntavat joka käynnillä"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Ilmaistaso sisältää enintään $1 mukautettua isäntää. Pro avaa rajattomasti mukautettuja isäntiä."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Päivitä Prohon"
+  },
+  "optionsAddHostLabel": {
+    "message": "Lisää mukautettu isäntä"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Lisää isäntä"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Poista"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Poista mukautettu isäntä $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Käytä tarkkaa mallia, kuten https://example.com/* tai https://*.yourteam.com/*. Älä koskaan käytä laajoja jokerimerkkejä <all_urls> tai *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Anna ensin isäntämalli."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Estetty malli: $1. Käytä tarkkaa https://-mallia."
+  },
+  "optionsHostErrScheme": {
+    "message": "Mallin on alettava merkeillä https:// (tai http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Mallissa ei ole todellista isäntänimeä."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Malli on virheellinen."
+  },
+  "optionsHostErrPath": {
+    "message": "Lisää loppuun polun jokerimerkki (esim. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Isäntä on jo luettelossasi."
+  },
+  "optionsHostErrDefault": {
+    "message": "Isäntä on jo oletusluettelossa."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Ilmaistaso on rajattu $1 mukautettuun isäntään. Päivitä lisätäksesi useampia."
+  },
+  "optionsHostErrPermission": {
+    "message": "Lupaa ei myönnetty. Isäntää ei lisätty."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Isännälle ei voitu pyytää lupaa."
+  },
+  "optionsHostAdded": {
+    "message": "$1 lisätty. Lataa isännän avoimet välilehdet uudelleen skannataksesi ne."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 poistettu."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Muunna ajat kaikilla käyttämilläsi isännillä"
+  },
+  "optionsProFeature1Title": {
+    "message": "Saa jokainen alue yhdelle riville"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Näytä 3pm EST, 12pm PST, 8pm GMT yhdellä rivillä."
+  },
+  "optionsProFeature2Title": {
+    "message": "Pidä tiimikaverit ajan tasalla työajoistasi"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Julkaise Slack- tai Discord-tila. Vain suostumuksella."
+  },
+  "optionsProFeature3Title": {
+    "message": "Lähetä kalenterikutsut muunnetulla ajalla"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopioi .ics-kutsu oikeaan aikaväliin."
+  },
+  "optionsProFeature4Title": {
+    "message": "Löydä vähiten kivulias kokousaika"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Vertaa aikavyöhykkeitä rinnakkain ja valitse ystävällisin."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro-ominaisuus, lukittu"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Katso Pro-paketit"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Muunna jokainen isäntä Prolla"
+  },
+  "optionsPaywallPitch": {
+    "message": "Tehokäyttäjille ja tiimeille, jotka elävät aikavyöhykkeiden yli."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/kk"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 ikuisesti"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Yksi hinta, sinun valintasi. Peru milloin tahansa."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Rajattomasti mukautettuja isäntiä (ilmainen rajattu 3:een)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Monialuemuoto, näytä kaikki aikavyöhykkeet kerralla"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Työaikatilan synkronointi Slackiin ja Discordiin"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS-kalenterivienti muunnetuilla ajoilla"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Parhaan päällekkäisyyden kokousehdottaja"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Hanki Pro, $$99 ikuisesti"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Tai $$4.99/kuukausi"
+  },
+  "optionsPaywallNote": {
+    "message": "Yksi maksu tai yksi tilaus. Aktivoi Pro tähän laajennukseen ikuisesti."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 päivän rahat takaisin -takuu. Jos Pro ei ole sen arvoinen, palautamme rahat ilman kysymyksiä."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Ilmainen vs. Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Lähetä muunnetut ajat kalenteriisi"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopioi .ics-kutsu, johon paikallinen aika on sisällytetty. Pro-esikatselu, näkyy tässä, jotta tiedät, mitä avautuu."
+  },
+  "optionsIcsExportCta": {
+    "message": "Vie .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Avaa Prossa"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Lisenssi"
+  },
+  "optionsLicenseTitle": {
+    "message": "Aktivoi tai poista avain"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktiivinen."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Voimassa $1 asti."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Elinikäinen lisenssi."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Poista käytöstä"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Lisenssi poistettu käytöstä. Takaisin ilmaistasolle."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Yksityisyys"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Pidä tietosi tällä laitteella"
+  },
+  "optionsPrivacyBody": {
+    "message": "Paikallinen aika kaikkialla toimii kokonaan laitteellasi. Se lukee tekstiä yllä luetelluilla isännillä ainoana tarkoituksenaan muuntaa aikavyöhykkeelliset ajat. Sivun sisältöä, selaushistoriaa tai profiilitietoja ei koskaan lähetetä minnekään. Ainoa verkkopyyntö tapahtuu, kun syötät lisenssiavaimen, ja vain avain itse lähetetään."
+  },
+  "optionsPrivacyExport": {
+    "message": "Vie tietoni"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Poista kaikki tiedot"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Viety $1 avain(ta) latauksiisi."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Vienti epäonnistui. Yritä uudelleen."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Poistetaanko kaikki Paikallinen aika kaikkialla -tiedot tältä laitteelta? Tätä ei voi kumota."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Kaikki Paikallinen aika kaikkialla -tiedot poistettu tältä laitteelta."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Poisto epäonnistui. Yritä uudelleen."
+  },
+  "optionsAboutLine": {
+    "message": "Paikallinen aika kaikkialla v1.0.0, tekijä Zovo. Ei liity Googleen, Microsoftiin, Discordiin, Slackiin tai GitHubiin."
+  },
+  "optionsSrProActive": {
+    "message": "Pro-lisenssi aktiivinen."
+  },
+  "optionsSrFree": {
+    "message": "Ilmaistaso."
+  },
+  "onboardingPage1Heading": {
+    "message": "Lopeta aikavyöhykkeiden laskeminen päässäsi"
+  },
+  "onboardingPage1Sub": {
+    "message": "Kokouskutsut näyttävät yhden aikavyöhykkeen. Kaikki muut laskevat sen päässään. Osa laskee väärin."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berliini, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 07:00 huomenna"
+  },
+  "onboardingPage1Button": {
+    "message": "Katso ratkaisu"
+  },
+  "onboardingEyebrow": {
+    "message": "Paikallinen aika kaikkialla"
+  },
+  "onboardingPage2Heading": {
+    "message": "Katso, kuinka aikavyöhykkeellinen aika muuntuu omaksesi"
+  },
+  "onboardingPage2Sub": {
+    "message": "Tässä on oikea Slack-viesti. Napsauta painiketta, niin sama hetki näkyy paikallisessa ajassasi."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Näytä paikallinen aikani"
+  },
+  "onboardingPage2Continue": {
+    "message": "Jatka"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Napsauta yllä muuntaaksesi."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 sinun aikaasi ($2). Ei laskemista tarvita."
+  },
+  "onboardingPage3Heading": {
+    "message": "Missä se toimii"
+  },
+  "onboardingPage3Sub": {
+    "message": "Nämä 12 isäntää ovat oletuksena käytössä. Avaa mikä tahansa niistä, ja aikavyöhykkeelliset ajat muuntuvat tekstissä, työkaluvihjeessä tai merkkinä."
+  },
+  "onboardingPage3Hint": {
+    "message": "Tarvitsetko toisen isännän? Ilmaistaso kattaa 3 mukautettua isäntää. Pro on rajaton."
+  },
+  "onboardingPage3Link": {
+    "message": "Lue mukautetuista isännistä"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hei, olen Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Rakensin Paikallinen aika kaikkialla -laajennuksen liian monen kolmen aikavyöhykkeen välillä missatun standupin jälkeen. Se tekee yhtä asiaa ja yrittää tehdä sen hiljaa. Ei seurantaa, ei myyntiponnahduksia joka sivulla."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Yksi ihminen, rakentaa julkisesti osoitteessa"
+  },
+  "onboardingPage5Heading": {
+    "message": "Valitse kalenteriisi sopiva paketti"
+  },
+  "onboardingPage5Sub": {
+    "message": "Ilmainen toimii ikuisesti 12 oletusisännällä. Pro on tehokäyttäjille ja tiimeille."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Ilmainen"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Ilmainen"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Rajattomat muunnokset 12 oletusisännällä"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12 tunnin, 24 tunnin tai järjestelmän muoto"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Tekstin merkki, työkaluvihje ja merkki"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Enintään 3 mukautettua isäntää"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/kk tai $$99 ikuisesti"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Lisää rajattomasti mukautettuja isäntiä"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Näe jokainen alue yhdellä rivillä"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Synkronoi työaikatila Slackiin tai Discordiin"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Lähetä muunnetut ajat kalenteriisi"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Löydä vähiten kivulias kokousaika"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Katso Pro-paketit"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Pysy Ilmaisessa"
+  },
+  "onboardingPage6Heading": {
+    "message": "Valmis lopettamaan päässälaskun"
+  },
+  "onboardingPage6Sub": {
+    "message": "Avaa mikä tahansa tuettu isäntä, niin aikavyöhykkeelliset ajat muuntuvat itsestään."
+  },
+  "onboardingPage6Button": {
+    "message": "Aloita muuntaminen"
+  },
+  "onboardingSkip": {
+    "message": "Ohita käyttöönotto"
+  },
+  "onboardingBack": {
+    "message": "Takaisin"
+  },
+  "onboardingNext": {
+    "message": "Seuraava"
+  },
+  "onboardingDone": {
+    "message": "Valmis"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Siirry vaiheeseen $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Käyttöönoton eteneminen"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Käyttöönoton eteneminen"
+  },
+  "onboardingPageOf": {
+    "message": "$1 / $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Tehnyt zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 aikaa muunnettu"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 aika muunnettu"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 aikaa muunnettu"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Paikallinen aika - tilapäisesti keskeytetty"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

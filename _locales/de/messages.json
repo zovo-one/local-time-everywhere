@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Schluss mit Zeitzonen-Kopfrechnen. Rechne 15 Uhr EST, 9:00 UTC, 14:00 CET direkt in Calendar, Slack, Discord und GitHub um."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Aktiv"
+  },
+  "popupStatusPaused": {
+    "message": "Pausiert"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: aktiv"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: auf dieser Website pausiert"
+  },
+  "popupStatLabel": {
+    "message": "Auf dieser Seite"
+  },
+  "popupStatHintSingular": {
+    "message": "Zeit auf diesem Tab in dieser Sitzung umgerechnet."
+  },
+  "popupStatHintPlural": {
+    "message": "Zeiten auf diesem Tab in dieser Sitzung umgerechnet."
+  },
+  "popupStatAriaLabel": {
+    "message": "Umgerechnete Zeiten auf dieser Seite"
+  },
+  "popupPauseOnHost": {
+    "message": "Auf dieser Website pausieren"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Umrechnung auf dieser Website stoppen, bis du sie wieder einschaltest."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Umrechnung auf $1 stoppen, bis du sie wieder einschaltest."
+  },
+  "popupShowInline": {
+    "message": "Inline-Umrechnungen anzeigen"
+  },
+  "popupShowInlineSub": {
+    "message": "Fügt neben jeder Zeit mit Zeitzone eine kleine Ortszeit-Markierung hinzu."
+  },
+  "popupShowBadge": {
+    "message": "Badge anzeigen"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passive Zählung umgerechneter Zeiten in der Seitenecke."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Umrechnungseinstellungen"
+  },
+  "popupLicenseHave": {
+    "message": "Hast du einen Lizenzschlüssel?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Lizenzschlüssel"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktivieren"
+  },
+  "popupLicenseVerifying": {
+    "message": "Wird überprüft ..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Gib zuerst einen Lizenzschlüssel ein."
+  },
+  "popupLicenseActivated": {
+    "message": "Lizenz aktiviert. Pro freigeschaltet."
+  },
+  "popupLicenseFailed": {
+    "message": "Dieser Schlüssel konnte nicht überprüft werden. Prüfe den Schlüssel und versuche es erneut."
+  },
+  "popupLicenseError": {
+    "message": "Überprüfung fehlgeschlagen. Versuche es gleich noch einmal."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Erstellt von zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Mehr Tools"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Alle Websites und ICS-Export freischalten"
+  },
+  "popupSrActive": {
+    "message": "Umrechnungen auf dieser Website aktiv."
+  },
+  "popupSrPaused": {
+    "message": "Umrechnungen auf dieser Website pausiert."
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere-Einstellungen"
+  },
+  "optionsSub": {
+    "message": "Rechne Zeiten mit Zeitzone direkt auf den Websites um, wo Meeting-Einladungen ankommen."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Umrechnungen"
+  },
+  "optionsConversionsTitle": {
+    "message": "Umrechnungen auf der Seite, wie du willst"
+  },
+  "optionsInlineTitle": {
+    "message": "Zeiten inline auf der Seite umrechnen"
+  },
+  "optionsInlineSub": {
+    "message": "Fügt neben jeder Zeit mit Zeitzone eine kleine Ortszeit-Markierung hinzu."
+  },
+  "optionsBadgeTitle": {
+    "message": "Passive Zählung der Umrechnungen in der Ecke behalten"
+  },
+  "optionsBadgeSub": {
+    "message": "Passive Zählung umgerechneter Zeiten auf diesem Tab."
+  },
+  "optionsPauseTitle": {
+    "message": "Umrechnungen auf einer Website stummschalten"
+  },
+  "optionsPauseSub": {
+    "message": "Nutze das Local Time Everywhere-Popup auf einer Website, um Umrechnungen auf genau dieser Website zu pausieren oder fortzusetzen."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Zeitformat"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "System"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-Stunden"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-Stunden"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Zeitformat-Einstellung"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Websites"
+  },
+  "optionsHostsTitle": {
+    "message": "Websites, auf denen Zeiten umgerechnet werden"
+  },
+  "optionsHostsCountPro": {
+    "message": "Unbegrenzt eigene Websites mit Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 von $2 eigenen Websites genutzt"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Standard-Websites, Umrechnung bei jedem Besuch"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Von dir hinzugefügte Websites, Umrechnung bei jedem Besuch"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Der kostenlose Tarif umfasst bis zu $1 eigene Websites. Pro schaltet unbegrenzt eigene Websites frei."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Auf Pro upgraden"
+  },
+  "optionsAddHostLabel": {
+    "message": "Eigene Website hinzufügen"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Website hinzufügen"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Entfernen"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Eigene Website $1 entfernen"
+  },
+  "optionsAddHostHelp": {
+    "message": "Verwende ein spezifisches Muster wie https://beispiel.com/* oder https://*.deinteam.com/*. Verwende niemals die breiten Platzhalter <all_urls> oder *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Gib zuerst ein Website-Muster ein."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Blockiertes Muster: $1. Verwende ein spezifisches https://-Muster."
+  },
+  "optionsHostErrScheme": {
+    "message": "Das Muster muss mit https:// (oder http://) beginnen."
+  },
+  "optionsHostErrHostname": {
+    "message": "Dieses Muster hat keinen echten Hostnamen."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Dieses Muster ist fehlerhaft."
+  },
+  "optionsHostErrPath": {
+    "message": "Füge am Ende einen Pfad-Platzhalter hinzu (z. B. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Diese Website steht bereits auf deiner Liste."
+  },
+  "optionsHostErrDefault": {
+    "message": "Diese Website steht bereits auf der Standardliste."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Der kostenlose Tarif ist auf $1 eigene Websites begrenzt. Upgrade, um mehr hinzuzufügen."
+  },
+  "optionsHostErrPermission": {
+    "message": "Berechtigung nicht erteilt. Die Website wurde nicht hinzugefügt."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Berechtigung für diese Website konnte nicht angefragt werden."
+  },
+  "optionsHostAdded": {
+    "message": "$1 hinzugefügt. Lade offene Tabs dieser Website neu, um sie zu scannen."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 entfernt."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Rechne Zeiten auf jeder Website um, die du nutzt"
+  },
+  "optionsProFeature1Title": {
+    "message": "Alle Regionen in einer Zeile"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Zeige 15 Uhr EST, 12 Uhr PST, 20 Uhr GMT in einer Zeile."
+  },
+  "optionsProFeature2Title": {
+    "message": "Halte dein Team über deine Arbeitszeiten auf dem Laufenden"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Setze einen Slack- oder Discord-Status. Nur mit Zustimmung."
+  },
+  "optionsProFeature3Title": {
+    "message": "Verschicke Kalendereinladungen mit der umgerechneten Zeit"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopiere eine .ics-Einladung für den richtigen Zeitpunkt."
+  },
+  "optionsProFeature4Title": {
+    "message": "Finde den am wenigsten schmerzhaften Meeting-Termin"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Vergleiche Zeitzonen nebeneinander und wähle die angenehmste."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro-Funktion, gesperrt"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro-Tarife ansehen"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Rechne jede Website mit Pro um"
+  },
+  "optionsPaywallPitch": {
+    "message": "Für Power-User und Teams, die über Zeitzonen hinweg leben."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/Monat"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 einmalig"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Ein Preis, deine Wahl. Jederzeit kündbar."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Unbegrenzt eigene Websites (kostenlos bis 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Multi-Regionen-Format, alle Zeitzonen auf einmal"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Arbeitszeit-Status-Sync für Slack und Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS-Kalenderexport mit umgerechneten Zeiten"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Meeting-Vorschläge mit bester Überschneidung"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro holen, $$99 einmalig"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Oder $$4.99/Monat"
+  },
+  "optionsPaywallNote": {
+    "message": "Eine Zahlung oder ein Abo. Aktiviert Pro in dieser Erweiterung für immer."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 Tage Geld-zurück-Garantie. Wenn Pro es nicht wert ist, erstatten wir, ohne Fragen."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Kostenlos vs. Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Umgerechnete Zeiten in deinen Kalender schicken"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopiere eine .ics-Einladung mit bereits eingebauter Ortszeit. Pro-Vorschau, hier sichtbar, damit du weißt, was du freischaltest."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics exportieren"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Mit Pro freischalten"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Lizenz"
+  },
+  "optionsLicenseTitle": {
+    "message": "Schlüssel aktivieren oder entfernen"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktiv."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Gültig bis $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Lebenslange Lizenz."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deaktivieren"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Lizenz deaktiviert. Zurück zum kostenlosen Tarif."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Datenschutz"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Behalte deine Daten auf diesem Gerät"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere läuft vollständig auf deinem Gerät. Es liest Text auf den oben gelisteten Websites einzig zum Umrechnen von Zeiten mit Zeitzone. Kein Seiteninhalt, kein Browserverlauf und keine Profildaten werden jemals irgendwohin gesendet. Die einzige Netzwerkanfrage erfolgt, wenn du einen Lizenzschlüssel eingibst, und dabei wird nur der Schlüssel selbst gesendet."
+  },
+  "optionsPrivacyExport": {
+    "message": "Meine Daten exportieren"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Alle Daten löschen"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 Schlüssel in deine Downloads exportiert."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Export fehlgeschlagen. Bitte versuche es erneut."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Alle Local Time Everywhere-Daten von diesem Gerät löschen? Das kann nicht rückgängig gemacht werden."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Alle Local Time Everywhere-Daten von diesem Gerät gelöscht."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Löschen fehlgeschlagen. Bitte versuche es erneut."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, von Zovo. Nicht verbunden mit Google, Microsoft, Discord, Slack oder GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Pro-Lizenz aktiv."
+  },
+  "optionsSrFree": {
+    "message": "Kostenloser Tarif."
+  },
+  "onboardingPage1Heading": {
+    "message": "Schluss mit Zeitzonen-Kopfrechnen"
+  },
+  "onboardingPage1Sub": {
+    "message": "Meeting-Einladungen zeigen eine Zeitzone. Alle anderen rechnen im Kopf. Manche liegen falsch."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 21 Uhr"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 0:30 Uhr"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7 Uhr morgen"
+  },
+  "onboardingPage1Button": {
+    "message": "Lösung ansehen"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Sieh zu, wie eine Zeit mit Zeitzone zu deiner wird"
+  },
+  "onboardingPage2Sub": {
+    "message": "Hier ist eine echte Slack-Nachricht. Klicke auf den Button und derselbe Moment erscheint in deiner Ortszeit."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Meine Ortszeit anzeigen"
+  },
+  "onboardingPage2Continue": {
+    "message": "Weiter"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Oben klicken zum Umrechnen."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 deine Zeit ($2). Kein Rechnen nötig."
+  },
+  "onboardingPage3Heading": {
+    "message": "Wo es läuft"
+  },
+  "onboardingPage3Sub": {
+    "message": "Diese 12 Websites sind standardmäßig aktiv. Öffne eine davon und Zeiten mit Zeitzone werden inline, als Tooltip oder als Badge umgerechnet."
+  },
+  "onboardingPage3Hint": {
+    "message": "Brauchst du eine weitere Website? Der kostenlose Tarif deckt 3 eigene Websites ab. Pro ist unbegrenzt."
+  },
+  "onboardingPage3Link": {
+    "message": "Mehr über eigene Websites erfahren"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hi, ich bin Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Ich habe Local Time Everywhere gebaut, nachdem ich einmal zu oft Standups über drei Zeitzonen verpasst habe. Es macht eine Sache und versucht, das leise zu tun. Kein Tracking, keine Verkaufs-Popups auf jeder Seite."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Eine Person, öffentlich am Bauen bei"
+  },
+  "onboardingPage5Heading": {
+    "message": "Wähle den Tarif, der zu deinem Kalender passt"
+  },
+  "onboardingPage5Sub": {
+    "message": "Kostenlos funktioniert für immer auf den 12 Standard-Websites. Pro ist für Power-User und Teams."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Kostenlos"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Kostenlos"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Unbegrenzte Umrechnungen auf 12 Standard-Websites"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h-, 24h- oder Systemformat"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Inline-Markierung, Tooltip und Badge"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Bis zu 3 eigene Websites"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/Monat oder $$99 einmalig"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Unbegrenzt eigene Websites hinzufügen"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Alle Regionen in einer Zeile sehen"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Arbeitszeit-Status mit Slack oder Discord synchronisieren"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Umgerechnete Zeiten an deinen Kalender senden"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Den am wenigsten schmerzhaften Meeting-Termin finden"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro-Tarife ansehen"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Bei Kostenlos bleiben"
+  },
+  "onboardingPage6Heading": {
+    "message": "Bereit, mit dem Kopfrechnen aufzuhören"
+  },
+  "onboardingPage6Sub": {
+    "message": "Öffne eine unterstützte Website und Zeiten mit Zeitzone werden von selbst umgerechnet."
+  },
+  "onboardingPage6Button": {
+    "message": "Umrechnung starten"
+  },
+  "onboardingSkip": {
+    "message": "Einrichtung überspringen"
+  },
+  "onboardingBack": {
+    "message": "Zurück"
+  },
+  "onboardingNext": {
+    "message": "Weiter"
+  },
+  "onboardingDone": {
+    "message": "Fertig"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Zu Schritt $1 gehen"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Einrichtungsfortschritt"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Einrichtungsfortschritt"
+  },
+  "onboardingPageOf": {
+    "message": "$1 von $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Erstellt von zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 Zeiten umgerechnet"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 Zeit umgerechnet"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 Zeiten umgerechnet"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - vorübergehend pausiert"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

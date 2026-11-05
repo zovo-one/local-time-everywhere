@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Giờ địa phương ở mọi nơi"
+  },
+  "extDesc": {
+    "message": "Đừng tính múi giờ trong đầu nữa. Chuyển đổi 3pm EST, 9:00 UTC, 14:00 CET ngay tại chỗ trên Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Giờ địa phương ở mọi nơi"
+  },
+  "popupTitle": {
+    "message": "Giờ địa phương ở mọi nơi"
+  },
+  "popupStatusActive": {
+    "message": "Đang hoạt động"
+  },
+  "popupStatusPaused": {
+    "message": "Đã tạm dừng"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Trạng thái: đang hoạt động"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Trạng thái: đã tạm dừng trên máy chủ này"
+  },
+  "popupStatLabel": {
+    "message": "Trên trang này"
+  },
+  "popupStatHintSingular": {
+    "message": "lần chuyển đổi trên tab này trong phiên này."
+  },
+  "popupStatHintPlural": {
+    "message": "lần chuyển đổi trên tab này trong phiên này."
+  },
+  "popupStatAriaLabel": {
+    "message": "Số lần chuyển đổi trên trang này"
+  },
+  "popupPauseOnHost": {
+    "message": "Tạm dừng trên máy chủ này"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Ngừng chuyển đổi trên trang này cho đến khi bạn bật lại."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Ngừng chuyển đổi trên $1 cho đến khi bạn bật lại."
+  },
+  "popupShowInline": {
+    "message": "Hiển thị chuyển đổi tại chỗ"
+  },
+  "popupShowInlineSub": {
+    "message": "Thêm một dấu giờ địa phương nhỏ bên cạnh mỗi thời gian có múi giờ."
+  },
+  "popupShowBadge": {
+    "message": "Hiển thị huy hiệu"
+  },
+  "popupShowBadgeSub": {
+    "message": "Đếm thụ động số lần chuyển đổi ở góc trang."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Cài đặt chuyển đổi"
+  },
+  "popupLicenseHave": {
+    "message": "Có khóa giấy phép không?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Khóa giấy phép"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Kích hoạt"
+  },
+  "popupLicenseVerifying": {
+    "message": "Đang xác minh..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Vui lòng nhập khóa giấy phép trước."
+  },
+  "popupLicenseActivated": {
+    "message": "Đã kích hoạt giấy phép. Đã mở khóa Pro."
+  },
+  "popupLicenseFailed": {
+    "message": "Khóa đó không xác minh được. Kiểm tra khóa và thử lại."
+  },
+  "popupLicenseError": {
+    "message": "Xác minh thất bại. Thử lại sau giây lát."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Được xây dựng bởi zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Thêm công cụ"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Mở khóa mọi máy chủ và xuất ICS"
+  },
+  "popupSrActive": {
+    "message": "Chuyển đổi đang hoạt động trên máy chủ này."
+  },
+  "popupSrPaused": {
+    "message": "Chuyển đổi đã tạm dừng trên máy chủ này."
+  },
+  "optionsTitle": {
+    "message": "Cài đặt Giờ địa phương ở mọi nơi"
+  },
+  "optionsSub": {
+    "message": "Chuyển đổi thời gian có múi giờ ngay tại chỗ trên các máy chủ nơi lời mời họp gửi đến."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Chuyển đổi"
+  },
+  "optionsConversionsTitle": {
+    "message": "Nhận chuyển đổi trên trang theo cách của bạn"
+  },
+  "optionsInlineTitle": {
+    "message": "Chuyển đổi thời gian ngay tại chỗ trên trang"
+  },
+  "optionsInlineSub": {
+    "message": "Thêm một dấu giờ địa phương nhỏ bên cạnh mỗi thời gian có múi giờ."
+  },
+  "optionsBadgeTitle": {
+    "message": "Giữ đếm thụ động số lần chuyển đổi ở góc"
+  },
+  "optionsBadgeSub": {
+    "message": "Đếm thụ động số lần chuyển đổi trên tab này."
+  },
+  "optionsPauseTitle": {
+    "message": "Tắt chuyển đổi trên một máy chủ"
+  },
+  "optionsPauseSub": {
+    "message": "Dùng cửa sổ bật lên Giờ địa phương ở mọi nơi trên một máy chủ để tạm dừng hoặc tiếp tục chuyển đổi trên trang cụ thể đó."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Định dạng giờ"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Hệ thống"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 giờ"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 giờ"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Tùy chọn định dạng giờ"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Máy chủ"
+  },
+  "optionsHostsTitle": {
+    "message": "Các trang nơi thời gian được chuyển đổi"
+  },
+  "optionsHostsCountPro": {
+    "message": "Máy chủ tùy chỉnh không giới hạn với Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "Đã dùng $1 trong $2 máy chủ tùy chỉnh"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Máy chủ mặc định, chuyển đổi mỗi lần truy cập"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Máy chủ bạn đã thêm, chuyển đổi mỗi lần truy cập"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Gói miễn phí bao gồm tối đa $1 máy chủ tùy chỉnh. Pro mở khóa máy chủ tùy chỉnh không giới hạn."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Nâng cấp lên Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Thêm máy chủ tùy chỉnh"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Thêm máy chủ"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Xóa"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Xóa máy chủ tùy chỉnh $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Dùng một mẫu cụ thể như https://example.com/* hoặc https://*.yourteam.com/*. Không bao giờ dùng ký tự đại diện rộng <all_urls> hoặc *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Vui lòng nhập mẫu máy chủ trước."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Mẫu bị chặn: $1. Dùng một mẫu https:// cụ thể."
+  },
+  "optionsHostErrScheme": {
+    "message": "Mẫu phải bắt đầu bằng https:// (hoặc http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Mẫu đó không có tên máy chủ thực."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Mẫu đó bị lỗi định dạng."
+  },
+  "optionsHostErrPath": {
+    "message": "Thêm một ký tự đại diện đường dẫn ở cuối (ví dụ /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Máy chủ đó đã có trong danh sách của bạn."
+  },
+  "optionsHostErrDefault": {
+    "message": "Máy chủ đó đã có trong danh sách mặc định."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Gói miễn phí giới hạn ở $1 máy chủ tùy chỉnh. Nâng cấp để thêm nhiều hơn."
+  },
+  "optionsHostErrPermission": {
+    "message": "Chưa được cấp quyền. Máy chủ chưa được thêm."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Không thể yêu cầu quyền cho máy chủ đó."
+  },
+  "optionsHostAdded": {
+    "message": "Đã thêm $1. Tải lại các tab đang mở trên máy chủ đó để quét chúng."
+  },
+  "optionsHostRemoved": {
+    "message": "Đã xóa $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Chuyển đổi thời gian trên mọi máy chủ bạn dùng"
+  },
+  "optionsProFeature1Title": {
+    "message": "Nhận mọi khu vực trong một dòng"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Hiển thị 3pm EST, 12pm PST, 8pm GMT trong một dòng."
+  },
+  "optionsProFeature2Title": {
+    "message": "Giữ đồng nghiệp đồng bộ với giờ làm việc của bạn"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Đẩy trạng thái Slack hoặc Discord. Chỉ khi đồng ý."
+  },
+  "optionsProFeature3Title": {
+    "message": "Gửi lời mời lịch với thời gian đã chuyển đổi"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Sao chép lời mời .ics cho khung giờ phù hợp."
+  },
+  "optionsProFeature4Title": {
+    "message": "Tìm khung giờ họp ít khó chịu nhất"
+  },
+  "optionsProFeature4Sub": {
+    "message": "So sánh các múi giờ cạnh nhau và chọn khung giờ dễ chịu nhất."
+  },
+  "optionsProLockLabel": {
+    "message": "Tính năng Pro, đã khóa"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Xem các gói Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Chuyển đổi mọi máy chủ với Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Dành cho người dùng chuyên nghiệp và nhóm sống giữa các múi giờ."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/tháng"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 trọn đời"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Một giá, tùy bạn chọn. Hủy bất cứ lúc nào."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Máy chủ tùy chỉnh không giới hạn (miễn phí tối đa 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Định dạng đa khu vực, hiển thị mọi múi giờ cùng lúc"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Đồng bộ trạng thái giờ làm việc với Slack và Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Xuất lịch ICS với thời gian đã chuyển đổi"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Gợi ý khung giờ họp trùng khớp tốt nhất"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Nhận Pro, $$99 trọn đời"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Hoặc $$4.99/tháng"
+  },
+  "optionsPaywallNote": {
+    "message": "Một lần thanh toán hoặc một gói đăng ký. Kích hoạt Pro trong tiện ích này mãi mãi."
+  },
+  "optionsPaywallRefund": {
+    "message": "Đảm bảo hoàn tiền trong 14 ngày. Nếu Pro không đáng giá, chúng tôi hoàn tiền, không hỏi lý do."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Miễn phí so với Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Gửi thời gian đã chuyển đổi vào lịch của bạn"
+  },
+  "optionsIcsExportSub": {
+    "message": "Sao chép lời mời .ics với giờ địa phương đã tích hợp sẵn. Xem trước Pro, hiển thị ở đây để bạn biết mở khóa được gì."
+  },
+  "optionsIcsExportCta": {
+    "message": "Xuất .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Mở khóa trong Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Giấy phép"
+  },
+  "optionsLicenseTitle": {
+    "message": "Kích hoạt hoặc xóa một khóa"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro đang hoạt động."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Có hiệu lực đến $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Giấy phép trọn đời."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Hủy kích hoạt"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Đã hủy kích hoạt giấy phép. Trở lại gói miễn phí."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Quyền riêng tư"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Giữ dữ liệu của bạn trên thiết bị này"
+  },
+  "optionsPrivacyBody": {
+    "message": "Giờ địa phương ở mọi nơi chạy hoàn toàn trên thiết bị của bạn. Nó đọc văn bản trên các máy chủ liệt kê ở trên với mục đích duy nhất là chuyển đổi thời gian có múi giờ. Không có nội dung trang, lịch sử duyệt web, hay dữ liệu hồ sơ nào từng được gửi đi bất cứ đâu. Yêu cầu mạng duy nhất xảy ra khi bạn nhập khóa giấy phép, và chỉ chính khóa đó được gửi đi."
+  },
+  "optionsPrivacyExport": {
+    "message": "Xuất dữ liệu của tôi"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Xóa tất cả dữ liệu"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Đã xuất $1 khóa vào mục tải xuống của bạn."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Xuất thất bại. Vui lòng thử lại."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Xóa tất cả dữ liệu Giờ địa phương ở mọi nơi khỏi thiết bị này? Việc này không thể hoàn tác."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Đã xóa tất cả dữ liệu Giờ địa phương ở mọi nơi khỏi thiết bị này."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Xóa thất bại. Vui lòng thử lại."
+  },
+  "optionsAboutLine": {
+    "message": "Giờ địa phương ở mọi nơi v1.0.0, bởi Zovo. Không liên kết với Google, Microsoft, Discord, Slack, hoặc GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Giấy phép Pro đang hoạt động."
+  },
+  "optionsSrFree": {
+    "message": "Gói miễn phí."
+  },
+  "onboardingPage1Heading": {
+    "message": "Đừng tính múi giờ trong đầu nữa"
+  },
+  "onboardingPage1Sub": {
+    "message": "Lời mời họp hiển thị một múi giờ. Mọi người khác phải tính trong đầu. Có người tính sai."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 07:00 ngày mai"
+  },
+  "onboardingPage1Button": {
+    "message": "Xem cách khắc phục"
+  },
+  "onboardingEyebrow": {
+    "message": "Giờ địa phương ở mọi nơi"
+  },
+  "onboardingPage2Heading": {
+    "message": "Xem một thời gian có múi giờ chuyển thành giờ của bạn"
+  },
+  "onboardingPage2Sub": {
+    "message": "Đây là một tin nhắn Slack thật. Nhấn nút và cùng thời điểm đó sẽ hiện ra theo giờ địa phương của bạn."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Xem giờ địa phương của tôi"
+  },
+  "onboardingPage2Continue": {
+    "message": "Tiếp tục"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Nhấn phía trên để chuyển đổi."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 giờ của bạn ($2). Không cần tính toán."
+  },
+  "onboardingPage3Heading": {
+    "message": "Nơi nó hoạt động"
+  },
+  "onboardingPage3Sub": {
+    "message": "12 máy chủ này được bật theo mặc định. Mở bất kỳ máy chủ nào và thời gian có múi giờ sẽ chuyển đổi tại chỗ, trong chú giải công cụ, hoặc dưới dạng huy hiệu."
+  },
+  "onboardingPage3Hint": {
+    "message": "Cần máy chủ khác? Gói miễn phí bao gồm 3 máy chủ tùy chỉnh. Pro là không giới hạn."
+  },
+  "onboardingPage3Link": {
+    "message": "Tìm hiểu về máy chủ tùy chỉnh"
+  },
+  "onboardingPage4Heading": {
+    "message": "Xin chào, tôi là Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Tôi xây dựng Giờ địa phương ở mọi nơi sau quá nhiều lần lỡ họp standup giữa ba múi giờ. Nó làm một việc và cố làm việc đó một cách lặng lẽ. Không theo dõi, không cửa sổ nâng cấp bật lên trên mọi trang."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Một người, xây dựng công khai tại"
+  },
+  "onboardingPage5Heading": {
+    "message": "Chọn gói phù hợp với lịch của bạn"
+  },
+  "onboardingPage5Sub": {
+    "message": "Miễn phí hoạt động mãi mãi trên 12 máy chủ mặc định. Pro dành cho người dùng chuyên nghiệp và nhóm."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Miễn phí"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Miễn phí"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Chuyển đổi không giới hạn trên 12 máy chủ mặc định"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Định dạng 12h, 24h, hoặc hệ thống"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Dấu tại chỗ, chú giải công cụ, và huy hiệu"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Tối đa 3 máy chủ tùy chỉnh"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/tháng hoặc $$99 trọn đời"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Thêm máy chủ tùy chỉnh không giới hạn"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Xem mọi khu vực trong một dòng"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Đồng bộ trạng thái giờ làm việc với Slack hoặc Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Gửi thời gian đã chuyển đổi vào lịch của bạn"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Tìm khung giờ họp ít khó chịu nhất"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Xem các gói Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Giữ gói Miễn phí"
+  },
+  "onboardingPage6Heading": {
+    "message": "Sẵn sàng ngừng tính toán trong đầu"
+  },
+  "onboardingPage6Sub": {
+    "message": "Mở bất kỳ máy chủ được hỗ trợ nào và thời gian có múi giờ sẽ tự chuyển đổi."
+  },
+  "onboardingPage6Button": {
+    "message": "Bắt đầu chuyển đổi"
+  },
+  "onboardingSkip": {
+    "message": "Bỏ qua thiết lập"
+  },
+  "onboardingBack": {
+    "message": "Quay lại"
+  },
+  "onboardingNext": {
+    "message": "Tiếp"
+  },
+  "onboardingDone": {
+    "message": "Xong"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Đi tới bước $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Tiến trình giới thiệu"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Tiến trình giới thiệu"
+  },
+  "onboardingPageOf": {
+    "message": "$1 trên $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Được xây dựng bởi zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 lần chuyển đổi"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 lần chuyển đổi"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 lần chuyển đổi"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Giờ địa phương - tạm dừng"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

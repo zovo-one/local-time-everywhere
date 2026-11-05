@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "የሰዓት ክልል ስሌትን በጭንቅላትዎ ማድረግ ያቁሙ። 3pm EST፣ 9:00 UTC፣ 14:00 CET በካላንደር፣ Slack፣ Discord እና GitHub ላይ በመስመር ውስጥ ይለውጡ።"
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "ንቁ"
+  },
+  "popupStatusPaused": {
+    "message": "ቆሟል"
+  },
+  "popupStatusActiveLabel": {
+    "message": "ሁኔታ፦ ንቁ"
+  },
+  "popupStatusPausedLabel": {
+    "message": "ሁኔታ፦ በዚህ አስተናጋጅ ላይ ቆሟል"
+  },
+  "popupStatLabel": {
+    "message": "በዚህ ገጽ ላይ"
+  },
+  "popupStatHintSingular": {
+    "message": "ጊዜ በዚህ ትር በዚህ ክፍለ ጊዜ ተለውጧል።"
+  },
+  "popupStatHintPlural": {
+    "message": "ጊዜያት በዚህ ትር በዚህ ክፍለ ጊዜ ተለውጠዋል።"
+  },
+  "popupStatAriaLabel": {
+    "message": "በዚህ ገጽ ላይ የተለወጡ ሰዓቶች"
+  },
+  "popupPauseOnHost": {
+    "message": "በዚህ አስተናጋጅ ላይ አቁም"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "እንደገና እስኪያበሩ ድረስ በዚህ ጣቢያ ላይ መለወጥ ያቁሙ።"
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "እንደገና እስኪያበሩ ድረስ በ$1 ላይ መለወጥ ያቁሙ።"
+  },
+  "popupShowInline": {
+    "message": "የመስመር ውስጥ ልውውጦችን አሳይ"
+  },
+  "popupShowInlineSub": {
+    "message": "ከእያንዳንዱ የሰዓት ክልል ሰዓት አጠገብ ትንሽ የአካባቢ ሰዓት ምልክት ያክሉ።"
+  },
+  "popupShowBadge": {
+    "message": "ባጅ አሳይ"
+  },
+  "popupShowBadgeSub": {
+    "message": "በገጹ ጥግ ላይ የተለወጡ ሰዓቶች ተለዋዋጭ ያልሆነ ቆጠራ።"
+  },
+  "popupSettingsAriaLabel": {
+    "message": "የልውውጥ ቅንብሮች"
+  },
+  "popupLicenseHave": {
+    "message": "የፍቃድ ቁልፍ አለዎት?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "የፍቃድ ቁልፍ"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "አግብር"
+  },
+  "popupLicenseVerifying": {
+    "message": "በማረጋገጥ ላይ..."
+  },
+  "popupLicenseEmpty": {
+    "message": "መጀመሪያ የፍቃድ ቁልፍ ያስገቡ።"
+  },
+  "popupLicenseActivated": {
+    "message": "ፍቃድ ተግብሯል። Pro ተከፍቷል።"
+  },
+  "popupLicenseFailed": {
+    "message": "ያ ቁልፍ አልተረጋገጠም። ቁልፉን አረጋግጠው እንደገና ይሞክሩ።"
+  },
+  "popupLicenseError": {
+    "message": "ማረጋገጥ አልተሳካም። ትንሽ ቆይተው እንደገና ይሞክሩ።"
+  },
+  "popupFooterBuiltBy": {
+    "message": "በzovo.one የተገነባ"
+  },
+  "popupFooterMoreTools": {
+    "message": "ተጨማሪ መሣሪያዎች"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "እያንዳንዱን አስተናጋጅ እና የICS ወደ ውጭ መላክ ይክፈቱ"
+  },
+  "popupSrActive": {
+    "message": "በዚህ አስተናጋጅ ላይ ልውውጦች ንቁ ናቸው።"
+  },
+  "popupSrPaused": {
+    "message": "በዚህ አስተናጋጅ ላይ ልውውጦች ቆመዋል።"
+  },
+  "optionsTitle": {
+    "message": "የLocal Time Everywhere ቅንብሮች"
+  },
+  "optionsSub": {
+    "message": "የስብሰባ ግብዣዎች በሚደርሱባቸው አስተናጋጆች ላይ የሰዓት ክልል ሰዓቶችን በመስመር ውስጥ ይለውጡ።"
+  },
+  "optionsEyebrowConversions": {
+    "message": "ልውውጦች"
+  },
+  "optionsConversionsTitle": {
+    "message": "በገጹ ላይ ልውውጦችን በእርስዎ መንገድ ያግኙ"
+  },
+  "optionsInlineTitle": {
+    "message": "በገጹ ላይ ሰዓቶችን በመስመር ውስጥ ይለውጡ"
+  },
+  "optionsInlineSub": {
+    "message": "ከእያንዳንዱ የሰዓት ክልል ሰዓት አጠገብ ትንሽ የአካባቢ ሰዓት ምልክት ያክሉ።"
+  },
+  "optionsBadgeTitle": {
+    "message": "በጥግ ላይ የልውውጦችን ተለዋዋጭ ያልሆነ ቆጠራ ያቆዩ"
+  },
+  "optionsBadgeSub": {
+    "message": "በዚህ ትር ላይ የተለወጡ ሰዓቶች ተለዋዋጭ ያልሆነ ቆጠራ።"
+  },
+  "optionsPauseTitle": {
+    "message": "በአስተናጋጅ ላይ ልውውጦችን አጥፋ"
+  },
+  "optionsPauseSub": {
+    "message": "በዚያ የተለየ ጣቢያ ላይ ልውውጦችን ለማቆም ወይም ለመቀጠል በአስተናጋጅ ላይ የLocal Time Everywhere ብቅ-ባይ ይጠቀሙ።"
+  },
+  "optionsTimeFormatLabel": {
+    "message": "የሰዓት ቅርጸት"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "ስርዓት"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-ሰዓት"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-ሰዓት"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "የሰዓት ቅርጸት ምርጫ"
+  },
+  "optionsEyebrowHosts": {
+    "message": "አስተናጋጆች"
+  },
+  "optionsHostsTitle": {
+    "message": "ሰዓቶች የሚለወጡባቸው ጣቢያዎች"
+  },
+  "optionsHostsCountPro": {
+    "message": "በPro ያልተገደበ ብጁ አስተናጋጆች"
+  },
+  "optionsHostsCountFree": {
+    "message": "ከ$2 ብጁ አስተናጋጆች $1 ጥቅም ላይ ውሏል"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "ነባሪ አስተናጋጆች፣ በእያንዳንዱ ጉብኝት ይለውጣሉ"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "እርስዎ ያከሉዋቸው አስተናጋጆች፣ በእያንዳንዱ ጉብኝት ይለውጣሉ"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "ነጻ ደረጃ እስከ $1 ብጁ አስተናጋጆች ያካትታል። Pro ያልተገደበ ብጁ አስተናጋጆችን ይከፍታል።"
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "ወደ Pro አሻሽል"
+  },
+  "optionsAddHostLabel": {
+    "message": "ብጁ አስተናጋጅ ያክሉ"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "አስተናጋጅ ያክሉ"
+  },
+  "optionsRemoveHostButton": {
+    "message": "አስወግድ"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "ብጁ አስተናጋጅ $1 አስወግድ"
+  },
+  "optionsAddHostHelp": {
+    "message": "እንደ https://example.com/* ወይም https://*.yourteam.com/* ያለ የተለየ ንድፍ ይጠቀሙ። እንደ <all_urls> ወይም *://*/* ያሉ ሰፊ ማጣቀሻዎችን በጭራሽ አይጠቀሙ።"
+  },
+  "optionsHostErrEmpty": {
+    "message": "መጀመሪያ የአስተናጋጅ ንድፍ ያስገቡ።"
+  },
+  "optionsHostErrBlocked": {
+    "message": "የታገደ ንድፍ፦ $1። የተለየ የhttps:// ንድፍ ይጠቀሙ።"
+  },
+  "optionsHostErrScheme": {
+    "message": "ንድፍ በhttps:// (ወይም http://) መጀመር አለበት።"
+  },
+  "optionsHostErrHostname": {
+    "message": "ያ ንድፍ እውነተኛ የአስተናጋጅ ስም የለውም።"
+  },
+  "optionsHostErrMalformed": {
+    "message": "ያ ንድፍ የተበላሸ ነው።"
+  },
+  "optionsHostErrPath": {
+    "message": "በመጨረሻው ላይ የመንገድ ማጣቀሻ ያክሉ (ለምሳሌ /*)።"
+  },
+  "optionsHostErrDuplicate": {
+    "message": "ያ አስተናጋጅ ቀድሞውኑ በዝርዝርዎ ላይ ነው።"
+  },
+  "optionsHostErrDefault": {
+    "message": "ያ አስተናጋጅ ቀድሞውኑ በነባሪ ዝርዝር ላይ ነው።"
+  },
+  "optionsHostErrCapHit": {
+    "message": "ነጻ ደረጃ በ$1 ብጁ አስተናጋጆች የተገደበ ነው። ተጨማሪ ለማከል ያሻሽሉ።"
+  },
+  "optionsHostErrPermission": {
+    "message": "ፍቃድ አልተሰጠም። አስተናጋጁ አልተጨመረም።"
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "ለዚያ አስተናጋጅ ፍቃድ መጠየቅ አልተቻለም።"
+  },
+  "optionsHostAdded": {
+    "message": "$1 ተጨምሯል። ለመቃኘት በዚያ አስተናጋጅ ላይ ያሉ ክፍት ትሮችን እንደገና ይጫኑ።"
+  },
+  "optionsHostRemoved": {
+    "message": "$1 ተወግዷል።"
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "በሚጠቀሙበት እያንዳንዱ አስተናጋጅ ላይ ሰዓቶችን ይለውጡ"
+  },
+  "optionsProFeature1Title": {
+    "message": "እያንዳንዱን ክልል በአንድ መስመር ያግኙ"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST፣ 12pm PST፣ 8pm GMT በአንድ መስመር ያሳዩ።"
+  },
+  "optionsProFeature2Title": {
+    "message": "የስራ ሰዓቶችዎን ከቡድን አጋሮች ጋር በተመሳሳይ ያቆዩ"
+  },
+  "optionsProFeature2Sub": {
+    "message": "የSlack ወይም Discord ሁኔታ ይለጥፉ። በፍቃደኝነት ብቻ።"
+  },
+  "optionsProFeature3Title": {
+    "message": "የካላንደር ግብዣዎችን ከተለወጠው ሰዓት ጋር ይላኩ"
+  },
+  "optionsProFeature3Sub": {
+    "message": "ለትክክለኛው ሰዓት .ics ግብዣ ይቅዱ።"
+  },
+  "optionsProFeature4Title": {
+    "message": "አነስተኛ አስቸጋሪ የስብሰባ ሰዓት ያግኙ"
+  },
+  "optionsProFeature4Sub": {
+    "message": "ክልሎችን ጎን ለጎን ያወዳድሩ እና ተስማሚውን ይምረጡ።"
+  },
+  "optionsProLockLabel": {
+    "message": "የPro ባህሪ፣ ተቆልፏል"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "የPro ዕቅዶችን ይመልከቱ"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "በPro እያንዳንዱን አስተናጋጅ ይለውጡ"
+  },
+  "optionsPaywallPitch": {
+    "message": "በሰዓት ክልሎች መካከል ለሚኖሩ ኃያላን ተጠቃሚዎች እና ቡድኖች።"
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/ወር"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 የዕድሜ ልክ"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "አንድ ዋጋ፣ የእርስዎ ምርጫ። በማንኛውም ጊዜ ይሰርዙ።"
+  },
+  "optionsPaywallBenefit1": {
+    "message": "ያልተገደበ ብጁ አስተናጋጆች (ነጻ በ3 ይገድባል)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "ባለብዙ ክልል ቅርጸት፣ ሁሉንም ክልሎች በአንድ ጊዜ አሳይ"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "የSlack እና Discord የስራ ሰዓት ሁኔታ ማመሳሰል"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ከተለወጡ ሰዓቶች ጋር የICS ካላንደር ወደ ውጭ መላክ"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "የተሻለ ተደራራቢ የስብሰባ ጠቋሚ"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro ያግኙ፣ $$99 የዕድሜ ልክ"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "ወይም $$4.99/ወር"
+  },
+  "optionsPaywallNote": {
+    "message": "አንድ ክፍያ ወይም አንድ ምዝገባ። በዚህ ቅጥያ ውስጥ Pro ን ለዘላለም ያግብራል።"
+  },
+  "optionsPaywallRefund": {
+    "message": "የ14 ቀን ገንዘብ ተመላሽ ዋስትና። Pro የማይገባ ከሆነ ያለ ጥያቄ ገንዘብ እንመልሳለን።"
+  },
+  "optionsFreeVsProHeading": {
+    "message": "ነጻ vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "የተለወጡ ሰዓቶችን ወደ ካላንደርዎ ይላኩ"
+  },
+  "optionsIcsExportSub": {
+    "message": "የአካባቢ ሰዓት የተካተተበት .ics ግብዣ ይቅዱ። የPro እይታ፣ ምን እንደሚከፍት እንዲያውቁ እዚህ ይታያል።"
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics ወደ ውጭ ላክ"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "በPro ይክፈቱ"
+  },
+  "optionsEyebrowLicense": {
+    "message": "ፍቃድ"
+  },
+  "optionsLicenseTitle": {
+    "message": "ቁልፍ ያግብሩ ወይም ያስወግዱ"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro ንቁ።"
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "እስከ $1 የሚሰራ።"
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "የዕድሜ ልክ ፍቃድ።"
+  },
+  "optionsLicenseDeactivate": {
+    "message": "አሰናክል"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "ፍቃድ ተሰናክሏል። ወደ ነጻ ደረጃ ተመልሷል።"
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "ግላዊነት"
+  },
+  "optionsPrivacyTitle": {
+    "message": "ውሂብዎን በዚህ መሣሪያ ላይ ያቆዩ"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere ሙሉ በሙሉ በመሣሪያዎ ላይ ይሰራል። ከላይ በተዘረዘሩት አስተናጋጆች ላይ ያለውን ጽሑፍ የሰዓት ክልል ሰዓቶችን ለመለወጥ ብቻ ያነባል። ምንም የገጽ ይዘት፣ የአሰሳ ታሪክ ወይም የመገለጫ ውሂብ በጭራሽ ወደ የትም አይላክም። ብቸኛው የአውታረ መረብ ጥያቄ የፍቃድ ቁልፍ ሲያስገቡ ይከሰታል፣ እና ቁልፉ ራሱ ብቻ ይላካል።"
+  },
+  "optionsPrivacyExport": {
+    "message": "ውሂቤን ወደ ውጭ ላክ"
+  },
+  "optionsPrivacyDelete": {
+    "message": "ሁሉንም ውሂብ ሰርዝ"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 ቁልፍ(ዎች) ወደ ውርዶችዎ ተልኳል።"
+  },
+  "optionsPrivacyExportErr": {
+    "message": "ወደ ውጭ መላክ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "ሁሉንም የLocal Time Everywhere ውሂብ ከዚህ መሣሪያ ይሰረዝ? ይህ ሊቀለበስ አይችልም።"
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "ሁሉም የLocal Time Everywhere ውሂብ ከዚህ መሣሪያ ተጠርጓል።"
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "መሰረዝ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0፣ በZovo። ከGoogle፣ Microsoft፣ Discord፣ Slack ወይም GitHub ጋር ግንኙነት የለውም።"
+  },
+  "optionsSrProActive": {
+    "message": "የPro ፍቃድ ንቁ።"
+  },
+  "optionsSrFree": {
+    "message": "ነጻ ደረጃ።"
+  },
+  "onboardingPage1Heading": {
+    "message": "የሰዓት ክልል ስሌትን በጭንቅላትዎ ማድረግ ያቁሙ"
+  },
+  "onboardingPage1Sub": {
+    "message": "የስብሰባ ግብዣዎች አንድ የሰዓት ክልል ያሳያሉ። ሌላው ሁሉ በጭንቅላቱ ስሌት ያደርጋል። አንዳንዶቹ ይሳሳታሉ።"
+  },
+  "onboardingPage1Berlin": {
+    "message": "በርሊን፣ 9pm"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "ሙምባይ፣ 12:30am"
+  },
+  "onboardingPage1Sydney": {
+    "message": "ሲድኒ፣ ነገ 7am"
+  },
+  "onboardingPage1Button": {
+    "message": "መፍትሄውን ይመልከቱ"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "የሰዓት ክልል ሰዓት ወደ እርስዎ ሲለወጥ ይመልከቱ"
+  },
+  "onboardingPage2Sub": {
+    "message": "ይህ እውነተኛ የSlack መልእክት ነው። አዝራሩን ጠቅ ያድርጉ እና ተመሳሳይ ጊዜ በአካባቢዎ ሰዓት ይታያል።"
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "የአካባቢ ሰዓቴን አሳይ"
+  },
+  "onboardingPage2Continue": {
+    "message": "ቀጥል"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "ለመለወጥ ከላይ ጠቅ ያድርጉ።"
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 በእርስዎ ሰዓት ($2)። ስሌት አያስፈልግም።"
+  },
+  "onboardingPage3Heading": {
+    "message": "የት እንደሚሰራ"
+  },
+  "onboardingPage3Sub": {
+    "message": "እነዚህ 12 አስተናጋጆች በነባሪ በርተዋል። ማንኛውንም ይክፈቱ እና የሰዓት ክልል ሰዓቶች በመስመር ውስጥ፣ በመሣሪያ ጠቃሚ ምክር ወይም እንደ ባጅ ይለወጣሉ።"
+  },
+  "onboardingPage3Hint": {
+    "message": "ሌላ አስተናጋጅ ያስፈልግዎታል? ነጻ ደረጃ 3 ብጁ አስተናጋጆችን ይሸፍናል። Pro ያልተገደበ ነው።"
+  },
+  "onboardingPage3Link": {
+    "message": "ስለ ብጁ አስተናጋጆች ይወቁ"
+  },
+  "onboardingPage4Heading": {
+    "message": "ሰላም፣ እኔ Michael ነኝ"
+  },
+  "onboardingPage4Sub": {
+    "message": "በሶስት የሰዓት ክልሎች መካከል ብዙ የተፈቱ ስብሰባዎችን ካጣሁ በኋላ Local Time Everywhere ን ገንብቻለሁ። አንድ ነገር ያደርጋል እና በጸጥታ ለማድረግ ይሞክራል። ክትትል የለም፣ በእያንዳንዱ ገጽ ላይ የማሻሻያ ብቅ-ባዮች የሉም።"
+  },
+  "onboardingPage4SubMuted": {
+    "message": "አንድ ሰው፣ በይፋ በመገንባት ላይ"
+  },
+  "onboardingPage5Heading": {
+    "message": "ከካላንደርዎ ጋር የሚስማማውን ዕቅድ ያግኙ"
+  },
+  "onboardingPage5Sub": {
+    "message": "ነጻ በ12 ነባሪ አስተናጋጆች ላይ ለዘላለም ይሰራል። Pro ለኃያላን ተጠቃሚዎች እና ቡድኖች ነው።"
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "ነጻ"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "በ12 ነባሪ አስተናጋጆች ላይ ያልተገደበ ልውውጦች"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12ሰ፣ 24ሰ ወይም የስርዓት ቅርጸት"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "የመስመር ውስጥ ምልክት፣ የመሣሪያ ጠቃሚ ምክር እና ባጅ"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "እስከ 3 ብጁ አስተናጋጆች"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/ወር ወይም $$99 የዕድሜ ልክ"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "ያልተገደበ ብጁ አስተናጋጆችን ያክሉ"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "እያንዳንዱን ክልል በአንድ መስመር ይመልከቱ"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "የስራ ሰዓት ሁኔታን ወደ Slack ወይም Discord ያመሳስሉ"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "የተለወጡ ሰዓቶችን ወደ ካላንደርዎ ይላኩ"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "አነስተኛ አስቸጋሪ የስብሰባ ሰዓት ያግኙ"
+  },
+  "onboardingPage5ProCta": {
+    "message": "የPro ዕቅዶችን ይመልከቱ"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "በነጻ ይቆዩ"
+  },
+  "onboardingPage6Heading": {
+    "message": "በጭንቅላትዎ ስሌት ማድረግ ለማቆም ዝግጁ ነዎት"
+  },
+  "onboardingPage6Sub": {
+    "message": "የሚደገፍ ማንኛውንም አስተናጋጅ ይክፈቱ እና የሰዓት ክልል ሰዓቶች በራሳቸው ይለወጣሉ።"
+  },
+  "onboardingPage6Button": {
+    "message": "መለወጥ ጀምር"
+  },
+  "onboardingSkip": {
+    "message": "ማዋቀርን ዝለል"
+  },
+  "onboardingBack": {
+    "message": "ተመለስ"
+  },
+  "onboardingNext": {
+    "message": "ቀጣይ"
+  },
+  "onboardingDone": {
+    "message": "ተጠናቀቀ"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "ወደ ደረጃ $1 ሂድ"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "የመግቢያ ሂደት"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "የመግቢያ ሂደት"
+  },
+  "onboardingPageOf": {
+    "message": "$1 ከ$2"
+  },
+  "onboardingFooterBrand": {
+    "message": "በzovo.one የተገነባ"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 ጊዜ ተለውጧል"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 ጊዜ ተለውጧል"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 ጊዜያት ተለውጠዋል"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - ለጊዜው ቆሟል"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

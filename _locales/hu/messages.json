@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Ne fejben számold az időzónákat. Alakítsd át a 3pm EST, 9:00 UTC, 14:00 CET időpontokat helyben a Calendar, Slack, Discord és GitHub felületén."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Aktív"
+  },
+  "popupStatusPaused": {
+    "message": "Szüneteltetve"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Állapot: aktív"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Állapot: szüneteltetve ezen a gazdagépen"
+  },
+  "popupStatLabel": {
+    "message": "Ezen az oldalon"
+  },
+  "popupStatHintSingular": {
+    "message": "időpont átalakítva ezen a lapon ebben a munkamenetben."
+  },
+  "popupStatHintPlural": {
+    "message": "időpont átalakítva ezen a lapon ebben a munkamenetben."
+  },
+  "popupStatAriaLabel": {
+    "message": "Átalakított időpontok ezen az oldalon"
+  },
+  "popupPauseOnHost": {
+    "message": "Szüneteltetés ezen a gazdagépen"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Az átalakítás leállítása ezen az oldalon, amíg vissza nem kapcsolod."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Az átalakítás leállítása itt: $1, amíg vissza nem kapcsolod."
+  },
+  "popupShowInline": {
+    "message": "Beágyazott átalakítások megjelenítése"
+  },
+  "popupShowInlineSub": {
+    "message": "Kis helyi idő jelölő hozzáadása minden zónás időpont mellé."
+  },
+  "popupShowBadge": {
+    "message": "Jelvény megjelenítése"
+  },
+  "popupShowBadgeSub": {
+    "message": "Az átalakított időpontok passzív számlálása az oldal sarkában."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Átalakítási beállítások"
+  },
+  "popupLicenseHave": {
+    "message": "Van licenckulcsod?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Licenckulcs"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktiválás"
+  },
+  "popupLicenseVerifying": {
+    "message": "Ellenőrzés..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Először add meg a licenckulcsot."
+  },
+  "popupLicenseActivated": {
+    "message": "Licenc aktiválva. Pro feloldva."
+  },
+  "popupLicenseFailed": {
+    "message": "Ez a kulcs nem ellenőrizhető. Ellenőrizd a kulcsot, és próbáld újra."
+  },
+  "popupLicenseError": {
+    "message": "Az ellenőrzés sikertelen. Próbáld újra egy pillanat múlva."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Készítette a zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "További eszközök"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Oldj fel minden gazdagépet és ICS exportot"
+  },
+  "popupSrActive": {
+    "message": "Az átalakítások aktívak ezen a gazdagépen."
+  },
+  "popupSrPaused": {
+    "message": "Az átalakítások szüneteltetve ezen a gazdagépen."
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere beállítások"
+  },
+  "optionsSub": {
+    "message": "Zónás időpontok beágyazott átalakítása azokon a gazdagépeken, ahová a meetinghívók érkeznek."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Átalakítások"
+  },
+  "optionsConversionsTitle": {
+    "message": "Kapd meg az átalakításokat az oldalon, a te módod szerint"
+  },
+  "optionsInlineTitle": {
+    "message": "Időpontok beágyazott átalakítása az oldalon"
+  },
+  "optionsInlineSub": {
+    "message": "Kis helyi idő jelölő hozzáadása minden zónás időpont mellé."
+  },
+  "optionsBadgeTitle": {
+    "message": "Tartsd nyilván az átalakítások passzív számát a sarokban"
+  },
+  "optionsBadgeSub": {
+    "message": "Az átalakított időpontok passzív száma ezen a lapon."
+  },
+  "optionsPauseTitle": {
+    "message": "Átalakítások némítása egy gazdagépen"
+  },
+  "optionsPauseSub": {
+    "message": "Használd a Local Time Everywhere felugró ablakot egy gazdagépen, hogy szüneteltesd vagy folytasd az átalakításokat azon a konkrét oldalon."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Időformátum"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Rendszer"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 órás"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 órás"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Időformátum beállítás"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Gazdagépek"
+  },
+  "optionsHostsTitle": {
+    "message": "Oldalak, ahol az időpontok átalakulnak"
+  },
+  "optionsHostsCountPro": {
+    "message": "Korlátlan egyéni gazdagép a Próval"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 / $2 egyéni gazdagép felhasználva"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Alapértelmezett gazdagépek, minden látogatáskor átalakítanak"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Általad hozzáadott gazdagépek, minden látogatáskor átalakítanak"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Az ingyenes csomag legfeljebb $1 egyéni gazdagépet tartalmaz. A Pro korlátlan egyéni gazdagépet old fel."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Váltás Próra"
+  },
+  "optionsAddHostLabel": {
+    "message": "Egyéni gazdagép hozzáadása"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Gazdagép hozzáadása"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Eltávolítás"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "$1 egyéni gazdagép eltávolítása"
+  },
+  "optionsAddHostHelp": {
+    "message": "Használj konkrét mintát, például https://example.com/* vagy https://*.yourteam.com/*. Soha ne használd a széles <all_urls> vagy *://*/* helyettesítő karaktereket."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Először add meg a gazdagép mintát."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Letiltott minta: $1. Használj konkrét https:// mintát."
+  },
+  "optionsHostErrScheme": {
+    "message": "A mintának https://-sel (vagy http://-sel) kell kezdődnie."
+  },
+  "optionsHostErrHostname": {
+    "message": "Ennek a mintának nincs valódi gazdagépneve."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Ez a minta hibás."
+  },
+  "optionsHostErrPath": {
+    "message": "Adj hozzá egy útvonal helyettesítő karaktert a végére (pl. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Ez a gazdagép már a listádon van."
+  },
+  "optionsHostErrDefault": {
+    "message": "Ez a gazdagép már az alapértelmezett listán van."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Az ingyenes csomag $1 egyéni gazdagépnél van korlátozva. Válts Próra, hogy többet adhass hozzá."
+  },
+  "optionsHostErrPermission": {
+    "message": "Az engedély nem lett megadva. A gazdagép nem lett hozzáadva."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Nem sikerült engedélyt kérni ehhez a gazdagéphez."
+  },
+  "optionsHostAdded": {
+    "message": "$1 hozzáadva. Töltsd újra a megnyitott lapokat azon a gazdagépen a beolvasásukhoz."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 eltávolítva."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Alakítsd át az időpontokat minden általad használt gazdagépen"
+  },
+  "optionsProFeature1Title": {
+    "message": "Kapd meg az összes régiót egy sorban"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Jelenítsd meg a 3pm EST, 12pm PST, 8pm GMT időpontokat egy sorban."
+  },
+  "optionsProFeature2Title": {
+    "message": "Tartsd szinkronban a csapattársaidat a munkaidőddel"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Küldj Slack vagy Discord állapotot. Csak beleegyezéssel."
+  },
+  "optionsProFeature3Title": {
+    "message": "Küldj naptárhívókat az átalakított időponttal"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Másolj egy .ics hívót a megfelelő idősávra."
+  },
+  "optionsProFeature4Title": {
+    "message": "Találd meg a legkevésbé fájdalmas meeting idősávot"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Hasonlítsd össze a zónákat egymás mellett, és válaszd a kíméleteset."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro funkció, zárolva"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro csomagok megtekintése"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Alakíts át minden gazdagépet a Próval"
+  },
+  "optionsPaywallPitch": {
+    "message": "Haladó felhasználóknak és csapatoknak, akik időzónák között élnek."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/hó"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 örökös"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Egy ár, a te döntésed. Bármikor lemondható."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Korlátlan egyéni gazdagép (ingyenes: max. 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Több régiós formátum, minden zóna egyszerre"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack és Discord munkaidő-állapot szinkron"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS naptárexport átalakított időpontokkal"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Legjobb átfedésű meeting javasló"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Szerezd meg a Prót, $$99 örökös"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Vagy $$4.99/hó"
+  },
+  "optionsPaywallNote": {
+    "message": "Egy fizetés vagy egy előfizetés. Örökre aktiválja a Prót ebben a bővítményben."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 napos pénzvisszafizetési garancia. Ha a Pro nem éri meg, visszatérítjük, kérdés nélkül."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Ingyenes vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Küldd az átalakított időpontokat a naptáradba"
+  },
+  "optionsIcsExportSub": {
+    "message": "Másolj egy .ics hívót a helyi idővel beépítve. Pro ízelítő, itt látható, hogy tudd, mi oldódik fel."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics exportálása"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Feloldás a Próban"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Licenc"
+  },
+  "optionsLicenseTitle": {
+    "message": "Kulcs aktiválása vagy eltávolítása"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktív."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Érvényes eddig: $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Örökös licenc."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deaktiválás"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Licenc deaktiválva. Vissza az ingyenes csomagra."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Adatvédelem"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Tartsd az adataidat ezen az eszközön"
+  },
+  "optionsPrivacyBody": {
+    "message": "A Local Time Everywhere teljes egészében a te eszközödön fut. A fent felsorolt gazdagépeken kizárólag a zónás időpontok átalakítása céljából olvas szöveget. Semmilyen oldaltartalom, böngészési előzmény vagy profiladat nem kerül sehova elküldésre. Az egyetlen hálózati kérés akkor történik, amikor licenckulcsot adsz meg, és csak maga a kulcs kerül elküldésre."
+  },
+  "optionsPrivacyExport": {
+    "message": "Adataim exportálása"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Minden adat törlése"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 kulcs exportálva a letöltéseidbe."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Az exportálás sikertelen. Kérjük, próbáld újra."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Törlöd a Local Time Everywhere összes adatát erről az eszközről? Ezt nem lehet visszavonni."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "A Local Time Everywhere összes adata törölve erről az eszközről."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "A törlés sikertelen. Kérjük, próbáld újra."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, a Zovótól. Nem áll kapcsolatban a Google, Microsoft, Discord, Slack vagy GitHub vállalatokkal."
+  },
+  "optionsSrProActive": {
+    "message": "Pro licenc aktív."
+  },
+  "optionsSrFree": {
+    "message": "Ingyenes csomag."
+  },
+  "onboardingPage1Heading": {
+    "message": "Ne fejben számold az időzónákat"
+  },
+  "onboardingPage1Sub": {
+    "message": "A meetinghívók egy időzónát mutatnak. Mindenki más fejben számol. Néhányan rosszul."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, este 9"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, éjjel 12:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, holnap reggel 7"
+  },
+  "onboardingPage1Button": {
+    "message": "Nézd meg a megoldást"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Nézd, ahogy egy zónás időpont a tiédre alakul"
+  },
+  "onboardingPage2Sub": {
+    "message": "Itt egy valódi Slack üzenet. Kattints a gombra, és ugyanaz a pillanat megjelenik a helyi idődben."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Mutasd a helyi időmet"
+  },
+  "onboardingPage2Continue": {
+    "message": "Folytatás"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Kattints fentre az átalakításhoz."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 a te időd szerint ($2). Nincs szükség számolásra."
+  },
+  "onboardingPage3Heading": {
+    "message": "Hol fut"
+  },
+  "onboardingPage3Sub": {
+    "message": "Ez a 12 gazdagép alapból be van kapcsolva. Nyisd meg bármelyiket, és a zónás időpontok átalakulnak beágyazva, elemleírásban vagy jelvényként."
+  },
+  "onboardingPage3Hint": {
+    "message": "Kell egy másik gazdagép? Az ingyenes csomag 3 egyéni gazdagépet fed le. A Pro korlátlan."
+  },
+  "onboardingPage3Link": {
+    "message": "Tudj meg többet az egyéni gazdagépekről"
+  },
+  "onboardingPage4Heading": {
+    "message": "Szia, Michael vagyok"
+  },
+  "onboardingPage4Sub": {
+    "message": "A Local Time Everywhere-t azután építettem, hogy egyszer túl sokszor maradtam le a standupokról három időzóna között. Egy dolgot csinál, és igyekszik csendben csinálni. Nincs követés, nincs upsell felugró ablak minden oldalon."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Egy ember, nyilvánosan építkezve itt:"
+  },
+  "onboardingPage5Heading": {
+    "message": "Válaszd a naptáradhoz illő csomagot"
+  },
+  "onboardingPage5Sub": {
+    "message": "Az ingyenes örökre működik a 12 alapértelmezett gazdagépen. A Pro haladó felhasználóknak és csapatoknak való."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Ingyenes"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Ingyenes"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Korlátlan átalakítás 12 alapértelmezett gazdagépen"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12 órás, 24 órás vagy rendszerformátum"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Beágyazott jelölő, elemleírás és jelvény"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Legfeljebb 3 egyéni gazdagép"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/hó vagy $$99 örökös"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Adj hozzá korlátlan egyéni gazdagépet"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Lásd az összes régiót egy sorban"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Szinkronizáld a munkaidő-állapotot Slackre vagy Discordra"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Küldj átalakított időpontokat a naptáradba"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Találd meg a legkevésbé fájdalmas meeting idősávot"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro csomagok megtekintése"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Maradok az Ingyenesen"
+  },
+  "onboardingPage6Heading": {
+    "message": "Készen állsz, hogy ne számolj fejben"
+  },
+  "onboardingPage6Sub": {
+    "message": "Nyiss meg bármely támogatott gazdagépet, és a zónás időpontok maguktól átalakulnak."
+  },
+  "onboardingPage6Button": {
+    "message": "Átalakítás indítása"
+  },
+  "onboardingSkip": {
+    "message": "Beállítás kihagyása"
+  },
+  "onboardingBack": {
+    "message": "Vissza"
+  },
+  "onboardingNext": {
+    "message": "Tovább"
+  },
+  "onboardingDone": {
+    "message": "Kész"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Ugrás a(z) $1. lépésre"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Bevezetés folyamata"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Bevezetés folyamata"
+  },
+  "onboardingPageOf": {
+    "message": "$1 / $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Készítette a zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 időpont átalakítva"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 időpont átalakítva"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 időpont átalakítva"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - ideiglenesen szüneteltetve"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

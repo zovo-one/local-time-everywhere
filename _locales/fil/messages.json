@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Itigil ang pag-compute ng timezone sa isip mo. I-convert ang 3pm EST, 9:00 UTC, 14:00 CET nang inline sa Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Aktibo"
+  },
+  "popupStatusPaused": {
+    "message": "Naka-pause"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: aktibo"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: naka-pause sa host na ito"
+  },
+  "popupStatLabel": {
+    "message": "Sa page na ito"
+  },
+  "popupStatHintSingular": {
+    "message": "oras na na-convert sa tab na ito ngayong session."
+  },
+  "popupStatHintPlural": {
+    "message": "oras na na-convert sa tab na ito ngayong session."
+  },
+  "popupStatAriaLabel": {
+    "message": "Mga na-convert na oras sa page na ito"
+  },
+  "popupPauseOnHost": {
+    "message": "I-pause sa host na ito"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Itigil ang pag-convert sa site na ito hanggang i-on mo ulit."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Itigil ang pag-convert sa $1 hanggang i-on mo ulit."
+  },
+  "popupShowInline": {
+    "message": "Ipakita ang mga inline na conversion"
+  },
+  "popupShowInlineSub": {
+    "message": "Magdagdag ng maliit na local-time marker sa tabi ng bawat oras na may timezone."
+  },
+  "popupShowBadge": {
+    "message": "Ipakita ang badge"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passive na bilang ng mga na-convert na oras sa sulok ng page."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Mga setting ng conversion"
+  },
+  "popupLicenseHave": {
+    "message": "May license key ka ba?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "License key"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "I-activate"
+  },
+  "popupLicenseVerifying": {
+    "message": "Vine-verify..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Maglagay muna ng license key."
+  },
+  "popupLicenseActivated": {
+    "message": "Na-activate ang license. Naka-unlock na ang Pro."
+  },
+  "popupLicenseFailed": {
+    "message": "Hindi na-verify ang key na iyon. Suriin ang key at subukan ulit."
+  },
+  "popupLicenseError": {
+    "message": "Nabigo ang pag-verify. Subukan ulit maya-maya."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Ginawa ng zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Higit pang tools"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "I-unlock ang bawat host at ICS export"
+  },
+  "popupSrActive": {
+    "message": "Aktibo ang mga conversion sa host na ito."
+  },
+  "popupSrPaused": {
+    "message": "Naka-pause ang mga conversion sa host na ito."
+  },
+  "optionsTitle": {
+    "message": "Mga Setting ng Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "I-convert ang mga oras na may timezone nang inline sa mga host kung saan dumarating ang mga meeting invite."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Mga conversion"
+  },
+  "optionsConversionsTitle": {
+    "message": "Kunin ang mga conversion sa page, sa paraan mo"
+  },
+  "optionsInlineTitle": {
+    "message": "I-convert ang mga oras nang inline sa page"
+  },
+  "optionsInlineSub": {
+    "message": "Magdagdag ng maliit na local-time marker sa tabi ng bawat oras na may timezone."
+  },
+  "optionsBadgeTitle": {
+    "message": "Magtago ng passive na bilang ng mga conversion sa sulok"
+  },
+  "optionsBadgeSub": {
+    "message": "Passive na bilang ng mga na-convert na oras sa tab na ito."
+  },
+  "optionsPauseTitle": {
+    "message": "I-mute ang mga conversion sa isang host"
+  },
+  "optionsPauseSub": {
+    "message": "Gamitin ang popup ng Local Time Everywhere sa isang host para i-pause o ipagpatuloy ang mga conversion sa partikular na site na iyon."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Format ng oras"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "System"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-oras"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-oras"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Kagustuhan sa format ng oras"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Mga host"
+  },
+  "optionsHostsTitle": {
+    "message": "Mga site kung saan nagko-convert ang mga oras"
+  },
+  "optionsHostsCountPro": {
+    "message": "Walang limitasyong custom host sa Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 sa $2 na custom host ang nagamit"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Mga default na host, nagko-convert sa bawat pagbisita"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Mga host na idinagdag mo, nagko-convert sa bawat pagbisita"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Kasama sa free tier ang hanggang $1 na custom host. Ina-unlock ng Pro ang walang limitasyong custom host."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Mag-upgrade sa Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Magdagdag ng custom host"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Magdagdag ng host"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Alisin"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Alisin ang custom host na $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Gumamit ng partikular na pattern tulad ng https://example.com/* o https://*.yourteam.com/*. Huwag kailanman gamitin ang malawak na wildcard na <all_urls> o *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Maglagay muna ng host pattern."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Naka-block na pattern: $1. Gumamit ng partikular na https:// pattern."
+  },
+  "optionsHostErrScheme": {
+    "message": "Dapat magsimula ang pattern sa https:// (o http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Walang tunay na hostname ang pattern na iyon."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Mali ang pagkakabuo ng pattern na iyon."
+  },
+  "optionsHostErrPath": {
+    "message": "Magdagdag ng path wildcard sa dulo (hal. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Nasa listahan mo na ang host na iyon."
+  },
+  "optionsHostErrDefault": {
+    "message": "Nasa default na listahan na ang host na iyon."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Limitado ang free tier sa $1 na custom host. Mag-upgrade para makapagdagdag pa."
+  },
+  "optionsHostErrPermission": {
+    "message": "Hindi naibigay ang pahintulot. Hindi naidagdag ang host."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Hindi makahingi ng pahintulot para sa host na iyon."
+  },
+  "optionsHostAdded": {
+    "message": "Naidagdag ang $1. I-reload ang mga bukas na tab sa host na iyon para i-scan ang mga ito."
+  },
+  "optionsHostRemoved": {
+    "message": "Inalis ang $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "I-convert ang mga oras sa bawat host na ginagamit mo"
+  },
+  "optionsProFeature1Title": {
+    "message": "Kunin ang bawat rehiyon sa isang linya"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Ipakita ang 3pm EST, 12pm PST, 8pm GMT sa isang linya."
+  },
+  "optionsProFeature2Title": {
+    "message": "Panatilihing naka-sync ang mga kasama sa oras ng trabaho mo"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Mag-post ng Slack o Discord status. Opt-in lang."
+  },
+  "optionsProFeature3Title": {
+    "message": "Magpadala ng calendar invite na may na-convert na oras"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopyahin ang .ics invite para sa tamang slot."
+  },
+  "optionsProFeature4Title": {
+    "message": "Hanapin ang pinakahindi masakit na meeting slot"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Ihambing ang mga zone nang magkatabi at piliin ang pinakamaganda."
+  },
+  "optionsProLockLabel": {
+    "message": "Feature ng Pro, naka-lock"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Tingnan ang mga plano ng Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "I-convert ang bawat host gamit ang Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Para sa mga power user at team na nabubuhay sa iba't ibang time zone."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/buwan"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 habambuhay"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Isang presyo, pili mo. Mag-cancel anumang oras."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Walang limitasyong custom host (3 lang ang free)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Multi-region na format, ipakita ang lahat ng zone nang sabay"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Sync ng working-hours status sa Slack at Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS calendar export na may na-convert na oras"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Suggester ng meeting na may pinakamagandang overlap"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Kunin ang Pro, $$99 habambuhay"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "O $$4.99/buwan"
+  },
+  "optionsPaywallNote": {
+    "message": "Isang bayad o isang subscription. Ina-activate ang Pro sa extension na ito habambuhay."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-araw na money-back guarantee. Kung hindi sulit ang Pro, ire-refund namin, walang tanong."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Free vs. Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Ipadala ang mga na-convert na oras sa calendar mo"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopyahin ang .ics invite na may nakalagay nang local time. Preview ng Pro, nakikita rito para malaman mo kung ano ang mabubuksan."
+  },
+  "optionsIcsExportCta": {
+    "message": "I-export ang .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "I-unlock sa Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Lisensya"
+  },
+  "optionsLicenseTitle": {
+    "message": "Mag-activate o mag-alis ng key"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Aktibo ang Pro."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Valid hanggang $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Lisensyang habambuhay."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "I-deactivate"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Na-deactivate ang lisensya. Bumalik sa free tier."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privacy"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Panatilihin ang data mo sa device na ito"
+  },
+  "optionsPrivacyBody": {
+    "message": "Ganap na tumatakbo ang Local Time Everywhere sa device mo. Binabasa nito ang teksto sa mga host na nakalista sa itaas para lamang i-convert ang mga oras na may timezone. Walang nilalaman ng page, browsing history, o profile data na ipinapadala kahit saan. Ang tanging network request ay nangyayari kapag naglagay ka ng license key, at ang key lamang ang ipinapadala."
+  },
+  "optionsPrivacyExport": {
+    "message": "I-export ang data ko"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Burahin ang lahat ng data"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Na-export ang $1 na key sa mga download mo."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Nabigo ang pag-export. Pakisubukan ulit."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Burahin ang lahat ng data ng Local Time Everywhere sa device na ito? Hindi na ito mababawi."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Nalinis na ang lahat ng data ng Local Time Everywhere sa device na ito."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Nabigo ang pagbura. Pakisubukan ulit."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, ng Zovo. Hindi kaugnay ng Google, Microsoft, Discord, Slack, o GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Aktibo ang lisensya ng Pro."
+  },
+  "optionsSrFree": {
+    "message": "Free tier."
+  },
+  "onboardingPage1Heading": {
+    "message": "Itigil ang pag-compute ng timezone sa isip mo"
+  },
+  "onboardingPage1Sub": {
+    "message": "Isang time zone lang ang ipinapakita ng mga meeting invite. Ang iba, sa isip nagko-compute. May mga nagkakamali."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 9pm"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 12:30am"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7am bukas"
+  },
+  "onboardingPage1Button": {
+    "message": "Tingnan ang solusyon"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Panoorin ang isang oras na may timezone na maging sa iyo"
+  },
+  "onboardingPage2Sub": {
+    "message": "Narito ang totoong mensahe sa Slack. I-click ang button at lalabas ang parehong sandali sa iyong local time."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Tingnan ang local time ko"
+  },
+  "onboardingPage2Continue": {
+    "message": "Magpatuloy"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "I-click sa itaas para i-convert."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 sa oras mo ($2). Walang kailangang math."
+  },
+  "onboardingPage3Heading": {
+    "message": "Kung saan ito tumatakbo"
+  },
+  "onboardingPage3Sub": {
+    "message": "Naka-on ang 12 host na ito bilang default. Buksan ang alinman at nagko-convert ang mga oras na may timezone nang inline, sa tooltip, o bilang badge."
+  },
+  "onboardingPage3Hint": {
+    "message": "Kailangan ng ibang host? Sakop ng free tier ang 3 custom host. Walang limitasyon ang Pro."
+  },
+  "onboardingPage3Link": {
+    "message": "Alamin ang tungkol sa mga custom host"
+  },
+  "onboardingPage4Heading": {
+    "message": "Kumusta, ako si Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Ginawa ko ang Local Time Everywhere pagkatapos ng sobrang daming na-miss na standup sa tatlong time zone. Isang bagay lang ang ginagawa nito at tahimik itong ginagawa. Walang tracking, walang upsell popup sa bawat page."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Isang tao, gumagawa nang hayag sa"
+  },
+  "onboardingPage5Heading": {
+    "message": "Kunin ang planong bagay sa kalendaryo mo"
+  },
+  "onboardingPage5Sub": {
+    "message": "Habambuhay na gumagana ang Free sa 12 default na host. Ang Pro ay para sa mga power user at team."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Free"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Walang limitasyong conversion sa 12 default na host"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h, 24h, o system na format"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Inline marker, tooltip, at badge"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Hanggang 3 custom host"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/buwan o $$99 habambuhay"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Magdagdag ng walang limitasyong custom host"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Tingnan ang bawat rehiyon sa isang linya"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "I-sync ang working-hours status sa Slack o Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Ipadala ang mga na-convert na oras sa kalendaryo mo"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Hanapin ang pinakahindi masakit na meeting slot"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Tingnan ang mga plano ng Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Manatili sa Free"
+  },
+  "onboardingPage6Heading": {
+    "message": "Handa nang tumigil sa pag-math sa isip mo"
+  },
+  "onboardingPage6Sub": {
+    "message": "Buksan ang alinmang suportadong host at kusang magko-convert ang mga oras na may timezone."
+  },
+  "onboardingPage6Button": {
+    "message": "Magsimulang mag-convert"
+  },
+  "onboardingSkip": {
+    "message": "Laktawan ang setup"
+  },
+  "onboardingBack": {
+    "message": "Bumalik"
+  },
+  "onboardingNext": {
+    "message": "Susunod"
+  },
+  "onboardingDone": {
+    "message": "Tapos na"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Pumunta sa hakbang $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Progreso ng onboarding"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Progreso ng onboarding"
+  },
+  "onboardingPageOf": {
+    "message": "$1 ng $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Ginawa ng zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 na oras na-convert"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 oras na-convert"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 na oras na-convert"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - pansamantalang naka-pause"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

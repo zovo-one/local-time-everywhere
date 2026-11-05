@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Lokal tid overalt"
+  },
+  "extDesc": {
+    "message": "Stop med at regne tidszoner ud i hovedet. Konvertér 3pm EST, 9:00 UTC, 14:00 CET direkte i Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Lokal tid overalt"
+  },
+  "popupTitle": {
+    "message": "Lokal tid overalt"
+  },
+  "popupStatusActive": {
+    "message": "Aktiv"
+  },
+  "popupStatusPaused": {
+    "message": "Sat på pause"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: aktiv"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: sat på pause på denne vært"
+  },
+  "popupStatLabel": {
+    "message": "På denne side"
+  },
+  "popupStatHintSingular": {
+    "message": "tidspunkt konverteret på denne fane i denne session."
+  },
+  "popupStatHintPlural": {
+    "message": "tidspunkter konverteret på denne fane i denne session."
+  },
+  "popupStatAriaLabel": {
+    "message": "Konverterede tidspunkter på denne side"
+  },
+  "popupPauseOnHost": {
+    "message": "Sæt på pause på denne vært"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Stop konvertering på dette websted, indtil du slår det til igen."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Stop konvertering på $1, indtil du slår det til igen."
+  },
+  "popupShowInline": {
+    "message": "Vis inline-konverteringer"
+  },
+  "popupShowInlineSub": {
+    "message": "Tilføj en lille lokal tid-markør ved siden af hvert tidspunkt med tidszone."
+  },
+  "popupShowBadge": {
+    "message": "Vis mærke"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passiv optælling af konverterede tidspunkter i sidens hjørne."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Konverteringsindstillinger"
+  },
+  "popupLicenseHave": {
+    "message": "Har du en licensnøgle?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Licensnøgle"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktivér"
+  },
+  "popupLicenseVerifying": {
+    "message": "Bekræfter..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Indtast først en licensnøgle."
+  },
+  "popupLicenseActivated": {
+    "message": "Licens aktiveret. Pro er låst op."
+  },
+  "popupLicenseFailed": {
+    "message": "Den nøgle kunne ikke bekræftes. Kontrollér nøglen og prøv igen."
+  },
+  "popupLicenseError": {
+    "message": "Bekræftelse mislykkedes. Prøv igen om et øjeblik."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Bygget af zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Flere værktøjer"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Lås op for alle værter og ICS-eksport"
+  },
+  "popupSrActive": {
+    "message": "Konverteringer er aktive på denne vært."
+  },
+  "popupSrPaused": {
+    "message": "Konverteringer er sat på pause på denne vært."
+  },
+  "optionsTitle": {
+    "message": "Indstillinger for Lokal tid overalt"
+  },
+  "optionsSub": {
+    "message": "Konvertér tidspunkter med tidszone direkte på de værter, hvor mødeinvitationer lander."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Konverteringer"
+  },
+  "optionsConversionsTitle": {
+    "message": "Få konverteringer på siden, på din måde"
+  },
+  "optionsInlineTitle": {
+    "message": "Konvertér tidspunkter direkte på siden"
+  },
+  "optionsInlineSub": {
+    "message": "Tilføj en lille lokal tid-markør ved siden af hvert tidspunkt med tidszone."
+  },
+  "optionsBadgeTitle": {
+    "message": "Hold en passiv optælling af konverteringer i hjørnet"
+  },
+  "optionsBadgeSub": {
+    "message": "Passiv optælling af konverterede tidspunkter på denne fane."
+  },
+  "optionsPauseTitle": {
+    "message": "Slå konverteringer fra på en vært"
+  },
+  "optionsPauseSub": {
+    "message": "Brug pop op-vinduet for Lokal tid overalt på en vært for at sætte konverteringer på pause eller genoptage dem på netop det websted."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Tidsformat"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "System"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-timers"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-timers"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Foretrukket tidsformat"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Værter"
+  },
+  "optionsHostsTitle": {
+    "message": "Websteder hvor tidspunkter konverteres"
+  },
+  "optionsHostsCountPro": {
+    "message": "Ubegrænset antal brugerdefinerede værter med Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 af $2 brugerdefinerede værter brugt"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Standardværter, konverterer ved hvert besøg"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Værter du har tilføjet, konverterer ved hvert besøg"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Gratisniveauet inkluderer op til $1 brugerdefinerede værter. Pro låser op for ubegrænset antal brugerdefinerede værter."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Opgradér til Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Tilføj en brugerdefineret vært"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Tilføj vært"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Fjern"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Fjern brugerdefineret vært $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Brug et specifikt mønster som https://example.com/* eller https://*.yourteam.com/*. Brug aldrig de brede jokertegn <all_urls> eller *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Indtast først et værtsmønster."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Blokeret mønster: $1. Brug et specifikt https://-mønster."
+  },
+  "optionsHostErrScheme": {
+    "message": "Mønsteret skal starte med https:// (eller http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Det mønster har ikke et rigtigt værtsnavn."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Det mønster er forkert udformet."
+  },
+  "optionsHostErrPath": {
+    "message": "Tilføj et sti-jokertegn til sidst (f.eks. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Den vært er allerede på din liste."
+  },
+  "optionsHostErrDefault": {
+    "message": "Den vært er allerede på standardlisten."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Gratisniveauet er begrænset til $1 brugerdefinerede værter. Opgradér for at tilføje flere."
+  },
+  "optionsHostErrPermission": {
+    "message": "Tilladelse ikke givet. Værten blev ikke tilføjet."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Kunne ikke anmode om tilladelse til den vært."
+  },
+  "optionsHostAdded": {
+    "message": "$1 tilføjet. Genindlæs åbne faner på den vært for at scanne dem."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 fjernet."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Konvertér tidspunkter på tværs af alle de værter, du bruger"
+  },
+  "optionsProFeature1Title": {
+    "message": "Få hver region på én linje"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Vis 3pm EST, 12pm PST, 8pm GMT på én linje."
+  },
+  "optionsProFeature2Title": {
+    "message": "Hold holdkammerater synkroniseret med dine arbejdstider"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Send en Slack- eller Discord-status. Kun ved tilvalg."
+  },
+  "optionsProFeature3Title": {
+    "message": "Send kalenderinvitationer med det konverterede tidspunkt"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopiér en .ics-invitation til det rigtige tidsrum."
+  },
+  "optionsProFeature4Title": {
+    "message": "Find det mindst smertefulde mødetidspunkt"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Sammenlign tidszoner side om side og vælg den venlige."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro-funktion, låst"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Se Pro-abonnementer"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Konvertér alle værter med Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Til superbrugere og teams, der lever på tværs af tidszoner."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/md."
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 for evigt"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Én pris, dit valg. Opsig når som helst."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Ubegrænset antal brugerdefinerede værter (gratis er begrænset til 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Multiregionsformat, vis alle tidszoner på én gang"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Synkronisering af arbejdstidsstatus til Slack og Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS-kalendereksport med konverterede tidspunkter"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Forslag til bedste mødeoverlap"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Få Pro, $$99 for evigt"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Eller $$4.99/måned"
+  },
+  "optionsPaywallNote": {
+    "message": "Én betaling eller ét abonnement. Aktiverer Pro i denne udvidelse for evigt."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-dages pengene-tilbage-garanti. Hvis Pro ikke er det værd, refunderer vi, ingen spørgsmål."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Gratis vs. Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Send konverterede tidspunkter til din kalender"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopiér en .ics-invitation med den lokale tid indbygget. Pro-smugkig, vist her, så du ved, hvad der låses op."
+  },
+  "optionsIcsExportCta": {
+    "message": "Eksportér .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Lås op i Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Licens"
+  },
+  "optionsLicenseTitle": {
+    "message": "Aktivér eller fjern en nøgle"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro er aktiv."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Gyldig til $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Livstidslicens."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deaktivér"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Licens deaktiveret. Tilbage til gratisniveauet."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privatliv"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Hold dine data på denne enhed"
+  },
+  "optionsPrivacyBody": {
+    "message": "Lokal tid overalt kører udelukkende på din enhed. Den læser tekst på de ovenfor angivne værter udelukkende med det formål at konvertere tidspunkter med tidszone. Intet sideindhold, browserhistorik eller profildata sendes nogensinde nogen steder hen. Den eneste netværksanmodning sker, når du indtaster en licensnøgle, og kun selve nøglen sendes."
+  },
+  "optionsPrivacyExport": {
+    "message": "Eksportér mine data"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Slet alle data"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Eksporterede $1 nøgle(r) til dine downloads."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Eksport mislykkedes. Prøv igen."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Slet alle data for Lokal tid overalt fra denne enhed? Dette kan ikke fortrydes."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Alle data for Lokal tid overalt er ryddet fra denne enhed."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Sletning mislykkedes. Prøv igen."
+  },
+  "optionsAboutLine": {
+    "message": "Lokal tid overalt v1.0.0, af Zovo. Ikke tilknyttet Google, Microsoft, Discord, Slack eller GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Pro-licens er aktiv."
+  },
+  "optionsSrFree": {
+    "message": "Gratisniveau."
+  },
+  "onboardingPage1Heading": {
+    "message": "Stop med at regne tidszoner ud i hovedet"
+  },
+  "onboardingPage1Sub": {
+    "message": "Mødeinvitationer viser én tidszone. Alle andre regner den ud i hovedet. Nogle tager fejl."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 07:00 i morgen"
+  },
+  "onboardingPage1Button": {
+    "message": "Se løsningen"
+  },
+  "onboardingEyebrow": {
+    "message": "Lokal tid overalt"
+  },
+  "onboardingPage2Heading": {
+    "message": "Se et tidspunkt med tidszone blive konverteret til dit"
+  },
+  "onboardingPage2Sub": {
+    "message": "Her er en rigtig Slack-besked. Klik på knappen, og det samme øjeblik vises i din lokale tid."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Se min lokale tid"
+  },
+  "onboardingPage2Continue": {
+    "message": "Fortsæt"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Klik ovenfor for at konvertere."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 din tid ($2). Ingen hovedregning nødvendig."
+  },
+  "onboardingPage3Heading": {
+    "message": "Hvor det kører"
+  },
+  "onboardingPage3Sub": {
+    "message": "Disse 12 værter er slået til som standard. Åbn en af dem, og tidspunkter med tidszone konverteres inline, i et værktøjstip eller som et mærke."
+  },
+  "onboardingPage3Hint": {
+    "message": "Har du brug for en anden vært? Gratisniveauet dækker 3 brugerdefinerede værter. Pro er ubegrænset."
+  },
+  "onboardingPage3Link": {
+    "message": "Læs om brugerdefinerede værter"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hej, jeg er Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Jeg byggede Lokal tid overalt efter for mange missede standups på tværs af tre tidszoner. Den gør én ting og prøver at gøre det i stilhed. Ingen sporing, ingen upsell-pop op-vinduer på hver side."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Én person, der bygger i det åbne på"
+  },
+  "onboardingPage5Heading": {
+    "message": "Få det abonnement, der passer til din kalender"
+  },
+  "onboardingPage5Sub": {
+    "message": "Gratis fungerer for evigt på de 12 standardværter. Pro er til superbrugere og teams."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Ubegrænsede konverteringer på 12 standardværter"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12-timers, 24-timers eller systemformat"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Inline-markør, værktøjstip og mærke"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Op til 3 brugerdefinerede værter"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/md. eller $$99 for evigt"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Tilføj ubegrænset antal brugerdefinerede værter"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Se hver region på én linje"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Synkronisér arbejdstidsstatus til Slack eller Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Send konverterede tidspunkter til din kalender"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Find det mindst smertefulde mødetidspunkt"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Se Pro-abonnementer"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Bliv på Gratis"
+  },
+  "onboardingPage6Heading": {
+    "message": "Klar til at stoppe med at regne i hovedet"
+  },
+  "onboardingPage6Sub": {
+    "message": "Åbn en understøttet vært, og tidspunkter med tidszone konverteres af sig selv."
+  },
+  "onboardingPage6Button": {
+    "message": "Begynd at konvertere"
+  },
+  "onboardingSkip": {
+    "message": "Spring opsætning over"
+  },
+  "onboardingBack": {
+    "message": "Tilbage"
+  },
+  "onboardingNext": {
+    "message": "Næste"
+  },
+  "onboardingDone": {
+    "message": "Færdig"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Gå til trin $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Onboarding-forløb"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Onboarding-forløb"
+  },
+  "onboardingPageOf": {
+    "message": "$1 af $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Bygget af zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 tidspunkter konverteret"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 tidspunkt konverteret"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 tidspunkter konverteret"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Lokal tid - midlertidigt sat på pause"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

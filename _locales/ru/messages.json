@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Хватит считать часовые пояса в уме. Конвертируйте 15:00 EST, 9:00 UTC, 14:00 CET прямо в Calendar, Slack, Discord и GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Активно"
+  },
+  "popupStatusPaused": {
+    "message": "Приостановлено"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Статус: активно"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Статус: приостановлено на этом сайте"
+  },
+  "popupStatLabel": {
+    "message": "На этой странице"
+  },
+  "popupStatHintSingular": {
+    "message": "время конвертировано на этой вкладке за сессию."
+  },
+  "popupStatHintPlural": {
+    "message": "раз время конвертировано на этой вкладке за сессию."
+  },
+  "popupStatAriaLabel": {
+    "message": "Конвертированное время на этой странице"
+  },
+  "popupPauseOnHost": {
+    "message": "Приостановить на этом сайте"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Прекратить конвертацию на этом сайте, пока вы снова её не включите."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Прекратить конвертацию на $1, пока вы снова её не включите."
+  },
+  "popupShowInline": {
+    "message": "Показывать встроенные конвертации"
+  },
+  "popupShowInlineSub": {
+    "message": "Добавляет небольшую метку местного времени рядом с каждым временем с часовым поясом."
+  },
+  "popupShowBadge": {
+    "message": "Показывать значок"
+  },
+  "popupShowBadgeSub": {
+    "message": "Пассивный счётчик конвертаций в углу страницы."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Настройки конвертации"
+  },
+  "popupLicenseHave": {
+    "message": "Есть лицензионный ключ?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Лицензионный ключ"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Активировать"
+  },
+  "popupLicenseVerifying": {
+    "message": "Проверка..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Сначала введите лицензионный ключ."
+  },
+  "popupLicenseActivated": {
+    "message": "Лицензия активирована. Pro разблокирован."
+  },
+  "popupLicenseFailed": {
+    "message": "Этот ключ не прошёл проверку. Проверьте ключ и попробуйте снова."
+  },
+  "popupLicenseError": {
+    "message": "Проверка не удалась. Попробуйте ещё раз через минуту."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Сделано zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Больше инструментов"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Разблокируйте все сайты и экспорт ICS"
+  },
+  "popupSrActive": {
+    "message": "Конвертации активны на этом сайте."
+  },
+  "popupSrPaused": {
+    "message": "Конвертации приостановлены на этом сайте."
+  },
+  "optionsTitle": {
+    "message": "Настройки Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Конвертируйте время с часовым поясом прямо на сайтах, куда приходят приглашения на встречи."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Конвертации"
+  },
+  "optionsConversionsTitle": {
+    "message": "Получайте конвертации на странице так, как вам удобно"
+  },
+  "optionsInlineTitle": {
+    "message": "Конвертировать время встроенно на странице"
+  },
+  "optionsInlineSub": {
+    "message": "Добавляет небольшую метку местного времени рядом с каждым временем с часовым поясом."
+  },
+  "optionsBadgeTitle": {
+    "message": "Ведите пассивный счётчик конвертаций в углу"
+  },
+  "optionsBadgeSub": {
+    "message": "Пассивный счётчик конвертаций на этой вкладке."
+  },
+  "optionsPauseTitle": {
+    "message": "Отключить конвертации на сайте"
+  },
+  "optionsPauseSub": {
+    "message": "Используйте всплывающее окно Local Time Everywhere на сайте, чтобы приостановить или возобновить конвертации на этом конкретном сайте."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Формат времени"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Системный"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-часовой"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-часовой"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Предпочтительный формат времени"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Сайты"
+  },
+  "optionsHostsTitle": {
+    "message": "Сайты, где конвертируется время"
+  },
+  "optionsHostsCountPro": {
+    "message": "Неограниченные пользовательские сайты с Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "Использовано $1 из $2 пользовательских сайтов"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Сайты по умолчанию, конвертируют при каждом посещении"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Добавленные вами сайты, конвертируют при каждом посещении"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Бесплатный тариф включает до $1 пользовательских сайтов. Pro разблокирует неограниченное число пользовательских сайтов."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Перейти на Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Добавить пользовательский сайт"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Добавить сайт"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Удалить"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Удалить пользовательский сайт $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Используйте конкретный шаблон вроде https://example.com/* или https://*.yourteam.com/*. Никогда не используйте широкие маски <all_urls> или *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Сначала введите шаблон сайта."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Заблокированный шаблон: $1. Используйте конкретный шаблон https://."
+  },
+  "optionsHostErrScheme": {
+    "message": "Шаблон должен начинаться с https:// (или http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "У этого шаблона нет настоящего имени хоста."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Этот шаблон некорректен."
+  },
+  "optionsHostErrPath": {
+    "message": "Добавьте маску пути в конце (например, /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Этот сайт уже есть в вашем списке."
+  },
+  "optionsHostErrDefault": {
+    "message": "Этот сайт уже есть в списке по умолчанию."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Бесплатный тариф ограничен $1 пользовательскими сайтами. Перейдите на Pro, чтобы добавить больше."
+  },
+  "optionsHostErrPermission": {
+    "message": "Разрешение не предоставлено. Сайт не добавлен."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Не удалось запросить разрешение для этого сайта."
+  },
+  "optionsHostAdded": {
+    "message": "$1 добавлен. Перезагрузите открытые вкладки этого сайта, чтобы просканировать их."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 удалён."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Конвертируйте время на всех сайтах, которыми пользуетесь"
+  },
+  "optionsProFeature1Title": {
+    "message": "Все регионы в одну строку"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Показывайте 15:00 EST, 12:00 PST, 20:00 GMT в одну строку."
+  },
+  "optionsProFeature2Title": {
+    "message": "Держите команду в курсе ваших рабочих часов"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Публикуйте статус в Slack или Discord. Только по вашему согласию."
+  },
+  "optionsProFeature3Title": {
+    "message": "Отправляйте приглашения в календарь с конвертированным временем"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Скопируйте приглашение .ics для нужного слота."
+  },
+  "optionsProFeature4Title": {
+    "message": "Найдите наименее неудобный слот для встречи"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Сравнивайте пояса бок о бок и выбирайте самый удобный."
+  },
+  "optionsProLockLabel": {
+    "message": "Функция Pro, заблокировано"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Смотреть тарифы Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Конвертируйте все сайты с Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Для продвинутых пользователей и команд, живущих в разных часовых поясах."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/мес"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 навсегда"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Одна цена, ваш выбор. Отмена в любой момент."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Неограниченные пользовательские сайты (бесплатно до 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Мультирегиональный формат, все пояса сразу"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Синхронизация статуса рабочих часов со Slack и Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Экспорт календаря ICS с конвертированным временем"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Подсказчик встреч с лучшим совпадением"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Получить Pro, $$99 навсегда"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Или $$4.99/месяц"
+  },
+  "optionsPaywallNote": {
+    "message": "Один платёж или одна подписка. Активирует Pro в этом расширении навсегда."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-дневная гарантия возврата денег. Если Pro не стоит того, вернём деньги без вопросов."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Бесплатно и Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Отправляйте конвертированное время в календарь"
+  },
+  "optionsIcsExportSub": {
+    "message": "Скопируйте приглашение .ics с уже встроенным местным временем. Превью Pro, показано здесь, чтобы вы знали, что разблокируется."
+  },
+  "optionsIcsExportCta": {
+    "message": "Экспорт .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Разблокировать в Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Лицензия"
+  },
+  "optionsLicenseTitle": {
+    "message": "Активировать или удалить ключ"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro активен."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Действует до $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Пожизненная лицензия."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Деактивировать"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Лицензия деактивирована. Возврат на бесплатный тариф."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Конфиденциальность"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Держите свои данные на этом устройстве"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere работает полностью на вашем устройстве. Он читает текст на перечисленных выше сайтах исключительно для конвертации времени с часовым поясом. Никакое содержимое страниц, история просмотров или данные профиля никуда не отправляются. Единственный сетевой запрос происходит, когда вы вводите лицензионный ключ, и отправляется только сам ключ."
+  },
+  "optionsPrivacyExport": {
+    "message": "Экспортировать мои данные"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Удалить все данные"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Экспортировано ключей: $1, в папку загрузок."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Не удалось экспортировать. Пожалуйста, попробуйте снова."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Удалить все данные Local Time Everywhere с этого устройства? Это нельзя отменить."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Все данные Local Time Everywhere удалены с этого устройства."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Не удалось удалить. Пожалуйста, попробуйте снова."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, от Zovo. Не связано с Google, Microsoft, Discord, Slack или GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Лицензия Pro активна."
+  },
+  "optionsSrFree": {
+    "message": "Бесплатный тариф."
+  },
+  "onboardingPage1Heading": {
+    "message": "Хватит считать часовые пояса в уме"
+  },
+  "onboardingPage1Sub": {
+    "message": "В приглашениях указан один часовой пояс. Все остальные считают в уме. Кто-то ошибается."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Берлин, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Мумбаи, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Сидней, 7:00 завтра"
+  },
+  "onboardingPage1Button": {
+    "message": "Посмотреть решение"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Смотрите, как время с поясом становится вашим"
+  },
+  "onboardingPage2Sub": {
+    "message": "Вот реальное сообщение из Slack. Нажмите кнопку, и тот же момент появится в вашем местном времени."
+  },
+  "onboardingPage2Sender": {
+    "message": "Алекс (Бостон)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Показать моё местное время"
+  },
+  "onboardingPage2Continue": {
+    "message": "Продолжить"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Нажмите выше, чтобы конвертировать."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 ваше время ($2). Без расчётов."
+  },
+  "onboardingPage3Heading": {
+    "message": "Где это работает"
+  },
+  "onboardingPage3Sub": {
+    "message": "Эти 12 сайтов включены по умолчанию. Откройте любой из них, и время с поясом конвертируется встроенно, во всплывающей подсказке или как значок."
+  },
+  "onboardingPage3Hint": {
+    "message": "Нужен ещё сайт? Бесплатный тариф покрывает 3 пользовательских сайта. Pro — без ограничений."
+  },
+  "onboardingPage3Link": {
+    "message": "Узнать о пользовательских сайтах"
+  },
+  "onboardingPage4Heading": {
+    "message": "Привет, я Майкл"
+  },
+  "onboardingPage4Sub": {
+    "message": "Я создал Local Time Everywhere после того, как слишком часто пропускал стендапы между тремя часовыми поясами. Он делает одну вещь и старается делать это незаметно. Без отслеживания, без всплывающих окон с продажами на каждой странице."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Один человек, строю публично на"
+  },
+  "onboardingPage5Heading": {
+    "message": "Выберите план под ваш календарь"
+  },
+  "onboardingPage5Sub": {
+    "message": "Бесплатный работает всегда на 12 сайтах по умолчанию. Pro — для продвинутых пользователей и команд."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Бесплатно"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Бесплатно"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Неограниченные конвертации на 12 сайтах по умолчанию"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12-часовой, 24-часовой или системный формат"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Встроенная метка, подсказка и значок"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "До 3 пользовательских сайтов"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/мес или $$99 навсегда"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Добавляйте неограниченные пользовательские сайты"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Смотрите все регионы в одну строку"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Синхронизируйте статус рабочих часов со Slack или Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Отправляйте конвертированное время в календарь"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Находите наименее неудобный слот для встречи"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Смотреть тарифы Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Остаться на бесплатном"
+  },
+  "onboardingPage6Heading": {
+    "message": "Готовы перестать считать в уме"
+  },
+  "onboardingPage6Sub": {
+    "message": "Откройте любой поддерживаемый сайт, и время с поясом конвертируется само."
+  },
+  "onboardingPage6Button": {
+    "message": "Начать конвертацию"
+  },
+  "onboardingSkip": {
+    "message": "Пропустить настройку"
+  },
+  "onboardingBack": {
+    "message": "Назад"
+  },
+  "onboardingNext": {
+    "message": "Далее"
+  },
+  "onboardingDone": {
+    "message": "Готово"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Перейти к шагу $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Прогресс настройки"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Прогресс настройки"
+  },
+  "onboardingPageOf": {
+    "message": "$1 из $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Сделано zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 конвертаций времени"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 конвертация времени"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 конвертаций времени"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - временно приостановлено"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

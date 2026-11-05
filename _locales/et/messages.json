@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Kohalik aeg kõikjal"
+  },
+  "extDesc": {
+    "message": "Lõpeta ajavööndite peast arvutamine. Teisenda 3pm EST, 9:00 UTC, 14:00 CET otse Calendaris, Slackis, Discordis ja GitHubis."
+  },
+  "actionTitle": {
+    "message": "Kohalik aeg kõikjal"
+  },
+  "popupTitle": {
+    "message": "Kohalik aeg kõikjal"
+  },
+  "popupStatusActive": {
+    "message": "Aktiivne"
+  },
+  "popupStatusPaused": {
+    "message": "Peatatud"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Olek: aktiivne"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Olek: sellel hostil peatatud"
+  },
+  "popupStatLabel": {
+    "message": "Sellel lehel"
+  },
+  "popupStatHintSingular": {
+    "message": "aeg teisendatud sellel vahekaardil selle seansi jooksul."
+  },
+  "popupStatHintPlural": {
+    "message": "aega teisendatud sellel vahekaardil selle seansi jooksul."
+  },
+  "popupStatAriaLabel": {
+    "message": "Sellel lehel teisendatud ajad"
+  },
+  "popupPauseOnHost": {
+    "message": "Peata sellel hostil"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Lõpeta teisendamine sellel saidil, kuni selle uuesti sisse lülitad."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Lõpeta teisendamine hostil $1, kuni selle uuesti sisse lülitad."
+  },
+  "popupShowInline": {
+    "message": "Näita reasiseseid teisendusi"
+  },
+  "popupShowInlineSub": {
+    "message": "Lisa iga ajavööndiga aja kõrvale väike kohaliku aja tähis."
+  },
+  "popupShowBadge": {
+    "message": "Näita märki"
+  },
+  "popupShowBadgeSub": {
+    "message": "Teisendatud aegade passiivne loendus lehe nurgas."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Teisendamise sätted"
+  },
+  "popupLicenseHave": {
+    "message": "Kas sul on litsentsivõti?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Litsentsivõti"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktiveeri"
+  },
+  "popupLicenseVerifying": {
+    "message": "Kontrollimine..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Sisesta esmalt litsentsivõti."
+  },
+  "popupLicenseActivated": {
+    "message": "Litsents aktiveeritud. Pro on avatud."
+  },
+  "popupLicenseFailed": {
+    "message": "Seda võtit ei õnnestunud kontrollida. Kontrolli võtit ja proovi uuesti."
+  },
+  "popupLicenseError": {
+    "message": "Kontrollimine ebaõnnestus. Proovi hetke pärast uuesti."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Loonud zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Rohkem tööriistu"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Ava kõik hostid ja ICS-eksport"
+  },
+  "popupSrActive": {
+    "message": "Teisendused on sellel hostil aktiivsed."
+  },
+  "popupSrPaused": {
+    "message": "Teisendused on sellel hostil peatatud."
+  },
+  "optionsTitle": {
+    "message": "Kohalik aeg kõikjal sätted"
+  },
+  "optionsSub": {
+    "message": "Teisenda ajavööndiga ajad otse hostidel, kuhu koosolekukutsed saabuvad."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Teisendused"
+  },
+  "optionsConversionsTitle": {
+    "message": "Saa teisendused lehele nii, nagu sulle sobib"
+  },
+  "optionsInlineTitle": {
+    "message": "Teisenda ajad lehel reasiseselt"
+  },
+  "optionsInlineSub": {
+    "message": "Lisa iga ajavööndiga aja kõrvale väike kohaliku aja tähis."
+  },
+  "optionsBadgeTitle": {
+    "message": "Hoia nurgas teisenduste passiivset loendust"
+  },
+  "optionsBadgeSub": {
+    "message": "Teisendatud aegade passiivne loendus sellel vahekaardil."
+  },
+  "optionsPauseTitle": {
+    "message": "Vaigista teisendused hostil"
+  },
+  "optionsPauseSub": {
+    "message": "Kasuta hostil Kohalik aeg kõikjal hüpikakent, et teisendused sellel konkreetsel saidil peatada või jätkata."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Ajavorming"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Süsteem"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-tunnine"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-tunnine"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Ajavormingu eelistus"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Hostid"
+  },
+  "optionsHostsTitle": {
+    "message": "Saidid, kus ajad teisendatakse"
+  },
+  "optionsHostsCountPro": {
+    "message": "Piiramatult kohandatud hoste Proga"
+  },
+  "optionsHostsCountFree": {
+    "message": "Kasutatud $1 / $2 kohandatud hostist"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Vaikehostid, teisendavad igal külastusel"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Sinu lisatud hostid, teisendavad igal külastusel"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Tasuta tase sisaldab kuni $1 kohandatud hosti. Pro avab piiramatult kohandatud hoste."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Uuenda Prole"
+  },
+  "optionsAddHostLabel": {
+    "message": "Lisa kohandatud host"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Lisa host"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Eemalda"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Eemalda kohandatud host $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Kasuta konkreetset mustrit nagu https://example.com/* või https://*.yourteam.com/*. Ära kunagi kasuta laiu metamärke <all_urls> ega *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Sisesta esmalt hostimuster."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Blokeeritud muster: $1. Kasuta konkreetset https:// mustrit."
+  },
+  "optionsHostErrScheme": {
+    "message": "Muster peab algama https:// (või http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Sellel mustril pole tegelikku hostinime."
+  },
+  "optionsHostErrMalformed": {
+    "message": "See muster on vigane."
+  },
+  "optionsHostErrPath": {
+    "message": "Lisa lõppu tee metamärk (nt /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "See host on juba sinu loendis."
+  },
+  "optionsHostErrDefault": {
+    "message": "See host on juba vaikeloendis."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Tasuta tase on piiratud $1 kohandatud hostiga. Uuenda, et lisada rohkem."
+  },
+  "optionsHostErrPermission": {
+    "message": "Luba pole antud. Hosti ei lisatud."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Selle hosti jaoks ei õnnestunud luba küsida."
+  },
+  "optionsHostAdded": {
+    "message": "$1 lisatud. Skannimiseks laadi sellel hostil avatud vahekaardid uuesti."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 eemaldatud."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Teisenda ajad kõigil kasutatavatel hostidel"
+  },
+  "optionsProFeature1Title": {
+    "message": "Saa iga piirkond ühele reale"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Näita 3pm EST, 12pm PST, 8pm GMT ühel real."
+  },
+  "optionsProFeature2Title": {
+    "message": "Hoia meeskonnakaaslased oma tööajaga kursis"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Postita Slacki või Discordi olek. Ainult nõusolekul."
+  },
+  "optionsProFeature3Title": {
+    "message": "Saada kalendrikutsed teisendatud ajaga"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopeeri õige ajaakna .ics-kutse."
+  },
+  "optionsProFeature4Title": {
+    "message": "Leia kõige valutum koosolekuaeg"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Võrdle ajavööndeid kõrvuti ja vali kõige sõbralikum."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro-funktsioon, lukustatud"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Vaata Pro-pakette"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Teisenda iga host Proga"
+  },
+  "optionsPaywallPitch": {
+    "message": "Võimsatele kasutajatele ja meeskondadele, kes elavad üle ajavööndite."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/kuus"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 eluaegne"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Üks hind, sinu valik. Tühista igal ajal."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Piiramatult kohandatud hoste (tasuta piir on 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Mitmepiirkonna vorming, näita kõiki ajavööndeid korraga"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Tööaja oleku sünkroonimine Slacki ja Discordiga"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS-kalendri eksport teisendatud aegadega"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Parima kattuvuse koosolekusoovitaja"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Hangi Pro, $$99 eluaegne"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Või $$4.99/kuus"
+  },
+  "optionsPaywallNote": {
+    "message": "Üks makse või üks tellimus. Aktiveerib Pro selles laienduses igaveseks."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-päevane raha-tagasi-garantii. Kui Pro pole seda väärt, tagastame raha, küsimusi esitamata."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Tasuta vs. Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Saada teisendatud ajad oma kalendrisse"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopeeri .ics-kutse, kuhu on lisatud kohalik aeg. Pro eelvaade, siin nähtaval, et teaksid, mis avaneb."
+  },
+  "optionsIcsExportCta": {
+    "message": "Ekspordi .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Ava Proga"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Litsents"
+  },
+  "optionsLicenseTitle": {
+    "message": "Aktiveeri või eemalda võti"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktiivne."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Kehtiv kuni $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Eluaegne litsents."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deaktiveeri"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Litsents deaktiveeritud. Tagasi tasuta tasemel."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privaatsus"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Hoia oma andmed selles seadmes"
+  },
+  "optionsPrivacyBody": {
+    "message": "Kohalik aeg kõikjal töötab täielikult sinu seadmes. See loeb teksti ülal loetletud hostidel ainsa eesmärgiga teisendada ajavööndiga aegu. Lehe sisu, sirvimisajalugu ega profiiliandmeid ei saadeta kunagi kuhugi. Ainus võrgupäring toimub siis, kui sisestad litsentsivõtme, ja saadetakse vaid võti ise."
+  },
+  "optionsPrivacyExport": {
+    "message": "Ekspordi minu andmed"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Kustuta kõik andmed"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Eksporditud $1 võti (võtit) sinu allalaadimistesse."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Eksport ebaõnnestus. Palun proovi uuesti."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Kustutada kõik Kohalik aeg kõikjal andmed sellest seadmest? Seda ei saa tagasi võtta."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Kõik Kohalik aeg kõikjal andmed on sellest seadmest kustutatud."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Kustutamine ebaõnnestus. Palun proovi uuesti."
+  },
+  "optionsAboutLine": {
+    "message": "Kohalik aeg kõikjal v1.0.0, Zovo. Ei ole seotud Google'i, Microsofti, Discordi, Slacki ega GitHubiga."
+  },
+  "optionsSrProActive": {
+    "message": "Pro-litsents aktiivne."
+  },
+  "optionsSrFree": {
+    "message": "Tasuta tase."
+  },
+  "onboardingPage1Heading": {
+    "message": "Lõpeta ajavööndite peast arvutamine"
+  },
+  "onboardingPage1Sub": {
+    "message": "Koosolekukutsed näitavad üht ajavööndit. Kõik teised arvutavad selle peast. Mõned eksivad."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berliin, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, homme 07:00"
+  },
+  "onboardingPage1Button": {
+    "message": "Vaata lahendust"
+  },
+  "onboardingEyebrow": {
+    "message": "Kohalik aeg kõikjal"
+  },
+  "onboardingPage2Heading": {
+    "message": "Vaata, kuidas ajavööndiga aeg teisendub sinu omaks"
+  },
+  "onboardingPage2Sub": {
+    "message": "Siin on päris Slacki sõnum. Klõpsa nuppu ja sama hetk kuvatakse sinu kohalikus ajas."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Näita minu kohalikku aega"
+  },
+  "onboardingPage2Continue": {
+    "message": "Jätka"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Teisendamiseks klõpsa üleval."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 sinu aeg ($2). Arvutamist pole vaja."
+  },
+  "onboardingPage3Heading": {
+    "message": "Kus see töötab"
+  },
+  "onboardingPage3Sub": {
+    "message": "Need 12 hosti on vaikimisi sisse lülitatud. Ava mõni neist ja ajavööndiga ajad teisenevad reasiseselt, kohtspikris või märgina."
+  },
+  "onboardingPage3Hint": {
+    "message": "Vajad veel üht hosti? Tasuta tase katab 3 kohandatud hosti. Pro on piiramatu."
+  },
+  "onboardingPage3Link": {
+    "message": "Loe kohandatud hostide kohta"
+  },
+  "onboardingPage4Heading": {
+    "message": "Tere, mina olen Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Lõin Kohalik aeg kõikjal pärast liiga paljusid mahamagatud standupe üle kolme ajavööndi. See teeb üht asja ja püüab seda vaikselt teha. Ei jälgimist ega müügi-hüpikaknaid igal lehel."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Üks inimene, ehitab avalikult aadressil"
+  },
+  "onboardingPage5Heading": {
+    "message": "Vali pakett, mis sobib sinu kalendriga"
+  },
+  "onboardingPage5Sub": {
+    "message": "Tasuta töötab igavesti 12 vaikehostil. Pro on võimsatele kasutajatele ja meeskondadele."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Tasuta"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Tasuta"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Piiramatud teisendused 12 vaikehostil"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12-tunnine, 24-tunnine või süsteemi vorming"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Reasisene tähis, kohtspikker ja märk"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Kuni 3 kohandatud hosti"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/kuus või $$99 eluaegne"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Lisa piiramatult kohandatud hoste"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Näe iga piirkonda ühel real"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Sünkrooni tööaja olek Slacki või Discordiga"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Saada teisendatud ajad oma kalendrisse"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Leia kõige valutum koosolekuaeg"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Vaata Pro-pakette"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Jää Tasuta juurde"
+  },
+  "onboardingPage6Heading": {
+    "message": "Valmis lõpetama peast arvutamist"
+  },
+  "onboardingPage6Sub": {
+    "message": "Ava mõni toetatud host ja ajavööndiga ajad teisenevad ise."
+  },
+  "onboardingPage6Button": {
+    "message": "Alusta teisendamist"
+  },
+  "onboardingSkip": {
+    "message": "Jäta seadistus vahele"
+  },
+  "onboardingBack": {
+    "message": "Tagasi"
+  },
+  "onboardingNext": {
+    "message": "Edasi"
+  },
+  "onboardingDone": {
+    "message": "Valmis"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Mine sammule $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Sisseelamise edenemine"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Sisseelamise edenemine"
+  },
+  "onboardingPageOf": {
+    "message": "$1 / $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Loonud zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 aega teisendatud"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 aeg teisendatud"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 aega teisendatud"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Kohalik aeg - ajutiselt peatatud"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

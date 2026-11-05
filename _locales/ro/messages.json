@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Nu mai calcula fusurile orare în minte. Convertește 3pm EST, 9:00 UTC, 14:00 CET direct în Calendar, Slack, Discord și GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Activ"
+  },
+  "popupStatusPaused": {
+    "message": "Întrerupt"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Stare: activ"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Stare: întrerupt pe acest host"
+  },
+  "popupStatLabel": {
+    "message": "Pe această pagină"
+  },
+  "popupStatHintSingular": {
+    "message": "oră convertită pe această filă în această sesiune."
+  },
+  "popupStatHintPlural": {
+    "message": "ore convertite pe această filă în această sesiune."
+  },
+  "popupStatAriaLabel": {
+    "message": "Ore convertite pe această pagină"
+  },
+  "popupPauseOnHost": {
+    "message": "Întrerupe pe acest host"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Oprește conversia pe acest site până când o reactivezi."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Oprește conversia pe $1 până când o reactivezi."
+  },
+  "popupShowInline": {
+    "message": "Afișează conversiile în linie"
+  },
+  "popupShowInlineSub": {
+    "message": "Adaugă un mic marcaj de oră locală lângă fiecare oră cu fus orar."
+  },
+  "popupShowBadge": {
+    "message": "Afișează insigna"
+  },
+  "popupShowBadgeSub": {
+    "message": "Numărare pasivă a orelor convertite în colțul paginii."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Setări de conversie"
+  },
+  "popupLicenseHave": {
+    "message": "Ai o cheie de licență?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Cheie de licență"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Activează"
+  },
+  "popupLicenseVerifying": {
+    "message": "Se verifică..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Introdu mai întâi o cheie de licență."
+  },
+  "popupLicenseActivated": {
+    "message": "Licență activată. Pro deblocat."
+  },
+  "popupLicenseFailed": {
+    "message": "Cheia nu a fost verificată. Verifică cheia și încearcă din nou."
+  },
+  "popupLicenseError": {
+    "message": "Verificarea a eșuat. Încearcă din nou într-o clipă."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Creat de zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Mai multe instrumente"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Deblochează fiecare host și exportul ICS"
+  },
+  "popupSrActive": {
+    "message": "Conversii active pe acest host."
+  },
+  "popupSrPaused": {
+    "message": "Conversii întrerupte pe acest host."
+  },
+  "optionsTitle": {
+    "message": "Setări Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Convertește orele cu fus orar direct pe hosturile unde ajung invitațiile la întâlniri."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Conversii"
+  },
+  "optionsConversionsTitle": {
+    "message": "Obține conversii pe pagină, în felul tău"
+  },
+  "optionsInlineTitle": {
+    "message": "Convertește orele în linie pe pagină"
+  },
+  "optionsInlineSub": {
+    "message": "Adaugă un mic marcaj de oră locală lângă fiecare oră cu fus orar."
+  },
+  "optionsBadgeTitle": {
+    "message": "Păstrează o numărare pasivă a conversiilor în colț"
+  },
+  "optionsBadgeSub": {
+    "message": "Numărare pasivă a orelor convertite pe această filă."
+  },
+  "optionsPauseTitle": {
+    "message": "Dezactivează conversiile pe un host"
+  },
+  "optionsPauseSub": {
+    "message": "Folosește fereastra Local Time Everywhere pe un host pentru a întrerupe sau relua conversiile pe acel site specific."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Format oră"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Sistem"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 ore"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 de ore"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Preferință format oră"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Hosturi"
+  },
+  "optionsHostsTitle": {
+    "message": "Site-uri unde orele sunt convertite"
+  },
+  "optionsHostsCountPro": {
+    "message": "Hosturi personalizate nelimitate cu Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 din $2 hosturi personalizate folosite"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Hosturi implicite, conversie la fiecare vizită"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Hosturi adăugate de tine, conversie la fiecare vizită"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Nivelul gratuit include până la $1 hosturi personalizate. Pro deblochează hosturi personalizate nelimitate."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Treci la Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Adaugă un host personalizat"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Adaugă host"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Elimină"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Elimină hostul personalizat $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Folosește un tipar specific precum https://example.com/* sau https://*.yourteam.com/*. Nu folosi niciodată metacaracterele largi <all_urls> sau *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Introdu mai întâi un tipar de host."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Tipar blocat: $1. Folosește un tipar https:// specific."
+  },
+  "optionsHostErrScheme": {
+    "message": "Tiparul trebuie să înceapă cu https:// (sau http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Acel tipar nu are un nume de host real."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Acel tipar este malformat."
+  },
+  "optionsHostErrPath": {
+    "message": "Adaugă un metacaracter de cale la final (ex. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Acel host este deja pe lista ta."
+  },
+  "optionsHostErrDefault": {
+    "message": "Acel host este deja pe lista implicită."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Nivelul gratuit este limitat la $1 hosturi personalizate. Treci la Pro pentru a adăuga mai multe."
+  },
+  "optionsHostErrPermission": {
+    "message": "Permisiune neacordată. Hostul nu a fost adăugat."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Nu s-a putut solicita permisiunea pentru acel host."
+  },
+  "optionsHostAdded": {
+    "message": "$1 adăugat. Reîncarcă filele deschise pe acel host pentru a le scana."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 eliminat."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Convertește orele pe fiecare host pe care îl folosești"
+  },
+  "optionsProFeature1Title": {
+    "message": "Obține fiecare regiune pe un singur rând"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Afișează 3pm EST, 12pm PST, 8pm GMT pe un singur rând."
+  },
+  "optionsProFeature2Title": {
+    "message": "Menține colegii sincronizați cu programul tău de lucru"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Setează o stare în Slack sau Discord. Doar cu acordul tău."
+  },
+  "optionsProFeature3Title": {
+    "message": "Trimite invitații de calendar cu ora convertită"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Copiază o invitație .ics pentru intervalul potrivit."
+  },
+  "optionsProFeature4Title": {
+    "message": "Găsește cel mai puțin dificil interval pentru întâlnire"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Compară fusurile unul lângă altul și alege-l pe cel convenabil."
+  },
+  "optionsProLockLabel": {
+    "message": "Funcție Pro, blocată"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Vezi planurile Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Convertește fiecare host cu Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Pentru utilizatori avansați și echipe care trăiesc în fusuri orare diferite."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/lună"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 pe viață"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Un preț, alegerea ta. Anulează oricând."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Hosturi personalizate nelimitate (gratuit limitat la 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Format multi-regiune, afișează toate fusurile deodată"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Sincronizare stare program de lucru cu Slack și Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Export calendar ICS cu orele convertite"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Sugestie de întâlnire cu cea mai bună suprapunere"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Obține Pro, $$99 pe viață"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Sau $$4.99/lună"
+  },
+  "optionsPaywallNote": {
+    "message": "O singură plată sau un singur abonament. Activează Pro în această extensie pentru totdeauna."
+  },
+  "optionsPaywallRefund": {
+    "message": "Garanție de returnare a banilor în 14 zile. Dacă Pro nu merită, returnăm banii, fără întrebări."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Gratuit vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Trimite orele convertite în calendarul tău"
+  },
+  "optionsIcsExportSub": {
+    "message": "Copiază o invitație .ics cu ora locală inclusă. Previzualizare Pro, vizibilă aici ca să știi ce deblochezi."
+  },
+  "optionsIcsExportCta": {
+    "message": "Exportă .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Deblochează în Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Licență"
+  },
+  "optionsLicenseTitle": {
+    "message": "Activează sau elimină o cheie"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro activ."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Valabil până la $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Licență pe viață."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Dezactivează"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Licență dezactivată. Înapoi la nivelul gratuit."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Confidențialitate"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Păstrează-ți datele pe acest dispozitiv"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere rulează în întregime pe dispozitivul tău. Citește textul de pe hosturile listate mai sus în scopul unic de a converti orele cu fus orar. Niciun conținut de pagină, istoric de navigare sau date de profil nu sunt trimise vreodată nicăieri. Singura cerere de rețea are loc atunci când introduci o cheie de licență și doar cheia în sine este trimisă."
+  },
+  "optionsPrivacyExport": {
+    "message": "Exportă datele mele"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Șterge toate datele"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "S-au exportat $1 cheie(i) în descărcările tale."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Exportul a eșuat. Te rugăm să încerci din nou."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Ștergi toate datele Local Time Everywhere de pe acest dispozitiv? Această acțiune nu poate fi anulată."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Toate datele Local Time Everywhere au fost șterse de pe acest dispozitiv."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Ștergerea a eșuat. Te rugăm să încerci din nou."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, de Zovo. Neafiliat cu Google, Microsoft, Discord, Slack sau GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Licență Pro activă."
+  },
+  "optionsSrFree": {
+    "message": "Nivel gratuit."
+  },
+  "onboardingPage1Heading": {
+    "message": "Nu mai calcula fusurile orare în minte"
+  },
+  "onboardingPage1Sub": {
+    "message": "Invitațiile la întâlniri arată un singur fus orar. Toți ceilalți calculează în minte. Unii greșesc."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 0:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7:00 mâine"
+  },
+  "onboardingPage1Button": {
+    "message": "Vezi soluția"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Privește cum o oră cu fus orar se convertește în a ta"
+  },
+  "onboardingPage2Sub": {
+    "message": "Iată un mesaj Slack real. Apasă butonul și același moment apare în ora ta locală."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Vezi ora mea locală"
+  },
+  "onboardingPage2Continue": {
+    "message": "Continuă"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Apasă mai sus pentru a converti."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 ora ta ($2). Fără calcule."
+  },
+  "onboardingPage3Heading": {
+    "message": "Unde funcționează"
+  },
+  "onboardingPage3Sub": {
+    "message": "Aceste 12 hosturi sunt activate implicit. Deschide oricare dintre ele și orele cu fus orar se convertesc în linie, într-o casetă sau ca insignă."
+  },
+  "onboardingPage3Hint": {
+    "message": "Ai nevoie de alt host? Nivelul gratuit acoperă 3 hosturi personalizate. Pro este nelimitat."
+  },
+  "onboardingPage3Link": {
+    "message": "Află despre hosturile personalizate"
+  },
+  "onboardingPage4Heading": {
+    "message": "Bună, sunt Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Am creat Local Time Everywhere după prea multe întâlniri standup ratate în trei fusuri orare. Face un singur lucru și încearcă să-l facă discret. Fără urmărire, fără ferestre de upgrade pe fiecare pagină."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "O singură persoană, construind public pe"
+  },
+  "onboardingPage5Heading": {
+    "message": "Alege planul care se potrivește calendarului tău"
+  },
+  "onboardingPage5Sub": {
+    "message": "Gratuit funcționează mereu pe cele 12 hosturi implicite. Pro este pentru utilizatori avansați și echipe."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Gratuit"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Gratuit"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Conversii nelimitate pe 12 hosturi implicite"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Format 12h, 24h sau de sistem"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Marcaj în linie, casetă și insignă"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Până la 3 hosturi personalizate"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/lună sau $$99 pe viață"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Adaugă hosturi personalizate nelimitate"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Vezi fiecare regiune pe un singur rând"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Sincronizează starea programului de lucru cu Slack sau Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Trimite orele convertite în calendarul tău"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Găsește cel mai puțin dificil interval pentru întâlnire"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Vezi planurile Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Rămâi pe Gratuit"
+  },
+  "onboardingPage6Heading": {
+    "message": "Gata să nu mai calculezi în minte"
+  },
+  "onboardingPage6Sub": {
+    "message": "Deschide orice host acceptat și orele cu fus orar se vor converti singure."
+  },
+  "onboardingPage6Button": {
+    "message": "Începe conversia"
+  },
+  "onboardingSkip": {
+    "message": "Sari peste configurare"
+  },
+  "onboardingBack": {
+    "message": "Înapoi"
+  },
+  "onboardingNext": {
+    "message": "Următorul"
+  },
+  "onboardingDone": {
+    "message": "Gata"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Mergi la pasul $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Progresul configurării"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Progresul configurării"
+  },
+  "onboardingPageOf": {
+    "message": "$1 din $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Creat de zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 ore convertite"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 oră convertită"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 ore convertite"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - întrerupt temporar"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

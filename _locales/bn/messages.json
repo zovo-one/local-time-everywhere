@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "মাথায় টাইমজোন হিসাব করা বন্ধ করুন। Calendar, Slack, Discord, GitHub-এ 3pm EST, 9:00 UTC, 14:00 CET ইনলাইনে রূপান্তর করুন।"
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "সক্রিয়"
+  },
+  "popupStatusPaused": {
+    "message": "বিরতিতে"
+  },
+  "popupStatusActiveLabel": {
+    "message": "স্ট্যাটাস: সক্রিয়"
+  },
+  "popupStatusPausedLabel": {
+    "message": "স্ট্যাটাস: এই হোস্টে বিরতিতে"
+  },
+  "popupStatLabel": {
+    "message": "এই পৃষ্ঠায়"
+  },
+  "popupStatHintSingular": {
+    "message": "বার এই সেশনে এই ট্যাবে রূপান্তরিত হয়েছে।"
+  },
+  "popupStatHintPlural": {
+    "message": "বার এই সেশনে এই ট্যাবে রূপান্তরিত হয়েছে।"
+  },
+  "popupStatAriaLabel": {
+    "message": "এই পৃষ্ঠায় রূপান্তরিত সময়"
+  },
+  "popupPauseOnHost": {
+    "message": "এই হোস্টে বিরতি দিন"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "আবার চালু না করা পর্যন্ত এই সাইটে রূপান্তর বন্ধ করুন।"
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "আবার চালু না করা পর্যন্ত $1-এ রূপান্তর বন্ধ করুন।"
+  },
+  "popupShowInline": {
+    "message": "ইনলাইন রূপান্তর দেখান"
+  },
+  "popupShowInlineSub": {
+    "message": "প্রতিটি জোনভিত্তিক সময়ের পাশে একটি ছোট স্থানীয় সময়ের চিহ্ন যোগ করুন।"
+  },
+  "popupShowBadge": {
+    "message": "ব্যাজ দেখান"
+  },
+  "popupShowBadgeSub": {
+    "message": "পৃষ্ঠার কোণে রূপান্তরিত সময়ের নিষ্ক্রিয় গণনা।"
+  },
+  "popupSettingsAriaLabel": {
+    "message": "রূপান্তর সেটিংস"
+  },
+  "popupLicenseHave": {
+    "message": "লাইসেন্স কী আছে?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "লাইসেন্স কী"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "সক্রিয় করুন"
+  },
+  "popupLicenseVerifying": {
+    "message": "যাচাই করা হচ্ছে..."
+  },
+  "popupLicenseEmpty": {
+    "message": "প্রথমে একটি লাইসেন্স কী লিখুন।"
+  },
+  "popupLicenseActivated": {
+    "message": "লাইসেন্স সক্রিয় হয়েছে। Pro আনলক হয়েছে।"
+  },
+  "popupLicenseFailed": {
+    "message": "সেই কীটি যাচাই হয়নি। কীটি পরীক্ষা করে আবার চেষ্টা করুন।"
+  },
+  "popupLicenseError": {
+    "message": "যাচাই ব্যর্থ হয়েছে। একটু পরে আবার চেষ্টা করুন।"
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one দ্বারা নির্মিত"
+  },
+  "popupFooterMoreTools": {
+    "message": "আরও টুল"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "প্রতিটি হোস্ট এবং ICS এক্সপোর্ট আনলক করুন"
+  },
+  "popupSrActive": {
+    "message": "এই হোস্টে রূপান্তর সক্রিয়।"
+  },
+  "popupSrPaused": {
+    "message": "এই হোস্টে রূপান্তর বিরতিতে।"
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere সেটিংস"
+  },
+  "optionsSub": {
+    "message": "যেসব হোস্টে মিটিং আমন্ত্রণ আসে সেখানে জোনভিত্তিক সময় ইনলাইনে রূপান্তর করুন।"
+  },
+  "optionsEyebrowConversions": {
+    "message": "রূপান্তর"
+  },
+  "optionsConversionsTitle": {
+    "message": "আপনার পছন্দমতো পৃষ্ঠায় রূপান্তর পান"
+  },
+  "optionsInlineTitle": {
+    "message": "পৃষ্ঠায় সময় ইনলাইনে রূপান্তর করুন"
+  },
+  "optionsInlineSub": {
+    "message": "প্রতিটি জোনভিত্তিক সময়ের পাশে একটি ছোট স্থানীয় সময়ের চিহ্ন যোগ করুন।"
+  },
+  "optionsBadgeTitle": {
+    "message": "কোণে রূপান্তরের নিষ্ক্রিয় গণনা রাখুন"
+  },
+  "optionsBadgeSub": {
+    "message": "এই ট্যাবে রূপান্তরিত সময়ের নিষ্ক্রিয় গণনা।"
+  },
+  "optionsPauseTitle": {
+    "message": "কোনো হোস্টে রূপান্তর নিঃশব্দ করুন"
+  },
+  "optionsPauseSub": {
+    "message": "সেই নির্দিষ্ট সাইটে রূপান্তর বিরতি বা পুনরায় শুরু করতে হোস্টে Local Time Everywhere পপআপ ব্যবহার করুন।"
+  },
+  "optionsTimeFormatLabel": {
+    "message": "সময় ফরম্যাট"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "সিস্টেম"
+  },
+  "optionsTimeFormat12h": {
+    "message": "১২-ঘণ্টা"
+  },
+  "optionsTimeFormat24h": {
+    "message": "২৪-ঘণ্টা"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "সময় ফরম্যাট পছন্দ"
+  },
+  "optionsEyebrowHosts": {
+    "message": "হোস্ট"
+  },
+  "optionsHostsTitle": {
+    "message": "যেসব সাইটে সময় রূপান্তরিত হয়"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro দিয়ে সীমাহীন কাস্টম হোস্ট"
+  },
+  "optionsHostsCountFree": {
+    "message": "$2টি কাস্টম হোস্টের মধ্যে $1টি ব্যবহৃত"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "ডিফল্ট হোস্ট, প্রতিটি ভিজিটে রূপান্তর করে"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "আপনার যোগ করা হোস্ট, প্রতিটি ভিজিটে রূপান্তর করে"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "বিনামূল্যের টিয়ারে সর্বোচ্চ $1টি কাস্টম হোস্ট অন্তর্ভুক্ত। Pro সীমাহীন কাস্টম হোস্ট আনলক করে।"
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro-তে আপগ্রেড করুন"
+  },
+  "optionsAddHostLabel": {
+    "message": "একটি কাস্টম হোস্ট যোগ করুন"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "হোস্ট যোগ করুন"
+  },
+  "optionsRemoveHostButton": {
+    "message": "সরান"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "কাস্টম হোস্ট $1 সরান"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* বা https://*.yourteam.com/*-এর মতো একটি নির্দিষ্ট প্যাটার্ন ব্যবহার করুন। কখনও <all_urls> বা *://*/* এর মতো বিস্তৃত ওয়াইল্ডকার্ড ব্যবহার করবেন না।"
+  },
+  "optionsHostErrEmpty": {
+    "message": "প্রথমে একটি হোস্ট প্যাটার্ন লিখুন।"
+  },
+  "optionsHostErrBlocked": {
+    "message": "ব্লক করা প্যাটার্ন: $1। একটি নির্দিষ্ট https:// প্যাটার্ন ব্যবহার করুন।"
+  },
+  "optionsHostErrScheme": {
+    "message": "প্যাটার্ন অবশ্যই https:// (বা http://) দিয়ে শুরু হতে হবে।"
+  },
+  "optionsHostErrHostname": {
+    "message": "সেই প্যাটার্নে কোনো আসল হোস্টনেম নেই।"
+  },
+  "optionsHostErrMalformed": {
+    "message": "সেই প্যাটার্নটি ত্রুটিপূর্ণ।"
+  },
+  "optionsHostErrPath": {
+    "message": "শেষে একটি পাথ ওয়াইল্ডকার্ড যোগ করুন (যেমন /*)।"
+  },
+  "optionsHostErrDuplicate": {
+    "message": "সেই হোস্টটি ইতিমধ্যে আপনার তালিকায় আছে।"
+  },
+  "optionsHostErrDefault": {
+    "message": "সেই হোস্টটি ইতিমধ্যে ডিফল্ট তালিকায় আছে।"
+  },
+  "optionsHostErrCapHit": {
+    "message": "বিনামূল্যের টিয়ার $1টি কাস্টম হোস্টে সীমাবদ্ধ। আরও যোগ করতে আপগ্রেড করুন।"
+  },
+  "optionsHostErrPermission": {
+    "message": "অনুমতি দেওয়া হয়নি। হোস্টটি যোগ করা হয়নি।"
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "সেই হোস্টের জন্য অনুমতি চাওয়া যায়নি।"
+  },
+  "optionsHostAdded": {
+    "message": "$1 যোগ করা হয়েছে। স্ক্যান করতে সেই হোস্টের খোলা ট্যাবগুলো রিলোড করুন।"
+  },
+  "optionsHostRemoved": {
+    "message": "$1 সরানো হয়েছে।"
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "আপনার ব্যবহৃত প্রতিটি হোস্টে সময় রূপান্তর করুন"
+  },
+  "optionsProFeature1Title": {
+    "message": "প্রতিটি অঞ্চল এক লাইনে পান"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST, 12pm PST, 8pm GMT এক লাইনে দেখান।"
+  },
+  "optionsProFeature2Title": {
+    "message": "আপনার কর্মঘণ্টার সাথে সহকর্মীদের সিঙ্কে রাখুন"
+  },
+  "optionsProFeature2Sub": {
+    "message": "একটি Slack বা Discord স্ট্যাটাস পুশ করুন। শুধুমাত্র অপ্ট-ইন।"
+  },
+  "optionsProFeature3Title": {
+    "message": "রূপান্তরিত সময় সহ ক্যালেন্ডার আমন্ত্রণ পাঠান"
+  },
+  "optionsProFeature3Sub": {
+    "message": "সঠিক স্লটের জন্য একটি .ics আমন্ত্রণ কপি করুন।"
+  },
+  "optionsProFeature4Title": {
+    "message": "সবচেয়ে কম কষ্টকর মিটিং স্লট খুঁজুন"
+  },
+  "optionsProFeature4Sub": {
+    "message": "অঞ্চলগুলো পাশাপাশি তুলনা করুন এবং সুবিধাজনকটি বেছে নিন।"
+  },
+  "optionsProLockLabel": {
+    "message": "Pro ফিচার, লকড"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro প্ল্যান দেখুন"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro দিয়ে প্রতিটি হোস্ট রূপান্তর করুন"
+  },
+  "optionsPaywallPitch": {
+    "message": "টাইমজোন জুড়ে বসবাসকারী পাওয়ার ইউজার এবং টিমের জন্য।"
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/মাস"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 আজীবন"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "একটি দাম, আপনার পছন্দ। যেকোনো সময় বাতিল করুন।"
+  },
+  "optionsPaywallBenefit1": {
+    "message": "সীমাহীন কাস্টম হোস্ট (বিনামূল্যে ৩টিতে সীমাবদ্ধ)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "মাল্টি-রিজিয়ন ফরম্যাট, সব অঞ্চল একসাথে দেখান"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack এবং Discord কর্মঘণ্টা স্ট্যাটাস সিঙ্ক"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "রূপান্তরিত সময় সহ ICS ক্যালেন্ডার এক্সপোর্ট"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "সেরা-ওভারল্যাপ মিটিং সাজেস্টার"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro নিন, $$99 আজীবন"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "অথবা $$4.99/মাস"
+  },
+  "optionsPaywallNote": {
+    "message": "একটি পেমেন্ট বা একটি সাবস্ক্রিপশন। এই এক্সটেনশনে Pro চিরতরে সক্রিয় করে।"
+  },
+  "optionsPaywallRefund": {
+    "message": "১৪ দিনের মানি-ব্যাক গ্যারান্টি। Pro যদি উপযুক্ত না হয়, আমরা কোনো প্রশ্ন ছাড়াই ফেরত দিই।"
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Free বনাম Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "রূপান্তরিত সময় আপনার ক্যালেন্ডারে পাঠান"
+  },
+  "optionsIcsExportSub": {
+    "message": "স্থানীয় সময় অন্তর্ভুক্ত একটি .ics আমন্ত্রণ কপি করুন। Pro পিক, এখানে দৃশ্যমান যাতে আপনি জানেন কী আনলক হয়।"
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics এক্সপোর্ট করুন"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro-তে আনলক করুন"
+  },
+  "optionsEyebrowLicense": {
+    "message": "লাইসেন্স"
+  },
+  "optionsLicenseTitle": {
+    "message": "একটি কী সক্রিয় বা সরান"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro সক্রিয়।"
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1 পর্যন্ত বৈধ।"
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "আজীবন লাইসেন্স।"
+  },
+  "optionsLicenseDeactivate": {
+    "message": "নিষ্ক্রিয় করুন"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "লাইসেন্স নিষ্ক্রিয় হয়েছে। বিনামূল্যের টিয়ারে ফিরে গেছে।"
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "গোপনীয়তা"
+  },
+  "optionsPrivacyTitle": {
+    "message": "আপনার ডেটা এই ডিভাইসে রাখুন"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere সম্পূর্ণরূপে আপনার ডিভাইসে চলে। এটি উপরে তালিকাভুক্ত হোস্টগুলোর টেক্সট শুধুমাত্র জোনভিত্তিক সময় রূপান্তরের উদ্দেশ্যে পড়ে। কোনো পৃষ্ঠার কন্টেন্ট, ব্রাউজিং ইতিহাস বা প্রোফাইল ডেটা কখনও কোথাও পাঠানো হয় না। একমাত্র নেটওয়ার্ক অনুরোধ ঘটে যখন আপনি একটি লাইসেন্স কী লেখেন, এবং শুধুমাত্র কীটিই পাঠানো হয়।"
+  },
+  "optionsPrivacyExport": {
+    "message": "আমার ডেটা এক্সপোর্ট করুন"
+  },
+  "optionsPrivacyDelete": {
+    "message": "সব ডেটা মুছুন"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1টি কী আপনার ডাউনলোডে এক্সপোর্ট করা হয়েছে।"
+  },
+  "optionsPrivacyExportErr": {
+    "message": "এক্সপোর্ট ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "এই ডিভাইস থেকে সব Local Time Everywhere ডেটা মুছবেন? এটি আর ফেরানো যাবে না।"
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "এই ডিভাইস থেকে সব Local Time Everywhere ডেটা মুছে ফেলা হয়েছে।"
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "মুছে ফেলা ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, Zovo দ্বারা। Google, Microsoft, Discord, Slack বা GitHub-এর সাথে সম্পর্কিত নয়।"
+  },
+  "optionsSrProActive": {
+    "message": "Pro লাইসেন্স সক্রিয়।"
+  },
+  "optionsSrFree": {
+    "message": "বিনামূল্যের টিয়ার।"
+  },
+  "onboardingPage1Heading": {
+    "message": "মাথায় টাইমজোন হিসাব করা বন্ধ করুন"
+  },
+  "onboardingPage1Sub": {
+    "message": "মিটিং আমন্ত্রণ একটি টাইমজোন দেখায়। বাকি সবাই মাথায় হিসাব করে। কেউ কেউ ভুল করে।"
+  },
+  "onboardingPage1Berlin": {
+    "message": "বার্লিন, রাত ৯টা"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "মুম্বাই, রাত ১২:৩০"
+  },
+  "onboardingPage1Sydney": {
+    "message": "সিডনি, আগামীকাল সকাল ৭টা"
+  },
+  "onboardingPage1Button": {
+    "message": "সমাধান দেখুন"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "একটি জোনভিত্তিক সময় আপনার সময়ে রূপান্তরিত হতে দেখুন"
+  },
+  "onboardingPage2Sub": {
+    "message": "এটি একটি আসল Slack বার্তা। বোতামটি ক্লিক করুন এবং একই মুহূর্ত আপনার স্থানীয় সময়ে দেখা যাবে।"
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "আমার স্থানীয় সময় দেখুন"
+  },
+  "onboardingPage2Continue": {
+    "message": "চালিয়ে যান"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "রূপান্তর করতে উপরে ক্লিক করুন।"
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 আপনার সময়ে ($2)। কোনো হিসাবের প্রয়োজন নেই।"
+  },
+  "onboardingPage3Heading": {
+    "message": "কোথায় চলে"
+  },
+  "onboardingPage3Sub": {
+    "message": "এই ১২টি হোস্ট ডিফল্টভাবে চালু। এদের যেকোনোটি খুলুন এবং জোনভিত্তিক সময় ইনলাইনে, টুলটিপে বা ব্যাজ হিসেবে রূপান্তরিত হয়।"
+  },
+  "onboardingPage3Hint": {
+    "message": "আরেকটি হোস্ট দরকার? বিনামূল্যের টিয়ার ৩টি কাস্টম হোস্ট কভার করে। Pro সীমাহীন।"
+  },
+  "onboardingPage3Link": {
+    "message": "কাস্টম হোস্ট সম্পর্কে জানুন"
+  },
+  "onboardingPage4Heading": {
+    "message": "হাই, আমি Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "তিনটি টাইমজোন জুড়ে বহু স্ট্যান্ডআপ মিস করার পর আমি Local Time Everywhere তৈরি করেছি। এটি একটি কাজ করে এবং তা নীরবে করার চেষ্টা করে। কোনো ট্র্যাকিং নেই, প্রতিটি পৃষ্ঠায় আপসেল পপআপ নেই।"
+  },
+  "onboardingPage4SubMuted": {
+    "message": "একজন মানুষ, প্রকাশ্যে তৈরি করছেন"
+  },
+  "onboardingPage5Heading": {
+    "message": "আপনার ক্যালেন্ডারে মানানসই প্ল্যান নিন"
+  },
+  "onboardingPage5Sub": {
+    "message": "বিনামূল্যে ১২টি ডিফল্ট হোস্টে চিরকাল কাজ করে। Pro পাওয়ার ইউজার এবং টিমের জন্য।"
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "বিনামূল্যে"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "১২টি ডিফল্ট হোস্টে সীমাহীন রূপান্তর"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "১২ঘ, ২৪ঘ বা সিস্টেম ফরম্যাট"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "ইনলাইন মার্কার, টুলটিপ এবং ব্যাজ"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "সর্বোচ্চ ৩টি কাস্টম হোস্ট"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/মাস বা $$99 আজীবন"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "সীমাহীন কাস্টম হোস্ট যোগ করুন"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "প্রতিটি অঞ্চল এক লাইনে দেখুন"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "কর্মঘণ্টা স্ট্যাটাস Slack বা Discord-এ সিঙ্ক করুন"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "রূপান্তরিত সময় আপনার ক্যালেন্ডারে পাঠান"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "সবচেয়ে কম কষ্টকর মিটিং স্লট খুঁজুন"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro প্ল্যান দেখুন"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Free-তে থাকুন"
+  },
+  "onboardingPage6Heading": {
+    "message": "মাথায় হিসাব করা বন্ধ করতে প্রস্তুত"
+  },
+  "onboardingPage6Sub": {
+    "message": "যেকোনো সমর্থিত হোস্ট খুলুন এবং জোনভিত্তিক সময় নিজে থেকেই রূপান্তরিত হবে।"
+  },
+  "onboardingPage6Button": {
+    "message": "রূপান্তর শুরু করুন"
+  },
+  "onboardingSkip": {
+    "message": "সেটআপ এড়িয়ে যান"
+  },
+  "onboardingBack": {
+    "message": "পেছনে"
+  },
+  "onboardingNext": {
+    "message": "পরবর্তী"
+  },
+  "onboardingDone": {
+    "message": "সম্পন্ন"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "ধাপ $1-এ যান"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "অনবোর্ডিং অগ্রগতি"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "অনবোর্ডিং অগ্রগতি"
+  },
+  "onboardingPageOf": {
+    "message": "$2-এর মধ্যে $1"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one দ্বারা নির্মিত"
+  },
+  "badgeConvertedInitial": {
+    "message": "০ বার রূপান্তরিত"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 বার রূপান্তরিত"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 বার রূপান্তরিত"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - সাময়িকভাবে বিরতিতে"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

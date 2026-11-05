@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Acha kupiga hesabu za saa za maeneo kichwani. Badilisha 3pm EST, 9:00 UTC, 14:00 CET moja kwa moja kwenye Calendar, Slack, Discord na GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Inatumika"
+  },
+  "popupStatusPaused": {
+    "message": "Imesitishwa"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Hali: inatumika"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Hali: imesitishwa kwenye seva pangishi hii"
+  },
+  "popupStatLabel": {
+    "message": "Kwenye ukurasa huu"
+  },
+  "popupStatHintSingular": {
+    "message": "saa imebadilishwa kwenye kichupo hiki katika kipindi hiki."
+  },
+  "popupStatHintPlural": {
+    "message": "saa zimebadilishwa kwenye kichupo hiki katika kipindi hiki."
+  },
+  "popupStatAriaLabel": {
+    "message": "Saa zilizobadilishwa kwenye ukurasa huu"
+  },
+  "popupPauseOnHost": {
+    "message": "Sitisha kwenye seva pangishi hii"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Simamisha ubadilishaji kwenye tovuti hii hadi utakapowasha tena."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Simamisha ubadilishaji kwenye $1 hadi utakapowasha tena."
+  },
+  "popupShowInline": {
+    "message": "Onyesha mabadiliko ndani ya maandishi"
+  },
+  "popupShowInlineSub": {
+    "message": "Ongeza alama ndogo ya saa ya eneo lako karibu na kila saa yenye eneo."
+  },
+  "popupShowBadge": {
+    "message": "Onyesha beji"
+  },
+  "popupShowBadgeSub": {
+    "message": "Hesabu tulivu ya saa zilizobadilishwa kwenye kona ya ukurasa."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Mipangilio ya ubadilishaji"
+  },
+  "popupLicenseHave": {
+    "message": "Una ufunguo wa leseni?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Ufunguo wa leseni"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Washa"
+  },
+  "popupLicenseVerifying": {
+    "message": "Inathibitisha..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Weka ufunguo wa leseni kwanza."
+  },
+  "popupLicenseActivated": {
+    "message": "Leseni imewashwa. Pro imefunguliwa."
+  },
+  "popupLicenseFailed": {
+    "message": "Ufunguo huo haukuthibitishwa. Angalia ufunguo na ujaribu tena."
+  },
+  "popupLicenseError": {
+    "message": "Uthibitishaji umeshindwa. Jaribu tena baada ya muda."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Imetengenezwa na zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Zana zaidi"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Fungua kila seva pangishi na hamishaji la ICS"
+  },
+  "popupSrActive": {
+    "message": "Mabadiliko yanatumika kwenye seva pangishi hii."
+  },
+  "popupSrPaused": {
+    "message": "Mabadiliko yamesitishwa kwenye seva pangishi hii."
+  },
+  "optionsTitle": {
+    "message": "Mipangilio ya Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Badilisha saa zenye maeneo moja kwa moja kwenye seva pangishi ambako mialiko ya mikutano hufika."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Mabadiliko"
+  },
+  "optionsConversionsTitle": {
+    "message": "Pata mabadiliko kwenye ukurasa, kwa njia yako"
+  },
+  "optionsInlineTitle": {
+    "message": "Badilisha saa ndani ya maandishi kwenye ukurasa"
+  },
+  "optionsInlineSub": {
+    "message": "Ongeza alama ndogo ya saa ya eneo lako karibu na kila saa yenye eneo."
+  },
+  "optionsBadgeTitle": {
+    "message": "Weka hesabu tulivu ya mabadiliko kwenye kona"
+  },
+  "optionsBadgeSub": {
+    "message": "Hesabu tulivu ya saa zilizobadilishwa kwenye kichupo hiki."
+  },
+  "optionsPauseTitle": {
+    "message": "Nyamazisha mabadiliko kwenye seva pangishi"
+  },
+  "optionsPauseSub": {
+    "message": "Tumia dirisha ibukizi la Local Time Everywhere kwenye seva pangishi ili kusitisha au kuendelea na mabadiliko kwenye tovuti hiyo mahususi."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Muundo wa saa"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Mfumo"
+  },
+  "optionsTimeFormat12h": {
+    "message": "Saa 12"
+  },
+  "optionsTimeFormat24h": {
+    "message": "Saa 24"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Upendeleo wa muundo wa saa"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Seva pangishi"
+  },
+  "optionsHostsTitle": {
+    "message": "Tovuti ambapo saa hubadilishwa"
+  },
+  "optionsHostsCountPro": {
+    "message": "Seva pangishi maalum zisizo na kikomo na Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 kati ya $2 seva pangishi maalum zimetumika"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Seva pangishi chaguomsingi, hubadilisha kila ziara"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Seva pangishi ulizoongeza, hubadilisha kila ziara"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Kiwango cha bure kinajumuisha hadi seva pangishi maalum $1. Pro hufungua seva pangishi maalum zisizo na kikomo."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pandisha hadi Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Ongeza seva pangishi maalum"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Ongeza seva pangishi"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Ondoa"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Ondoa seva pangishi maalum $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Tumia muundo mahususi kama https://example.com/* au https://*.yourteam.com/*. Kamwe usitumie viwakilishi vipana <all_urls> au *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Weka muundo wa seva pangishi kwanza."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Muundo umezuiwa: $1. Tumia muundo mahususi wa https://."
+  },
+  "optionsHostErrScheme": {
+    "message": "Muundo lazima uanze na https:// (au http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Muundo huo hauna jina halisi la seva pangishi."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Muundo huo umeharibika."
+  },
+  "optionsHostErrPath": {
+    "message": "Ongeza kiwakilishi cha njia mwishoni (mfano /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Seva pangishi hiyo tayari ipo kwenye orodha yako."
+  },
+  "optionsHostErrDefault": {
+    "message": "Seva pangishi hiyo tayari ipo kwenye orodha chaguomsingi."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Kiwango cha bure kimewekewa kikomo cha seva pangishi maalum $1. Pandisha hadi Pro ili kuongeza zaidi."
+  },
+  "optionsHostErrPermission": {
+    "message": "Ruhusa haikutolewa. Seva pangishi haikuongezwa."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Haikuwezekana kuomba ruhusa kwa seva pangishi hiyo."
+  },
+  "optionsHostAdded": {
+    "message": "$1 imeongezwa. Pakia upya vichupo vilivyofunguliwa kwenye seva pangishi hiyo ili kuvichanganua."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 imeondolewa."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Badilisha saa kwenye kila seva pangishi unayotumia"
+  },
+  "optionsProFeature1Title": {
+    "message": "Pata kila eneo kwenye mstari mmoja"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Onyesha 3pm EST, 12pm PST, 8pm GMT kwenye mstari mmoja."
+  },
+  "optionsProFeature2Title": {
+    "message": "Weka wenzako sawa na saa zako za kazi"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Chapisha hali kwenye Slack au Discord. Kwa hiari yako tu."
+  },
+  "optionsProFeature3Title": {
+    "message": "Tuma mialiko ya kalenda ikiwa na saa iliyobadilishwa"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Nakili mwaliko wa .ics kwa muda sahihi."
+  },
+  "optionsProFeature4Title": {
+    "message": "Tafuta muda wa mkutano usio na usumbufu zaidi"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Linganisha maeneo kando kwa kando na uchague lile linalofaa."
+  },
+  "optionsProLockLabel": {
+    "message": "Kipengele cha Pro, kimefungwa"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Ona mipango ya Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Badilisha kila seva pangishi na Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Kwa watumiaji wa hali ya juu na timu zinazoishi katika maeneo tofauti ya saa."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/mwezi"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 maisha yote"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Bei moja, chaguo lako. Ghairi wakati wowote."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Seva pangishi maalum zisizo na kikomo (bure ni hadi 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Muundo wa maeneo mengi, onyesha maeneo yote kwa pamoja"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Ulandanishaji wa hali ya saa za kazi na Slack na Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Hamisha kalenda ya ICS ikiwa na saa zilizobadilishwa"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Kipendekezaji cha mkutano chenye upatanifu bora"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pata Pro, $$99 maisha yote"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Au $$4.99/mwezi"
+  },
+  "optionsPaywallNote": {
+    "message": "Malipo moja au usajili mmoja. Huwasha Pro katika kiendelezi hiki milele."
+  },
+  "optionsPaywallRefund": {
+    "message": "Dhamana ya kurudishiwa pesa ndani ya siku 14. Ikiwa Pro haifai, tunarudisha pesa, bila maswali."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Bure dhidi ya Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Tuma saa zilizobadilishwa kwenye kalenda yako"
+  },
+  "optionsIcsExportSub": {
+    "message": "Nakili mwaliko wa .ics ukiwa na saa ya eneo lako ndani. Onyesho la Pro, linaloonekana hapa ili ujue kinachofunguliwa."
+  },
+  "optionsIcsExportCta": {
+    "message": "Hamisha .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Fungua katika Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Leseni"
+  },
+  "optionsLicenseTitle": {
+    "message": "Washa au ondoa ufunguo"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro inatumika."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Inatumika hadi $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Leseni ya maisha yote."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Zima"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Leseni imezimwa. Kurudi kwenye kiwango cha bure."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Faragha"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Weka data yako kwenye kifaa hiki"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere hufanya kazi kabisa kwenye kifaa chako. Husoma maandishi kwenye seva pangishi zilizoorodheshwa hapo juu kwa lengo pekee la kubadilisha saa zenye maeneo. Hakuna maudhui ya ukurasa, historia ya kuvinjari, au data ya wasifu inayotumwa mahali popote. Ombi pekee la mtandao hutokea unapoweka ufunguo wa leseni, na ufunguo wenyewe pekee ndio hutumwa."
+  },
+  "optionsPrivacyExport": {
+    "message": "Hamisha data yangu"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Futa data yote"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Imehamisha ufunguo $1 kwenye vipakuliwa vyako."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Uhamishaji umeshindwa. Tafadhali jaribu tena."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Ufute data yote ya Local Time Everywhere kwenye kifaa hiki? Hii haiwezi kutenduliwa."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Data yote ya Local Time Everywhere imefutwa kwenye kifaa hiki."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Ufutaji umeshindwa. Tafadhali jaribu tena."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, na Zovo. Haihusiani na Google, Microsoft, Discord, Slack, au GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Leseni ya Pro inatumika."
+  },
+  "optionsSrFree": {
+    "message": "Kiwango cha bure."
+  },
+  "onboardingPage1Heading": {
+    "message": "Acha kupiga hesabu za saa za maeneo kichwani"
+  },
+  "onboardingPage1Sub": {
+    "message": "Mialiko ya mikutano huonyesha eneo moja la saa. Kila mtu mwingine hupiga hesabu kichwani. Wengine hukosea."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 9pm"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 12:30am"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7am kesho"
+  },
+  "onboardingPage1Button": {
+    "message": "Ona suluhisho"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Tazama saa yenye eneo ikibadilika kuwa yako"
+  },
+  "onboardingPage2Sub": {
+    "message": "Huu ni ujumbe halisi wa Slack. Bofya kitufe na wakati huohuo utaonekana kwa saa yako ya eneo."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Ona saa yangu ya eneo"
+  },
+  "onboardingPage2Continue": {
+    "message": "Endelea"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Bofya juu ili kubadilisha."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 saa yako ($2). Hakuna hesabu inayohitajika."
+  },
+  "onboardingPage3Heading": {
+    "message": "Inapofanya kazi"
+  },
+  "onboardingPage3Sub": {
+    "message": "Seva pangishi hizi 12 zimewashwa kwa chaguomsingi. Fungua yoyote kati yake na saa zenye maeneo hubadilika ndani ya maandishi, kwenye kidokezo, au kama beji."
+  },
+  "onboardingPage3Hint": {
+    "message": "Unahitaji seva pangishi nyingine? Kiwango cha bure kinajumuisha seva pangishi maalum 3. Pro haina kikomo."
+  },
+  "onboardingPage3Link": {
+    "message": "Jifunze kuhusu seva pangishi maalum"
+  },
+  "onboardingPage4Heading": {
+    "message": "Habari, mimi ni Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Nilitengeneza Local Time Everywhere baada ya kukosa mikutano ya kila siku mara nyingi mno katika maeneo matatu ya saa. Hufanya jambo moja na hujaribu kulifanya kwa utulivu. Hakuna ufuatiliaji, hakuna madirisha ibukizi ya mauzo kwenye kila ukurasa."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Mtu mmoja, akijenga hadharani kwenye"
+  },
+  "onboardingPage5Heading": {
+    "message": "Chagua mpango unaofaa kalenda yako"
+  },
+  "onboardingPage5Sub": {
+    "message": "Bure hufanya kazi milele kwenye seva pangishi 12 za chaguomsingi. Pro ni kwa watumiaji wa hali ya juu na timu."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Bure"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Bure"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Mabadiliko yasiyo na kikomo kwenye seva pangishi 12 za chaguomsingi"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Muundo wa saa 12, saa 24, au wa mfumo"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Alama ndani ya maandishi, kidokezo, na beji"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Hadi seva pangishi maalum 3"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/mwezi au $$99 maisha yote"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Ongeza seva pangishi maalum zisizo na kikomo"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Ona kila eneo kwenye mstari mmoja"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Landanisha hali ya saa za kazi na Slack au Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Tuma saa zilizobadilishwa kwenye kalenda yako"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Tafuta muda wa mkutano usio na usumbufu zaidi"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Ona mipango ya Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Baki kwenye Bure"
+  },
+  "onboardingPage6Heading": {
+    "message": "Uko tayari kuacha kupiga hesabu kichwani"
+  },
+  "onboardingPage6Sub": {
+    "message": "Fungua seva pangishi yoyote inayotumika na saa zenye maeneo zitabadilika zenyewe."
+  },
+  "onboardingPage6Button": {
+    "message": "Anza kubadilisha"
+  },
+  "onboardingSkip": {
+    "message": "Ruka usanidi"
+  },
+  "onboardingBack": {
+    "message": "Nyuma"
+  },
+  "onboardingNext": {
+    "message": "Ifuatayo"
+  },
+  "onboardingDone": {
+    "message": "Imekamilika"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Nenda hatua ya $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Maendeleo ya usanidi"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Maendeleo ya usanidi"
+  },
+  "onboardingPageOf": {
+    "message": "$1 kati ya $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Imetengenezwa na zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "Saa 0 zimebadilishwa"
+  },
+  "badgeConvertedSingular": {
+    "message": "Saa $1 imebadilishwa"
+  },
+  "badgeConvertedPlural": {
+    "message": "Saa $1 zimebadilishwa"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - imesitishwa kwa muda"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

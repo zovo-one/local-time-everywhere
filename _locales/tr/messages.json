@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Saat dilimi hesabını kafanızda yapmayı bırakın. 3pm EST, 9:00 UTC, 14:00 CET gibi saatleri Takvim, Slack, Discord ve GitHub'da satır içinde dönüştürün."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Etkin"
+  },
+  "popupStatusPaused": {
+    "message": "Duraklatıldı"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Durum: etkin"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Durum: bu sitede duraklatıldı"
+  },
+  "popupStatLabel": {
+    "message": "Bu sayfada"
+  },
+  "popupStatHintSingular": {
+    "message": "saat bu oturumda bu sekmede dönüştürüldü."
+  },
+  "popupStatHintPlural": {
+    "message": "saat bu oturumda bu sekmede dönüştürüldü."
+  },
+  "popupStatAriaLabel": {
+    "message": "Bu sayfada dönüştürülen saatler"
+  },
+  "popupPauseOnHost": {
+    "message": "Bu sitede duraklat"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Yeniden açana kadar bu sitede dönüştürmeyi durdurun."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Yeniden açana kadar $1 üzerinde dönüştürmeyi durdurun."
+  },
+  "popupShowInline": {
+    "message": "Satır içi dönüşümleri göster"
+  },
+  "popupShowInlineSub": {
+    "message": "Her saat diliminin yanına küçük bir yerel saat işareti ekleyin."
+  },
+  "popupShowBadge": {
+    "message": "Rozeti göster"
+  },
+  "popupShowBadgeSub": {
+    "message": "Sayfa köşesinde dönüştürülen saatlerin pasif sayımı."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Dönüşüm ayarları"
+  },
+  "popupLicenseHave": {
+    "message": "Lisans anahtarınız mı var?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Lisans anahtarı"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Etkinleştir"
+  },
+  "popupLicenseVerifying": {
+    "message": "Doğrulanıyor..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Önce bir lisans anahtarı girin."
+  },
+  "popupLicenseActivated": {
+    "message": "Lisans etkinleştirildi. Pro açıldı."
+  },
+  "popupLicenseFailed": {
+    "message": "Bu anahtar doğrulanamadı. Anahtarı kontrol edip tekrar deneyin."
+  },
+  "popupLicenseError": {
+    "message": "Doğrulama başarısız oldu. Birazdan tekrar deneyin."
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one tarafından geliştirildi"
+  },
+  "popupFooterMoreTools": {
+    "message": "Daha fazla araç"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Her siteyi ve ICS dışa aktarmayı açın"
+  },
+  "popupSrActive": {
+    "message": "Bu sitede dönüşümler etkin."
+  },
+  "popupSrPaused": {
+    "message": "Bu sitede dönüşümler duraklatıldı."
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere Ayarları"
+  },
+  "optionsSub": {
+    "message": "Toplantı davetlerinin geldiği sitelerde saat dilimli saatleri satır içinde dönüştürün."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Dönüşümler"
+  },
+  "optionsConversionsTitle": {
+    "message": "Sayfadaki dönüşümleri istediğiniz gibi alın"
+  },
+  "optionsInlineTitle": {
+    "message": "Sayfada saatleri satır içinde dönüştür"
+  },
+  "optionsInlineSub": {
+    "message": "Her saat diliminin yanına küçük bir yerel saat işareti ekleyin."
+  },
+  "optionsBadgeTitle": {
+    "message": "Köşede dönüşümlerin pasif sayımını tut"
+  },
+  "optionsBadgeSub": {
+    "message": "Bu sekmede dönüştürülen saatlerin pasif sayımı."
+  },
+  "optionsPauseTitle": {
+    "message": "Bir sitede dönüşümleri sustur"
+  },
+  "optionsPauseSub": {
+    "message": "O belirli sitedeki dönüşümleri duraklatmak veya sürdürmek için sitede Local Time Everywhere açılır penceresini kullanın."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Saat biçimi"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Sistem"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 saat"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 saat"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Saat biçimi tercihi"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Siteler"
+  },
+  "optionsHostsTitle": {
+    "message": "Saatlerin dönüştürüldüğü siteler"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro ile sınırsız özel site"
+  },
+  "optionsHostsCountFree": {
+    "message": "$2 özel siteden $1 tanesi kullanıldı"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Varsayılan siteler, her ziyarette dönüştürür"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Eklediğiniz siteler, her ziyarette dönüştürür"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Ücretsiz kademe en fazla $1 özel site içerir. Pro sınırsız özel site açar."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro'ya yükselt"
+  },
+  "optionsAddHostLabel": {
+    "message": "Özel bir site ekle"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Site ekle"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Kaldır"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "$1 özel sitesini kaldır"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* veya https://*.yourteam.com/* gibi belirli bir desen kullanın. <all_urls> veya *://*/* gibi geniş joker karakterleri asla kullanmayın."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Önce bir site deseni girin."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Engellenen desen: $1. Belirli bir https:// deseni kullanın."
+  },
+  "optionsHostErrScheme": {
+    "message": "Desen https:// (veya http://) ile başlamalıdır."
+  },
+  "optionsHostErrHostname": {
+    "message": "Bu desende gerçek bir ana bilgisayar adı yok."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Bu desen hatalı biçimlendirilmiş."
+  },
+  "optionsHostErrPath": {
+    "message": "Sonuna bir yol joker karakteri ekleyin (örn. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Bu site zaten listenizde."
+  },
+  "optionsHostErrDefault": {
+    "message": "Bu site zaten varsayılan listede."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Ücretsiz kademe $1 özel siteyle sınırlıdır. Daha fazlasını eklemek için yükseltin."
+  },
+  "optionsHostErrPermission": {
+    "message": "İzin verilmedi. Site eklenmedi."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Bu site için izin istenemedi."
+  },
+  "optionsHostAdded": {
+    "message": "$1 eklendi. Taramak için o sitedeki açık sekmeleri yeniden yükleyin."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 kaldırıldı."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Kullandığınız her sitede saatleri dönüştürün"
+  },
+  "optionsProFeature1Title": {
+    "message": "Her bölgeyi tek satırda alın"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST, 12pm PST, 8pm GMT saatlerini tek satırda gösterin."
+  },
+  "optionsProFeature2Title": {
+    "message": "Çalışma saatlerinizle ekip arkadaşlarınızı senkronize tutun"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Bir Slack veya Discord durumu gönderin. Yalnızca isteğe bağlı."
+  },
+  "optionsProFeature3Title": {
+    "message": "Dönüştürülen saatle takvim davetleri gönderin"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Doğru zaman dilimi için bir .ics davetini kopyalayın."
+  },
+  "optionsProFeature4Title": {
+    "message": "En az sıkıntılı toplantı zamanını bulun"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Zaman dilimlerini yan yana karşılaştırın ve en uygun olanı seçin."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro özelliği, kilitli"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro planlarını gör"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro ile her siteyi dönüştürün"
+  },
+  "optionsPaywallPitch": {
+    "message": "Zaman dilimleri arasında yaşayan güçlü kullanıcılar ve ekipler için."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4,99/ay"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 ömür boyu"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Tek fiyat, sizin seçiminiz. İstediğiniz zaman iptal edin."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Sınırsız özel site (ücretsiz 3 ile sınırlıdır)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Çok bölgeli biçim, tüm zaman dilimlerini aynı anda göster"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack ve Discord çalışma saatleri durumu senkronizasyonu"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Dönüştürülmüş saatlerle ICS takvim dışa aktarımı"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "En iyi çakışma toplantı önericisi"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro'yu alın, $$99 ömür boyu"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Veya ayda $$4,99"
+  },
+  "optionsPaywallNote": {
+    "message": "Tek ödeme veya tek abonelik. Bu uzantıda Pro'yu sonsuza kadar etkinleştirir."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 gün para iade garantisi. Pro değmezse, sorusuz sualsiz iade ederiz."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Ücretsiz ve Pro karşılaştırması"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Dönüştürülen saatleri takviminize gönderin"
+  },
+  "optionsIcsExportSub": {
+    "message": "Yerel saat gömülü bir .ics davetini kopyalayın. Pro önizlemesi, neyin açıldığını görebilmeniz için burada görünür."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics dışa aktar"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro'da aç"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Lisans"
+  },
+  "optionsLicenseTitle": {
+    "message": "Bir anahtarı etkinleştir veya kaldır"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro etkin."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1 tarihine kadar geçerli."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Ömür boyu lisans."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Devre dışı bırak"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Lisans devre dışı bırakıldı. Ücretsiz kademeye dönüldü."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Gizlilik"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Verilerinizi bu cihazda tutun"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere tamamen cihazınızda çalışır. Yalnızca saat dilimli saatleri dönüştürmek amacıyla yukarıda listelenen sitelerdeki metni okur. Hiçbir sayfa içeriği, tarama geçmişi veya profil verisi hiçbir yere gönderilmez. Tek ağ isteği, bir lisans anahtarı girdiğinizde gerçekleşir ve yalnızca anahtarın kendisi gönderilir."
+  },
+  "optionsPrivacyExport": {
+    "message": "Verilerimi dışa aktar"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Tüm verileri sil"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 anahtar indirmelerinize aktarıldı."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Dışa aktarma başarısız oldu. Lütfen tekrar deneyin."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Tüm Local Time Everywhere verileri bu cihazdan silinsin mi? Bu geri alınamaz."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Tüm Local Time Everywhere verileri bu cihazdan temizlendi."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Silme başarısız oldu. Lütfen tekrar deneyin."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, Zovo tarafından. Google, Microsoft, Discord, Slack veya GitHub ile bağlantılı değildir."
+  },
+  "optionsSrProActive": {
+    "message": "Pro lisansı etkin."
+  },
+  "optionsSrFree": {
+    "message": "Ücretsiz kademe."
+  },
+  "onboardingPage1Heading": {
+    "message": "Saat dilimi hesabını kafanızda yapmayı bırakın"
+  },
+  "onboardingPage1Sub": {
+    "message": "Toplantı davetleri tek bir saat dilimi gösterir. Herkes hesabı kafasında yapar. Bazıları yanlış yapar."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sidney, yarın 07:00"
+  },
+  "onboardingPage1Button": {
+    "message": "Çözümü gör"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Saat dilimli bir saatin sizinkine dönüşünü izleyin"
+  },
+  "onboardingPage2Sub": {
+    "message": "İşte gerçek bir Slack mesajı. Düğmeye tıklayın ve aynı an yerel saatinizde görünsün."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Yerel saatimi göster"
+  },
+  "onboardingPage2Continue": {
+    "message": "Devam et"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Dönüştürmek için yukarıya tıklayın."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 sizin saatinizle ($2). Hesap gerekmez."
+  },
+  "onboardingPage3Heading": {
+    "message": "Nerede çalışır"
+  },
+  "onboardingPage3Sub": {
+    "message": "Bu 12 site varsayılan olarak açıktır. Herhangi birini açın; saat dilimli saatler satır içinde, ipucunda veya rozet olarak dönüşür."
+  },
+  "onboardingPage3Hint": {
+    "message": "Başka bir siteye mi ihtiyacınız var? Ücretsiz kademe 3 özel siteyi kapsar. Pro sınırsızdır."
+  },
+  "onboardingPage3Link": {
+    "message": "Özel siteler hakkında bilgi edinin"
+  },
+  "onboardingPage4Heading": {
+    "message": "Merhaba, ben Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Üç saat dilimi arasında birkaç fazla toplantıyı kaçırdıktan sonra Local Time Everywhere'i geliştirdim. Tek bir şey yapar ve bunu sessizce yapmaya çalışır. Takip yok, her sayfada yükseltme açılır pencereleri yok."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Tek kişi, herkesin gözü önünde geliştiriyor"
+  },
+  "onboardingPage5Heading": {
+    "message": "Takviminize uyan planı seçin"
+  },
+  "onboardingPage5Sub": {
+    "message": "Ücretsiz, 12 varsayılan sitede sonsuza kadar çalışır. Pro, güçlü kullanıcılar ve ekipler içindir."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Ücretsiz"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "12 varsayılan sitede sınırsız dönüşüm"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12 saat, 24 saat veya sistem biçimi"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Satır içi işaret, ipucu ve rozet"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "En fazla 3 özel site"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4,99/ay veya $$99 ömür boyu"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Sınırsız özel site ekleyin"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Her bölgeyi tek satırda görün"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Çalışma saatleri durumunu Slack veya Discord'a senkronize edin"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Dönüştürülen saatleri takviminize gönderin"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "En az sıkıntılı toplantı zamanını bulun"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro planlarını gör"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Ücretsizde kal"
+  },
+  "onboardingPage6Heading": {
+    "message": "Kafanızda hesap yapmayı bırakmaya hazır mısınız"
+  },
+  "onboardingPage6Sub": {
+    "message": "Desteklenen herhangi bir siteyi açın; saat dilimli saatler kendiliğinden dönüşecek."
+  },
+  "onboardingPage6Button": {
+    "message": "Dönüştürmeye başla"
+  },
+  "onboardingSkip": {
+    "message": "Kurulumu atla"
+  },
+  "onboardingBack": {
+    "message": "Geri"
+  },
+  "onboardingNext": {
+    "message": "İleri"
+  },
+  "onboardingDone": {
+    "message": "Bitti"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "$1. adıma git"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Kurulum ilerlemesi"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Kurulum ilerlemesi"
+  },
+  "onboardingPageOf": {
+    "message": "$2 içinden $1"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one tarafından geliştirildi"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 saat dönüştürüldü"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 saat dönüştürüldü"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 saat dönüştürüldü"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - geçici olarak duraklatıldı"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

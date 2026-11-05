@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "שעה מקומית בכל מקום"
+  },
+  "extDesc": {
+    "message": "תפסיקו לחשב אזורי זמן בראש. המירו 3pm EST, 9:00 UTC, 14:00 CET ישירות ב-Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "שעה מקומית בכל מקום"
+  },
+  "popupTitle": {
+    "message": "שעה מקומית בכל מקום"
+  },
+  "popupStatusActive": {
+    "message": "פעיל"
+  },
+  "popupStatusPaused": {
+    "message": "מושהה"
+  },
+  "popupStatusActiveLabel": {
+    "message": "סטטוס: פעיל"
+  },
+  "popupStatusPausedLabel": {
+    "message": "סטטוס: מושהה במארח זה"
+  },
+  "popupStatLabel": {
+    "message": "בדף זה"
+  },
+  "popupStatHintSingular": {
+    "message": "שעה הומרה בכרטיסייה זו בהפעלה זו."
+  },
+  "popupStatHintPlural": {
+    "message": "שעות הומרו בכרטיסייה זו בהפעלה זו."
+  },
+  "popupStatAriaLabel": {
+    "message": "שעות שהומרו בדף זה"
+  },
+  "popupPauseOnHost": {
+    "message": "השהיה במארח זה"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "הפסיקו להמיר באתר זה עד שתפעילו שוב."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "הפסיקו להמיר ב-$1 עד שתפעילו שוב."
+  },
+  "popupShowInline": {
+    "message": "הצגת המרות מוטבעות"
+  },
+  "popupShowInlineSub": {
+    "message": "הוסיפו סמן שעה מקומית קטן ליד כל שעה עם אזור זמן."
+  },
+  "popupShowBadge": {
+    "message": "הצגת תג"
+  },
+  "popupShowBadgeSub": {
+    "message": "ספירה פסיבית של שעות שהומרו בפינת הדף."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "הגדרות המרה"
+  },
+  "popupLicenseHave": {
+    "message": "יש לכם מפתח רישיון?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "מפתח רישיון"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "הפעלה"
+  },
+  "popupLicenseVerifying": {
+    "message": "מאמת..."
+  },
+  "popupLicenseEmpty": {
+    "message": "הזינו קודם מפתח רישיון."
+  },
+  "popupLicenseActivated": {
+    "message": "הרישיון הופעל. Pro נפתח."
+  },
+  "popupLicenseFailed": {
+    "message": "המפתח לא אומת. בדקו את המפתח ונסו שוב."
+  },
+  "popupLicenseError": {
+    "message": "האימות נכשל. נסו שוב בעוד רגע."
+  },
+  "popupFooterBuiltBy": {
+    "message": "נבנה על ידי zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "כלים נוספים"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "פתחו כל מארח וייצוא ICS"
+  },
+  "popupSrActive": {
+    "message": "ההמרות פעילות במארח זה."
+  },
+  "popupSrPaused": {
+    "message": "ההמרות מושהות במארח זה."
+  },
+  "optionsTitle": {
+    "message": "הגדרות שעה מקומית בכל מקום"
+  },
+  "optionsSub": {
+    "message": "המירו שעות עם אזור זמן ישירות במארחים שאליהם מגיעות הזמנות לפגישות."
+  },
+  "optionsEyebrowConversions": {
+    "message": "המרות"
+  },
+  "optionsConversionsTitle": {
+    "message": "קבלו המרות בדף, בדרך שלכם"
+  },
+  "optionsInlineTitle": {
+    "message": "המירו שעות ישירות בדף"
+  },
+  "optionsInlineSub": {
+    "message": "הוסיפו סמן שעה מקומית קטן ליד כל שעה עם אזור זמן."
+  },
+  "optionsBadgeTitle": {
+    "message": "שמרו ספירה פסיבית של המרות בפינה"
+  },
+  "optionsBadgeSub": {
+    "message": "ספירה פסיבית של שעות שהומרו בכרטיסייה זו."
+  },
+  "optionsPauseTitle": {
+    "message": "השתקת המרות במארח"
+  },
+  "optionsPauseSub": {
+    "message": "השתמשו בחלון הקופץ של שעה מקומית בכל מקום במארח כדי להשהות או לחדש המרות באתר הספציפי הזה."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "תבנית שעה"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "מערכת"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 שעות"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 שעות"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "העדפת תבנית שעה"
+  },
+  "optionsEyebrowHosts": {
+    "message": "מארחים"
+  },
+  "optionsHostsTitle": {
+    "message": "אתרים שבהם שעות מומרות"
+  },
+  "optionsHostsCountPro": {
+    "message": "מארחים מותאמים אישית ללא הגבלה עם Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 מתוך $2 מארחים מותאמים אישית בשימוש"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "מארחי ברירת מחדל, ממירים בכל ביקור"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "מארחים שהוספתם, ממירים בכל ביקור"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "הרמה החינמית כוללת עד $1 מארחים מותאמים אישית. Pro פותח מארחים מותאמים אישית ללא הגבלה."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "שדרוג ל-Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "הוספת מארח מותאם אישית"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "הוספת מארח"
+  },
+  "optionsRemoveHostButton": {
+    "message": "הסרה"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "הסרת מארח מותאם אישית $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "השתמשו בתבנית ספציפית כמו https://example.com/* או https://*.yourteam.com/*. לעולם אל תשתמשו בתווים הכלליים הרחבים <all_urls> או *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "הזינו קודם תבנית מארח."
+  },
+  "optionsHostErrBlocked": {
+    "message": "תבנית חסומה: $1. השתמשו בתבנית https:// ספציפית."
+  },
+  "optionsHostErrScheme": {
+    "message": "התבנית חייבת להתחיל ב-https:// (או http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "לתבנית זו אין שם מארח אמיתי."
+  },
+  "optionsHostErrMalformed": {
+    "message": "תבנית זו פגומה."
+  },
+  "optionsHostErrPath": {
+    "message": "הוסיפו תו כללי לנתיב בסוף (למשל /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "מארח זה כבר ברשימה שלכם."
+  },
+  "optionsHostErrDefault": {
+    "message": "מארח זה כבר ברשימת ברירת המחדל."
+  },
+  "optionsHostErrCapHit": {
+    "message": "הרמה החינמית מוגבלת ל-$1 מארחים מותאמים אישית. שדרגו כדי להוסיף עוד."
+  },
+  "optionsHostErrPermission": {
+    "message": "ההרשאה לא ניתנה. המארח לא נוסף."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "לא ניתן היה לבקש הרשאה עבור מארח זה."
+  },
+  "optionsHostAdded": {
+    "message": "$1 נוסף. טענו מחדש כרטיסיות פתוחות במארח זה כדי לסרוק אותן."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 הוסר."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "המירו שעות בכל מארח שאתם משתמשים בו"
+  },
+  "optionsProFeature1Title": {
+    "message": "קבלו כל אזור בשורה אחת"
+  },
+  "optionsProFeature1Sub": {
+    "message": "הציגו 3pm EST, 12pm PST, 8pm GMT בשורה אחת."
+  },
+  "optionsProFeature2Title": {
+    "message": "שמרו על חברי הצוות מסונכרנים עם שעות העבודה שלכם"
+  },
+  "optionsProFeature2Sub": {
+    "message": "פרסמו סטטוס Slack או Discord. בהצטרפות בלבד."
+  },
+  "optionsProFeature3Title": {
+    "message": "שלחו הזמנות ליומן עם השעה המומרת"
+  },
+  "optionsProFeature3Sub": {
+    "message": "העתיקו הזמנת .ics למשבצת הנכונה."
+  },
+  "optionsProFeature4Title": {
+    "message": "מצאו את משבצת הפגישה הכי פחות כואבת"
+  },
+  "optionsProFeature4Sub": {
+    "message": "השוו אזורי זמן זה לצד זה ובחרו את הנוח ביותר."
+  },
+  "optionsProLockLabel": {
+    "message": "תכונת Pro, נעולה"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "צפו בתוכניות Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "המירו כל מארח עם Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "למשתמשים מתקדמים וצוותים שחיים בין אזורי זמן."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99 לחודש"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 לכל החיים"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "מחיר אחד, הבחירה שלכם. ביטול בכל עת."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "מארחים מותאמים אישית ללא הגבלה (חינם מוגבל ל-3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "תבנית רב-אזורית, הצגת כל האזורים בבת אחת"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "סנכרון סטטוס שעות עבודה ל-Slack ו-Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ייצוא יומן ICS עם שעות מומרות"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "מציע פגישות עם החפיפה הטובה ביותר"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "קבלו Pro, $$99 לכל החיים"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "או $$4.99 לחודש"
+  },
+  "optionsPaywallNote": {
+    "message": "תשלום אחד או מנוי אחד. מפעיל את Pro בתוסף זה לתמיד."
+  },
+  "optionsPaywallRefund": {
+    "message": "אחריות להחזר כספי ל-14 יום. אם Pro לא שווה את זה, נחזיר את הכסף, בלי שאלות."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "חינם מול Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "שלחו שעות מומרות ליומן שלכם"
+  },
+  "optionsIcsExportSub": {
+    "message": "העתיקו הזמנת .ics עם השעה המקומית מובנית. הצצה ל-Pro, גלויה כאן כדי שתדעו מה נפתח."
+  },
+  "optionsIcsExportCta": {
+    "message": "ייצוא .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "פתחו ב-Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "רישיון"
+  },
+  "optionsLicenseTitle": {
+    "message": "הפעלה או הסרה של מפתח"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro פעיל."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "בתוקף עד $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "רישיון לכל החיים."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "השבתה"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "הרישיון הושבת. חזרה לרמה החינמית."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "פרטיות"
+  },
+  "optionsPrivacyTitle": {
+    "message": "שמרו את הנתונים שלכם במכשיר זה"
+  },
+  "optionsPrivacyBody": {
+    "message": "שעה מקומית בכל מקום פועלת כולה במכשיר שלכם. היא קוראת טקסט במארחים המפורטים למעלה למטרה היחידה של המרת שעות עם אזור זמן. שום תוכן דף, היסטוריית גלישה או נתוני פרופיל לעולם לא נשלחים לשום מקום. בקשת הרשת היחידה מתרחשת כאשר אתם מזינים מפתח רישיון, ורק המפתח עצמו נשלח."
+  },
+  "optionsPrivacyExport": {
+    "message": "ייצוא הנתונים שלי"
+  },
+  "optionsPrivacyDelete": {
+    "message": "מחיקת כל הנתונים"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 מפתח(ות) יוצאו להורדות שלכם."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "הייצוא נכשל. אנא נסו שוב."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "למחוק את כל נתוני שעה מקומית בכל מקום ממכשיר זה? לא ניתן לבטל פעולה זו."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "כל נתוני שעה מקומית בכל מקום נמחקו ממכשיר זה."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "המחיקה נכשלה. אנא נסו שוב."
+  },
+  "optionsAboutLine": {
+    "message": "שעה מקומית בכל מקום v1.0.0, מאת Zovo. לא קשור ל-Google, Microsoft, Discord, Slack או GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "רישיון Pro פעיל."
+  },
+  "optionsSrFree": {
+    "message": "רמה חינמית."
+  },
+  "onboardingPage1Heading": {
+    "message": "תפסיקו לחשב אזורי זמן בראש"
+  },
+  "onboardingPage1Sub": {
+    "message": "הזמנות לפגישות מציגות אזור זמן אחד. כל השאר מחשבים אותו בראש. חלק טועים."
+  },
+  "onboardingPage1Berlin": {
+    "message": "ברלין, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "מומבאי, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "סידני, 07:00 מחר"
+  },
+  "onboardingPage1Button": {
+    "message": "ראו את הפתרון"
+  },
+  "onboardingEyebrow": {
+    "message": "שעה מקומית בכל מקום"
+  },
+  "onboardingPage2Heading": {
+    "message": "צפו בשעה עם אזור זמן מומרת לשלכם"
+  },
+  "onboardingPage2Sub": {
+    "message": "הנה הודעת Slack אמיתית. לחצו על הכפתור ואותו רגע מופיע בשעה המקומית שלכם."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (בוסטון)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "ראו את השעה המקומית שלי"
+  },
+  "onboardingPage2Continue": {
+    "message": "המשך"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "לחצו למעלה כדי להמיר."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 בשעה שלכם ($2). ללא חישוב."
+  },
+  "onboardingPage3Heading": {
+    "message": "היכן זה פועל"
+  },
+  "onboardingPage3Sub": {
+    "message": "12 המארחים האלה פעילים כברירת מחדל. פתחו כל אחד מהם ושעות עם אזור זמן מומרות מוטבעות, בתיאור כלי, או כתג."
+  },
+  "onboardingPage3Hint": {
+    "message": "צריכים מארח נוסף? הרמה החינמית מכסה 3 מארחים מותאמים אישית. Pro ללא הגבלה."
+  },
+  "onboardingPage3Link": {
+    "message": "למדו על מארחים מותאמים אישית"
+  },
+  "onboardingPage4Heading": {
+    "message": "היי, אני Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "בניתי את שעה מקומית בכל מקום אחרי יותר מדי סטנד-אפים שפספסתי בשלושה אזורי זמן. היא עושה דבר אחד ומנסה לעשות אותו בשקט. ללא מעקב, ללא חלונות מכירה קופצים בכל דף."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "אדם אחד, בונה בפומבי ב"
+  },
+  "onboardingPage5Heading": {
+    "message": "בחרו את התוכנית שמתאימה ליומן שלכם"
+  },
+  "onboardingPage5Sub": {
+    "message": "חינם עובד לתמיד על 12 מארחי ברירת המחדל. Pro מיועד למשתמשים מתקדמים וצוותים."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "חינם"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "חינם"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "המרות ללא הגבלה על 12 מארחי ברירת מחדל"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "תבנית 12 שעות, 24 שעות, או מערכת"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "סמן מוטבע, תיאור כלי ותג"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "עד 3 מארחים מותאמים אישית"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99 לחודש או $$99 לכל החיים"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "הוסיפו מארחים מותאמים אישית ללא הגבלה"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "ראו כל אזור בשורה אחת"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "סנכרנו סטטוס שעות עבודה ל-Slack או Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "שלחו שעות מומרות ליומן שלכם"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "מצאו את משבצת הפגישה הכי פחות כואבת"
+  },
+  "onboardingPage5ProCta": {
+    "message": "צפו בתוכניות Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "הישארו ב-Free"
+  },
+  "onboardingPage6Heading": {
+    "message": "מוכנים להפסיק לחשב בראש"
+  },
+  "onboardingPage6Sub": {
+    "message": "פתחו כל מארח נתמך ושעות עם אזור זמן יומרו מעצמן."
+  },
+  "onboardingPage6Button": {
+    "message": "התחילו להמיר"
+  },
+  "onboardingSkip": {
+    "message": "דלגו על ההגדרה"
+  },
+  "onboardingBack": {
+    "message": "חזרה"
+  },
+  "onboardingNext": {
+    "message": "הבא"
+  },
+  "onboardingDone": {
+    "message": "סיום"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "עברו לשלב $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "התקדמות ההצטרפות"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "התקדמות ההצטרפות"
+  },
+  "onboardingPageOf": {
+    "message": "$1 מתוך $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "נבנה על ידי zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 שעות הומרו"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 שעה הומרה"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 שעות הומרו"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "שעה מקומית - מושהה זמנית"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

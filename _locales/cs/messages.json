@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Přestaňte počítat časová pásma z hlavy. Převádějte 3pm EST, 9:00 UTC, 14:00 CET přímo v Kalendáři, Slacku, Discordu a na GitHubu."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Aktivní"
+  },
+  "popupStatusPaused": {
+    "message": "Pozastaveno"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Stav: aktivní"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Stav: pozastaveno na tomto hostiteli"
+  },
+  "popupStatLabel": {
+    "message": "Na této stránce"
+  },
+  "popupStatHintSingular": {
+    "message": "čas převeden na této kartě v této relaci."
+  },
+  "popupStatHintPlural": {
+    "message": "časů převedeno na této kartě v této relaci."
+  },
+  "popupStatAriaLabel": {
+    "message": "Převedené časy na této stránce"
+  },
+  "popupPauseOnHost": {
+    "message": "Pozastavit na tomto hostiteli"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Zastavte převádění na tomto webu, dokud jej znovu nezapnete."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Zastavte převádění na $1, dokud jej znovu nezapnete."
+  },
+  "popupShowInline": {
+    "message": "Zobrazit vložené převody"
+  },
+  "popupShowInlineSub": {
+    "message": "Přidejte malou značku místního času vedle každého času s pásmem."
+  },
+  "popupShowBadge": {
+    "message": "Zobrazit odznak"
+  },
+  "popupShowBadgeSub": {
+    "message": "Pasivní počítání převedených časů v rohu stránky."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Nastavení převodu"
+  },
+  "popupLicenseHave": {
+    "message": "Máte licenční klíč?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Licenční klíč"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktivovat"
+  },
+  "popupLicenseVerifying": {
+    "message": "Ověřování..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Nejprve zadejte licenční klíč."
+  },
+  "popupLicenseActivated": {
+    "message": "Licence aktivována. Pro odemčeno."
+  },
+  "popupLicenseFailed": {
+    "message": "Tento klíč se neověřil. Zkontrolujte klíč a zkuste to znovu."
+  },
+  "popupLicenseError": {
+    "message": "Ověření selhalo. Zkuste to za chvíli znovu."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Vytvořil zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Další nástroje"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Odemkněte každého hostitele a export ICS"
+  },
+  "popupSrActive": {
+    "message": "Převody aktivní na tomto hostiteli."
+  },
+  "popupSrPaused": {
+    "message": "Převody pozastaveny na tomto hostiteli."
+  },
+  "optionsTitle": {
+    "message": "Nastavení Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Převádějte časy s pásmy přímo na hostitelích, kam přicházejí pozvánky na schůzky."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Převody"
+  },
+  "optionsConversionsTitle": {
+    "message": "Získejte převody na stránce po svém"
+  },
+  "optionsInlineTitle": {
+    "message": "Převádějte časy přímo na stránce"
+  },
+  "optionsInlineSub": {
+    "message": "Přidejte malou značku místního času vedle každého času s pásmem."
+  },
+  "optionsBadgeTitle": {
+    "message": "Udržujte pasivní počet převodů v rohu"
+  },
+  "optionsBadgeSub": {
+    "message": "Pasivní počítání převedených časů na této kartě."
+  },
+  "optionsPauseTitle": {
+    "message": "Ztlumit převody na hostiteli"
+  },
+  "optionsPauseSub": {
+    "message": "Použijte vyskakovací okno Local Time Everywhere na hostiteli k pozastavení nebo obnovení převodů na tomto konkrétním webu."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Formát času"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Systém"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12hodinový"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24hodinový"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Preference formátu času"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Hostitelé"
+  },
+  "optionsHostsTitle": {
+    "message": "Weby, kde se časy převádějí"
+  },
+  "optionsHostsCountPro": {
+    "message": "Neomezení vlastní hostitelé s Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "Použito $1 z $2 vlastních hostitelů"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Výchozí hostitelé, převádějí při každé návštěvě"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Hostitelé, které jste přidali, převádějí při každé návštěvě"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Bezplatná úroveň zahrnuje až $1 vlastních hostitelů. Pro odemyká neomezené vlastní hostitele."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Upgradovat na Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Přidat vlastního hostitele"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Přidat hostitele"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Odebrat"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Odebrat vlastního hostitele $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Použijte konkrétní vzor jako https://example.com/* nebo https://*.yourteam.com/*. Nikdy nepoužívejte široké zástupné znaky <all_urls> ani *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Nejprve zadejte vzor hostitele."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Blokovaný vzor: $1. Použijte konkrétní vzor https://."
+  },
+  "optionsHostErrScheme": {
+    "message": "Vzor musí začínat https:// (nebo http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Tento vzor nemá skutečný název hostitele."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Tento vzor je poškozený."
+  },
+  "optionsHostErrPath": {
+    "message": "Přidejte na konec zástupný znak cesty (např. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Tento hostitel už je na vašem seznamu."
+  },
+  "optionsHostErrDefault": {
+    "message": "Tento hostitel už je na výchozím seznamu."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Bezplatná úroveň je omezena na $1 vlastních hostitelů. Upgradujte pro přidání dalších."
+  },
+  "optionsHostErrPermission": {
+    "message": "Oprávnění nebylo uděleno. Hostitel nebyl přidán."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Nepodařilo se požádat o oprávnění pro tohoto hostitele."
+  },
+  "optionsHostAdded": {
+    "message": "$1 přidán. Znovu načtěte otevřené karty na tomto hostiteli, abyste je naskenovali."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 odebrán."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Převádějte časy na každém hostiteli, který používáte"
+  },
+  "optionsProFeature1Title": {
+    "message": "Získejte každý region na jednom řádku"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Zobrazte 3pm EST, 12pm PST, 8pm GMT na jednom řádku."
+  },
+  "optionsProFeature2Title": {
+    "message": "Udržujte kolegy sladěné s vaší pracovní dobou"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Odešlete stav na Slack nebo Discord. Pouze na základě souhlasu."
+  },
+  "optionsProFeature3Title": {
+    "message": "Posílejte pozvánky do kalendáře s převedeným časem"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Zkopírujte pozvánku .ics pro správný termín."
+  },
+  "optionsProFeature4Title": {
+    "message": "Najděte nejméně bolestivý termín schůzky"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Porovnejte pásma vedle sebe a vyberte to vhodné."
+  },
+  "optionsProLockLabel": {
+    "message": "Funkce Pro, uzamčeno"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Zobrazit plány Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Převádějte každého hostitele s Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Pro pokročilé uživatele a týmy, které žijí napříč časovými pásmy."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4,99/měs"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 doživotně"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Jedna cena, vaše volba. Zrušte kdykoli."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Neomezení vlastní hostitelé (zdarma omezeno na 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Víceregionální formát, zobrazte všechna pásma najednou"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Synchronizace stavu pracovní doby se Slackem a Discordem"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Export kalendáře ICS s převedenými časy"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Návrh schůzky s nejlepším překrytím"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Získat Pro, $$99 doživotně"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Nebo $$4,99/měsíc"
+  },
+  "optionsPaywallNote": {
+    "message": "Jedna platba nebo jedno předplatné. Aktivuje Pro v tomto rozšíření navždy."
+  },
+  "optionsPaywallRefund": {
+    "message": "14denní záruka vrácení peněz. Pokud Pro nestojí za to, vrátíme peníze bez otázek."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Zdarma vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Odešlete převedené časy do svého kalendáře"
+  },
+  "optionsIcsExportSub": {
+    "message": "Zkopírujte pozvánku .ics se zabudovaným místním časem. Náhled Pro, viditelný zde, abyste věděli, co se odemyká."
+  },
+  "optionsIcsExportCta": {
+    "message": "Exportovat .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Odemknout v Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Licence"
+  },
+  "optionsLicenseTitle": {
+    "message": "Aktivovat nebo odebrat klíč"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktivní."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Platné do $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Doživotní licence."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deaktivovat"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Licence deaktivována. Zpět na bezplatnou úroveň."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Soukromí"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Uchovejte svá data na tomto zařízení"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere běží zcela na vašem zařízení. Čte text na výše uvedených hostitelích výhradně za účelem převodu časů s pásmy. Žádný obsah stránky, historie prohlížení ani data profilu se nikdy nikam neodesílají. Jediný síťový požadavek nastane, když zadáte licenční klíč, a odesílá se pouze samotný klíč."
+  },
+  "optionsPrivacyExport": {
+    "message": "Exportovat moje data"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Smazat všechna data"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Exportováno $1 klíč(ů) do vašich stažených souborů."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Export selhal. Zkuste to prosím znovu."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Smazat všechna data Local Time Everywhere z tohoto zařízení? Tuto akci nelze vrátit zpět."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Všechna data Local Time Everywhere byla z tohoto zařízení vymazána."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Smazání selhalo. Zkuste to prosím znovu."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, od Zovo. Není spojeno se společnostmi Google, Microsoft, Discord, Slack ani GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Licence Pro aktivní."
+  },
+  "optionsSrFree": {
+    "message": "Bezplatná úroveň."
+  },
+  "onboardingPage1Heading": {
+    "message": "Přestaňte počítat časová pásma z hlavy"
+  },
+  "onboardingPage1Sub": {
+    "message": "Pozvánky na schůzky ukazují jedno časové pásmo. Všichni ostatní počítají z hlavy. Někteří to spletou."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlín, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Bombaj, 0:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, zítra v 7:00"
+  },
+  "onboardingPage1Button": {
+    "message": "Podívejte se na řešení"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Sledujte, jak se čas s pásmem převádí na váš"
+  },
+  "onboardingPage2Sub": {
+    "message": "Tady je skutečná zpráva ze Slacku. Klikněte na tlačítko a stejný okamžik se zobrazí ve vašem místním čase."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Zobrazit můj místní čas"
+  },
+  "onboardingPage2Continue": {
+    "message": "Pokračovat"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Klikněte nahoře pro převod."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 ve vašem čase ($2). Žádné počítání není třeba."
+  },
+  "onboardingPage3Heading": {
+    "message": "Kde to funguje"
+  },
+  "onboardingPage3Sub": {
+    "message": "Těchto 12 hostitelů je ve výchozím nastavení zapnuto. Otevřete kteréhokoli z nich a časy s pásmy se převedou vloženě, v popisku nebo jako odznak."
+  },
+  "onboardingPage3Hint": {
+    "message": "Potřebujete dalšího hostitele? Bezplatná úroveň pokrývá 3 vlastní hostitele. Pro je neomezené."
+  },
+  "onboardingPage3Link": {
+    "message": "Zjistěte více o vlastních hostitelích"
+  },
+  "onboardingPage4Heading": {
+    "message": "Ahoj, jsem Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Vytvořil jsem Local Time Everywhere poté, co jsem zmeškal příliš mnoho standupů napříč třemi časovými pásmy. Dělá jednu věc a snaží se ji dělat nenápadně. Žádné sledování, žádná vyskakovací okna s nabídkami na každé stránce."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Jeden člověk, tvořící veřejně na"
+  },
+  "onboardingPage5Heading": {
+    "message": "Vyberte plán, který se hodí k vašemu kalendáři"
+  },
+  "onboardingPage5Sub": {
+    "message": "Zdarma funguje navždy na 12 výchozích hostitelích. Pro je pro pokročilé uživatele a týmy."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Zdarma"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Neomezené převody na 12 výchozích hostitelích"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h, 24h nebo systémový formát"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Vložená značka, popisek a odznak"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Až 3 vlastní hostitelé"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4,99/měs nebo $$99 doživotně"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Přidejte neomezené vlastní hostitele"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Viz každý region na jednom řádku"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Synchronizujte stav pracovní doby se Slackem nebo Discordem"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Odesílejte převedené časy do svého kalendáře"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Najděte nejméně bolestivý termín schůzky"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Zobrazit plány Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Zůstat na Free"
+  },
+  "onboardingPage6Heading": {
+    "message": "Připraveni přestat počítat z hlavy"
+  },
+  "onboardingPage6Sub": {
+    "message": "Otevřete jakéhokoli podporovaného hostitele a časy s pásmy se převedou samy."
+  },
+  "onboardingPage6Button": {
+    "message": "Začít převádět"
+  },
+  "onboardingSkip": {
+    "message": "Přeskočit nastavení"
+  },
+  "onboardingBack": {
+    "message": "Zpět"
+  },
+  "onboardingNext": {
+    "message": "Další"
+  },
+  "onboardingDone": {
+    "message": "Hotovo"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Přejít na krok $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Průběh úvodu"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Průběh úvodu"
+  },
+  "onboardingPageOf": {
+    "message": "$1 z $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Vytvořil zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0krát převedeno"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1krát převedeno"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1krát převedeno"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - dočasně pozastaveno"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

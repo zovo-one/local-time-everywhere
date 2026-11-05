@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Lokal tid överallt"
+  },
+  "extDesc": {
+    "message": "Sluta räkna ut tidszoner i huvudet. Konvertera 3pm EST, 9:00 UTC, 14:00 CET direkt i Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Lokal tid överallt"
+  },
+  "popupTitle": {
+    "message": "Lokal tid överallt"
+  },
+  "popupStatusActive": {
+    "message": "Aktiv"
+  },
+  "popupStatusPaused": {
+    "message": "Pausad"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: aktiv"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: pausad på denna värd"
+  },
+  "popupStatLabel": {
+    "message": "På denna sida"
+  },
+  "popupStatHintSingular": {
+    "message": "tid konverterad på denna flik under sessionen."
+  },
+  "popupStatHintPlural": {
+    "message": "tider konverterade på denna flik under sessionen."
+  },
+  "popupStatAriaLabel": {
+    "message": "Konverterade tider på denna sida"
+  },
+  "popupPauseOnHost": {
+    "message": "Pausa på denna värd"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Sluta konvertera på denna webbplats tills du slår på det igen."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Sluta konvertera på $1 tills du slår på det igen."
+  },
+  "popupShowInline": {
+    "message": "Visa infogade konverteringar"
+  },
+  "popupShowInlineSub": {
+    "message": "Lägg till en liten lokaltidsmarkör bredvid varje tidszonsangivelse."
+  },
+  "popupShowBadge": {
+    "message": "Visa bricka"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passiv räkning av konverterade tider i sidans hörn."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Konverteringsinställningar"
+  },
+  "popupLicenseHave": {
+    "message": "Har du en licensnyckel?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Licensnyckel"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktivera"
+  },
+  "popupLicenseVerifying": {
+    "message": "Verifierar..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Ange en licensnyckel först."
+  },
+  "popupLicenseActivated": {
+    "message": "Licens aktiverad. Pro upplåst."
+  },
+  "popupLicenseFailed": {
+    "message": "Den nyckeln kunde inte verifieras. Kontrollera nyckeln och försök igen."
+  },
+  "popupLicenseError": {
+    "message": "Verifieringen misslyckades. Försök igen om en stund."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Byggd av zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Fler verktyg"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Lås upp varje värd och ICS-export"
+  },
+  "popupSrActive": {
+    "message": "Konverteringar aktiva på denna värd."
+  },
+  "popupSrPaused": {
+    "message": "Konverteringar pausade på denna värd."
+  },
+  "optionsTitle": {
+    "message": "Inställningar för Lokal tid överallt"
+  },
+  "optionsSub": {
+    "message": "Konvertera tidszoner direkt på de värdar där mötesinbjudningar hamnar."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Konverteringar"
+  },
+  "optionsConversionsTitle": {
+    "message": "Få konverteringar på sidan, på ditt sätt"
+  },
+  "optionsInlineTitle": {
+    "message": "Konvertera tider direkt på sidan"
+  },
+  "optionsInlineSub": {
+    "message": "Lägg till en liten lokaltidsmarkör bredvid varje tidszonsangivelse."
+  },
+  "optionsBadgeTitle": {
+    "message": "Håll en passiv räkning av konverteringar i hörnet"
+  },
+  "optionsBadgeSub": {
+    "message": "Passiv räkning av konverterade tider på denna flik."
+  },
+  "optionsPauseTitle": {
+    "message": "Tysta konverteringar på en värd"
+  },
+  "optionsPauseSub": {
+    "message": "Använd popupen Lokal tid överallt på en värd för att pausa eller återuppta konverteringar på just den webbplatsen."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Tidsformat"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "System"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-timmars"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-timmars"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Inställning för tidsformat"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Värdar"
+  },
+  "optionsHostsTitle": {
+    "message": "Webbplatser där tider konverteras"
+  },
+  "optionsHostsCountPro": {
+    "message": "Obegränsat antal anpassade värdar med Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 av $2 anpassade värdar använda"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Standardvärdar, konverterar vid varje besök"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Värdar du lagt till, konverterar vid varje besök"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Gratisnivån inkluderar upp till $1 anpassade värdar. Pro låser upp obegränsat antal anpassade värdar."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Uppgradera till Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Lägg till en anpassad värd"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Lägg till värd"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Ta bort"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Ta bort anpassad värd $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Använd ett specifikt mönster som https://example.com/* eller https://*.yourteam.com/*. Använd aldrig de breda jokertecknen <all_urls> eller *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Ange ett värdmönster först."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Blockerat mönster: $1. Använd ett specifikt https://-mönster."
+  },
+  "optionsHostErrScheme": {
+    "message": "Mönstret måste börja med https:// (eller http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Det mönstret har inget riktigt värdnamn."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Det mönstret är felaktigt."
+  },
+  "optionsHostErrPath": {
+    "message": "Lägg till ett sökvägsjokertecken i slutet (t.ex. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Den värden finns redan i din lista."
+  },
+  "optionsHostErrDefault": {
+    "message": "Den värden finns redan i standardlistan."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Gratisnivån är begränsad till $1 anpassade värdar. Uppgradera för att lägga till fler."
+  },
+  "optionsHostErrPermission": {
+    "message": "Behörighet beviljades inte. Värden lades inte till."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Kunde inte begära behörighet för den värden."
+  },
+  "optionsHostAdded": {
+    "message": "Lade till $1. Ladda om öppna flikar på den värden för att skanna dem."
+  },
+  "optionsHostRemoved": {
+    "message": "Tog bort $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Konvertera tider över alla värdar du använder"
+  },
+  "optionsProFeature1Title": {
+    "message": "Få alla regioner på en rad"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Visa 3pm EST, 12pm PST, 8pm GMT på en rad."
+  },
+  "optionsProFeature2Title": {
+    "message": "Håll kollegor i synk med dina arbetstider"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Skicka en Slack- eller Discord-status. Endast med samtycke."
+  },
+  "optionsProFeature3Title": {
+    "message": "Skicka kalenderinbjudningar med den konverterade tiden"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopiera en .ics-inbjudan för rätt tid."
+  },
+  "optionsProFeature4Title": {
+    "message": "Hitta den minst smärtsamma mötestiden"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Jämför tidszoner sida vid sida och välj den snällaste."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro-funktion, låst"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Se Pro-planer"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Konvertera varje värd med Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "För avancerade användare och team som lever över tidszoner."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/mån"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 livstid"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Ett pris, ditt val. Avbryt när som helst."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Obegränsat antal anpassade värdar (gratis max 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Multiregionsformat, visa alla zoner samtidigt"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Statussynk för arbetstider i Slack och Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS-kalenderexport med konverterade tider"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Förslag på bästa gemensamma mötestid"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Skaffa Pro, $$99 livstid"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Eller $$4.99/månad"
+  },
+  "optionsPaywallNote": {
+    "message": "En betalning eller en prenumeration. Aktiverar Pro i detta tillägg för alltid."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 dagars pengarna-tillbaka-garanti. Om Pro inte är värt det återbetalar vi, inga frågor."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Gratis kontra Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Skicka konverterade tider till din kalender"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopiera en .ics-inbjudan med den lokala tiden inbakad. En Pro-förhandstitt, synlig här så att du vet vad som låses upp."
+  },
+  "optionsIcsExportCta": {
+    "message": "Exportera .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Lås upp i Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Licens"
+  },
+  "optionsLicenseTitle": {
+    "message": "Aktivera eller ta bort en nyckel"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktiv."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Giltig till $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Livstidslicens."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Inaktivera"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Licens inaktiverad. Tillbaka till gratisnivån."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Integritet"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Behåll dina data på denna enhet"
+  },
+  "optionsPrivacyBody": {
+    "message": "Lokal tid överallt körs helt på din enhet. Den läser text på värdarna som listas ovan enbart i syfte att konvertera tidszoner. Inget sidinnehåll, ingen webbhistorik eller profildata skickas någonsin någonstans. Den enda nätverksförfrågan sker när du anger en licensnyckel, och bara själva nyckeln skickas."
+  },
+  "optionsPrivacyExport": {
+    "message": "Exportera mina data"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Radera alla data"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Exporterade $1 nyckel/nycklar till dina nedladdningar."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Exporten misslyckades. Försök igen."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Radera alla data från Lokal tid överallt på denna enhet? Detta kan inte ångras."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "All data från Lokal tid överallt har rensats från denna enhet."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Raderingen misslyckades. Försök igen."
+  },
+  "optionsAboutLine": {
+    "message": "Lokal tid överallt v1.0.0, av Zovo. Inte kopplat till Google, Microsoft, Discord, Slack eller GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Pro-licens aktiv."
+  },
+  "optionsSrFree": {
+    "message": "Gratisnivå."
+  },
+  "onboardingPage1Heading": {
+    "message": "Sluta räkna ut tidszoner i huvudet"
+  },
+  "onboardingPage1Sub": {
+    "message": "Mötesinbjudningar visar en tidszon. Alla andra räknar ut det i huvudet. Vissa räknar fel."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 07:00 imorgon"
+  },
+  "onboardingPage1Button": {
+    "message": "Se lösningen"
+  },
+  "onboardingEyebrow": {
+    "message": "Lokal tid överallt"
+  },
+  "onboardingPage2Heading": {
+    "message": "Se en tidszon konverteras till din"
+  },
+  "onboardingPage2Sub": {
+    "message": "Här är ett riktigt Slack-meddelande. Klicka på knappen så visas samma tidpunkt i din lokala tid."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Visa min lokala tid"
+  },
+  "onboardingPage2Continue": {
+    "message": "Fortsätt"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Klicka ovan för att konvertera."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 din tid ($2). Ingen matematik krävs."
+  },
+  "onboardingPage3Heading": {
+    "message": "Var det körs"
+  },
+  "onboardingPage3Sub": {
+    "message": "Dessa 12 värdar är på som standard. Öppna någon av dem så konverteras tidszoner infogat, i ett verktygstips eller som en bricka."
+  },
+  "onboardingPage3Hint": {
+    "message": "Behöver du en annan värd? Gratisnivån täcker 3 anpassade värdar. Pro är obegränsat."
+  },
+  "onboardingPage3Link": {
+    "message": "Läs om anpassade värdar"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hej, jag heter Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Jag byggde Lokal tid överallt efter ett missat standup-möte för många över tre tidszoner. Den gör en sak och försöker göra den tyst. Ingen spårning, inga uppgraderingspopups på varje sida."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "En person, bygger öppet på"
+  },
+  "onboardingPage5Heading": {
+    "message": "Välj planen som passar din kalender"
+  },
+  "onboardingPage5Sub": {
+    "message": "Gratis fungerar för alltid på de 12 standardvärdarna. Pro är för avancerade användare och team."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Obegränsade konverteringar på 12 standardvärdar"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h-, 24h- eller systemformat"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Infogad markör, verktygstips och bricka"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Upp till 3 anpassade värdar"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/mån eller $$99 livstid"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Lägg till obegränsat antal anpassade värdar"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Se alla regioner på en rad"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Synka arbetstidsstatus till Slack eller Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Skicka konverterade tider till din kalender"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Hitta den minst smärtsamma mötestiden"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Se Pro-planer"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Stanna på Gratis"
+  },
+  "onboardingPage6Heading": {
+    "message": "Redo att sluta räkna i huvudet"
+  },
+  "onboardingPage6Sub": {
+    "message": "Öppna vilken värd som helst som stöds så konverteras tidszoner av sig själva."
+  },
+  "onboardingPage6Button": {
+    "message": "Börja konvertera"
+  },
+  "onboardingSkip": {
+    "message": "Hoppa över konfiguration"
+  },
+  "onboardingBack": {
+    "message": "Tillbaka"
+  },
+  "onboardingNext": {
+    "message": "Nästa"
+  },
+  "onboardingDone": {
+    "message": "Klar"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Gå till steg $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Onboarding-förlopp"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Onboarding-förlopp"
+  },
+  "onboardingPageOf": {
+    "message": "$1 av $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Byggd av zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 tider konverterade"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 tid konverterad"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 tider konverterade"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Lokal tid - tillfälligt pausad"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

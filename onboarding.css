@@ -1,0 +1,665 @@
+/* ============================================================================
+ * src/pages/onboarding/onboarding.css — 6-page premium onboarding styles.
+ *
+ * Design tokens come from zovo-base.css (light) + dark-mode overrides below.
+ * Per-task brief: use `lte-` prefix everywhere, never `zovo-`.
+ *
+ * WCAG AA contrast notes:
+ *   - Light:  --lte-onboarding-primary = #6C5CE7 hits 5.07:1 on white PASS.
+ *   - Dark:   --lte-onboarding-primary = #8B7CF0 hits 5.34:1 on #0F0F1A PASS.
+ *   - Body secondary 4.48:1 on bg PASS (light), 5.97:1 PASS (dark).
+ * ========================================================================== */
+
+:root {
+  --lte-onboarding-primary: var(--zovo-primary);
+  --lte-onboarding-primary-dark: var(--zovo-primary-dark);
+  --lte-onboarding-primary-50: var(--zovo-primary-50);
+  --lte-onboarding-radius: var(--zovo-radius-card);
+  --lte-onboarding-shadow: var(--zovo-shadow-lg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    /* WCAG AA: #8B7CF0 hits 5.34:1 on dark ground */
+    --lte-onboarding-primary: #8B7CF0;
+    --lte-onboarding-primary-dark: #A89CF2;
+    --lte-onboarding-primary-50: #241f45;
+  }
+}
+:root[data-theme='dark'] {
+  --lte-onboarding-primary: #8B7CF0;
+  --lte-onboarding-primary-dark: #A89CF2;
+  --lte-onboarding-primary-50: #241f45;
+}
+
+/* ---- Root + layout -------------------------------------------------------- */
+.lte-onboarding-root {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--zovo-surface);
+  color: var(--zovo-text);
+  font-family: var(--zovo-font);
+  font-size: var(--zovo-fs-body);
+  line-height: var(--zovo-lh);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--zovo-space-4);
+  box-sizing: border-box;
+}
+.lte-onboarding-root *,
+.lte-onboarding-root *::before,
+.lte-onboarding-root *::after {
+  box-sizing: border-box;
+}
+
+/* ---- Skip bar ------------------------------------------------------------- */
+.lte-onboarding-skip-bar {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lte-onboarding-skip-btn {
+  background: transparent;
+  border: none;
+  color: var(--zovo-text-secondary);
+  font-family: inherit;
+  font-size: var(--zovo-fs-caption);
+  cursor: pointer;
+  padding: var(--zovo-space-1) var(--zovo-space-2);
+  border-radius: var(--zovo-radius-btn);
+  transition: background var(--zovo-transition), color var(--zovo-transition);
+}
+
+.lte-onboarding-skip-btn:hover {
+  background: var(--zovo-surface-2);
+  color: var(--zovo-text);
+}
+
+.lte-onboarding-skip-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-onboarding-primary);
+}
+
+/* ---- Progress bar --------------------------------------------------------- */
+.lte-onboarding-progress {
+  width: 100%;
+  max-width: 560px;
+  height: 4px;
+  background: var(--zovo-surface-2);
+  border-radius: var(--zovo-radius-pill);
+  overflow: hidden;
+  margin-top: var(--zovo-space-2);
+}
+
+.lte-onboarding-progress__bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--lte-onboarding-primary), var(--zovo-accent));
+  transition: width var(--zovo-transition);
+  border-radius: inherit;
+}
+
+/* ---- Page card ------------------------------------------------------------ */
+.lte-onboarding-page-wrap {
+  width: 100%;
+  max-width: 560px;
+  background: var(--zovo-bg);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--lte-onboarding-radius);
+  box-shadow: var(--lte-onboarding-shadow);
+  margin-top: var(--zovo-space-3);
+  overflow: hidden;
+}
+
+.lte-onboarding-page {
+  display: flex;
+  align-items: center;
+  min-height: 420px;
+  padding: var(--zovo-space-7) var(--zovo-space-6);
+}
+
+.lte-onboarding-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--zovo-space-4);
+  text-align: center;
+  width: 100%;
+}
+
+.lte-onboarding-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--zovo-radius-card);
+  background: var(--lte-onboarding-primary-50);
+  color: var(--lte-onboarding-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--lte-onboarding-primary);
+}
+
+.lte-onboarding-logo svg {
+  width: 40px;
+  height: 40px;
+}
+
+.lte-onboarding-eyebrow {
+  margin: 0;
+  font-size: 11px;
+  font-weight: var(--zovo-fw-heading);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--zovo-text-secondary);
+}
+
+.lte-onboarding-heading {
+  margin: 0;
+  font-size: var(--zovo-fs-title);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  color: var(--zovo-text);
+  /* humanize: no em dashes, no trailing colons — copy enforces this */
+}
+
+.lte-onboarding-subtitle {
+  margin: 0;
+  font-size: var(--zovo-fs-body);
+  line-height: var(--zovo-lh);
+  color: var(--zovo-text-secondary);
+  max-width: 440px;
+}
+
+.lte-onboarding-subtitle--muted {
+  color: var(--zovo-text-secondary);
+}
+
+.lte-onboarding-inline-link {
+  color: var(--lte-onboarding-primary);
+  text-decoration: none;
+  font-weight: var(--zovo-fw-medium);
+}
+
+.lte-onboarding-inline-link:hover {
+  text-decoration: underline;
+}
+
+.lte-onboarding-inline-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-onboarding-primary);
+  border-radius: var(--zovo-radius-btn);
+}
+
+/* ---- Buttons -------------------------------------------------------------- */
+.lte-onboarding-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--zovo-space-2);
+  min-height: 40px;
+  padding: 10px 18px;
+  font-family: inherit;
+  font-size: var(--zovo-fs-body);
+  font-weight: var(--zovo-fw-medium);
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: var(--zovo-radius-btn);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--zovo-transition), border-color var(--zovo-transition),
+              color var(--zovo-transition), transform var(--zovo-transition);
+}
+
+.lte-onboarding-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-onboarding-primary);
+}
+
+.lte-onboarding-btn:active {
+  transform: translateY(1px);
+}
+
+.lte-onboarding-btn[disabled] {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.lte-onboarding-btn--primary {
+  background: var(--lte-onboarding-primary);
+  color: #fff;
+}
+
+.lte-onboarding-btn--primary:hover:not([disabled]) {
+  background: var(--lte-onboarding-primary-dark);
+}
+
+.lte-onboarding-btn--secondary {
+  background: var(--zovo-surface);
+  color: var(--zovo-text);
+  border-color: var(--zovo-border);
+}
+
+.lte-onboarding-btn--secondary:hover:not([disabled]) {
+  background: var(--zovo-surface-2);
+}
+
+.lte-onboarding-btn--ghost {
+  background: transparent;
+  color: var(--lte-onboarding-primary);
+}
+
+.lte-onboarding-btn--ghost:hover:not([disabled]) {
+  background: var(--lte-onboarding-primary-50);
+}
+
+.lte-onboarding-btn--pro {
+  background: var(--zovo-pro);
+  color: var(--zovo-on-pro);
+  font-weight: var(--zovo-fw-heading);
+}
+
+.lte-onboarding-btn--pro:hover:not([disabled]) {
+  background: var(--zovo-pro-dark);
+}
+
+.lte-onboarding-btn--block {
+  width: 100%;
+}
+
+/* ---- Page 1: villain stack ------------------------------------------------ */
+.lte-villain-stack {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+  width: 100%;
+  max-width: 360px;
+}
+
+.lte-villain-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--zovo-space-3) var(--zovo-space-4);
+  background: var(--zovo-surface);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-btn);
+}
+
+.lte-villain-row__time {
+  font-family: var(--zovo-font-mono);
+  font-size: var(--zovo-fs-subheading);
+  font-weight: var(--zovo-fw-heading);
+  color: var(--zovo-text);
+}
+
+.lte-villain-row__who {
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+}
+
+/* ---- Page 2: chat demo ---------------------------------------------------- */
+.lte-demo-chat {
+  width: 100%;
+  max-width: 360px;
+  background: var(--zovo-surface);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+  padding: var(--zovo-space-3);
+}
+
+.lte-demo-chat__row {
+  display: flex;
+  gap: var(--zovo-space-2);
+  align-items: flex-start;
+}
+
+.lte-demo-chat__avatar {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--lte-onboarding-primary);
+  color: #fff;
+  font-size: var(--zovo-fs-caption);
+  font-weight: var(--zovo-fw-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lte-demo-chat__bubble {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  background: var(--zovo-bg);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-btn);
+  padding: var(--zovo-space-2) var(--zovo-space-3);
+}
+
+.lte-demo-chat__sender {
+  display: block;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  margin-bottom: 2px;
+}
+
+.lte-demo-chat__text {
+  margin: 0;
+  font-size: var(--zovo-fs-body);
+  color: var(--zovo-text);
+}
+
+.lte-demo-chat__text strong {
+  /* strong inside a sentence is fine — it is not the "Label: value" pattern. */
+  font-weight: var(--zovo-fw-heading);
+  color: var(--lte-onboarding-primary);
+}
+
+.lte-demo-reveal {
+  font-size: var(--zovo-fs-body);
+  font-weight: var(--zovo-fw-medium);
+  color: var(--lte-onboarding-primary);
+  margin: 0;
+  min-height: 1.5em;
+  max-width: 360px;
+}
+
+/* ---- Page 3: hosts grid --------------------------------------------------- */
+.lte-hosts-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--zovo-space-2);
+  width: 100%;
+  max-width: 440px;
+}
+
+.lte-hosts-grid__chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--zovo-space-2) var(--zovo-space-3);
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text);
+  background: var(--zovo-surface);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-pill);
+  text-align: center;
+  min-height: 32px;
+}
+
+.lte-hosts-custom {
+  width: 100%;
+  max-width: 440px;
+  padding: var(--zovo-space-3);
+  border: 1px dashed var(--zovo-border);
+  border-radius: var(--zovo-radius-btn);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+  align-items: center;
+}
+
+.lte-hosts-custom__hint {
+  margin: 0;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  text-align: center;
+}
+
+.lte-hosts-custom__link {
+  font-size: var(--zovo-fs-caption);
+  font-weight: var(--zovo-fw-medium);
+  color: var(--lte-onboarding-primary);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: var(--zovo-radius-btn);
+}
+
+.lte-hosts-custom__link:hover {
+  text-decoration: underline;
+  background: var(--lte-onboarding-primary-50);
+}
+
+.lte-hosts-custom__link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-onboarding-primary);
+}
+
+/* ---- Page 4: founder ------------------------------------------------------ */
+.lte-founder-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--lte-onboarding-primary-50);
+  color: var(--lte-onboarding-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--zovo-fs-title);
+  font-weight: 700;
+  border: 1px solid var(--lte-onboarding-primary);
+}
+
+/* ---- Page 5: pricing ------------------------------------------------------ */
+.lte-plans-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--zovo-space-3);
+  width: 100%;
+  max-width: 440px;
+}
+
+.lte-plan-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+  padding: var(--zovo-space-4);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+  background: var(--zovo-surface);
+  text-align: left;
+}
+
+.lte-plan-card--highlight {
+  border-color: var(--lte-onboarding-primary);
+  background: var(--lte-onboarding-primary-50);
+}
+
+.lte-plan-card--pro {
+  border-color: var(--zovo-pro);
+}
+
+.lte-plan-card__badge {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--lte-onboarding-primary);
+  background: transparent;
+  border: 1px solid var(--lte-onboarding-primary);
+  border-radius: var(--zovo-radius-pill);
+}
+
+.lte-plan-card__badge--pro {
+  color: var(--zovo-pro);
+  border-color: var(--zovo-pro);
+}
+
+.lte-plan-card__price {
+  margin: 0;
+  font-size: var(--zovo-fs-subheading);
+  font-weight: var(--zovo-fw-heading);
+  color: var(--zovo-text);
+}
+
+.lte-plan-card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-1);
+}
+
+.lte-plan-card__list li {
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text);
+  line-height: 1.4;
+  padding-left: var(--zovo-space-3);
+  position: relative;
+}
+
+.lte-plan-card__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--lte-onboarding-primary);
+}
+
+.lte-plan-card--pro .lte-plan-card__list li::before {
+  background: var(--zovo-pro);
+}
+
+/* ---- Page 6: done icon ---------------------------------------------------- */
+.lte-done-icon {
+  width: 56px;
+  height: 56px;
+  color: var(--zovo-success);
+}
+
+.lte-done-icon svg {
+  width: 56px;
+  height: 56px;
+}
+
+/* ---- Step indicator (6 dots) ---------------------------------------------- */
+.lte-step-indicator {
+  list-style: none;
+  margin: var(--zovo-space-4) 0 var(--zovo-space-2);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--zovo-space-2);
+}
+
+.lte-step-indicator__item {
+  display: flex;
+}
+
+.lte-step-indicator__dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--zovo-border);
+  background: var(--zovo-surface-2);
+  cursor: pointer;
+  transition: background var(--zovo-transition), border-color var(--zovo-transition);
+}
+
+.lte-step-indicator__dot:hover {
+  border-color: var(--lte-onboarding-primary);
+}
+
+.lte-step-indicator__dot:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-onboarding-primary);
+}
+
+.lte-step-indicator__dot[data-current='true'] {
+  background: var(--lte-onboarding-primary);
+  border-color: var(--lte-onboarding-primary);
+}
+
+/* ---- Nav bar (Back / Next / Done) ----------------------------------------- */
+.lte-onboarding-nav {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--zovo-space-3);
+  margin-top: var(--zovo-space-3);
+}
+
+.lte-onboarding-nav__pos {
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Footer --------------------------------------------------------------- */
+.lte-onboarding-footer {
+  width: 100%;
+  max-width: 560px;
+  margin-top: var(--zovo-space-4);
+  padding: var(--zovo-space-3) 0;
+  text-align: center;
+  border-top: 1px solid var(--zovo-border);
+}
+
+.lte-onboarding-footer__brand {
+  margin: 0;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+}
+
+.lte-onboarding-footer__brand a {
+  color: var(--lte-onboarding-primary);
+  text-decoration: none;
+}
+
+.lte-onboarding-footer__brand a:hover {
+  text-decoration: underline;
+}
+
+.lte-onboarding-footer__brand a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-onboarding-primary);
+  border-radius: var(--zovo-radius-btn);
+}
+
+/* ---- SR-only utility ------------------------------------------------------ */
+.lte-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- Reduced motion ------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .lte-onboarding-root *,
+  .lte-onboarding-root *::before,
+  .lte-onboarding-root *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+

@@ -1,0 +1,1 @@
+export const FUNNEL_EVENT_NAMES=Object.freeze(["first_value","conversion_batch","custom_host_add","cap_hit","paywall_view","paywall_shown","cta_click","trial_start","key_verified","verify_failed","install","options_open","license_attempt","pro_feature_clicked"]);export const FUNNEL_CAP=100;export function setEventSink(t){}export function emit(t,e){}export{};

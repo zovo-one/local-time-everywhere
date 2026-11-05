@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Stop doing timezone math in your head. Convert 3pm EST, 9:00 UTC, 14:00 CET inline on Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Active"
+  },
+  "popupStatusPaused": {
+    "message": "Paused"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: active"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: paused on this host"
+  },
+  "popupStatLabel": {
+    "message": "On this page"
+  },
+  "popupStatHintSingular": {
+    "message": "time converted on this tab this session."
+  },
+  "popupStatHintPlural": {
+    "message": "times converted on this tab this session."
+  },
+  "popupStatAriaLabel": {
+    "message": "Converted times on this page"
+  },
+  "popupPauseOnHost": {
+    "message": "Pause on this host"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Stop converting on this site until you turn it back on."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Stop converting on $1 until you turn it back on."
+  },
+  "popupShowInline": {
+    "message": "Show inline conversions"
+  },
+  "popupShowInlineSub": {
+    "message": "Add a small local-time marker next to every zoned time."
+  },
+  "popupShowBadge": {
+    "message": "Show badge"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passive count of times converted in the page corner."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Conversion settings"
+  },
+  "popupLicenseHave": {
+    "message": "Have a license key?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "License key"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Activate"
+  },
+  "popupLicenseVerifying": {
+    "message": "Verifying..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Enter a license key first."
+  },
+  "popupLicenseActivated": {
+    "message": "License activated. Pro unlocked."
+  },
+  "popupLicenseFailed": {
+    "message": "That key did not verify. Check the key and try again."
+  },
+  "popupLicenseError": {
+    "message": "Verification failed. Try again in a moment."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Built by zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "More tools"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Unlock every host and ICS export"
+  },
+  "popupSrActive": {
+    "message": "Conversions active on this host."
+  },
+  "popupSrPaused": {
+    "message": "Conversions paused on this host."
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere Settings"
+  },
+  "optionsSub": {
+    "message": "Convert zoned times inline on the hosts where meeting invites land."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Conversions"
+  },
+  "optionsConversionsTitle": {
+    "message": "Get conversions on the page, your way"
+  },
+  "optionsInlineTitle": {
+    "message": "Convert times inline on the page"
+  },
+  "optionsInlineSub": {
+    "message": "Add a small local-time marker next to every zoned time."
+  },
+  "optionsBadgeTitle": {
+    "message": "Keep a passive count of conversions in the corner"
+  },
+  "optionsBadgeSub": {
+    "message": "Passive count of times converted on this tab."
+  },
+  "optionsPauseTitle": {
+    "message": "Mute conversions on a host"
+  },
+  "optionsPauseSub": {
+    "message": "Use the Local Time Everywhere popup on a host to pause or resume conversions on that specific site."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Time format"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "System"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-hour"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-hour"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Time format preference"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Hosts"
+  },
+  "optionsHostsTitle": {
+    "message": "Sites where times convert"
+  },
+  "optionsHostsCountPro": {
+    "message": "Unlimited custom hosts with Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 of $2 custom hosts used"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Default hosts, convert on every visit"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Hosts you added, convert on every visit"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Free tier includes up to $1 custom hosts. Pro unlocks unlimited custom hosts."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Upgrade to Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Add a custom host"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Add host"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Remove"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Remove custom host $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Use a specific pattern like https://example.com/* or https://*.yourteam.com/*. Never use the broad wildcards <all_urls> or *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Enter a host pattern first."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Blocked pattern: $1. Use a specific https:// pattern."
+  },
+  "optionsHostErrScheme": {
+    "message": "Pattern must start with https:// (or http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "That pattern does not have a real hostname."
+  },
+  "optionsHostErrMalformed": {
+    "message": "That pattern is malformed."
+  },
+  "optionsHostErrPath": {
+    "message": "Add a path wildcard at the end (e.g. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "That host is already on your list."
+  },
+  "optionsHostErrDefault": {
+    "message": "That host is already on the default list."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Free tier is capped at $1 custom hosts. Upgrade to add more."
+  },
+  "optionsHostErrPermission": {
+    "message": "Permission not granted. The host was not added."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Could not request permission for that host."
+  },
+  "optionsHostAdded": {
+    "message": "Added $1. Reload open tabs on that host to scan them."
+  },
+  "optionsHostRemoved": {
+    "message": "Removed $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Convert times across every host you use"
+  },
+  "optionsProFeature1Title": {
+    "message": "Get every region in one line"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Show 3pm EST, 12pm PST, 8pm GMT in one line."
+  },
+  "optionsProFeature2Title": {
+    "message": "Keep teammates in sync with your working hours"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Push a Slack or Discord status. Opt-in only."
+  },
+  "optionsProFeature3Title": {
+    "message": "Ship calendar invites with the converted time"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Copy an .ics invite for the right slot."
+  },
+  "optionsProFeature4Title": {
+    "message": "Find the least-painful meeting slot"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Compare zones side by side and pick the kind one."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro feature, locked"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "See Pro plans"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Convert every host with Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "For power users and teams who live across time zones."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/mo"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 lifetime"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "One price, your choice. Cancel anytime."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Unlimited custom hosts (free caps at 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Multi-region format, show all zones at once"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack and Discord working-hours status sync"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS calendar export with converted times"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Best-overlap meeting suggester"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Get Pro, $$99 lifetime"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Or $$4.99/month"
+  },
+  "optionsPaywallNote": {
+    "message": "One payment or one subscription. Activates Pro in this extension forever."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-day money-back guarantee. If Pro is not worth it, we refund, no questions."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Free vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Ship converted times to your calendar"
+  },
+  "optionsIcsExportSub": {
+    "message": "Copy an .ics invite with the local time baked in. Pro peek, visible here so you know what unlocks."
+  },
+  "optionsIcsExportCta": {
+    "message": "Export .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Unlock in Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "License"
+  },
+  "optionsLicenseTitle": {
+    "message": "Activate or remove a key"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro active."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Valid through $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Lifetime license."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deactivate"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "License deactivated. Back to free tier."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privacy"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Keep your data on this device"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere runs entirely on your device. It reads text on the hosts listed above for the sole purpose of converting zoned times. No page content, browsing history, or profile data is ever sent anywhere. The only network request happens when you enter a license key, and only the key itself is sent."
+  },
+  "optionsPrivacyExport": {
+    "message": "Export my data"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Delete all data"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Exported $1 key(s) to your downloads."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Export failed. Please try again."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Delete all Local Time Everywhere data from this device? This cannot be undone."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "All Local Time Everywhere data cleared from this device."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Delete failed. Please try again."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, by Zovo. Not affiliated with Google, Microsoft, Discord, Slack, or GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Pro license active."
+  },
+  "optionsSrFree": {
+    "message": "Free tier."
+  },
+  "onboardingPage1Heading": {
+    "message": "Stop doing timezone math in your head"
+  },
+  "onboardingPage1Sub": {
+    "message": "Meeting invites show one time zone. Everyone else does the math in their head. Some get it wrong."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 9pm"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 12:30am"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7am tomorrow"
+  },
+  "onboardingPage1Button": {
+    "message": "See the fix"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Watch a zoned time convert to yours"
+  },
+  "onboardingPage2Sub": {
+    "message": "Here is a real Slack message. Click the button and the same moment shows up in your local time."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "See my local time"
+  },
+  "onboardingPage2Continue": {
+    "message": "Continue"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Click above to convert."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 your time ($2). No math required."
+  },
+  "onboardingPage3Heading": {
+    "message": "Where it runs"
+  },
+  "onboardingPage3Sub": {
+    "message": "These 12 hosts are on by default. Open any of them and zoned times convert inline, in a tooltip, or as a badge."
+  },
+  "onboardingPage3Hint": {
+    "message": "Need another host? Free tier covers 3 custom hosts. Pro is unlimited."
+  },
+  "onboardingPage3Link": {
+    "message": "Learn about custom hosts"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hi, I am Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "I built Local Time Everywhere after one too many missed standups across three time zones. It does one thing and tries to do it quietly. No tracking, no upsell popups on every page."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "One person, building in public at"
+  },
+  "onboardingPage5Heading": {
+    "message": "Get the plan that fits your calendar"
+  },
+  "onboardingPage5Sub": {
+    "message": "Free works forever on the 12 default hosts. Pro is for power users and teams."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Free"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Unlimited conversions on 12 default hosts"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h, 24h, or system format"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Inline marker, tooltip, and badge"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Up to 3 custom hosts"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/mo or $$99 lifetime"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Add unlimited custom hosts"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "See every region in one line"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Sync working-hours status to Slack or Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Send converted times to your calendar"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Find the least-painful meeting slot"
+  },
+  "onboardingPage5ProCta": {
+    "message": "See Pro plans"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Stay on Free"
+  },
+  "onboardingPage6Heading": {
+    "message": "Ready to stop doing math in your head"
+  },
+  "onboardingPage6Sub": {
+    "message": "Open any supported host and zoned times will convert on their own."
+  },
+  "onboardingPage6Button": {
+    "message": "Start converting"
+  },
+  "onboardingSkip": {
+    "message": "Skip setup"
+  },
+  "onboardingBack": {
+    "message": "Back"
+  },
+  "onboardingNext": {
+    "message": "Next"
+  },
+  "onboardingDone": {
+    "message": "Done"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Go to step $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Onboarding progress"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Onboarding progress"
+  },
+  "onboardingPageOf": {
+    "message": "$1 of $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Built by zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 times converted"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 time converted"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 times converted"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - temporarily paused"
+  }
+}

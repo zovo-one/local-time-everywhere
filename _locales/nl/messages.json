@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Lokale tijd overal"
+  },
+  "extDesc": {
+    "message": "Stop met tijdzones uitrekenen in je hoofd. Zet 3pm EST, 9:00 UTC, 14:00 CET direct om in Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Lokale tijd overal"
+  },
+  "popupTitle": {
+    "message": "Lokale tijd overal"
+  },
+  "popupStatusActive": {
+    "message": "Actief"
+  },
+  "popupStatusPaused": {
+    "message": "Gepauzeerd"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: actief"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: gepauzeerd op deze host"
+  },
+  "popupStatLabel": {
+    "message": "Op deze pagina"
+  },
+  "popupStatHintSingular": {
+    "message": "tijd omgezet op dit tabblad in deze sessie."
+  },
+  "popupStatHintPlural": {
+    "message": "tijden omgezet op dit tabblad in deze sessie."
+  },
+  "popupStatAriaLabel": {
+    "message": "Omgezette tijden op deze pagina"
+  },
+  "popupPauseOnHost": {
+    "message": "Pauzeren op deze host"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Stop met omzetten op deze site totdat je het weer inschakelt."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Stop met omzetten op $1 totdat je het weer inschakelt."
+  },
+  "popupShowInline": {
+    "message": "Inline-conversies tonen"
+  },
+  "popupShowInlineSub": {
+    "message": "Voeg een kleine lokale-tijdmarkering toe naast elke tijd met tijdzone."
+  },
+  "popupShowBadge": {
+    "message": "Badge tonen"
+  },
+  "popupShowBadgeSub": {
+    "message": "Passieve telling van omgezette tijden in de hoek van de pagina."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Conversie-instellingen"
+  },
+  "popupLicenseHave": {
+    "message": "Heb je een licentiesleutel?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Licentiesleutel"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Activeren"
+  },
+  "popupLicenseVerifying": {
+    "message": "Verifiëren..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Voer eerst een licentiesleutel in."
+  },
+  "popupLicenseActivated": {
+    "message": "Licentie geactiveerd. Pro ontgrendeld."
+  },
+  "popupLicenseFailed": {
+    "message": "Die sleutel kon niet worden geverifieerd. Controleer de sleutel en probeer het opnieuw."
+  },
+  "popupLicenseError": {
+    "message": "Verificatie mislukt. Probeer het zo meteen opnieuw."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Gemaakt door zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Meer tools"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Ontgrendel elke host en ICS-export"
+  },
+  "popupSrActive": {
+    "message": "Conversies actief op deze host."
+  },
+  "popupSrPaused": {
+    "message": "Conversies gepauzeerd op deze host."
+  },
+  "optionsTitle": {
+    "message": "Instellingen voor Lokale tijd overal"
+  },
+  "optionsSub": {
+    "message": "Zet tijden met tijdzone direct om op de hosts waar vergaderuitnodigingen binnenkomen."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Conversies"
+  },
+  "optionsConversionsTitle": {
+    "message": "Krijg conversies op de pagina, op jouw manier"
+  },
+  "optionsInlineTitle": {
+    "message": "Zet tijden inline om op de pagina"
+  },
+  "optionsInlineSub": {
+    "message": "Voeg een kleine lokale-tijdmarkering toe naast elke tijd met tijdzone."
+  },
+  "optionsBadgeTitle": {
+    "message": "Houd een passieve telling van conversies in de hoek bij"
+  },
+  "optionsBadgeSub": {
+    "message": "Passieve telling van omgezette tijden op dit tabblad."
+  },
+  "optionsPauseTitle": {
+    "message": "Conversies dempen op een host"
+  },
+  "optionsPauseSub": {
+    "message": "Gebruik de pop-up van Lokale tijd overal op een host om conversies op die specifieke site te pauzeren of te hervatten."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Tijdnotatie"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Systeem"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-uurs"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-uurs"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Voorkeur voor tijdnotatie"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Hosts"
+  },
+  "optionsHostsTitle": {
+    "message": "Sites waar tijden worden omgezet"
+  },
+  "optionsHostsCountPro": {
+    "message": "Onbeperkt aangepaste hosts met Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 van $2 aangepaste hosts gebruikt"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Standaardhosts, zetten bij elk bezoek om"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Hosts die je hebt toegevoegd, zetten bij elk bezoek om"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Het gratisniveau bevat maximaal $1 aangepaste hosts. Pro ontgrendelt onbeperkt aangepaste hosts."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Upgraden naar Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Een aangepaste host toevoegen"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Host toevoegen"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Verwijderen"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Aangepaste host $1 verwijderen"
+  },
+  "optionsAddHostHelp": {
+    "message": "Gebruik een specifiek patroon zoals https://example.com/* of https://*.yourteam.com/*. Gebruik nooit de brede jokertekens <all_urls> of *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Voer eerst een hostpatroon in."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Geblokkeerd patroon: $1. Gebruik een specifiek https://-patroon."
+  },
+  "optionsHostErrScheme": {
+    "message": "Het patroon moet beginnen met https:// (of http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Dat patroon heeft geen echte hostnaam."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Dat patroon is onjuist opgemaakt."
+  },
+  "optionsHostErrPath": {
+    "message": "Voeg aan het einde een pad-jokerteken toe (bijv. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Die host staat al op je lijst."
+  },
+  "optionsHostErrDefault": {
+    "message": "Die host staat al op de standaardlijst."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Het gratisniveau is beperkt tot $1 aangepaste hosts. Upgrade om er meer toe te voegen."
+  },
+  "optionsHostErrPermission": {
+    "message": "Toestemming niet verleend. De host is niet toegevoegd."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Kon geen toestemming aanvragen voor die host."
+  },
+  "optionsHostAdded": {
+    "message": "$1 toegevoegd. Herlaad open tabbladen op die host om ze te scannen."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 verwijderd."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Zet tijden om op elke host die je gebruikt"
+  },
+  "optionsProFeature1Title": {
+    "message": "Krijg elke regio op één regel"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Toon 3pm EST, 12pm PST, 8pm GMT op één regel."
+  },
+  "optionsProFeature2Title": {
+    "message": "Houd teamgenoten op de hoogte van je werkuren"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Stuur een Slack- of Discord-status. Alleen met opt-in."
+  },
+  "optionsProFeature3Title": {
+    "message": "Verstuur agenda-uitnodigingen met de omgezette tijd"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Kopieer een .ics-uitnodiging voor het juiste tijdslot."
+  },
+  "optionsProFeature4Title": {
+    "message": "Vind het minst pijnlijke vergadermoment"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Vergelijk tijdzones naast elkaar en kies het vriendelijke moment."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro-functie, vergrendeld"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Bekijk Pro-abonnementen"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Zet elke host om met Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Voor power-users en teams die verspreid over tijdzones leven."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/mnd"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 levenslang"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Eén prijs, jouw keuze. Opzegbaar wanneer je wilt."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Onbeperkt aangepaste hosts (gratis beperkt tot 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Multiregio-notatie, toon alle tijdzones tegelijk"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Synchronisatie van werkurenstatus met Slack en Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS-agenda-export met omgezette tijden"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Beste-overlap vergadersuggestie"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Koop Pro, $$99 levenslang"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Of $$4.99/maand"
+  },
+  "optionsPaywallNote": {
+    "message": "Eén betaling of één abonnement. Activeert Pro in deze extensie voor altijd."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 dagen niet-goed-geld-terug-garantie. Als Pro het niet waard is, betalen we terug, geen vragen."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Gratis vs. Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Stuur omgezette tijden naar je agenda"
+  },
+  "optionsIcsExportSub": {
+    "message": "Kopieer een .ics-uitnodiging met de lokale tijd erin verwerkt. Pro-preview, hier zichtbaar zodat je weet wat er wordt ontgrendeld."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics exporteren"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Ontgrendel in Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Licentie"
+  },
+  "optionsLicenseTitle": {
+    "message": "Een sleutel activeren of verwijderen"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro actief."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Geldig tot en met $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Levenslange licentie."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Deactiveren"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Licentie gedeactiveerd. Terug naar het gratisniveau."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privacy"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Houd je gegevens op dit apparaat"
+  },
+  "optionsPrivacyBody": {
+    "message": "Lokale tijd overal draait volledig op je apparaat. Het leest tekst op de hierboven vermelde hosts, uitsluitend om tijden met tijdzone om te zetten. Er wordt nooit pagina-inhoud, browsergeschiedenis of profielgegevens ergens naartoe gestuurd. Het enige netwerkverzoek vindt plaats wanneer je een licentiesleutel invoert, en alleen de sleutel zelf wordt verzonden."
+  },
+  "optionsPrivacyExport": {
+    "message": "Mijn gegevens exporteren"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Alle gegevens verwijderen"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 sleutel(s) geëxporteerd naar je downloads."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Export mislukt. Probeer het opnieuw."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Alle gegevens van Lokale tijd overal van dit apparaat verwijderen? Dit kan niet ongedaan worden gemaakt."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Alle gegevens van Lokale tijd overal zijn van dit apparaat gewist."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Verwijderen mislukt. Probeer het opnieuw."
+  },
+  "optionsAboutLine": {
+    "message": "Lokale tijd overal v1.0.0, door Zovo. Niet gelieerd aan Google, Microsoft, Discord, Slack of GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Pro-licentie actief."
+  },
+  "optionsSrFree": {
+    "message": "Gratisniveau."
+  },
+  "onboardingPage1Heading": {
+    "message": "Stop met tijdzones uitrekenen in je hoofd"
+  },
+  "onboardingPage1Sub": {
+    "message": "Vergaderuitnodigingen tonen één tijdzone. Iedereen rekent het uit in zijn hoofd. Sommigen doen het fout."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlijn, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 07:00 morgen"
+  },
+  "onboardingPage1Button": {
+    "message": "Bekijk de oplossing"
+  },
+  "onboardingEyebrow": {
+    "message": "Lokale tijd overal"
+  },
+  "onboardingPage2Heading": {
+    "message": "Zie een tijd met tijdzone omgezet worden naar de jouwe"
+  },
+  "onboardingPage2Sub": {
+    "message": "Hier is een echt Slack-bericht. Klik op de knop en hetzelfde moment verschijnt in je lokale tijd."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Toon mijn lokale tijd"
+  },
+  "onboardingPage2Continue": {
+    "message": "Doorgaan"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Klik hierboven om om te zetten."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 jouw tijd ($2). Geen rekenen nodig."
+  },
+  "onboardingPage3Heading": {
+    "message": "Waar het werkt"
+  },
+  "onboardingPage3Sub": {
+    "message": "Deze 12 hosts zijn standaard ingeschakeld. Open er een en tijden met tijdzone worden inline, in een tooltip of als badge omgezet."
+  },
+  "onboardingPage3Hint": {
+    "message": "Nog een host nodig? Het gratisniveau dekt 3 aangepaste hosts. Pro is onbeperkt."
+  },
+  "onboardingPage3Link": {
+    "message": "Meer over aangepaste hosts"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hoi, ik ben Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Ik bouwde Lokale tijd overal na te veel gemiste standups verspreid over drie tijdzones. Het doet één ding en probeert dat stilletjes te doen. Geen tracking, geen upsell-pop-ups op elke pagina."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Eén persoon, bouwend in het openbaar op"
+  },
+  "onboardingPage5Heading": {
+    "message": "Kies het abonnement dat bij je agenda past"
+  },
+  "onboardingPage5Sub": {
+    "message": "Gratis werkt voor altijd op de 12 standaardhosts. Pro is voor power-users en teams."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Onbeperkte conversies op 12 standaardhosts"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12-uurs, 24-uurs of systeemnotatie"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Inline-markering, tooltip en badge"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Tot 3 aangepaste hosts"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/mnd of $$99 levenslang"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Voeg onbeperkt aangepaste hosts toe"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Zie elke regio op één regel"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Synchroniseer werkurenstatus met Slack of Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Stuur omgezette tijden naar je agenda"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Vind het minst pijnlijke vergadermoment"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Bekijk Pro-abonnementen"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Blijf op Gratis"
+  },
+  "onboardingPage6Heading": {
+    "message": "Klaar om te stoppen met rekenen in je hoofd"
+  },
+  "onboardingPage6Sub": {
+    "message": "Open een ondersteunde host en tijden met tijdzone worden vanzelf omgezet."
+  },
+  "onboardingPage6Button": {
+    "message": "Begin met omzetten"
+  },
+  "onboardingSkip": {
+    "message": "Setup overslaan"
+  },
+  "onboardingBack": {
+    "message": "Terug"
+  },
+  "onboardingNext": {
+    "message": "Volgende"
+  },
+  "onboardingDone": {
+    "message": "Klaar"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Ga naar stap $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Onboardingvoortgang"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Onboardingvoortgang"
+  },
+  "onboardingPageOf": {
+    "message": "$1 van $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Gemaakt door zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 tijden omgezet"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 tijd omgezet"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 tijden omgezet"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Lokale tijd - tijdelijk gepauzeerd"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

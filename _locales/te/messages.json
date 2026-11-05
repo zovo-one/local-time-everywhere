@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "ప్రతిచోటా స్థానిక సమయం"
+  },
+  "extDesc": {
+    "message": "టైమ్‌జోన్ లెక్కలను మనసులో వేయడం ఆపండి. Calendar, Slack, Discord, GitHub లో 3pm EST, 9:00 UTC, 14:00 CET ను ఇన్‌లైన్‌గానే మార్చండి."
+  },
+  "actionTitle": {
+    "message": "ప్రతిచోటా స్థానిక సమయం"
+  },
+  "popupTitle": {
+    "message": "ప్రతిచోటా స్థానిక సమయం"
+  },
+  "popupStatusActive": {
+    "message": "యాక్టివ్"
+  },
+  "popupStatusPaused": {
+    "message": "పాజ్ చేయబడింది"
+  },
+  "popupStatusActiveLabel": {
+    "message": "స్థితి: యాక్టివ్"
+  },
+  "popupStatusPausedLabel": {
+    "message": "స్థితి: ఈ హోస్ట్‌లో పాజ్ చేయబడింది"
+  },
+  "popupStatLabel": {
+    "message": "ఈ పేజీలో"
+  },
+  "popupStatHintSingular": {
+    "message": "ఈ సెషన్‌లో ఈ ట్యాబ్‌లో సమయం మార్చబడింది."
+  },
+  "popupStatHintPlural": {
+    "message": "ఈ సెషన్‌లో ఈ ట్యాబ్‌లో సమయాలు మార్చబడ్డాయి."
+  },
+  "popupStatAriaLabel": {
+    "message": "ఈ పేజీలో మార్చబడిన సమయాలు"
+  },
+  "popupPauseOnHost": {
+    "message": "ఈ హోస్ట్‌లో పాజ్ చేయండి"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "మీరు మళ్లీ ఆన్ చేసే వరకు ఈ సైట్‌లో మార్చడం ఆపండి."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "మీరు మళ్లీ ఆన్ చేసే వరకు $1 లో మార్చడం ఆపండి."
+  },
+  "popupShowInline": {
+    "message": "ఇన్‌లైన్ మార్పులను చూపించు"
+  },
+  "popupShowInlineSub": {
+    "message": "ప్రతి జోన్డ్ సమయం పక్కన ఒక చిన్న స్థానిక-సమయ గుర్తును జోడించండి."
+  },
+  "popupShowBadge": {
+    "message": "బ్యాడ్జ్ చూపించు"
+  },
+  "popupShowBadgeSub": {
+    "message": "పేజీ మూలలో మార్చబడిన సమయాల నిష్క్రియ లెక్క."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "మార్పిడి సెట్టింగ్‌లు"
+  },
+  "popupLicenseHave": {
+    "message": "లైసెన్స్ కీ ఉందా?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "లైసెన్స్ కీ"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "యాక్టివేట్ చేయి"
+  },
+  "popupLicenseVerifying": {
+    "message": "ధృవీకరిస్తోంది..."
+  },
+  "popupLicenseEmpty": {
+    "message": "ముందుగా లైసెన్స్ కీని నమోదు చేయండి."
+  },
+  "popupLicenseActivated": {
+    "message": "లైసెన్స్ యాక్టివేట్ చేయబడింది. Pro అన్‌లాక్ చేయబడింది."
+  },
+  "popupLicenseFailed": {
+    "message": "ఆ కీ ధృవీకరించబడలేదు. కీని తనిఖీ చేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "popupLicenseError": {
+    "message": "ధృవీకరణ విఫలమైంది. కొద్దిసేపటిలో మళ్లీ ప్రయత్నించండి."
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one రూపొందించింది"
+  },
+  "popupFooterMoreTools": {
+    "message": "మరిన్ని సాధనాలు"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "ప్రతి హోస్ట్‌ను మరియు ICS ఎగుమతిని అన్‌లాక్ చేయండి"
+  },
+  "popupSrActive": {
+    "message": "ఈ హోస్ట్‌లో మార్పులు యాక్టివ్‌గా ఉన్నాయి."
+  },
+  "popupSrPaused": {
+    "message": "ఈ హోస్ట్‌లో మార్పులు పాజ్ చేయబడ్డాయి."
+  },
+  "optionsTitle": {
+    "message": "ప్రతిచోటా స్థానిక సమయం సెట్టింగ్‌లు"
+  },
+  "optionsSub": {
+    "message": "మీటింగ్ ఆహ్వానాలు వచ్చే హోస్ట్‌లలో జోన్డ్ సమయాలను ఇన్‌లైన్‌గానే మార్చండి."
+  },
+  "optionsEyebrowConversions": {
+    "message": "మార్పులు"
+  },
+  "optionsConversionsTitle": {
+    "message": "మీ ఇష్టానుసారం పేజీలో మార్పులను పొందండి"
+  },
+  "optionsInlineTitle": {
+    "message": "పేజీలో సమయాలను ఇన్‌లైన్‌గా మార్చు"
+  },
+  "optionsInlineSub": {
+    "message": "ప్రతి జోన్డ్ సమయం పక్కన ఒక చిన్న స్థానిక-సమయ గుర్తును జోడించండి."
+  },
+  "optionsBadgeTitle": {
+    "message": "మూలలో మార్పుల నిష్క్రియ లెక్కను ఉంచండి"
+  },
+  "optionsBadgeSub": {
+    "message": "ఈ ట్యాబ్‌లో మార్చబడిన సమయాల నిష్క్రియ లెక్క."
+  },
+  "optionsPauseTitle": {
+    "message": "ఒక హోస్ట్‌లో మార్పులను మ్యూట్ చేయి"
+  },
+  "optionsPauseSub": {
+    "message": "ఆ నిర్దిష్ట సైట్‌లో మార్పులను పాజ్ చేయడానికి లేదా తిరిగి కొనసాగించడానికి, ఒక హోస్ట్‌లో ప్రతిచోటా స్థానిక సమయం పాప్అప్‌ను ఉపయోగించండి."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "సమయ ఫార్మాట్"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "సిస్టమ్"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-గంటల"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-గంటల"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "సమయ ఫార్మాట్ ప్రాధాన్యత"
+  },
+  "optionsEyebrowHosts": {
+    "message": "హోస్ట్‌లు"
+  },
+  "optionsHostsTitle": {
+    "message": "సమయాలు మార్చబడే సైట్‌లు"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro తో అపరిమిత అనుకూల హోస్ట్‌లు"
+  },
+  "optionsHostsCountFree": {
+    "message": "$2 లో $1 అనుకూల హోస్ట్‌లు ఉపయోగించబడ్డాయి"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "డిఫాల్ట్ హోస్ట్‌లు, ప్రతి సందర్శనకు మారుస్తాయి"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "మీరు జోడించిన హోస్ట్‌లు, ప్రతి సందర్శనకు మారుస్తాయి"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "ఉచిత స్థాయిలో $1 అనుకూల హోస్ట్‌ల వరకు ఉంటాయి. Pro అపరిమిత అనుకూల హోస్ట్‌లను అన్‌లాక్ చేస్తుంది."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro కి అప్‌గ్రేడ్ చేయి"
+  },
+  "optionsAddHostLabel": {
+    "message": "అనుకూల హోస్ట్‌ను జోడించు"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "హోస్ట్ జోడించు"
+  },
+  "optionsRemoveHostButton": {
+    "message": "తీసివేయి"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "అనుకూల హోస్ట్ $1 ను తీసివేయి"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* లేదా https://*.yourteam.com/* వంటి నిర్దిష్ట నమూనాను ఉపయోగించండి. <all_urls> లేదా *://*/* వంటి విస్తృత వైల్డ్‌కార్డ్‌లను ఎప్పుడూ ఉపయోగించవద్దు."
+  },
+  "optionsHostErrEmpty": {
+    "message": "ముందుగా హోస్ట్ నమూనాను నమోదు చేయండి."
+  },
+  "optionsHostErrBlocked": {
+    "message": "బ్లాక్ చేయబడిన నమూనా: $1. నిర్దిష్ట https:// నమూనాను ఉపయోగించండి."
+  },
+  "optionsHostErrScheme": {
+    "message": "నమూనా https:// (లేదా http://) తో ప్రారంభం కావాలి."
+  },
+  "optionsHostErrHostname": {
+    "message": "ఆ నమూనాకు నిజమైన హోస్ట్‌నేమ్ లేదు."
+  },
+  "optionsHostErrMalformed": {
+    "message": "ఆ నమూనా తప్పుగా ఉంది."
+  },
+  "optionsHostErrPath": {
+    "message": "చివర ఒక పాత్ వైల్డ్‌కార్డ్‌ను జోడించండి (ఉదా. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "ఆ హోస్ట్ ఇప్పటికే మీ జాబితాలో ఉంది."
+  },
+  "optionsHostErrDefault": {
+    "message": "ఆ హోస్ట్ ఇప్పటికే డిఫాల్ట్ జాబితాలో ఉంది."
+  },
+  "optionsHostErrCapHit": {
+    "message": "ఉచిత స్థాయి $1 అనుకూల హోస్ట్‌లకు పరిమితం. మరిన్ని జోడించడానికి అప్‌గ్రేడ్ చేయండి."
+  },
+  "optionsHostErrPermission": {
+    "message": "అనుమతి మంజూరు కాలేదు. హోస్ట్ జోడించబడలేదు."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "ఆ హోస్ట్‌కు అనుమతిని అభ్యర్థించలేకపోయాం."
+  },
+  "optionsHostAdded": {
+    "message": "$1 జోడించబడింది. వాటిని స్కాన్ చేయడానికి ఆ హోస్ట్‌లో తెరిచిన ట్యాబ్‌లను రీలోడ్ చేయండి."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 తీసివేయబడింది."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "మీరు ఉపయోగించే ప్రతి హోస్ట్‌లో సమయాలను మార్చండి"
+  },
+  "optionsProFeature1Title": {
+    "message": "ప్రతి ప్రాంతాన్ని ఒకే లైన్‌లో పొందండి"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST, 12pm PST, 8pm GMT ను ఒకే లైన్‌లో చూపించండి."
+  },
+  "optionsProFeature2Title": {
+    "message": "మీ పని గంటలతో సహోద్యోగులను సమకాలికంగా ఉంచండి"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Slack లేదా Discord స్థితిని పంపండి. అంగీకారంతో మాత్రమే."
+  },
+  "optionsProFeature3Title": {
+    "message": "మార్చబడిన సమయంతో క్యాలెండర్ ఆహ్వానాలను పంపండి"
+  },
+  "optionsProFeature3Sub": {
+    "message": "సరైన స్లాట్ కోసం ఒక .ics ఆహ్వానాన్ని కాపీ చేయండి."
+  },
+  "optionsProFeature4Title": {
+    "message": "అతి తక్కువ కష్టమైన మీటింగ్ స్లాట్‌ను కనుగొనండి"
+  },
+  "optionsProFeature4Sub": {
+    "message": "జోన్‌లను పక్కపక్కన పోల్చి సౌకర్యవంతమైనదాన్ని ఎంచుకోండి."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro ఫీచర్, లాక్ చేయబడింది"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro ప్లాన్‌లను చూడండి"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro తో ప్రతి హోస్ట్‌ను మార్చండి"
+  },
+  "optionsPaywallPitch": {
+    "message": "టైమ్‌జోన్‌ల మధ్య జీవించే పవర్ యూజర్లు మరియు టీమ్‌ల కోసం."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/నెల"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 జీవితకాలం"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "ఒకే ధర, మీ ఎంపిక. ఎప్పుడైనా రద్దు చేయండి."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "అపరిమిత అనుకూల హోస్ట్‌లు (ఉచితం 3 వరకు)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "బహుళ-ప్రాంత ఫార్మాట్, అన్ని జోన్‌లను ఒకేసారి చూపించు"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack మరియు Discord పని-గంటల స్థితి సమకాలీకరణ"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "మార్చబడిన సమయాలతో ICS క్యాలెండర్ ఎగుమతి"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "ఉత్తమ-ఉమ్మడి మీటింగ్ సూచన"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro పొందండి, $$99 జీవితకాలం"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "లేదా $$4.99/నెల"
+  },
+  "optionsPaywallNote": {
+    "message": "ఒక చెల్లింపు లేదా ఒక సబ్‌స్క్రిప్షన్. ఈ ఎక్స్‌టెన్షన్‌లో Pro ను శాశ్వతంగా యాక్టివేట్ చేస్తుంది."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 రోజుల డబ్బు-వాపసు హామీ. Pro విలువ లేకపోతే, ప్రశ్నలు లేకుండా రిఫండ్ చేస్తాం."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "ఉచితం vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "మార్చబడిన సమయాలను మీ క్యాలెండర్‌కు పంపండి"
+  },
+  "optionsIcsExportSub": {
+    "message": "స్థానిక సమయాన్ని కలిపి ఒక .ics ఆహ్వానాన్ని కాపీ చేయండి. Pro ప్రివ్యూ, ఏమి అన్‌లాక్ అవుతుందో మీకు తెలియడానికి ఇక్కడ కనిపిస్తుంది."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics ఎగుమతి"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro లో అన్‌లాక్ చేయి"
+  },
+  "optionsEyebrowLicense": {
+    "message": "లైసెన్స్"
+  },
+  "optionsLicenseTitle": {
+    "message": "కీని యాక్టివేట్ చేయి లేదా తీసివేయి"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro యాక్టివ్."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1 వరకు చెల్లుబాటు."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "జీవితకాల లైసెన్స్."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "డియాక్టివేట్ చేయి"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "లైసెన్స్ డియాక్టివేట్ చేయబడింది. తిరిగి ఉచిత స్థాయికి."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "గోప్యత"
+  },
+  "optionsPrivacyTitle": {
+    "message": "మీ డేటాను ఈ పరికరంలోనే ఉంచండి"
+  },
+  "optionsPrivacyBody": {
+    "message": "ప్రతిచోటా స్థానిక సమయం పూర్తిగా మీ పరికరంలో పనిచేస్తుంది. జోన్డ్ సమయాలను మార్చే ఏకైక ఉద్దేశ్యంతో పైన జాబితా చేయబడిన హోస్ట్‌లలోని టెక్స్ట్‌ను ఇది చదువుతుంది. ఏ పేజీ కంటెంట్, బ్రౌజింగ్ చరిత్ర, లేదా ప్రొఫైల్ డేటా ఎప్పుడూ ఎక్కడికీ పంపబడదు. మీరు లైసెన్స్ కీని నమోదు చేసినప్పుడు మాత్రమే ఏకైక నెట్‌వర్క్ అభ్యర్థన జరుగుతుంది, మరియు కీ మాత్రమే పంపబడుతుంది."
+  },
+  "optionsPrivacyExport": {
+    "message": "నా డేటాను ఎగుమతి చేయి"
+  },
+  "optionsPrivacyDelete": {
+    "message": "అన్ని డేటాను తొలగించు"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 కీ(లు) మీ డౌన్‌లోడ్‌లకు ఎగుమతి చేయబడ్డాయి."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "ఎగుమతి విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "ఈ పరికరం నుండి అన్ని ప్రతిచోటా స్థానిక సమయం డేటాను తొలగించాలా? దీన్ని రద్దు చేయలేరు."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "అన్ని ప్రతిచోటా స్థానిక సమయం డేటా ఈ పరికరం నుండి క్లియర్ చేయబడింది."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "తొలగింపు విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "optionsAboutLine": {
+    "message": "ప్రతిచోటా స్థానిక సమయం v1.0.0, Zovo ద్వారా. Google, Microsoft, Discord, Slack, లేదా GitHub తో అనుబంధం లేదు."
+  },
+  "optionsSrProActive": {
+    "message": "Pro లైసెన్స్ యాక్టివ్."
+  },
+  "optionsSrFree": {
+    "message": "ఉచిత స్థాయి."
+  },
+  "onboardingPage1Heading": {
+    "message": "టైమ్‌జోన్ లెక్కలను మనసులో వేయడం ఆపండి"
+  },
+  "onboardingPage1Sub": {
+    "message": "మీటింగ్ ఆహ్వానాలు ఒక టైమ్‌జోన్‌ను చూపిస్తాయి. మిగతా అందరూ మనసులో లెక్కిస్తారు. కొందరు తప్పుగా లెక్కిస్తారు."
+  },
+  "onboardingPage1Berlin": {
+    "message": "బెర్లిన్, రాత్రి 9"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "ముంబై, అర్ధరాత్రి 12:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "సిడ్నీ, రేపు ఉదయం 7"
+  },
+  "onboardingPage1Button": {
+    "message": "పరిష్కారాన్ని చూడండి"
+  },
+  "onboardingEyebrow": {
+    "message": "ప్రతిచోటా స్థానిక సమయం"
+  },
+  "onboardingPage2Heading": {
+    "message": "ఒక జోన్డ్ సమయం మీదిగా మారడాన్ని చూడండి"
+  },
+  "onboardingPage2Sub": {
+    "message": "ఇదిగో నిజమైన Slack సందేశం. బటన్‌ను క్లిక్ చేయండి, అదే క్షణం మీ స్థానిక సమయంలో కనిపిస్తుంది."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "నా స్థానిక సమయాన్ని చూపించు"
+  },
+  "onboardingPage2Continue": {
+    "message": "కొనసాగించు"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "మార్చడానికి పైన క్లిక్ చేయండి."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 మీ సమయం ($2). లెక్క అవసరం లేదు."
+  },
+  "onboardingPage3Heading": {
+    "message": "ఇది ఎక్కడ పనిచేస్తుంది"
+  },
+  "onboardingPage3Sub": {
+    "message": "ఈ 12 హోస్ట్‌లు డిఫాల్ట్‌గా ఆన్‌లో ఉన్నాయి. వాటిలో ఏదైనా తెరవండి, జోన్డ్ సమయాలు ఇన్‌లైన్‌గా, టూల్‌టిప్‌లో, లేదా బ్యాడ్జ్‌గా మారతాయి."
+  },
+  "onboardingPage3Hint": {
+    "message": "మరో హోస్ట్ కావాలా? ఉచిత స్థాయి 3 అనుకూల హోస్ట్‌లను కవర్ చేస్తుంది. Pro అపరిమితం."
+  },
+  "onboardingPage3Link": {
+    "message": "అనుకూల హోస్ట్‌ల గురించి తెలుసుకోండి"
+  },
+  "onboardingPage4Heading": {
+    "message": "నమస్తే, నేను Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "మూడు టైమ్‌జోన్‌ల మధ్య చాలా స్టాండప్‌లు మిస్ అయిన తర్వాత నేను ప్రతిచోటా స్థానిక సమయాన్ని రూపొందించాను. ఇది ఒక్క పని చేస్తుంది, దాన్ని నిశ్శబ్దంగా చేయడానికి ప్రయత్నిస్తుంది. ట్రాకింగ్ లేదు, ప్రతి పేజీలో అప్‌గ్రేడ్ పాప్అప్‌లు లేవు."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "ఒక వ్యక్తి, బహిరంగంగా నిర్మిస్తున్నారు"
+  },
+  "onboardingPage5Heading": {
+    "message": "మీ క్యాలెండర్‌కు సరిపోయే ప్లాన్‌ను పొందండి"
+  },
+  "onboardingPage5Sub": {
+    "message": "ఉచితం 12 డిఫాల్ట్ హోస్ట్‌లలో ఎప్పటికీ పనిచేస్తుంది. Pro పవర్ యూజర్లు మరియు టీమ్‌ల కోసం."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "ఉచితం"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "ఉచితం"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "12 డిఫాల్ట్ హోస్ట్‌లలో అపరిమిత మార్పులు"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h, 24h, లేదా సిస్టమ్ ఫార్మాట్"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "ఇన్‌లైన్ గుర్తు, టూల్‌టిప్, మరియు బ్యాడ్జ్"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "3 అనుకూల హోస్ట్‌ల వరకు"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/నెల లేదా $$99 జీవితకాలం"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "అపరిమిత అనుకూల హోస్ట్‌లను జోడించు"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "ప్రతి ప్రాంతాన్ని ఒకే లైన్‌లో చూడు"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "పని-గంటల స్థితిని Slack లేదా Discord కు సమకాలీకరించు"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "మార్చబడిన సమయాలను మీ క్యాలెండర్‌కు పంపు"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "అతి తక్కువ కష్టమైన మీటింగ్ స్లాట్‌ను కనుగొను"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro ప్లాన్‌లను చూడండి"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "ఉచితంలో ఉండు"
+  },
+  "onboardingPage6Heading": {
+    "message": "మనసులో లెక్కించడం ఆపడానికి సిద్ధమా"
+  },
+  "onboardingPage6Sub": {
+    "message": "మద్దతు ఉన్న ఏ హోస్ట్‌నైనా తెరవండి, జోన్డ్ సమయాలు వాటంతట అవే మారతాయి."
+  },
+  "onboardingPage6Button": {
+    "message": "మార్చడం ప్రారంభించు"
+  },
+  "onboardingSkip": {
+    "message": "సెటప్‌ను దాటవేయి"
+  },
+  "onboardingBack": {
+    "message": "వెనుకకు"
+  },
+  "onboardingNext": {
+    "message": "తదుపరి"
+  },
+  "onboardingDone": {
+    "message": "పూర్తయింది"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "దశ $1 కి వెళ్లు"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "ఆన్‌బోర్డింగ్ పురోగతి"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "ఆన్‌బోర్డింగ్ పురోగతి"
+  },
+  "onboardingPageOf": {
+    "message": "$2 లో $1"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one రూపొందించింది"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 సమయాలు మార్చబడ్డాయి"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 సమయం మార్చబడింది"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 సమయాలు మార్చబడ్డాయి"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "స్థానిక సమయం - తాత్కాలికంగా పాజ్ చేయబడింది"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

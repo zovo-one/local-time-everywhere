@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Τοπική ώρα παντού"
+  },
+  "extDesc": {
+    "message": "Σταματήστε να υπολογίζετε ζώνες ώρας στο μυαλό σας. Μετατρέψτε 3pm EST, 9:00 UTC, 14:00 CET απευθείας στο Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Τοπική ώρα παντού"
+  },
+  "popupTitle": {
+    "message": "Τοπική ώρα παντού"
+  },
+  "popupStatusActive": {
+    "message": "Ενεργό"
+  },
+  "popupStatusPaused": {
+    "message": "Σε παύση"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Κατάσταση: ενεργό"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Κατάσταση: σε παύση σε αυτόν τον κεντρικό υπολογιστή"
+  },
+  "popupStatLabel": {
+    "message": "Σε αυτή τη σελίδα"
+  },
+  "popupStatHintSingular": {
+    "message": "ώρα μετατράπηκε σε αυτή την καρτέλα σε αυτή τη συνεδρία."
+  },
+  "popupStatHintPlural": {
+    "message": "ώρες μετατράπηκαν σε αυτή την καρτέλα σε αυτή τη συνεδρία."
+  },
+  "popupStatAriaLabel": {
+    "message": "Μετατραπείσες ώρες σε αυτή τη σελίδα"
+  },
+  "popupPauseOnHost": {
+    "message": "Παύση σε αυτόν τον κεντρικό υπολογιστή"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Σταματήστε τη μετατροπή σε αυτόν τον ιστότοπο μέχρι να τον ενεργοποιήσετε ξανά."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Σταματήστε τη μετατροπή στο $1 μέχρι να το ενεργοποιήσετε ξανά."
+  },
+  "popupShowInline": {
+    "message": "Εμφάνιση ενσωματωμένων μετατροπών"
+  },
+  "popupShowInlineSub": {
+    "message": "Προσθέστε έναν μικρό δείκτη τοπικής ώρας δίπλα σε κάθε ώρα με ζώνη."
+  },
+  "popupShowBadge": {
+    "message": "Εμφάνιση σήματος"
+  },
+  "popupShowBadgeSub": {
+    "message": "Παθητική καταμέτρηση μετατραπεισών ωρών στη γωνία της σελίδας."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Ρυθμίσεις μετατροπής"
+  },
+  "popupLicenseHave": {
+    "message": "Έχετε κλειδί άδειας;"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Κλειδί άδειας"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Ενεργοποίηση"
+  },
+  "popupLicenseVerifying": {
+    "message": "Επαλήθευση..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Εισαγάγετε πρώτα ένα κλειδί άδειας."
+  },
+  "popupLicenseActivated": {
+    "message": "Η άδεια ενεργοποιήθηκε. Το Pro ξεκλειδώθηκε."
+  },
+  "popupLicenseFailed": {
+    "message": "Αυτό το κλειδί δεν επαληθεύτηκε. Ελέγξτε το κλειδί και δοκιμάστε ξανά."
+  },
+  "popupLicenseError": {
+    "message": "Η επαλήθευση απέτυχε. Δοκιμάστε ξανά σε λίγο."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Δημιουργήθηκε από τη zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Περισσότερα εργαλεία"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Ξεκλειδώστε κάθε κεντρικό υπολογιστή και την εξαγωγή ICS"
+  },
+  "popupSrActive": {
+    "message": "Οι μετατροπές είναι ενεργές σε αυτόν τον κεντρικό υπολογιστή."
+  },
+  "popupSrPaused": {
+    "message": "Οι μετατροπές είναι σε παύση σε αυτόν τον κεντρικό υπολογιστή."
+  },
+  "optionsTitle": {
+    "message": "Ρυθμίσεις Τοπικής ώρας παντού"
+  },
+  "optionsSub": {
+    "message": "Μετατρέψτε ώρες με ζώνη απευθείας στους κεντρικούς υπολογιστές όπου φτάνουν οι προσκλήσεις συσκέψεων."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Μετατροπές"
+  },
+  "optionsConversionsTitle": {
+    "message": "Αποκτήστε μετατροπές στη σελίδα, με τον δικό σας τρόπο"
+  },
+  "optionsInlineTitle": {
+    "message": "Μετατρέψτε ώρες απευθείας στη σελίδα"
+  },
+  "optionsInlineSub": {
+    "message": "Προσθέστε έναν μικρό δείκτη τοπικής ώρας δίπλα σε κάθε ώρα με ζώνη."
+  },
+  "optionsBadgeTitle": {
+    "message": "Διατηρήστε μια παθητική καταμέτρηση μετατροπών στη γωνία"
+  },
+  "optionsBadgeSub": {
+    "message": "Παθητική καταμέτρηση μετατραπεισών ωρών σε αυτή την καρτέλα."
+  },
+  "optionsPauseTitle": {
+    "message": "Σίγαση μετατροπών σε έναν κεντρικό υπολογιστή"
+  },
+  "optionsPauseSub": {
+    "message": "Χρησιμοποιήστε το αναδυόμενο παράθυρο της Τοπικής ώρας παντού σε έναν κεντρικό υπολογιστή για να διακόψετε ή να συνεχίσετε τις μετατροπές σε αυτόν τον συγκεκριμένο ιστότοπο."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Μορφή ώρας"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Σύστημα"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12ωρη"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24ωρη"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Προτίμηση μορφής ώρας"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Κεντρικοί υπολογιστές"
+  },
+  "optionsHostsTitle": {
+    "message": "Ιστότοποι όπου μετατρέπονται οι ώρες"
+  },
+  "optionsHostsCountPro": {
+    "message": "Απεριόριστοι προσαρμοσμένοι κεντρικοί υπολογιστές με το Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 από $2 προσαρμοσμένοι κεντρικοί υπολογιστές σε χρήση"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Προεπιλεγμένοι κεντρικοί υπολογιστές, μετατρέπουν σε κάθε επίσκεψη"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Κεντρικοί υπολογιστές που προσθέσατε, μετατρέπουν σε κάθε επίσκεψη"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Η δωρεάν βαθμίδα περιλαμβάνει έως $1 προσαρμοσμένους κεντρικούς υπολογιστές. Το Pro ξεκλειδώνει απεριόριστους προσαρμοσμένους κεντρικούς υπολογιστές."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Αναβάθμιση σε Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Προσθήκη προσαρμοσμένου κεντρικού υπολογιστή"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Προσθήκη κεντρικού υπολογιστή"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Κατάργηση"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Κατάργηση προσαρμοσμένου κεντρικού υπολογιστή $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Χρησιμοποιήστε ένα συγκεκριμένο μοτίβο όπως https://example.com/* ή https://*.yourteam.com/*. Μην χρησιμοποιείτε ποτέ τους ευρείς χαρακτήρες μπαλαντέρ <all_urls> ή *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Εισαγάγετε πρώτα ένα μοτίβο κεντρικού υπολογιστή."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Αποκλεισμένο μοτίβο: $1. Χρησιμοποιήστε ένα συγκεκριμένο μοτίβο https://."
+  },
+  "optionsHostErrScheme": {
+    "message": "Το μοτίβο πρέπει να ξεκινά με https:// (ή http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Αυτό το μοτίβο δεν έχει πραγματικό όνομα κεντρικού υπολογιστή."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Αυτό το μοτίβο είναι εσφαλμένα διαμορφωμένο."
+  },
+  "optionsHostErrPath": {
+    "message": "Προσθέστε έναν χαρακτήρα μπαλαντέρ διαδρομής στο τέλος (π.χ. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Αυτός ο κεντρικός υπολογιστής είναι ήδη στη λίστα σας."
+  },
+  "optionsHostErrDefault": {
+    "message": "Αυτός ο κεντρικός υπολογιστής είναι ήδη στην προεπιλεγμένη λίστα."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Η δωρεάν βαθμίδα περιορίζεται σε $1 προσαρμοσμένους κεντρικούς υπολογιστές. Αναβαθμίστε για να προσθέσετε περισσότερους."
+  },
+  "optionsHostErrPermission": {
+    "message": "Δεν χορηγήθηκε άδεια. Ο κεντρικός υπολογιστής δεν προστέθηκε."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Δεν ήταν δυνατή η αίτηση άδειας για αυτόν τον κεντρικό υπολογιστή."
+  },
+  "optionsHostAdded": {
+    "message": "Προστέθηκε το $1. Επαναφορτώστε τις ανοιχτές καρτέλες σε αυτόν τον κεντρικό υπολογιστή για να τις σαρώσετε."
+  },
+  "optionsHostRemoved": {
+    "message": "Καταργήθηκε το $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Μετατρέψτε ώρες σε κάθε κεντρικό υπολογιστή που χρησιμοποιείτε"
+  },
+  "optionsProFeature1Title": {
+    "message": "Δείτε κάθε περιοχή σε μία γραμμή"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Εμφανίστε 3pm EST, 12pm PST, 8pm GMT σε μία γραμμή."
+  },
+  "optionsProFeature2Title": {
+    "message": "Κρατήστε τους συναδέλφους ενήμερους για το ωράριό σας"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Δημοσιεύστε μια κατάσταση Slack ή Discord. Μόνο με συγκατάθεση."
+  },
+  "optionsProFeature3Title": {
+    "message": "Στείλτε προσκλήσεις ημερολογίου με τη μετατραπείσα ώρα"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Αντιγράψτε μια πρόσκληση .ics για τη σωστή χρονική θυρίδα."
+  },
+  "optionsProFeature4Title": {
+    "message": "Βρείτε την λιγότερο επίπονη ώρα σύσκεψης"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Συγκρίνετε ζώνες δίπλα δίπλα και επιλέξτε την πιο βολική."
+  },
+  "optionsProLockLabel": {
+    "message": "Λειτουργία Pro, κλειδωμένη"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Δείτε τα προγράμματα Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Μετατρέψτε κάθε κεντρικό υπολογιστή με το Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Για προχωρημένους χρήστες και ομάδες που ζουν σε διαφορετικές ζώνες ώρας."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/μήνα"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 εφ' όρου ζωής"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Μία τιμή, η επιλογή σας. Ακύρωση οποτεδήποτε."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Απεριόριστοι προσαρμοσμένοι κεντρικοί υπολογιστές (δωρεάν όριο 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Μορφή πολλαπλών περιοχών, εμφάνιση όλων των ζωνών ταυτόχρονα"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Συγχρονισμός κατάστασης ωραρίου εργασίας με Slack και Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Εξαγωγή ημερολογίου ICS με μετατραπείσες ώρες"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Πρόταση σύσκεψης με τη βέλτιστη επικάλυψη"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Αποκτήστε το Pro, $$99 εφ' όρου ζωής"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Ή $$4.99/μήνα"
+  },
+  "optionsPaywallNote": {
+    "message": "Μία πληρωμή ή μία συνδρομή. Ενεργοποιεί το Pro σε αυτή την επέκταση για πάντα."
+  },
+  "optionsPaywallRefund": {
+    "message": "Εγγύηση επιστροφής χρημάτων 14 ημερών. Αν το Pro δεν αξίζει, επιστρέφουμε τα χρήματα, χωρίς ερωτήσεις."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Δωρεάν vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Στείλτε τις μετατραπείσες ώρες στο ημερολόγιό σας"
+  },
+  "optionsIcsExportSub": {
+    "message": "Αντιγράψτε μια πρόσκληση .ics με ενσωματωμένη την τοπική ώρα. Προεπισκόπηση Pro, ορατή εδώ ώστε να ξέρετε τι ξεκλειδώνει."
+  },
+  "optionsIcsExportCta": {
+    "message": "Εξαγωγή .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Ξεκλείδωμα στο Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Άδεια"
+  },
+  "optionsLicenseTitle": {
+    "message": "Ενεργοποίηση ή κατάργηση κλειδιού"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Το Pro είναι ενεργό."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Ισχύει έως $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Άδεια εφ' όρου ζωής."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Απενεργοποίηση"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Η άδεια απενεργοποιήθηκε. Επιστροφή στη δωρεάν βαθμίδα."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Απόρρητο"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Κρατήστε τα δεδομένα σας σε αυτή τη συσκευή"
+  },
+  "optionsPrivacyBody": {
+    "message": "Η Τοπική ώρα παντού εκτελείται εξ ολοκλήρου στη συσκευή σας. Διαβάζει κείμενο στους κεντρικούς υπολογιστές που αναφέρονται παραπάνω με μοναδικό σκοπό τη μετατροπή ωρών με ζώνη. Κανένα περιεχόμενο σελίδας, ιστορικό περιήγησης ή δεδομένα προφίλ δεν αποστέλλεται ποτέ πουθενά. Το μόνο αίτημα δικτύου συμβαίνει όταν εισάγετε ένα κλειδί άδειας, και αποστέλλεται μόνο το ίδιο το κλειδί."
+  },
+  "optionsPrivacyExport": {
+    "message": "Εξαγωγή των δεδομένων μου"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Διαγραφή όλων των δεδομένων"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Εξήχθησαν $1 κλειδί(-ιά) στις λήψεις σας."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Η εξαγωγή απέτυχε. Δοκιμάστε ξανά."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Διαγραφή όλων των δεδομένων της Τοπικής ώρας παντού από αυτή τη συσκευή; Αυτό δεν μπορεί να αναιρεθεί."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Όλα τα δεδομένα της Τοπικής ώρας παντού διαγράφηκαν από αυτή τη συσκευή."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Η διαγραφή απέτυχε. Δοκιμάστε ξανά."
+  },
+  "optionsAboutLine": {
+    "message": "Τοπική ώρα παντού v1.0.0, από τη Zovo. Δεν σχετίζεται με τις Google, Microsoft, Discord, Slack ή GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Η άδεια Pro είναι ενεργή."
+  },
+  "optionsSrFree": {
+    "message": "Δωρεάν βαθμίδα."
+  },
+  "onboardingPage1Heading": {
+    "message": "Σταματήστε να υπολογίζετε ζώνες ώρας στο μυαλό σας"
+  },
+  "onboardingPage1Sub": {
+    "message": "Οι προσκλήσεις συσκέψεων δείχνουν μία ζώνη ώρας. Όλοι οι άλλοι κάνουν τον υπολογισμό στο μυαλό τους. Κάποιοι κάνουν λάθος."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Βερολίνο, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Μουμπάι, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Σίδνεϊ, 07:00 αύριο"
+  },
+  "onboardingPage1Button": {
+    "message": "Δείτε τη λύση"
+  },
+  "onboardingEyebrow": {
+    "message": "Τοπική ώρα παντού"
+  },
+  "onboardingPage2Heading": {
+    "message": "Δείτε μια ώρα με ζώνη να μετατρέπεται στη δική σας"
+  },
+  "onboardingPage2Sub": {
+    "message": "Ορίστε ένα πραγματικό μήνυμα Slack. Κάντε κλικ στο κουμπί και η ίδια στιγμή εμφανίζεται στην τοπική σας ώρα."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Βοστώνη)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Δείτε την τοπική μου ώρα"
+  },
+  "onboardingPage2Continue": {
+    "message": "Συνέχεια"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Κάντε κλικ παραπάνω για μετατροπή."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 στη δική σας ώρα ($2). Χωρίς υπολογισμούς."
+  },
+  "onboardingPage3Heading": {
+    "message": "Πού λειτουργεί"
+  },
+  "onboardingPage3Sub": {
+    "message": "Αυτοί οι 12 κεντρικοί υπολογιστές είναι ενεργοποιημένοι από προεπιλογή. Ανοίξτε οποιονδήποτε και οι ώρες με ζώνη μετατρέπονται ενσωματωμένα, σε επεξήγηση εργαλείου ή ως σήμα."
+  },
+  "onboardingPage3Hint": {
+    "message": "Χρειάζεστε άλλον κεντρικό υπολογιστή; Η δωρεάν βαθμίδα καλύπτει 3 προσαρμοσμένους κεντρικούς υπολογιστές. Το Pro είναι απεριόριστο."
+  },
+  "onboardingPage3Link": {
+    "message": "Μάθετε για τους προσαρμοσμένους κεντρικούς υπολογιστές"
+  },
+  "onboardingPage4Heading": {
+    "message": "Γεια, είμαι ο Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Έφτιαξα την Τοπική ώρα παντού μετά από πάρα πολλά χαμένα standup σε τρεις ζώνες ώρας. Κάνει ένα πράγμα και προσπαθεί να το κάνει διακριτικά. Χωρίς παρακολούθηση, χωρίς αναδυόμενα παράθυρα πώλησης σε κάθε σελίδα."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Ένα άτομο, που δημιουργεί δημόσια στο"
+  },
+  "onboardingPage5Heading": {
+    "message": "Επιλέξτε το πρόγραμμα που ταιριάζει στο ημερολόγιό σας"
+  },
+  "onboardingPage5Sub": {
+    "message": "Το Δωρεάν λειτουργεί για πάντα στους 12 προεπιλεγμένους κεντρικούς υπολογιστές. Το Pro είναι για προχωρημένους χρήστες και ομάδες."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Δωρεάν"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Δωρεάν"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Απεριόριστες μετατροπές σε 12 προεπιλεγμένους κεντρικούς υπολογιστές"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Μορφή 12ωρη, 24ωρη ή συστήματος"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Ενσωματωμένος δείκτης, επεξήγηση εργαλείου και σήμα"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Έως 3 προσαρμοσμένοι κεντρικοί υπολογιστές"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/μήνα ή $$99 εφ' όρου ζωής"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Προσθέστε απεριόριστους προσαρμοσμένους κεντρικούς υπολογιστές"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Δείτε κάθε περιοχή σε μία γραμμή"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Συγχρονίστε την κατάσταση ωραρίου εργασίας με Slack ή Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Στείλτε μετατραπείσες ώρες στο ημερολόγιό σας"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Βρείτε την λιγότερο επίπονη ώρα σύσκεψης"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Δείτε τα προγράμματα Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Μείνετε στο Δωρεάν"
+  },
+  "onboardingPage6Heading": {
+    "message": "Έτοιμοι να σταματήσετε τους υπολογισμούς στο μυαλό σας"
+  },
+  "onboardingPage6Sub": {
+    "message": "Ανοίξτε οποιονδήποτε υποστηριζόμενο κεντρικό υπολογιστή και οι ώρες με ζώνη θα μετατραπούν από μόνες τους."
+  },
+  "onboardingPage6Button": {
+    "message": "Ξεκινήστε τη μετατροπή"
+  },
+  "onboardingSkip": {
+    "message": "Παράλειψη ρύθμισης"
+  },
+  "onboardingBack": {
+    "message": "Πίσω"
+  },
+  "onboardingNext": {
+    "message": "Επόμενο"
+  },
+  "onboardingDone": {
+    "message": "Τέλος"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Μετάβαση στο βήμα $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Πρόοδος εισαγωγής"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Πρόοδος εισαγωγής"
+  },
+  "onboardingPageOf": {
+    "message": "$1 από $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Δημιουργήθηκε από τη zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 ώρες μετατράπηκαν"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 ώρα μετατράπηκε"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 ώρες μετατράπηκαν"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Τοπική ώρα - προσωρινά σε παύση"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

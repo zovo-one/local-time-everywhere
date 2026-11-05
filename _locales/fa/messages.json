@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "دیگر محاسبه‌ی منطقه‌ی زمانی را در ذهن انجام ندهید. زمان‌هایی مانند 3pm EST، 9:00 UTC، 14:00 CET را به‌صورت درون‌خطی در Calendar، Slack، Discord و GitHub تبدیل کنید."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "فعال"
+  },
+  "popupStatusPaused": {
+    "message": "متوقف‌شده"
+  },
+  "popupStatusActiveLabel": {
+    "message": "وضعیت: فعال"
+  },
+  "popupStatusPausedLabel": {
+    "message": "وضعیت: متوقف‌شده در این میزبان"
+  },
+  "popupStatLabel": {
+    "message": "در این صفحه"
+  },
+  "popupStatHintSingular": {
+    "message": "زمان در این نشست در این تب تبدیل شد."
+  },
+  "popupStatHintPlural": {
+    "message": "زمان در این نشست در این تب تبدیل شد."
+  },
+  "popupStatAriaLabel": {
+    "message": "زمان‌های تبدیل‌شده در این صفحه"
+  },
+  "popupPauseOnHost": {
+    "message": "توقف در این میزبان"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "تا زمانی که دوباره روشن کنید، تبدیل در این سایت متوقف می‌شود."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "تا زمانی که دوباره روشن کنید، تبدیل در $1 متوقف می‌شود."
+  },
+  "popupShowInline": {
+    "message": "نمایش تبدیل‌های درون‌خطی"
+  },
+  "popupShowInlineSub": {
+    "message": "افزودن یک نشانگر کوچک زمان محلی کنار هر زمان منطقه‌ای."
+  },
+  "popupShowBadge": {
+    "message": "نمایش نشان"
+  },
+  "popupShowBadgeSub": {
+    "message": "شمارش غیرفعال زمان‌های تبدیل‌شده در گوشه‌ی صفحه."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "تنظیمات تبدیل"
+  },
+  "popupLicenseHave": {
+    "message": "کلید مجوز دارید؟"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "کلید مجوز"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "فعال‌سازی"
+  },
+  "popupLicenseVerifying": {
+    "message": "در حال بررسی..."
+  },
+  "popupLicenseEmpty": {
+    "message": "ابتدا یک کلید مجوز وارد کنید."
+  },
+  "popupLicenseActivated": {
+    "message": "مجوز فعال شد. Pro باز شد."
+  },
+  "popupLicenseFailed": {
+    "message": "آن کلید تأیید نشد. کلید را بررسی کرده و دوباره تلاش کنید."
+  },
+  "popupLicenseError": {
+    "message": "تأیید ناموفق بود. لحظه‌ای دیگر دوباره تلاش کنید."
+  },
+  "popupFooterBuiltBy": {
+    "message": "ساخته‌شده توسط zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "ابزارهای بیشتر"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "باز کردن همه‌ی میزبان‌ها و خروجی ICS"
+  },
+  "popupSrActive": {
+    "message": "تبدیل‌ها در این میزبان فعال هستند."
+  },
+  "popupSrPaused": {
+    "message": "تبدیل‌ها در این میزبان متوقف شده‌اند."
+  },
+  "optionsTitle": {
+    "message": "تنظیمات Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "زمان‌های منطقه‌ای را به‌صورت درون‌خطی در میزبان‌هایی که دعوت‌نامه‌های جلسه در آن‌ها می‌رسند، تبدیل کنید."
+  },
+  "optionsEyebrowConversions": {
+    "message": "تبدیل‌ها"
+  },
+  "optionsConversionsTitle": {
+    "message": "تبدیل‌ها را روی صفحه، به شیوه‌ی خودتان دریافت کنید"
+  },
+  "optionsInlineTitle": {
+    "message": "تبدیل زمان‌ها به‌صورت درون‌خطی روی صفحه"
+  },
+  "optionsInlineSub": {
+    "message": "افزودن یک نشانگر کوچک زمان محلی کنار هر زمان منطقه‌ای."
+  },
+  "optionsBadgeTitle": {
+    "message": "نگه‌داشتن شمارش غیرفعال تبدیل‌ها در گوشه"
+  },
+  "optionsBadgeSub": {
+    "message": "شمارش غیرفعال زمان‌های تبدیل‌شده در این تب."
+  },
+  "optionsPauseTitle": {
+    "message": "بی‌صداکردن تبدیل‌ها در یک میزبان"
+  },
+  "optionsPauseSub": {
+    "message": "از پنجره‌ی بازشوی Local Time Everywhere در یک میزبان برای توقف یا ازسرگیری تبدیل‌ها در آن سایت خاص استفاده کنید."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "قالب زمان"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "سیستم"
+  },
+  "optionsTimeFormat12h": {
+    "message": "۱۲ساعته"
+  },
+  "optionsTimeFormat24h": {
+    "message": "۲۴ساعته"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "ترجیح قالب زمان"
+  },
+  "optionsEyebrowHosts": {
+    "message": "میزبان‌ها"
+  },
+  "optionsHostsTitle": {
+    "message": "سایت‌هایی که زمان‌ها در آن‌ها تبدیل می‌شوند"
+  },
+  "optionsHostsCountPro": {
+    "message": "میزبان‌های سفارشی نامحدود با Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 از $2 میزبان سفارشی استفاده‌شده"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "میزبان‌های پیش‌فرض، تبدیل در هر بازدید"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "میزبان‌هایی که افزودید، تبدیل در هر بازدید"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "سطح رایگان شامل حداکثر $1 میزبان سفارشی است. Pro میزبان‌های سفارشی نامحدود را باز می‌کند."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "ارتقا به Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "افزودن یک میزبان سفارشی"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "افزودن میزبان"
+  },
+  "optionsRemoveHostButton": {
+    "message": "حذف"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "حذف میزبان سفارشی $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "از یک الگوی مشخص مانند https://example.com/* یا https://*.yourteam.com/* استفاده کنید. هرگز از وایلدکاردهای گسترده‌ی <all_urls> یا *://*/* استفاده نکنید."
+  },
+  "optionsHostErrEmpty": {
+    "message": "ابتدا یک الگوی میزبان وارد کنید."
+  },
+  "optionsHostErrBlocked": {
+    "message": "الگوی مسدودشده: $1. از یک الگوی مشخص https:// استفاده کنید."
+  },
+  "optionsHostErrScheme": {
+    "message": "الگو باید با https:// (یا http://) شروع شود."
+  },
+  "optionsHostErrHostname": {
+    "message": "آن الگو نام میزبان واقعی ندارد."
+  },
+  "optionsHostErrMalformed": {
+    "message": "آن الگو نادرست است."
+  },
+  "optionsHostErrPath": {
+    "message": "یک وایلدکارد مسیر در انتها اضافه کنید (مثلاً /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "آن میزبان از قبل در فهرست شما است."
+  },
+  "optionsHostErrDefault": {
+    "message": "آن میزبان از قبل در فهرست پیش‌فرض است."
+  },
+  "optionsHostErrCapHit": {
+    "message": "سطح رایگان به $1 میزبان سفارشی محدود شده است. برای افزودن بیشتر ارتقا دهید."
+  },
+  "optionsHostErrPermission": {
+    "message": "اجازه داده نشد. میزبان اضافه نشد."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "درخواست اجازه برای آن میزبان ممکن نشد."
+  },
+  "optionsHostAdded": {
+    "message": "$1 اضافه شد. تب‌های باز آن میزبان را بارگذاری مجدد کنید تا اسکن شوند."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 حذف شد."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "تبدیل زمان‌ها در هر میزبانی که استفاده می‌کنید"
+  },
+  "optionsProFeature1Title": {
+    "message": "همه‌ی مناطق را در یک خط دریافت کنید"
+  },
+  "optionsProFeature1Sub": {
+    "message": "نمایش 3pm EST، 12pm PST، 8pm GMT در یک خط."
+  },
+  "optionsProFeature2Title": {
+    "message": "همکاران را با ساعات کاری خود هماهنگ نگه دارید"
+  },
+  "optionsProFeature2Sub": {
+    "message": "یک وضعیت Slack یا Discord ارسال کنید. فقط با انتخاب خودتان."
+  },
+  "optionsProFeature3Title": {
+    "message": "دعوت‌نامه‌های تقویم را با زمان تبدیل‌شده ارسال کنید"
+  },
+  "optionsProFeature3Sub": {
+    "message": "یک دعوت‌نامه‌ی .ics را برای بازه‌ی درست کپی کنید."
+  },
+  "optionsProFeature4Title": {
+    "message": "کم‌دردسرترین بازه‌ی جلسه را پیدا کنید"
+  },
+  "optionsProFeature4Sub": {
+    "message": "مناطق را کنار هم مقایسه کنید و بازه‌ی مناسب را انتخاب کنید."
+  },
+  "optionsProLockLabel": {
+    "message": "ویژگی Pro، قفل‌شده"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "مشاهده‌ی طرح‌های Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "تبدیل هر میزبان با Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "برای کاربران حرفه‌ای و تیم‌هایی که در مناطق زمانی مختلف زندگی می‌کنند."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/ماه"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 مادام‌العمر"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "یک قیمت، انتخاب شما. هر زمان لغو کنید."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "میزبان‌های سفارشی نامحدود (رایگان تا ۳ محدود است)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "قالب چندمنطقه‌ای، نمایش همه‌ی مناطق به‌طور همزمان"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "همگام‌سازی وضعیت ساعات کاری Slack و Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "خروجی تقویم ICS با زمان‌های تبدیل‌شده"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "پیشنهاددهنده‌ی جلسه با بهترین هم‌پوشانی"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "دریافت Pro، $$99 مادام‌العمر"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "یا $$4.99/ماه"
+  },
+  "optionsPaywallNote": {
+    "message": "یک پرداخت یا یک اشتراک. Pro را در این افزونه برای همیشه فعال می‌کند."
+  },
+  "optionsPaywallRefund": {
+    "message": "ضمانت بازگشت وجه ۱۴ روزه. اگر Pro ارزشش را نداشت، بدون هیچ سؤالی بازپرداخت می‌کنیم."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "رایگان در برابر Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "ارسال زمان‌های تبدیل‌شده به تقویم شما"
+  },
+  "optionsIcsExportSub": {
+    "message": "یک دعوت‌نامه‌ی .ics با زمان محلی گنجانده‌شده کپی کنید. پیش‌نمایش Pro، اینجا نمایان است تا بدانید چه چیزی باز می‌شود."
+  },
+  "optionsIcsExportCta": {
+    "message": "خروجی .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "باز کردن در Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "مجوز"
+  },
+  "optionsLicenseTitle": {
+    "message": "فعال‌سازی یا حذف یک کلید"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro فعال است."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "معتبر تا $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "مجوز مادام‌العمر."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "غیرفعال‌سازی"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "مجوز غیرفعال شد. بازگشت به سطح رایگان."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "حریم خصوصی"
+  },
+  "optionsPrivacyTitle": {
+    "message": "داده‌های خود را روی این دستگاه نگه دارید"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere به‌طور کامل روی دستگاه شما اجرا می‌شود. متن را روی میزبان‌های فهرست‌شده در بالا صرفاً به‌منظور تبدیل زمان‌های منطقه‌ای می‌خواند. هیچ محتوای صفحه، تاریخچه‌ی مرور یا داده‌ی نمایه هرگز به جایی ارسال نمی‌شود. تنها درخواست شبکه زمانی رخ می‌دهد که یک کلید مجوز وارد می‌کنید و فقط خود کلید ارسال می‌شود."
+  },
+  "optionsPrivacyExport": {
+    "message": "خروجی گرفتن از داده‌های من"
+  },
+  "optionsPrivacyDelete": {
+    "message": "حذف همه‌ی داده‌ها"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 کلید به بارگیری‌های شما خروجی گرفته شد."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "خروجی ناموفق بود. لطفاً دوباره تلاش کنید."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "همه‌ی داده‌های Local Time Everywhere از این دستگاه حذف شوند؟ این کار قابل بازگشت نیست."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "همه‌ی داده‌های Local Time Everywhere از این دستگاه پاک شد."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "حذف ناموفق بود. لطفاً دوباره تلاش کنید."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere نسخه‌ی 1.0.0، توسط Zovo. وابسته به Google، Microsoft، Discord، Slack یا GitHub نیست."
+  },
+  "optionsSrProActive": {
+    "message": "مجوز Pro فعال است."
+  },
+  "optionsSrFree": {
+    "message": "سطح رایگان."
+  },
+  "onboardingPage1Heading": {
+    "message": "دیگر محاسبه‌ی منطقه‌ی زمانی را در ذهن انجام ندهید"
+  },
+  "onboardingPage1Sub": {
+    "message": "دعوت‌نامه‌های جلسه یک منطقه‌ی زمانی را نشان می‌دهند. بقیه محاسبه را در ذهن انجام می‌دهند. برخی اشتباه می‌کنند."
+  },
+  "onboardingPage1Berlin": {
+    "message": "برلین، ۹ شب"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "بمبئی، ۱۲:۳۰ بامداد"
+  },
+  "onboardingPage1Sydney": {
+    "message": "سیدنی، ۷ صبح فردا"
+  },
+  "onboardingPage1Button": {
+    "message": "دیدن راه‌حل"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "تماشا کنید که یک زمان منطقه‌ای به زمان شما تبدیل می‌شود"
+  },
+  "onboardingPage2Sub": {
+    "message": "این یک پیام واقعی Slack است. روی دکمه کلیک کنید و همان لحظه در زمان محلی شما نمایش داده می‌شود."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (بوستون)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "زمان محلی من را ببین"
+  },
+  "onboardingPage2Continue": {
+    "message": "ادامه"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "برای تبدیل، بالا کلیک کنید."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 به وقت شما ($2). بدون نیاز به محاسبه."
+  },
+  "onboardingPage3Heading": {
+    "message": "کجا اجرا می‌شود"
+  },
+  "onboardingPage3Sub": {
+    "message": "این ۱۲ میزبان به‌طور پیش‌فرض روشن هستند. هر کدام را باز کنید و زمان‌های منطقه‌ای به‌صورت درون‌خطی، در راهنمای ابزار یا به‌عنوان نشان تبدیل می‌شوند."
+  },
+  "onboardingPage3Hint": {
+    "message": "به میزبان دیگری نیاز دارید؟ سطح رایگان ۳ میزبان سفارشی را پوشش می‌دهد. Pro نامحدود است."
+  },
+  "onboardingPage3Link": {
+    "message": "درباره‌ی میزبان‌های سفارشی بیاموزید"
+  },
+  "onboardingPage4Heading": {
+    "message": "سلام، من مایکل هستم"
+  },
+  "onboardingPage4Sub": {
+    "message": "من Local Time Everywhere را پس از چندین‌بار از دست دادن جلسات روزانه در سه منطقه‌ی زمانی ساختم. یک کار انجام می‌دهد و سعی می‌کند آن را بی‌سروصدا انجام دهد. بدون ردیابی، بدون پنجره‌های بازشوی ارتقا در هر صفحه."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "یک نفر، در حال ساختن به‌صورت عمومی در"
+  },
+  "onboardingPage5Heading": {
+    "message": "طرحی را بگیرید که با تقویم شما جور است"
+  },
+  "onboardingPage5Sub": {
+    "message": "رایگان برای همیشه روی ۱۲ میزبان پیش‌فرض کار می‌کند. Pro برای کاربران حرفه‌ای و تیم‌ها است."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "رایگان"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "رایگان"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "تبدیل‌های نامحدود روی ۱۲ میزبان پیش‌فرض"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "قالب ۱۲ساعته، ۲۴ساعته یا سیستمی"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "نشانگر درون‌خطی، راهنمای ابزار و نشان"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "تا ۳ میزبان سفارشی"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/ماه یا $$99 مادام‌العمر"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "افزودن میزبان‌های سفارشی نامحدود"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "دیدن همه‌ی مناطق در یک خط"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "همگام‌سازی وضعیت ساعات کاری با Slack یا Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "ارسال زمان‌های تبدیل‌شده به تقویم شما"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "یافتن کم‌دردسرترین بازه‌ی جلسه"
+  },
+  "onboardingPage5ProCta": {
+    "message": "مشاهده‌ی طرح‌های Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "ماندن روی رایگان"
+  },
+  "onboardingPage6Heading": {
+    "message": "آماده‌اید که دیگر در ذهن محاسبه نکنید"
+  },
+  "onboardingPage6Sub": {
+    "message": "هر میزبان پشتیبانی‌شده را باز کنید و زمان‌های منطقه‌ای خودبه‌خود تبدیل می‌شوند."
+  },
+  "onboardingPage6Button": {
+    "message": "شروع تبدیل"
+  },
+  "onboardingSkip": {
+    "message": "رد کردن راه‌اندازی"
+  },
+  "onboardingBack": {
+    "message": "بازگشت"
+  },
+  "onboardingNext": {
+    "message": "بعدی"
+  },
+  "onboardingDone": {
+    "message": "تمام"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "رفتن به مرحله‌ی $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "پیشرفت راه‌اندازی"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "پیشرفت راه‌اندازی"
+  },
+  "onboardingPageOf": {
+    "message": "$1 از $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "ساخته‌شده توسط zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "۰ زمان تبدیل‌شده"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 زمان تبدیل‌شده"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 زمان تبدیل‌شده"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - موقتاً متوقف‌شده"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

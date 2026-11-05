@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Місцевий час усюди"
+  },
+  "extDesc": {
+    "message": "Перестаньте рахувати часові пояси в голові. Конвертуйте 3pm EST, 9:00 UTC, 14:00 CET прямо в тексті на Calendar, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Місцевий час усюди"
+  },
+  "popupTitle": {
+    "message": "Місцевий час усюди"
+  },
+  "popupStatusActive": {
+    "message": "Активно"
+  },
+  "popupStatusPaused": {
+    "message": "Призупинено"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Статус: активно"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Статус: призупинено на цьому хості"
+  },
+  "popupStatLabel": {
+    "message": "На цій сторінці"
+  },
+  "popupStatHintSingular": {
+    "message": "час конвертовано на цій вкладці за сеанс."
+  },
+  "popupStatHintPlural": {
+    "message": "разів конвертовано на цій вкладці за сеанс."
+  },
+  "popupStatAriaLabel": {
+    "message": "Конвертовані часи на цій сторінці"
+  },
+  "popupPauseOnHost": {
+    "message": "Призупинити на цьому хості"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Припиніть конвертувати на цьому сайті, доки не ввімкнете знову."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Припиніть конвертувати на $1, доки не ввімкнете знову."
+  },
+  "popupShowInline": {
+    "message": "Показувати вбудовані конвертації"
+  },
+  "popupShowInlineSub": {
+    "message": "Додайте маленький маркер місцевого часу поруч із кожним часом із поясом."
+  },
+  "popupShowBadge": {
+    "message": "Показувати значок"
+  },
+  "popupShowBadgeSub": {
+    "message": "Пасивний підрахунок конвертованих часів у кутку сторінки."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Налаштування конвертації"
+  },
+  "popupLicenseHave": {
+    "message": "Маєте ліцензійний ключ?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Ліцензійний ключ"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Активувати"
+  },
+  "popupLicenseVerifying": {
+    "message": "Перевірка..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Спершу введіть ліцензійний ключ."
+  },
+  "popupLicenseActivated": {
+    "message": "Ліцензію активовано. Pro розблоковано."
+  },
+  "popupLicenseFailed": {
+    "message": "Цей ключ не пройшов перевірку. Перевірте ключ і спробуйте ще раз."
+  },
+  "popupLicenseError": {
+    "message": "Перевірка не вдалася. Спробуйте ще раз за мить."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Створено zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Більше інструментів"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Розблокуйте кожен хост і експорт ICS"
+  },
+  "popupSrActive": {
+    "message": "Конвертації активні на цьому хості."
+  },
+  "popupSrPaused": {
+    "message": "Конвертації призупинені на цьому хості."
+  },
+  "optionsTitle": {
+    "message": "Налаштування «Місцевий час усюди»"
+  },
+  "optionsSub": {
+    "message": "Конвертуйте часи з поясами прямо в тексті на хостах, куди надходять запрошення на зустрічі."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Конвертації"
+  },
+  "optionsConversionsTitle": {
+    "message": "Отримуйте конвертації на сторінці по-своєму"
+  },
+  "optionsInlineTitle": {
+    "message": "Конвертуйте часи прямо в тексті сторінки"
+  },
+  "optionsInlineSub": {
+    "message": "Додайте маленький маркер місцевого часу поруч із кожним часом із поясом."
+  },
+  "optionsBadgeTitle": {
+    "message": "Тримайте пасивний підрахунок конвертацій у кутку"
+  },
+  "optionsBadgeSub": {
+    "message": "Пасивний підрахунок конвертованих часів на цій вкладці."
+  },
+  "optionsPauseTitle": {
+    "message": "Вимкнути конвертації на хості"
+  },
+  "optionsPauseSub": {
+    "message": "Використовуйте спливне вікно «Місцевий час усюди» на хості, щоб призупинити чи відновити конвертації на цьому конкретному сайті."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Формат часу"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Системний"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-годинний"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-годинний"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Налаштування формату часу"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Хости"
+  },
+  "optionsHostsTitle": {
+    "message": "Сайти, де конвертуються часи"
+  },
+  "optionsHostsCountPro": {
+    "message": "Необмежені власні хости з Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "Використано $1 із $2 власних хостів"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Хости за замовчуванням, конвертують під час кожного відвідування"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Додані вами хости, конвертують під час кожного відвідування"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Безкоштовний рівень включає до $1 власних хостів. Pro розблоковує необмежену кількість власних хостів."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Перейти на Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Додати власний хост"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Додати хост"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Видалити"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Видалити власний хост $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Використовуйте конкретний шаблон, як-от https://example.com/* або https://*.yourteam.com/*. Ніколи не використовуйте широкі шаблони <all_urls> чи *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Спершу введіть шаблон хоста."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Заблокований шаблон: $1. Використовуйте конкретний шаблон https://."
+  },
+  "optionsHostErrScheme": {
+    "message": "Шаблон має починатися з https:// (або http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "У цього шаблону немає справжнього імені хоста."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Цей шаблон неправильно сформований."
+  },
+  "optionsHostErrPath": {
+    "message": "Додайте шаблон шляху в кінці (напр. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Цей хост уже є у вашому списку."
+  },
+  "optionsHostErrDefault": {
+    "message": "Цей хост уже є у списку за замовчуванням."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Безкоштовний рівень обмежено $1 власними хостами. Перейдіть на Pro, щоб додати більше."
+  },
+  "optionsHostErrPermission": {
+    "message": "Дозвіл не надано. Хост не додано."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Не вдалося запросити дозвіл для цього хоста."
+  },
+  "optionsHostAdded": {
+    "message": "Додано $1. Перезавантажте відкриті вкладки на цьому хості, щоб просканувати їх."
+  },
+  "optionsHostRemoved": {
+    "message": "Видалено $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Конвертуйте часи на кожному хості, який використовуєте"
+  },
+  "optionsProFeature1Title": {
+    "message": "Отримайте кожен регіон в одному рядку"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Показуйте 3pm EST, 12pm PST, 8pm GMT в одному рядку."
+  },
+  "optionsProFeature2Title": {
+    "message": "Тримайте колег у синхроні з вашими робочими годинами"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Надсилайте статус у Slack чи Discord. Лише за згодою."
+  },
+  "optionsProFeature3Title": {
+    "message": "Надсилайте запрошення в календар із конвертованим часом"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Скопіюйте запрошення .ics для потрібного слоту."
+  },
+  "optionsProFeature4Title": {
+    "message": "Знайдіть найменш болісний час для зустрічі"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Порівняйте пояси поруч і виберіть найзручніший."
+  },
+  "optionsProLockLabel": {
+    "message": "Функція Pro, заблоковано"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Переглянути плани Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Конвертуйте кожен хост із Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Для досвідчених користувачів і команд, які живуть у різних часових поясах."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/міс"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 назавжди"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Одна ціна, ваш вибір. Скасуйте будь-коли."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Необмежені власні хости (безкоштовно до 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Мультирегіональний формат, показ усіх поясів одразу"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Синхронізація статусу робочих годин зі Slack і Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Експорт календаря ICS із конвертованими часами"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Порадник найкращого спільного часу зустрічі"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Отримати Pro, $$99 назавжди"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Або $$4.99/місяць"
+  },
+  "optionsPaywallNote": {
+    "message": "Один платіж або одна підписка. Активує Pro в цьому розширенні назавжди."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-денна гарантія повернення коштів. Якщо Pro не вартий того, ми повернемо гроші без зайвих питань."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Безкоштовно проти Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Надсилайте конвертовані часи у ваш календар"
+  },
+  "optionsIcsExportSub": {
+    "message": "Скопіюйте запрошення .ics із вбудованим місцевим часом. Ознайомлення з Pro, показане тут, щоб ви знали, що розблоковується."
+  },
+  "optionsIcsExportCta": {
+    "message": "Експортувати .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Розблокувати в Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Ліцензія"
+  },
+  "optionsLicenseTitle": {
+    "message": "Активуйте або видаліть ключ"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro активний."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Дійсний до $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Довічна ліцензія."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Деактивувати"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Ліцензію деактивовано. Повернення до безкоштовного рівня."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Конфіденційність"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Зберігайте свої дані на цьому пристрої"
+  },
+  "optionsPrivacyBody": {
+    "message": "«Місцевий час усюди» працює повністю на вашому пристрої. Він читає текст на перелічених вище хостах виключно з метою конвертації часів із поясами. Жоден вміст сторінки, історія перегляду чи дані профілю ніколи нікуди не надсилаються. Єдиний мережевий запит відбувається, коли ви вводите ліцензійний ключ, і надсилається лише сам ключ."
+  },
+  "optionsPrivacyExport": {
+    "message": "Експортувати мої дані"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Видалити всі дані"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Експортовано $1 ключ(і) у ваші завантаження."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Експорт не вдався. Спробуйте ще раз."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Видалити всі дані «Місцевий час усюди» з цього пристрою? Це не можна скасувати."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Усі дані «Місцевий час усюди» очищено з цього пристрою."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Видалення не вдалося. Спробуйте ще раз."
+  },
+  "optionsAboutLine": {
+    "message": "Місцевий час усюди v1.0.0, від Zovo. Не пов’язано з Google, Microsoft, Discord, Slack чи GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Ліцензія Pro активна."
+  },
+  "optionsSrFree": {
+    "message": "Безкоштовний рівень."
+  },
+  "onboardingPage1Heading": {
+    "message": "Перестаньте рахувати часові пояси в голові"
+  },
+  "onboardingPage1Sub": {
+    "message": "Запрошення на зустрічі показують один часовий пояс. Усі інші рахують у голові. Дехто помиляється."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Берлін, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Мумбаї, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Сідней, 07:00 завтра"
+  },
+  "onboardingPage1Button": {
+    "message": "Побачити рішення"
+  },
+  "onboardingEyebrow": {
+    "message": "Місцевий час усюди"
+  },
+  "onboardingPage2Heading": {
+    "message": "Подивіться, як час із поясом конвертується у ваш"
+  },
+  "onboardingPage2Sub": {
+    "message": "Ось справжнє повідомлення Slack. Натисніть кнопку, і той самий момент з’явиться у вашому місцевому часі."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Показати мій місцевий час"
+  },
+  "onboardingPage2Continue": {
+    "message": "Продовжити"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Натисніть вище, щоб конвертувати."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 ваш час ($2). Без жодних розрахунків."
+  },
+  "onboardingPage3Heading": {
+    "message": "Де це працює"
+  },
+  "onboardingPage3Sub": {
+    "message": "Ці 12 хостів увімкнено за замовчуванням. Відкрийте будь-який із них, і часи з поясами конвертуються в тексті, у підказці або як значок."
+  },
+  "onboardingPage3Hint": {
+    "message": "Потрібен інший хост? Безкоштовний рівень покриває 3 власні хости. Pro — необмежено."
+  },
+  "onboardingPage3Link": {
+    "message": "Дізнатися про власні хости"
+  },
+  "onboardingPage4Heading": {
+    "message": "Привіт, я Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Я створив «Місцевий час усюди» після надто багатьох пропущених стендапів у трьох часових поясах. Він робить одну річ і намагається робити її тихо. Ніякого відстеження, ніяких спливних вікон з апгрейдом на кожній сторінці."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Одна людина, будує відкрито на"
+  },
+  "onboardingPage5Heading": {
+    "message": "Оберіть план, що пасує вашому календарю"
+  },
+  "onboardingPage5Sub": {
+    "message": "Безкоштовний працює вічно на 12 хостах за замовчуванням. Pro — для досвідчених користувачів і команд."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Безкоштовно"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Безкоштовно"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Необмежені конвертації на 12 хостах за замовчуванням"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Формат 12h, 24h або системний"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Вбудований маркер, підказка та значок"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "До 3 власних хостів"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/міс або $$99 назавжди"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Додавайте необмежені власні хости"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Дивіться кожен регіон в одному рядку"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Синхронізуйте статус робочих годин зі Slack чи Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Надсилайте конвертовані часи у ваш календар"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Знаходьте найменш болісний час для зустрічі"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Переглянути плани Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Залишитися на безкоштовному"
+  },
+  "onboardingPage6Heading": {
+    "message": "Готові перестати рахувати в голові"
+  },
+  "onboardingPage6Sub": {
+    "message": "Відкрийте будь-який підтримуваний хост, і часи з поясами конвертуються самі."
+  },
+  "onboardingPage6Button": {
+    "message": "Почати конвертувати"
+  },
+  "onboardingSkip": {
+    "message": "Пропустити налаштування"
+  },
+  "onboardingBack": {
+    "message": "Назад"
+  },
+  "onboardingNext": {
+    "message": "Далі"
+  },
+  "onboardingDone": {
+    "message": "Готово"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Перейти до кроку $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Прогрес ознайомлення"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Прогрес ознайомлення"
+  },
+  "onboardingPageOf": {
+    "message": "$1 із $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Створено zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 разів конвертовано"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 раз конвертовано"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 разів конвертовано"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Місцевий час - тимчасово призупинено"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

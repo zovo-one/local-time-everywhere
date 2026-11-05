@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "머릿속으로 시간대 계산하지 마세요. 캘린더, Slack, Discord, GitHub에서 3pm EST, 9:00 UTC, 14:00 CET을 인라인으로 변환합니다."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "활성"
+  },
+  "popupStatusPaused": {
+    "message": "일시중지됨"
+  },
+  "popupStatusActiveLabel": {
+    "message": "상태: 활성"
+  },
+  "popupStatusPausedLabel": {
+    "message": "상태: 이 호스트에서 일시중지됨"
+  },
+  "popupStatLabel": {
+    "message": "이 페이지에서"
+  },
+  "popupStatHintSingular": {
+    "message": "번 이번 세션에 이 탭에서 변환되었습니다."
+  },
+  "popupStatHintPlural": {
+    "message": "번 이번 세션에 이 탭에서 변환되었습니다."
+  },
+  "popupStatAriaLabel": {
+    "message": "이 페이지에서 변환된 시간"
+  },
+  "popupPauseOnHost": {
+    "message": "이 호스트에서 일시중지"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "다시 켤 때까지 이 사이트에서 변환을 중지합니다."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "다시 켤 때까지 $1에서 변환을 중지합니다."
+  },
+  "popupShowInline": {
+    "message": "인라인 변환 표시"
+  },
+  "popupShowInlineSub": {
+    "message": "모든 시간대 표시 옆에 작은 현지 시간 마커를 추가합니다."
+  },
+  "popupShowBadge": {
+    "message": "배지 표시"
+  },
+  "popupShowBadgeSub": {
+    "message": "페이지 모서리에 변환된 횟수를 수동으로 집계합니다."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "변환 설정"
+  },
+  "popupLicenseHave": {
+    "message": "라이선스 키가 있으신가요?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "라이선스 키"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "활성화"
+  },
+  "popupLicenseVerifying": {
+    "message": "확인 중..."
+  },
+  "popupLicenseEmpty": {
+    "message": "먼저 라이선스 키를 입력하세요."
+  },
+  "popupLicenseActivated": {
+    "message": "라이선스가 활성화되었습니다. Pro가 잠금 해제되었습니다."
+  },
+  "popupLicenseFailed": {
+    "message": "해당 키를 확인할 수 없습니다. 키를 확인하고 다시 시도하세요."
+  },
+  "popupLicenseError": {
+    "message": "확인에 실패했습니다. 잠시 후 다시 시도하세요."
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one 제작"
+  },
+  "popupFooterMoreTools": {
+    "message": "더 많은 도구"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "모든 호스트와 ICS 내보내기 잠금 해제"
+  },
+  "popupSrActive": {
+    "message": "이 호스트에서 변환이 활성화되었습니다."
+  },
+  "popupSrPaused": {
+    "message": "이 호스트에서 변환이 일시중지되었습니다."
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere 설정"
+  },
+  "optionsSub": {
+    "message": "회의 초대가 도착하는 호스트에서 시간대 시간을 인라인으로 변환합니다."
+  },
+  "optionsEyebrowConversions": {
+    "message": "변환"
+  },
+  "optionsConversionsTitle": {
+    "message": "원하는 방식으로 페이지에서 변환을 받으세요"
+  },
+  "optionsInlineTitle": {
+    "message": "페이지에서 시간을 인라인으로 변환"
+  },
+  "optionsInlineSub": {
+    "message": "모든 시간대 표시 옆에 작은 현지 시간 마커를 추가합니다."
+  },
+  "optionsBadgeTitle": {
+    "message": "모서리에 변환 횟수를 수동으로 집계 유지"
+  },
+  "optionsBadgeSub": {
+    "message": "이 탭에서 변환된 횟수의 수동 집계입니다."
+  },
+  "optionsPauseTitle": {
+    "message": "호스트에서 변환 음소거"
+  },
+  "optionsPauseSub": {
+    "message": "해당 특정 사이트에서 변환을 일시중지하거나 재개하려면 호스트에서 Local Time Everywhere 팝업을 사용하세요."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "시간 형식"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "시스템"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12시간"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24시간"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "시간 형식 기본 설정"
+  },
+  "optionsEyebrowHosts": {
+    "message": "호스트"
+  },
+  "optionsHostsTitle": {
+    "message": "시간이 변환되는 사이트"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro로 무제한 사용자 지정 호스트"
+  },
+  "optionsHostsCountFree": {
+    "message": "사용자 지정 호스트 $2개 중 $1개 사용됨"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "기본 호스트, 방문할 때마다 변환"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "추가한 호스트, 방문할 때마다 변환"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "무료 등급은 최대 $1개의 사용자 지정 호스트를 포함합니다. Pro는 무제한 사용자 지정 호스트를 잠금 해제합니다."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro로 업그레이드"
+  },
+  "optionsAddHostLabel": {
+    "message": "사용자 지정 호스트 추가"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "호스트 추가"
+  },
+  "optionsRemoveHostButton": {
+    "message": "제거"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "사용자 지정 호스트 $1 제거"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* 또는 https://*.yourteam.com/*와 같은 특정 패턴을 사용하세요. <all_urls> 또는 *://*/*와 같은 광범위한 와일드카드는 절대 사용하지 마세요."
+  },
+  "optionsHostErrEmpty": {
+    "message": "먼저 호스트 패턴을 입력하세요."
+  },
+  "optionsHostErrBlocked": {
+    "message": "차단된 패턴: $1. 특정 https:// 패턴을 사용하세요."
+  },
+  "optionsHostErrScheme": {
+    "message": "패턴은 https:// (또는 http://)로 시작해야 합니다."
+  },
+  "optionsHostErrHostname": {
+    "message": "해당 패턴에는 실제 호스트 이름이 없습니다."
+  },
+  "optionsHostErrMalformed": {
+    "message": "해당 패턴의 형식이 잘못되었습니다."
+  },
+  "optionsHostErrPath": {
+    "message": "끝에 경로 와일드카드를 추가하세요(예: /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "해당 호스트가 이미 목록에 있습니다."
+  },
+  "optionsHostErrDefault": {
+    "message": "해당 호스트가 이미 기본 목록에 있습니다."
+  },
+  "optionsHostErrCapHit": {
+    "message": "무료 등급은 사용자 지정 호스트 $1개로 제한됩니다. 더 추가하려면 업그레이드하세요."
+  },
+  "optionsHostErrPermission": {
+    "message": "권한이 부여되지 않았습니다. 호스트가 추가되지 않았습니다."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "해당 호스트에 대한 권한을 요청할 수 없습니다."
+  },
+  "optionsHostAdded": {
+    "message": "$1이(가) 추가되었습니다. 스캔하려면 해당 호스트의 열린 탭을 새로고침하세요."
+  },
+  "optionsHostRemoved": {
+    "message": "$1이(가) 제거되었습니다."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "사용하는 모든 호스트에서 시간을 변환하세요"
+  },
+  "optionsProFeature1Title": {
+    "message": "모든 지역을 한 줄로 표시"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST, 12pm PST, 8pm GMT을 한 줄에 표시합니다."
+  },
+  "optionsProFeature2Title": {
+    "message": "근무 시간으로 팀원과 동기화 유지"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Slack 또는 Discord 상태를 게시합니다. 옵트인 전용."
+  },
+  "optionsProFeature3Title": {
+    "message": "변환된 시간으로 캘린더 초대 보내기"
+  },
+  "optionsProFeature3Sub": {
+    "message": "적절한 시간대에 대한 .ics 초대를 복사합니다."
+  },
+  "optionsProFeature4Title": {
+    "message": "가장 부담 없는 회의 시간 찾기"
+  },
+  "optionsProFeature4Sub": {
+    "message": "시간대를 나란히 비교하고 적절한 것을 선택하세요."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro 기능, 잠김"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro 요금제 보기"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro로 모든 호스트 변환"
+  },
+  "optionsPaywallPitch": {
+    "message": "시간대를 넘나들며 사는 파워 유저와 팀을 위한."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/월"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 평생"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "하나의 가격, 당신의 선택. 언제든지 취소하세요."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "무제한 사용자 지정 호스트(무료는 3개로 제한)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "다중 지역 형식, 모든 시간대를 한 번에 표시"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack 및 Discord 근무 시간 상태 동기화"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "변환된 시간이 포함된 ICS 캘린더 내보내기"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "최적 중첩 회의 제안기"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro 받기, $$99 평생"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "또는 월 $$4.99"
+  },
+  "optionsPaywallNote": {
+    "message": "한 번의 결제 또는 하나의 구독. 이 확장 프로그램에서 Pro를 영구적으로 활성화합니다."
+  },
+  "optionsPaywallRefund": {
+    "message": "14일 환불 보장. Pro가 가치가 없다면 묻지 않고 환불합니다."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "무료 vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "변환된 시간을 캘린더로 보내기"
+  },
+  "optionsIcsExportSub": {
+    "message": "현지 시간이 포함된 .ics 초대를 복사하세요. Pro 미리보기로, 무엇이 잠금 해제되는지 알 수 있도록 여기에 표시됩니다."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics 내보내기"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro에서 잠금 해제"
+  },
+  "optionsEyebrowLicense": {
+    "message": "라이선스"
+  },
+  "optionsLicenseTitle": {
+    "message": "키 활성화 또는 제거"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro 활성."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1까지 유효."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "평생 라이선스."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "비활성화"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "라이선스가 비활성화되었습니다. 무료 등급으로 돌아갑니다."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "개인정보 보호"
+  },
+  "optionsPrivacyTitle": {
+    "message": "데이터를 이 기기에 보관하세요"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere는 전적으로 사용자의 기기에서 실행됩니다. 위에 나열된 호스트의 텍스트를 오직 시간대 시간을 변환할 목적으로만 읽습니다. 페이지 콘텐츠, 검색 기록, 프로필 데이터는 어디에도 전송되지 않습니다. 유일한 네트워크 요청은 라이선스 키를 입력할 때 발생하며, 키 자체만 전송됩니다."
+  },
+  "optionsPrivacyExport": {
+    "message": "내 데이터 내보내기"
+  },
+  "optionsPrivacyDelete": {
+    "message": "모든 데이터 삭제"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1개의 키를 다운로드로 내보냈습니다."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "내보내기에 실패했습니다. 다시 시도하세요."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "이 기기에서 모든 Local Time Everywhere 데이터를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "이 기기에서 모든 Local Time Everywhere 데이터가 지워졌습니다."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "삭제에 실패했습니다. 다시 시도하세요."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, Zovo 제작. Google, Microsoft, Discord, Slack 또는 GitHub와 제휴하지 않았습니다."
+  },
+  "optionsSrProActive": {
+    "message": "Pro 라이선스 활성."
+  },
+  "optionsSrFree": {
+    "message": "무료 등급."
+  },
+  "onboardingPage1Heading": {
+    "message": "머릿속으로 시간대 계산하지 마세요"
+  },
+  "onboardingPage1Sub": {
+    "message": "회의 초대는 하나의 시간대만 표시합니다. 나머지 모두는 머릿속으로 계산합니다. 일부는 틀립니다."
+  },
+  "onboardingPage1Berlin": {
+    "message": "베를린, 오후 9시"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "뭄바이, 오전 12시 30분"
+  },
+  "onboardingPage1Sydney": {
+    "message": "시드니, 내일 오전 7시"
+  },
+  "onboardingPage1Button": {
+    "message": "해결책 보기"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "시간대 시간이 내 시간으로 변환되는 것을 보세요"
+  },
+  "onboardingPage2Sub": {
+    "message": "여기 실제 Slack 메시지가 있습니다. 버튼을 클릭하면 같은 순간이 현지 시간으로 표시됩니다."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "내 현지 시간 보기"
+  },
+  "onboardingPage2Continue": {
+    "message": "계속"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "변환하려면 위를 클릭하세요."
+  },
+  "onboardingPage2Revealed": {
+    "message": "당신의 시간으로 $1 ($2). 계산이 필요 없습니다."
+  },
+  "onboardingPage3Heading": {
+    "message": "실행되는 곳"
+  },
+  "onboardingPage3Sub": {
+    "message": "이 12개 호스트는 기본으로 켜져 있습니다. 아무거나 열면 시간대 시간이 인라인, 툴팁 또는 배지로 변환됩니다."
+  },
+  "onboardingPage3Hint": {
+    "message": "다른 호스트가 필요하신가요? 무료 등급은 3개의 사용자 지정 호스트를 지원합니다. Pro는 무제한입니다."
+  },
+  "onboardingPage3Link": {
+    "message": "사용자 지정 호스트에 대해 알아보기"
+  },
+  "onboardingPage4Heading": {
+    "message": "안녕하세요, 저는 Michael입니다"
+  },
+  "onboardingPage4Sub": {
+    "message": "세 개의 시간대를 넘나들며 스탠드업 회의를 너무 많이 놓친 후 Local Time Everywhere를 만들었습니다. 한 가지 일을 하며 조용히 하려고 합니다. 추적 없음, 모든 페이지의 업그레이드 팝업 없음."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "한 사람, 공개적으로 만드는 곳"
+  },
+  "onboardingPage5Heading": {
+    "message": "당신의 캘린더에 맞는 요금제를 선택하세요"
+  },
+  "onboardingPage5Sub": {
+    "message": "무료는 12개의 기본 호스트에서 영원히 작동합니다. Pro는 파워 유저와 팀을 위한 것입니다."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "무료"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "12개 기본 호스트에서 무제한 변환"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12시간, 24시간 또는 시스템 형식"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "인라인 마커, 툴팁, 배지"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "최대 3개의 사용자 지정 호스트"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/월 또는 $$99 평생"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "무제한 사용자 지정 호스트 추가"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "모든 지역을 한 줄로 보기"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "근무 시간 상태를 Slack 또는 Discord에 동기화"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "변환된 시간을 캘린더로 보내기"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "가장 부담 없는 회의 시간 찾기"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro 요금제 보기"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "무료 유지"
+  },
+  "onboardingPage6Heading": {
+    "message": "머릿속으로 계산하는 것을 그만둘 준비가 되셨나요"
+  },
+  "onboardingPage6Sub": {
+    "message": "지원되는 호스트를 열면 시간대 시간이 저절로 변환됩니다."
+  },
+  "onboardingPage6Button": {
+    "message": "변환 시작"
+  },
+  "onboardingSkip": {
+    "message": "설정 건너뛰기"
+  },
+  "onboardingBack": {
+    "message": "뒤로"
+  },
+  "onboardingNext": {
+    "message": "다음"
+  },
+  "onboardingDone": {
+    "message": "완료"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "$1단계로 이동"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "온보딩 진행률"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "온보딩 진행률"
+  },
+  "onboardingPageOf": {
+    "message": "$2 중 $1"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one 제작"
+  },
+  "badgeConvertedInitial": {
+    "message": "0번 변환됨"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1번 변환됨"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1번 변환됨"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - 일시적으로 중지됨"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

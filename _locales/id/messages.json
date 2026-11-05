@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Berhenti menghitung zona waktu di kepala. Konversi 3pm EST, 9:00 UTC, 14:00 CET langsung di Calendar, Slack, Discord, dan GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Aktif"
+  },
+  "popupStatusPaused": {
+    "message": "Dijeda"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Status: aktif"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Status: dijeda di situs ini"
+  },
+  "popupStatLabel": {
+    "message": "Di halaman ini"
+  },
+  "popupStatHintSingular": {
+    "message": "waktu dikonversi di tab ini pada sesi ini."
+  },
+  "popupStatHintPlural": {
+    "message": "waktu dikonversi di tab ini pada sesi ini."
+  },
+  "popupStatAriaLabel": {
+    "message": "Waktu yang dikonversi di halaman ini"
+  },
+  "popupPauseOnHost": {
+    "message": "Jeda di situs ini"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Berhenti mengonversi di situs ini sampai kamu mengaktifkannya lagi."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Berhenti mengonversi di $1 sampai kamu mengaktifkannya lagi."
+  },
+  "popupShowInline": {
+    "message": "Tampilkan konversi inline"
+  },
+  "popupShowInlineSub": {
+    "message": "Menambahkan penanda waktu lokal kecil di samping setiap waktu berzona."
+  },
+  "popupShowBadge": {
+    "message": "Tampilkan lencana"
+  },
+  "popupShowBadgeSub": {
+    "message": "Hitungan pasif waktu yang dikonversi di pojok halaman."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Pengaturan konversi"
+  },
+  "popupLicenseHave": {
+    "message": "Punya kunci lisensi?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Kunci lisensi"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Aktifkan"
+  },
+  "popupLicenseVerifying": {
+    "message": "Memverifikasi..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Masukkan kunci lisensi dulu."
+  },
+  "popupLicenseActivated": {
+    "message": "Lisensi diaktifkan. Pro terbuka."
+  },
+  "popupLicenseFailed": {
+    "message": "Kunci itu tidak terverifikasi. Periksa kunci dan coba lagi."
+  },
+  "popupLicenseError": {
+    "message": "Verifikasi gagal. Coba lagi sebentar lagi."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Dibuat oleh zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Alat lainnya"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Buka semua situs dan ekspor ICS"
+  },
+  "popupSrActive": {
+    "message": "Konversi aktif di situs ini."
+  },
+  "popupSrPaused": {
+    "message": "Konversi dijeda di situs ini."
+  },
+  "optionsTitle": {
+    "message": "Pengaturan Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Konversi waktu berzona secara inline di situs tempat undangan rapat masuk."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Konversi"
+  },
+  "optionsConversionsTitle": {
+    "message": "Dapatkan konversi di halaman, sesukamu"
+  },
+  "optionsInlineTitle": {
+    "message": "Konversi waktu inline di halaman"
+  },
+  "optionsInlineSub": {
+    "message": "Menambahkan penanda waktu lokal kecil di samping setiap waktu berzona."
+  },
+  "optionsBadgeTitle": {
+    "message": "Simpan hitungan pasif konversi di pojok"
+  },
+  "optionsBadgeSub": {
+    "message": "Hitungan pasif waktu yang dikonversi di tab ini."
+  },
+  "optionsPauseTitle": {
+    "message": "Bisukan konversi di suatu situs"
+  },
+  "optionsPauseSub": {
+    "message": "Gunakan popup Local Time Everywhere di suatu situs untuk menjeda atau melanjutkan konversi di situs tertentu itu."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Format waktu"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Sistem"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 jam"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 jam"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Preferensi format waktu"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Situs"
+  },
+  "optionsHostsTitle": {
+    "message": "Situs tempat waktu dikonversi"
+  },
+  "optionsHostsCountPro": {
+    "message": "Situs khusus tanpa batas dengan Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 dari $2 situs khusus terpakai"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Situs default, konversi di setiap kunjungan"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Situs yang kamu tambahkan, konversi di setiap kunjungan"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Paket gratis mencakup hingga $1 situs khusus. Pro membuka situs khusus tanpa batas."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Tingkatkan ke Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Tambahkan situs khusus"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Tambahkan situs"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Hapus"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Hapus situs khusus $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Gunakan pola spesifik seperti https://contoh.com/* atau https://*.timmu.com/*. Jangan pernah gunakan wildcard luas <all_urls> atau *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Masukkan pola situs dulu."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Pola diblokir: $1. Gunakan pola https:// yang spesifik."
+  },
+  "optionsHostErrScheme": {
+    "message": "Pola harus diawali https:// (atau http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Pola itu tidak punya nama host yang nyata."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Pola itu salah bentuk."
+  },
+  "optionsHostErrPath": {
+    "message": "Tambahkan wildcard path di akhir (mis. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Situs itu sudah ada di daftarmu."
+  },
+  "optionsHostErrDefault": {
+    "message": "Situs itu sudah ada di daftar default."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Paket gratis dibatasi $1 situs khusus. Tingkatkan untuk menambah lagi."
+  },
+  "optionsHostErrPermission": {
+    "message": "Izin tidak diberikan. Situs tidak ditambahkan."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Tidak bisa meminta izin untuk situs itu."
+  },
+  "optionsHostAdded": {
+    "message": "$1 ditambahkan. Muat ulang tab terbuka di situs itu untuk memindainya."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 dihapus."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Konversi waktu di setiap situs yang kamu pakai"
+  },
+  "optionsProFeature1Title": {
+    "message": "Dapatkan setiap region dalam satu baris"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Tampilkan 3pm EST, 12pm PST, 8pm GMT dalam satu baris."
+  },
+  "optionsProFeature2Title": {
+    "message": "Buat rekan tim selaras dengan jam kerjamu"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Kirim status Slack atau Discord. Hanya jika ikut serta."
+  },
+  "optionsProFeature3Title": {
+    "message": "Kirim undangan kalender dengan waktu yang dikonversi"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Salin undangan .ics untuk slot yang tepat."
+  },
+  "optionsProFeature4Title": {
+    "message": "Temukan slot rapat yang paling tidak menyakitkan"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Bandingkan zona berdampingan dan pilih yang paling bersahabat."
+  },
+  "optionsProLockLabel": {
+    "message": "Fitur Pro, terkunci"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Lihat paket Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Konversi setiap situs dengan Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Untuk power user dan tim yang hidup lintas zona waktu."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/bln"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 seumur hidup"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Satu harga, pilihanmu. Batalkan kapan saja."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Situs khusus tanpa batas (gratis dibatasi 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Format multi-region, tampilkan semua zona sekaligus"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Sinkronisasi status jam kerja Slack dan Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Ekspor kalender ICS dengan waktu yang dikonversi"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Penyaran rapat dengan tumpang tindih terbaik"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Dapatkan Pro, $$99 seumur hidup"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Atau $$4.99/bulan"
+  },
+  "optionsPaywallNote": {
+    "message": "Satu pembayaran atau satu langganan. Mengaktifkan Pro di ekstensi ini selamanya."
+  },
+  "optionsPaywallRefund": {
+    "message": "Jaminan uang kembali 14 hari. Jika Pro tidak sepadan, kami kembalikan, tanpa pertanyaan."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Gratis vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Kirim waktu yang dikonversi ke kalendermu"
+  },
+  "optionsIcsExportSub": {
+    "message": "Salin undangan .ics dengan waktu lokal sudah tertanam. Intip Pro, terlihat di sini agar kamu tahu apa yang terbuka."
+  },
+  "optionsIcsExportCta": {
+    "message": "Ekspor .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Buka di Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Lisensi"
+  },
+  "optionsLicenseTitle": {
+    "message": "Aktifkan atau hapus kunci"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro aktif."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Berlaku hingga $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Lisensi seumur hidup."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Nonaktifkan"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Lisensi dinonaktifkan. Kembali ke paket gratis."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privasi"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Simpan datamu di perangkat ini"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere berjalan sepenuhnya di perangkatmu. Ia membaca teks di situs yang tercantum di atas semata-mata untuk mengonversi waktu berzona. Tidak ada konten halaman, riwayat penjelajahan, atau data profil yang pernah dikirim ke mana pun. Satu-satunya permintaan jaringan terjadi saat kamu memasukkan kunci lisensi, dan hanya kunci itu sendiri yang dikirim."
+  },
+  "optionsPrivacyExport": {
+    "message": "Ekspor data saya"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Hapus semua data"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 kunci diekspor ke unduhanmu."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Ekspor gagal. Silakan coba lagi."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Hapus semua data Local Time Everywhere dari perangkat ini? Ini tidak bisa dibatalkan."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Semua data Local Time Everywhere telah dihapus dari perangkat ini."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Hapus gagal. Silakan coba lagi."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, oleh Zovo. Tidak berafiliasi dengan Google, Microsoft, Discord, Slack, atau GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Lisensi Pro aktif."
+  },
+  "optionsSrFree": {
+    "message": "Paket gratis."
+  },
+  "onboardingPage1Heading": {
+    "message": "Berhenti menghitung zona waktu di kepala"
+  },
+  "onboardingPage1Sub": {
+    "message": "Undangan rapat menampilkan satu zona waktu. Semua orang lain menghitungnya di kepala. Sebagian salah."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlin, 9 malam"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Mumbai, 12:30 dini hari"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7 pagi besok"
+  },
+  "onboardingPage1Button": {
+    "message": "Lihat solusinya"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Saksikan waktu berzona berubah jadi waktumu"
+  },
+  "onboardingPage2Sub": {
+    "message": "Ini pesan Slack asli. Klik tombolnya dan momen yang sama muncul dalam waktu lokalmu."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Lihat waktu lokal saya"
+  },
+  "onboardingPage2Continue": {
+    "message": "Lanjutkan"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Klik di atas untuk mengonversi."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 waktumu ($2). Tanpa hitung-hitungan."
+  },
+  "onboardingPage3Heading": {
+    "message": "Tempat ia bekerja"
+  },
+  "onboardingPage3Sub": {
+    "message": "12 situs ini aktif secara default. Buka salah satunya dan waktu berzona dikonversi secara inline, dalam tooltip, atau sebagai lencana."
+  },
+  "onboardingPage3Hint": {
+    "message": "Butuh situs lain? Paket gratis mencakup 3 situs khusus. Pro tanpa batas."
+  },
+  "onboardingPage3Link": {
+    "message": "Pelajari tentang situs khusus"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hai, saya Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Saya membuat Local Time Everywhere setelah terlalu sering melewatkan standup lintas tiga zona waktu. Ia melakukan satu hal dan berusaha melakukannya dengan tenang. Tanpa pelacakan, tanpa popup jualan di setiap halaman."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Satu orang, membangun secara terbuka di"
+  },
+  "onboardingPage5Heading": {
+    "message": "Pilih paket yang cocok dengan kalendermu"
+  },
+  "onboardingPage5Sub": {
+    "message": "Gratis berlaku selamanya di 12 situs default. Pro untuk power user dan tim."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Gratis"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Konversi tanpa batas di 12 situs default"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Format 12 jam, 24 jam, atau sistem"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Penanda inline, tooltip, dan lencana"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Hingga 3 situs khusus"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/bln atau $$99 seumur hidup"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Tambah situs khusus tanpa batas"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Lihat setiap region dalam satu baris"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Sinkronkan status jam kerja ke Slack atau Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Kirim waktu yang dikonversi ke kalendermu"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Temukan slot rapat yang paling tidak menyakitkan"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Lihat paket Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Tetap di Gratis"
+  },
+  "onboardingPage6Heading": {
+    "message": "Siap berhenti menghitung di kepala"
+  },
+  "onboardingPage6Sub": {
+    "message": "Buka situs yang didukung mana pun dan waktu berzona akan dikonversi dengan sendirinya."
+  },
+  "onboardingPage6Button": {
+    "message": "Mulai mengonversi"
+  },
+  "onboardingSkip": {
+    "message": "Lewati penyiapan"
+  },
+  "onboardingBack": {
+    "message": "Kembali"
+  },
+  "onboardingNext": {
+    "message": "Berikutnya"
+  },
+  "onboardingDone": {
+    "message": "Selesai"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Ke langkah $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Kemajuan penyiapan"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Kemajuan penyiapan"
+  },
+  "onboardingPageOf": {
+    "message": "$1 dari $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Dibuat oleh zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 waktu dikonversi"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 waktu dikonversi"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 waktu dikonversi"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - dijeda sementara"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

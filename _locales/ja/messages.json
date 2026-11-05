@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "頭の中でタイムゾーンを計算するのはもう終わり。午後3時 EST、9:00 UTC、14:00 CET を Calendar、Slack、Discord、GitHub 上でそのまま変換します。"
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "有効"
+  },
+  "popupStatusPaused": {
+    "message": "一時停止中"
+  },
+  "popupStatusActiveLabel": {
+    "message": "ステータス：有効"
+  },
+  "popupStatusPausedLabel": {
+    "message": "ステータス：このサイトで一時停止中"
+  },
+  "popupStatLabel": {
+    "message": "このページで"
+  },
+  "popupStatHintSingular": {
+    "message": "件の時刻をこのタブでこのセッション中に変換しました。"
+  },
+  "popupStatHintPlural": {
+    "message": "件の時刻をこのタブでこのセッション中に変換しました。"
+  },
+  "popupStatAriaLabel": {
+    "message": "このページで変換した時刻"
+  },
+  "popupPauseOnHost": {
+    "message": "このサイトで一時停止"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "再びオンにするまで、このサイトでの変換を停止します。"
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "再びオンにするまで、$1 での変換を停止します。"
+  },
+  "popupShowInline": {
+    "message": "インライン変換を表示"
+  },
+  "popupShowInlineSub": {
+    "message": "タイムゾーン付きの各時刻の隣に小さな現地時間マーカーを追加します。"
+  },
+  "popupShowBadge": {
+    "message": "バッジを表示"
+  },
+  "popupShowBadgeSub": {
+    "message": "変換した時刻の件数をページの隅にさりげなく表示します。"
+  },
+  "popupSettingsAriaLabel": {
+    "message": "変換設定"
+  },
+  "popupLicenseHave": {
+    "message": "ライセンスキーをお持ちですか？"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "ライセンスキー"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "有効化"
+  },
+  "popupLicenseVerifying": {
+    "message": "確認中..."
+  },
+  "popupLicenseEmpty": {
+    "message": "先にライセンスキーを入力してください。"
+  },
+  "popupLicenseActivated": {
+    "message": "ライセンスを有効化しました。Pro のロックを解除しました。"
+  },
+  "popupLicenseFailed": {
+    "message": "このキーは確認できませんでした。キーを確認してもう一度お試しください。"
+  },
+  "popupLicenseError": {
+    "message": "確認に失敗しました。しばらくしてからもう一度お試しください。"
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one が制作"
+  },
+  "popupFooterMoreTools": {
+    "message": "その他のツール"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "すべてのサイトと ICS エクスポートを解除"
+  },
+  "popupSrActive": {
+    "message": "このサイトで変換が有効です。"
+  },
+  "popupSrPaused": {
+    "message": "このサイトで変換が一時停止中です。"
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere の設定"
+  },
+  "optionsSub": {
+    "message": "会議の招待が届くサイト上で、タイムゾーン付きの時刻をインライン変換します。"
+  },
+  "optionsEyebrowConversions": {
+    "message": "変換"
+  },
+  "optionsConversionsTitle": {
+    "message": "ページ上での変換を、あなたの好みに"
+  },
+  "optionsInlineTitle": {
+    "message": "ページ上で時刻をインライン変換"
+  },
+  "optionsInlineSub": {
+    "message": "タイムゾーン付きの各時刻の隣に小さな現地時間マーカーを追加します。"
+  },
+  "optionsBadgeTitle": {
+    "message": "変換件数を隅にさりげなく表示"
+  },
+  "optionsBadgeSub": {
+    "message": "このタブで変換した時刻の件数をさりげなく表示します。"
+  },
+  "optionsPauseTitle": {
+    "message": "サイトごとに変換をミュート"
+  },
+  "optionsPauseSub": {
+    "message": "サイト上で Local Time Everywhere のポップアップを使って、その特定のサイトでの変換を一時停止または再開します。"
+  },
+  "optionsTimeFormatLabel": {
+    "message": "時刻形式"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "システム"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 時間"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 時間"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "時刻形式の設定"
+  },
+  "optionsEyebrowHosts": {
+    "message": "サイト"
+  },
+  "optionsHostsTitle": {
+    "message": "時刻を変換するサイト"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro でカスタムサイト無制限"
+  },
+  "optionsHostsCountFree": {
+    "message": "カスタムサイト $2 件中 $1 件使用"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "デフォルトサイト、訪問のたびに変換"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "追加したサイト、訪問のたびに変換"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "無料プランはカスタムサイト最大 $1 件までです。Pro でカスタムサイトが無制限になります。"
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro にアップグレード"
+  },
+  "optionsAddHostLabel": {
+    "message": "カスタムサイトを追加"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "サイトを追加"
+  },
+  "optionsRemoveHostButton": {
+    "message": "削除"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "カスタムサイト $1 を削除"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* や https://*.yourteam.com/* のような具体的なパターンを使ってください。<all_urls> や *://*/* のような広いワイルドカードは絶対に使わないでください。"
+  },
+  "optionsHostErrEmpty": {
+    "message": "先にサイトのパターンを入力してください。"
+  },
+  "optionsHostErrBlocked": {
+    "message": "ブロックされたパターン：$1。具体的な https:// パターンを使ってください。"
+  },
+  "optionsHostErrScheme": {
+    "message": "パターンは https://（または http://）で始める必要があります。"
+  },
+  "optionsHostErrHostname": {
+    "message": "そのパターンには実際のホスト名がありません。"
+  },
+  "optionsHostErrMalformed": {
+    "message": "そのパターンは不正な形式です。"
+  },
+  "optionsHostErrPath": {
+    "message": "末尾にパスのワイルドカードを追加してください（例：/*）。"
+  },
+  "optionsHostErrDuplicate": {
+    "message": "そのサイトはすでにリストにあります。"
+  },
+  "optionsHostErrDefault": {
+    "message": "そのサイトはすでにデフォルトリストにあります。"
+  },
+  "optionsHostErrCapHit": {
+    "message": "無料プランはカスタムサイト $1 件までです。さらに追加するにはアップグレードしてください。"
+  },
+  "optionsHostErrPermission": {
+    "message": "権限が許可されませんでした。サイトは追加されていません。"
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "そのサイトの権限をリクエストできませんでした。"
+  },
+  "optionsHostAdded": {
+    "message": "$1 を追加しました。そのサイトの開いているタブを再読み込みしてスキャンしてください。"
+  },
+  "optionsHostRemoved": {
+    "message": "$1 を削除しました。"
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "使うすべてのサイトで時刻を変換"
+  },
+  "optionsProFeature1Title": {
+    "message": "すべての地域を 1 行で"
+  },
+  "optionsProFeature1Sub": {
+    "message": "午後3時 EST、正午 PST、午後8時 GMT を 1 行で表示。"
+  },
+  "optionsProFeature2Title": {
+    "message": "あなたの勤務時間でチームと足並みをそろえる"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Slack や Discord のステータスを送信。オプトインのみ。"
+  },
+  "optionsProFeature3Title": {
+    "message": "変換した時刻でカレンダー招待を送る"
+  },
+  "optionsProFeature3Sub": {
+    "message": "適切な枠の .ics 招待をコピー。"
+  },
+  "optionsProFeature4Title": {
+    "message": "いちばん負担の少ない会議枠を見つける"
+  },
+  "optionsProFeature4Sub": {
+    "message": "タイムゾーンを並べて比較し、いちばん優しい時間を選ぶ。"
+  },
+  "optionsProLockLabel": {
+    "message": "Pro 機能、ロック中"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro プランを見る"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro ですべてのサイトを変換"
+  },
+  "optionsPaywallPitch": {
+    "message": "タイムゾーンをまたいで働くパワーユーザーとチームのために。"
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/月"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 買い切り"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "1 つの価格、あなたの選択。いつでもキャンセル可能。"
+  },
+  "optionsPaywallBenefit1": {
+    "message": "カスタムサイト無制限（無料は 3 件まで）"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "マルチ地域形式、すべてのゾーンを一度に表示"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack と Discord の勤務時間ステータス同期"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "変換した時刻付きの ICS カレンダーエクスポート"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "最適な重なりの会議提案"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro を入手、$$99 買い切り"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "または $$4.99/月"
+  },
+  "optionsPaywallNote": {
+    "message": "1 回の支払い、または 1 つのサブスクリプション。この拡張機能で Pro を永続的に有効化します。"
+  },
+  "optionsPaywallRefund": {
+    "message": "14 日間の返金保証。Pro に価値がなければ、理由を問わず返金します。"
+  },
+  "optionsFreeVsProHeading": {
+    "message": "無料 vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "変換した時刻をカレンダーへ送る"
+  },
+  "optionsIcsExportSub": {
+    "message": "現地時間を埋め込んだ .ics 招待をコピー。Pro のプレビュー、解除される内容がわかるようにここに表示しています。"
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics をエクスポート"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro で解除"
+  },
+  "optionsEyebrowLicense": {
+    "message": "ライセンス"
+  },
+  "optionsLicenseTitle": {
+    "message": "キーの有効化または削除"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro 有効。"
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1 まで有効。"
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "買い切りライセンス。"
+  },
+  "optionsLicenseDeactivate": {
+    "message": "無効化"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "ライセンスを無効化しました。無料プランに戻ります。"
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "プライバシー"
+  },
+  "optionsPrivacyTitle": {
+    "message": "データはこのデバイスに保持"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere は完全にあなたのデバイス上で動作します。上記のサイトのテキストを読み取るのは、タイムゾーン付きの時刻を変換するためだけです。ページの内容、閲覧履歴、プロフィールデータがどこかに送信されることは一切ありません。唯一のネットワークリクエストはライセンスキーを入力したときに発生し、送信されるのはキー自体だけです。"
+  },
+  "optionsPrivacyExport": {
+    "message": "自分のデータをエクスポート"
+  },
+  "optionsPrivacyDelete": {
+    "message": "すべてのデータを削除"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 件のキーをダウンロードにエクスポートしました。"
+  },
+  "optionsPrivacyExportErr": {
+    "message": "エクスポートに失敗しました。もう一度お試しください。"
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "このデバイスから Local Time Everywhere のすべてのデータを削除しますか？これは元に戻せません。"
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "このデバイスから Local Time Everywhere のすべてのデータを消去しました。"
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "削除に失敗しました。もう一度お試しください。"
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0、Zovo 制作。Google、Microsoft、Discord、Slack、GitHub とは提携していません。"
+  },
+  "optionsSrProActive": {
+    "message": "Pro ライセンス有効。"
+  },
+  "optionsSrFree": {
+    "message": "無料プラン。"
+  },
+  "onboardingPage1Heading": {
+    "message": "頭の中でタイムゾーンを計算するのはもう終わり"
+  },
+  "onboardingPage1Sub": {
+    "message": "会議の招待には 1 つのタイムゾーンだけ。ほかのみんなは頭の中で計算します。間違える人もいます。"
+  },
+  "onboardingPage1Berlin": {
+    "message": "ベルリン、午後9時"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "ムンバイ、午前0時30分"
+  },
+  "onboardingPage1Sydney": {
+    "message": "シドニー、明日午前7時"
+  },
+  "onboardingPage1Button": {
+    "message": "解決策を見る"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "タイムゾーン付きの時刻があなたの時刻に変わる様子を見る"
+  },
+  "onboardingPage2Sub": {
+    "message": "これは実際の Slack メッセージです。ボタンをクリックすると、同じ瞬間があなたの現地時間で表示されます。"
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex（ボストン）"
+  },
+  "onboardingPage2Reveal": {
+    "message": "自分の現地時間を見る"
+  },
+  "onboardingPage2Continue": {
+    "message": "続ける"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "上をクリックして変換。"
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 あなたの時刻（$2）。計算は不要。"
+  },
+  "onboardingPage3Heading": {
+    "message": "動作する場所"
+  },
+  "onboardingPage3Sub": {
+    "message": "これら 12 のサイトはデフォルトで有効です。どれかを開くと、タイムゾーン付きの時刻がインライン、ツールチップ、またはバッジで変換されます。"
+  },
+  "onboardingPage3Hint": {
+    "message": "別のサイトが必要ですか？無料プランはカスタムサイト 3 件まで。Pro は無制限です。"
+  },
+  "onboardingPage3Link": {
+    "message": "カスタムサイトについて詳しく"
+  },
+  "onboardingPage4Heading": {
+    "message": "こんにちは、Michael です"
+  },
+  "onboardingPage4Sub": {
+    "message": "3 つのタイムゾーンをまたいでスタンドアップに何度も遅れた末に、Local Time Everywhere を作りました。1 つのことだけを、静かにこなそうとします。トラッキングなし、ページごとの売り込みポップアップもなし。"
+  },
+  "onboardingPage4SubMuted": {
+    "message": "一人で、公開の場で開発中"
+  },
+  "onboardingPage5Heading": {
+    "message": "あなたのカレンダーに合うプランを選ぶ"
+  },
+  "onboardingPage5Sub": {
+    "message": "無料は 12 のデフォルトサイトで永久に使えます。Pro はパワーユーザーとチーム向けです。"
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "無料"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "無料"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "12 のデフォルトサイトで変換無制限"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12 時間、24 時間、またはシステム形式"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "インラインマーカー、ツールチップ、バッジ"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "カスタムサイト 3 件まで"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/月 または $$99 買い切り"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "カスタムサイトを無制限に追加"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "すべての地域を 1 行で表示"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "勤務時間ステータスを Slack や Discord に同期"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "変換した時刻をカレンダーに送信"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "いちばん負担の少ない会議枠を見つける"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro プランを見る"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "無料のまま使う"
+  },
+  "onboardingPage6Heading": {
+    "message": "頭の中での計算を終わらせる準備はいいですか"
+  },
+  "onboardingPage6Sub": {
+    "message": "対応サイトを開けば、タイムゾーン付きの時刻がひとりでに変換されます。"
+  },
+  "onboardingPage6Button": {
+    "message": "変換を始める"
+  },
+  "onboardingSkip": {
+    "message": "セットアップをスキップ"
+  },
+  "onboardingBack": {
+    "message": "戻る"
+  },
+  "onboardingNext": {
+    "message": "次へ"
+  },
+  "onboardingDone": {
+    "message": "完了"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "ステップ $1 へ移動"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "オンボーディングの進行状況"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "オンボーディングの進行状況"
+  },
+  "onboardingPageOf": {
+    "message": "$1 / $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one が制作"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 件の時刻を変換"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 件の時刻を変換"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 件の時刻を変換"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - 一時停止中"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

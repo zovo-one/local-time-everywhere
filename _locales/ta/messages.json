@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம்"
+  },
+  "extDesc": {
+    "message": "நேர மண்டல கணக்கை மனதில் போடுவதை நிறுத்துங்கள். Calendar, Slack, Discord, GitHub இல் 3pm EST, 9:00 UTC, 14:00 CET ஐ உள்ளமையாகவே மாற்றுங்கள்."
+  },
+  "actionTitle": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம்"
+  },
+  "popupTitle": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம்"
+  },
+  "popupStatusActive": {
+    "message": "செயலில்"
+  },
+  "popupStatusPaused": {
+    "message": "இடைநிறுத்தப்பட்டது"
+  },
+  "popupStatusActiveLabel": {
+    "message": "நிலை: செயலில்"
+  },
+  "popupStatusPausedLabel": {
+    "message": "நிலை: இந்த ஹோஸ்ட்டில் இடைநிறுத்தப்பட்டது"
+  },
+  "popupStatLabel": {
+    "message": "இந்தப் பக்கத்தில்"
+  },
+  "popupStatHintSingular": {
+    "message": "இந்த அமர்வில் இந்த தாவலில் நேரம் மாற்றப்பட்டது."
+  },
+  "popupStatHintPlural": {
+    "message": "இந்த அமர்வில் இந்த தாவலில் நேரங்கள் மாற்றப்பட்டன."
+  },
+  "popupStatAriaLabel": {
+    "message": "இந்தப் பக்கத்தில் மாற்றப்பட்ட நேரங்கள்"
+  },
+  "popupPauseOnHost": {
+    "message": "இந்த ஹோஸ்ட்டில் இடைநிறுத்து"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "நீங்கள் மீண்டும் இயக்கும் வரை இந்த தளத்தில் மாற்றுவதை நிறுத்துங்கள்."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "நீங்கள் மீண்டும் இயக்கும் வரை $1 இல் மாற்றுவதை நிறுத்துங்கள்."
+  },
+  "popupShowInline": {
+    "message": "உள்ளமை மாற்றங்களைக் காட்டு"
+  },
+  "popupShowInlineSub": {
+    "message": "ஒவ்வொரு நேர மண்டல நேரத்திற்கும் அருகில் ஒரு சிறிய உள்ளூர்-நேரக் குறியீட்டைச் சேர்க்கவும்."
+  },
+  "popupShowBadge": {
+    "message": "பேட்ஜைக் காட்டு"
+  },
+  "popupShowBadgeSub": {
+    "message": "பக்க மூலையில் மாற்றப்பட்ட நேரங்களின் செயலற்ற எண்ணிக்கை."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "மாற்று அமைப்புகள்"
+  },
+  "popupLicenseHave": {
+    "message": "உரிமக் குறியீடு உள்ளதா?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "உரிமக் குறியீடு"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "செயல்படுத்து"
+  },
+  "popupLicenseVerifying": {
+    "message": "சரிபார்க்கிறது..."
+  },
+  "popupLicenseEmpty": {
+    "message": "முதலில் ஒரு உரிமக் குறியீட்டை உள்ளிடவும்."
+  },
+  "popupLicenseActivated": {
+    "message": "உரிமம் செயல்படுத்தப்பட்டது. Pro திறக்கப்பட்டது."
+  },
+  "popupLicenseFailed": {
+    "message": "அந்தக் குறியீட்டைச் சரிபார்க்க முடியவில்லை. குறியீட்டைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்."
+  },
+  "popupLicenseError": {
+    "message": "சரிபார்ப்பு தோல்வியடைந்தது. சிறிது நேரத்தில் மீண்டும் முயற்சிக்கவும்."
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one உருவாக்கியது"
+  },
+  "popupFooterMoreTools": {
+    "message": "மேலும் கருவிகள்"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "ஒவ்வொரு ஹோஸ்ட்டையும் ICS ஏற்றுமதியையும் திறக்கவும்"
+  },
+  "popupSrActive": {
+    "message": "இந்த ஹோஸ்ட்டில் மாற்றங்கள் செயலில் உள்ளன."
+  },
+  "popupSrPaused": {
+    "message": "இந்த ஹோஸ்ட்டில் மாற்றங்கள் இடைநிறுத்தப்பட்டன."
+  },
+  "optionsTitle": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம் அமைப்புகள்"
+  },
+  "optionsSub": {
+    "message": "சந்திப்பு அழைப்புகள் வரும் ஹோஸ்ட்களில் நேர மண்டல நேரங்களை உள்ளமையாகவே மாற்றுங்கள்."
+  },
+  "optionsEyebrowConversions": {
+    "message": "மாற்றங்கள்"
+  },
+  "optionsConversionsTitle": {
+    "message": "உங்கள் விருப்பப்படி பக்கத்தில் மாற்றங்களைப் பெறுங்கள்"
+  },
+  "optionsInlineTitle": {
+    "message": "பக்கத்தில் நேரங்களை உள்ளமையாகவே மாற்று"
+  },
+  "optionsInlineSub": {
+    "message": "ஒவ்வொரு நேர மண்டல நேரத்திற்கும் அருகில் ஒரு சிறிய உள்ளூர்-நேரக் குறியீட்டைச் சேர்க்கவும்."
+  },
+  "optionsBadgeTitle": {
+    "message": "மூலையில் மாற்றங்களின் செயலற்ற எண்ணிக்கையை வைத்திருங்கள்"
+  },
+  "optionsBadgeSub": {
+    "message": "இந்த தாவலில் மாற்றப்பட்ட நேரங்களின் செயலற்ற எண்ணிக்கை."
+  },
+  "optionsPauseTitle": {
+    "message": "ஒரு ஹோஸ்ட்டில் மாற்றங்களை அமைதிப்படுத்து"
+  },
+  "optionsPauseSub": {
+    "message": "அந்தக் குறிப்பிட்ட தளத்தில் மாற்றங்களை இடைநிறுத்த அல்லது மீண்டும் தொடர, ஒரு ஹோஸ்ட்டில் எல்லா இடத்திலும் உள்ளூர் நேரம் பாப்அப்பைப் பயன்படுத்தவும்."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "நேர வடிவம்"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "கணினி"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 மணிநேரம்"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 மணிநேரம்"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "நேர வடிவ விருப்பம்"
+  },
+  "optionsEyebrowHosts": {
+    "message": "ஹோஸ்ட்கள்"
+  },
+  "optionsHostsTitle": {
+    "message": "நேரங்கள் மாற்றப்படும் தளங்கள்"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro உடன் வரம்பற்ற தனிப்பயன் ஹோஸ்ட்கள்"
+  },
+  "optionsHostsCountFree": {
+    "message": "$2 இல் $1 தனிப்பயன் ஹோஸ்ட்கள் பயன்படுத்தப்பட்டன"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "இயல்பு ஹோஸ்ட்கள், ஒவ்வொரு வருகையிலும் மாற்றுகிறது"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "நீங்கள் சேர்த்த ஹோஸ்ட்கள், ஒவ்வொரு வருகையிலும் மாற்றுகிறது"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "இலவச நிலை $1 தனிப்பயன் ஹோஸ்ட்கள் வரை உள்ளடக்கியது. Pro வரம்பற்ற தனிப்பயன் ஹோஸ்ட்களைத் திறக்கிறது."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro க்கு மேம்படுத்து"
+  },
+  "optionsAddHostLabel": {
+    "message": "ஒரு தனிப்பயன் ஹோஸ்ட்டைச் சேர்"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "ஹோஸ்ட்டைச் சேர்"
+  },
+  "optionsRemoveHostButton": {
+    "message": "அகற்று"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "தனிப்பயன் ஹோஸ்ட் $1 ஐ அகற்று"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* அல்லது https://*.yourteam.com/* போன்ற குறிப்பிட்ட வடிவத்தைப் பயன்படுத்தவும். <all_urls> அல்லது *://*/* போன்ற பரந்த வைல்டுகார்டுகளை ஒருபோதும் பயன்படுத்த வேண்டாம்."
+  },
+  "optionsHostErrEmpty": {
+    "message": "முதலில் ஒரு ஹோஸ்ட் வடிவத்தை உள்ளிடவும்."
+  },
+  "optionsHostErrBlocked": {
+    "message": "தடுக்கப்பட்ட வடிவம்: $1. குறிப்பிட்ட https:// வடிவத்தைப் பயன்படுத்தவும்."
+  },
+  "optionsHostErrScheme": {
+    "message": "வடிவம் https:// (அல்லது http://) உடன் தொடங்க வேண்டும்."
+  },
+  "optionsHostErrHostname": {
+    "message": "அந்த வடிவத்தில் உண்மையான ஹோஸ்ட்பெயர் இல்லை."
+  },
+  "optionsHostErrMalformed": {
+    "message": "அந்த வடிவம் தவறாக அமைக்கப்பட்டுள்ளது."
+  },
+  "optionsHostErrPath": {
+    "message": "முடிவில் ஒரு பாதை வைல்டுகார்டைச் சேர்க்கவும் (எ.கா. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "அந்த ஹோஸ்ட் ஏற்கனவே உங்கள் பட்டியலில் உள்ளது."
+  },
+  "optionsHostErrDefault": {
+    "message": "அந்த ஹோஸ்ட் ஏற்கனவே இயல்பு பட்டியலில் உள்ளது."
+  },
+  "optionsHostErrCapHit": {
+    "message": "இலவச நிலை $1 தனிப்பயன் ஹோஸ்ட்களுக்கு வரம்பிடப்பட்டுள்ளது. மேலும் சேர்க்க மேம்படுத்தவும்."
+  },
+  "optionsHostErrPermission": {
+    "message": "அனுமதி வழங்கப்படவில்லை. ஹோஸ்ட் சேர்க்கப்படவில்லை."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "அந்த ஹோஸ்ட்டுக்கு அனுமதியைக் கோர முடியவில்லை."
+  },
+  "optionsHostAdded": {
+    "message": "$1 சேர்க்கப்பட்டது. அவற்றை ஸ்கேன் செய்ய அந்த ஹோஸ்ட்டில் திறந்த தாவல்களை மீண்டும் ஏற்றவும்."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 அகற்றப்பட்டது."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "நீங்கள் பயன்படுத்தும் ஒவ்வொரு ஹோஸ்ட்டிலும் நேரங்களை மாற்றுங்கள்"
+  },
+  "optionsProFeature1Title": {
+    "message": "ஒரே வரியில் எல்லாப் பகுதிகளையும் பெறுங்கள்"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST, 12pm PST, 8pm GMT ஐ ஒரே வரியில் காட்டுங்கள்."
+  },
+  "optionsProFeature2Title": {
+    "message": "உங்கள் பணிநேரங்களுடன் குழு உறுப்பினர்களை ஒத்திசைவாக வைத்திருங்கள்"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Slack அல்லது Discord நிலையை அனுப்புங்கள். ஒப்புதலுடன் மட்டுமே."
+  },
+  "optionsProFeature3Title": {
+    "message": "மாற்றப்பட்ட நேரத்துடன் நாட்காட்டி அழைப்புகளை அனுப்புங்கள்"
+  },
+  "optionsProFeature3Sub": {
+    "message": "சரியான நேரத்திற்கு ஒரு .ics அழைப்பை நகலெடுக்கவும்."
+  },
+  "optionsProFeature4Title": {
+    "message": "மிகக் குறைந்த சிரமமான சந்திப்பு நேரத்தைக் கண்டறியுங்கள்"
+  },
+  "optionsProFeature4Sub": {
+    "message": "நேர மண்டலங்களை அருகருகே ஒப்பிட்டு வசதியானதைத் தேர்ந்தெடுக்கவும்."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro அம்சம், பூட்டப்பட்டது"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro திட்டங்களைப் பார்க்கவும்"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro உடன் ஒவ்வொரு ஹோஸ்ட்டையும் மாற்றுங்கள்"
+  },
+  "optionsPaywallPitch": {
+    "message": "நேர மண்டலங்களைத் தாண்டி வாழும் திறமையான பயனர்கள் மற்றும் குழுக்களுக்கானது."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/மாதம்"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 வாழ்நாள்"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "ஒரே விலை, உங்கள் தேர்வு. எப்போது வேண்டுமானாலும் ரத்து செய்யலாம்."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "வரம்பற்ற தனிப்பயன் ஹோஸ்ட்கள் (இலவசம் 3 வரை)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "பல-பகுதி வடிவம், அனைத்து மண்டலங்களையும் ஒரே நேரத்தில் காட்டு"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack மற்றும் Discord பணிநேர நிலை ஒத்திசைவு"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "மாற்றப்பட்ட நேரங்களுடன் ICS நாட்காட்டி ஏற்றுமதி"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "சிறந்த-பொது சந்திப்பு நேர பரிந்துரை"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro பெறுங்கள், $$99 வாழ்நாள்"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "அல்லது $$4.99/மாதம்"
+  },
+  "optionsPaywallNote": {
+    "message": "ஒரு கட்டணம் அல்லது ஒரு சந்தா. இந்த நீட்டிப்பில் Pro ஐ என்றென்றும் செயல்படுத்துகிறது."
+  },
+  "optionsPaywallRefund": {
+    "message": "14 நாள் பணத்தைத் திரும்பப் பெறும் உத்தரவாதம். Pro தகுதியற்றது என்றால், கேள்வி இல்லாமல் பணத்தைத் திரும்பச் செலுத்துகிறோம்."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "இலவசம் vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "மாற்றப்பட்ட நேரங்களை உங்கள் நாட்காட்டிக்கு அனுப்புங்கள்"
+  },
+  "optionsIcsExportSub": {
+    "message": "உள்ளூர் நேரத்துடன் ஒரு .ics அழைப்பை நகலெடுக்கவும். Pro முன்னோட்டம், என்ன திறக்கிறது என்பதை நீங்கள் அறிய இங்கே காட்டப்படுகிறது."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics ஏற்றுமதி"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro இல் திறக்கவும்"
+  },
+  "optionsEyebrowLicense": {
+    "message": "உரிமம்"
+  },
+  "optionsLicenseTitle": {
+    "message": "ஒரு குறியீட்டைச் செயல்படுத்து அல்லது அகற்று"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro செயலில்."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1 வரை செல்லுபடியாகும்."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "வாழ்நாள் உரிமம்."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "செயலிழக்கச் செய்"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "உரிமம் செயலிழக்கப்பட்டது. இலவச நிலைக்குத் திரும்பு."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "தனியுரிமை"
+  },
+  "optionsPrivacyTitle": {
+    "message": "உங்கள் தரவை இந்தச் சாதனத்திலேயே வைத்திருங்கள்"
+  },
+  "optionsPrivacyBody": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம் முழுவதுமாக உங்கள் சாதனத்தில் இயங்குகிறது. நேர மண்டல நேரங்களை மாற்றும் ஒரே நோக்கத்திற்காக மேலே பட்டியலிடப்பட்ட ஹோஸ்ட்களில் உள்ள உரையை இது படிக்கிறது. எந்தப் பக்க உள்ளடக்கமும், உலாவல் வரலாறும், சுயவிவரத் தரவும் எங்கும் அனுப்பப்படுவதில்லை. நீங்கள் ஒரு உரிமக் குறியீட்டை உள்ளிடும்போது மட்டுமே ஒரே நெட்வொர்க் கோரிக்கை நிகழ்கிறது, மேலும் குறியீடு மட்டுமே அனுப்பப்படுகிறது."
+  },
+  "optionsPrivacyExport": {
+    "message": "எனது தரவை ஏற்றுமதி செய்"
+  },
+  "optionsPrivacyDelete": {
+    "message": "அனைத்து தரவையும் நீக்கு"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "$1 குறியீடு(கள்) உங்கள் பதிவிறக்கங்களுக்கு ஏற்றுமதி செய்யப்பட்டது."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "ஏற்றுமதி தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "இந்தச் சாதனத்திலிருந்து எல்லா இடத்திலும் உள்ளூர் நேரம் தரவை அனைத்தையும் நீக்கவா? இதை மீட்டெடுக்க முடியாது."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம் தரவு அனைத்தும் இந்தச் சாதனத்திலிருந்து அழிக்கப்பட்டது."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "நீக்குதல் தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்."
+  },
+  "optionsAboutLine": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம் v1.0.0, Zovo வழங்கியது. Google, Microsoft, Discord, Slack அல்லது GitHub உடன் தொடர்பில்லை."
+  },
+  "optionsSrProActive": {
+    "message": "Pro உரிமம் செயலில்."
+  },
+  "optionsSrFree": {
+    "message": "இலவச நிலை."
+  },
+  "onboardingPage1Heading": {
+    "message": "நேர மண்டல கணக்கை மனதில் போடுவதை நிறுத்துங்கள்"
+  },
+  "onboardingPage1Sub": {
+    "message": "சந்திப்பு அழைப்புகள் ஒரு நேர மண்டலத்தைக் காட்டுகின்றன. மற்ற அனைவரும் மனதில் கணக்கிடுகிறார்கள். சிலர் தவறாகக் கணக்கிடுகிறார்கள்."
+  },
+  "onboardingPage1Berlin": {
+    "message": "பெர்லின், இரவு 9 மணி"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "மும்பை, நள்ளிரவு 12:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "சிட்னி, நாளை காலை 7 மணி"
+  },
+  "onboardingPage1Button": {
+    "message": "தீர்வைப் பாருங்கள்"
+  },
+  "onboardingEyebrow": {
+    "message": "எல்லா இடத்திலும் உள்ளூர் நேரம்"
+  },
+  "onboardingPage2Heading": {
+    "message": "ஒரு நேர மண்டல நேரம் உங்களுடையதாக மாறுவதைப் பாருங்கள்"
+  },
+  "onboardingPage2Sub": {
+    "message": "இதோ ஒரு உண்மையான Slack செய்தி. பொத்தானைக் கிளிக் செய்யுங்கள், அதே தருணம் உங்கள் உள்ளூர் நேரத்தில் காட்டப்படும்."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "எனது உள்ளூர் நேரத்தைக் காட்டு"
+  },
+  "onboardingPage2Continue": {
+    "message": "தொடரவும்"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "மாற்ற மேலே கிளிக் செய்யவும்."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 உங்கள் நேரம் ($2). கணக்கு தேவையில்லை."
+  },
+  "onboardingPage3Heading": {
+    "message": "இது எங்கு இயங்குகிறது"
+  },
+  "onboardingPage3Sub": {
+    "message": "இந்த 12 ஹோஸ்ட்கள் இயல்பாகவே இயக்கத்தில் உள்ளன. அவற்றில் எதையேனும் திறங்கள், நேர மண்டல நேரங்கள் உள்ளமையாக, ஒரு டூல்டிப்பில், அல்லது ஒரு பேட்ஜாக மாற்றப்படும்."
+  },
+  "onboardingPage3Hint": {
+    "message": "வேறு ஹோஸ்ட் தேவையா? இலவச நிலை 3 தனிப்பயன் ஹோஸ்ட்களை உள்ளடக்கியது. Pro வரம்பற்றது."
+  },
+  "onboardingPage3Link": {
+    "message": "தனிப்பயன் ஹோஸ்ட்கள் பற்றி அறியவும்"
+  },
+  "onboardingPage4Heading": {
+    "message": "வணக்கம், நான் Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "மூன்று நேர மண்டலங்களைத் தாண்டி பல தவறவிட்ட ஸ்டாண்டப்களுக்குப் பிறகு நான் எல்லா இடத்திலும் உள்ளூர் நேரத்தை உருவாக்கினேன். இது ஒரு விஷயத்தைச் செய்கிறது, அதை அமைதியாகச் செய்ய முயல்கிறது. கண்காணிப்பு இல்லை, ஒவ்வொரு பக்கத்திலும் மேம்படுத்தல் பாப்அப்கள் இல்லை."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "ஒரு நபர், பொதுவில் உருவாக்குகிறார்"
+  },
+  "onboardingPage5Heading": {
+    "message": "உங்கள் நாட்காட்டிக்கு ஏற்ற திட்டத்தைப் பெறுங்கள்"
+  },
+  "onboardingPage5Sub": {
+    "message": "இலவசம் 12 இயல்பு ஹோஸ்ட்களில் என்றென்றும் வேலை செய்கிறது. Pro திறமையான பயனர்கள் மற்றும் குழுக்களுக்கானது."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "இலவசம்"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "இலவசம்"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "12 இயல்பு ஹோஸ்ட்களில் வரம்பற்ற மாற்றங்கள்"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h, 24h, அல்லது கணினி வடிவம்"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "உள்ளமைக் குறியீடு, டூல்டிப் மற்றும் பேட்ஜ்"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "3 தனிப்பயன் ஹோஸ்ட்கள் வரை"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/மாதம் அல்லது $$99 வாழ்நாள்"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "வரம்பற்ற தனிப்பயன் ஹோஸ்ட்களைச் சேர்"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "ஒரே வரியில் ஒவ்வொரு பகுதியையும் பார்"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "பணிநேர நிலையை Slack அல்லது Discord உடன் ஒத்திசைக்கவும்"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "மாற்றப்பட்ட நேரங்களை உங்கள் நாட்காட்டிக்கு அனுப்பு"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "மிகக் குறைந்த சிரமமான சந்திப்பு நேரத்தைக் கண்டறி"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro திட்டங்களைப் பார்க்கவும்"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "இலவசத்தில் இரு"
+  },
+  "onboardingPage6Heading": {
+    "message": "மனதில் கணக்கிடுவதை நிறுத்தத் தயாரா"
+  },
+  "onboardingPage6Sub": {
+    "message": "ஆதரிக்கப்படும் எந்த ஹோஸ்ட்டையும் திறங்கள், நேர மண்டல நேரங்கள் தானாகவே மாறும்."
+  },
+  "onboardingPage6Button": {
+    "message": "மாற்றத் தொடங்கு"
+  },
+  "onboardingSkip": {
+    "message": "அமைப்பைத் தவிர்"
+  },
+  "onboardingBack": {
+    "message": "பின்"
+  },
+  "onboardingNext": {
+    "message": "அடுத்து"
+  },
+  "onboardingDone": {
+    "message": "முடிந்தது"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "படி $1 க்குச் செல்"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "ஆன்போர்டிங் முன்னேற்றம்"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "ஆன்போர்டிங் முன்னேற்றம்"
+  },
+  "onboardingPageOf": {
+    "message": "$2 இல் $1"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one உருவாக்கியது"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 நேரங்கள் மாற்றப்பட்டன"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 நேரம் மாற்றப்பட்டது"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 நேரங்கள் மாற்றப்பட்டன"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "உள்ளூர் நேரம் - தற்காலிகமாக இடைநிறுத்தப்பட்டது"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

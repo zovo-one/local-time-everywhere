@@ -1,0 +1,8 @@
+Place icon PNGs here before building dist/:
+  icon-16.png
+  icon-32.png
+  icon-48.png
+  icon-128.png
+
+Per BUILD-RULES §"Zovo Brand System" — Lucide-style glyphs on #6C5CE7 background.
+Use the engine's real_ui_capture.py or icon generator in Phase 2 OPS.

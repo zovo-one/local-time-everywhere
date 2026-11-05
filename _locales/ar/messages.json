@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "توقف عن حساب المناطق الزمنية في رأسك. حوّل 3pm EST و9:00 UTC و14:00 CET مباشرةً في التقويم وSlack وDiscord وGitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "نشط"
+  },
+  "popupStatusPaused": {
+    "message": "متوقف مؤقتًا"
+  },
+  "popupStatusActiveLabel": {
+    "message": "الحالة: نشط"
+  },
+  "popupStatusPausedLabel": {
+    "message": "الحالة: متوقف مؤقتًا على هذا المضيف"
+  },
+  "popupStatLabel": {
+    "message": "على هذه الصفحة"
+  },
+  "popupStatHintSingular": {
+    "message": "مرة تم تحويلها في علامة التبويب هذه في هذه الجلسة."
+  },
+  "popupStatHintPlural": {
+    "message": "مرة تم تحويلها في علامة التبويب هذه في هذه الجلسة."
+  },
+  "popupStatAriaLabel": {
+    "message": "الأوقات المحوّلة على هذه الصفحة"
+  },
+  "popupPauseOnHost": {
+    "message": "إيقاف مؤقت على هذا المضيف"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "أوقف التحويل على هذا الموقع حتى تعيد تشغيله."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "أوقف التحويل على $1 حتى تعيد تشغيله."
+  },
+  "popupShowInline": {
+    "message": "إظهار التحويلات المضمّنة"
+  },
+  "popupShowInlineSub": {
+    "message": "أضف علامة صغيرة للوقت المحلي بجوار كل وقت بمنطقة زمنية."
+  },
+  "popupShowBadge": {
+    "message": "إظهار الشارة"
+  },
+  "popupShowBadgeSub": {
+    "message": "عدّ سلبي للأوقات المحوّلة في زاوية الصفحة."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "إعدادات التحويل"
+  },
+  "popupLicenseHave": {
+    "message": "هل لديك مفتاح ترخيص؟"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "مفتاح الترخيص"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "تفعيل"
+  },
+  "popupLicenseVerifying": {
+    "message": "جارٍ التحقق..."
+  },
+  "popupLicenseEmpty": {
+    "message": "أدخل مفتاح ترخيص أولاً."
+  },
+  "popupLicenseActivated": {
+    "message": "تم تفعيل الترخيص. تم فتح Pro."
+  },
+  "popupLicenseFailed": {
+    "message": "لم يتم التحقق من هذا المفتاح. تحقق من المفتاح وحاول مرة أخرى."
+  },
+  "popupLicenseError": {
+    "message": "فشل التحقق. حاول مرة أخرى بعد لحظة."
+  },
+  "popupFooterBuiltBy": {
+    "message": "من إنشاء zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "المزيد من الأدوات"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "افتح كل مضيف وتصدير ICS"
+  },
+  "popupSrActive": {
+    "message": "التحويلات نشطة على هذا المضيف."
+  },
+  "popupSrPaused": {
+    "message": "التحويلات متوقفة مؤقتًا على هذا المضيف."
+  },
+  "optionsTitle": {
+    "message": "إعدادات Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "حوّل الأوقات بالمناطق الزمنية مباشرةً على المضيفين حيث تصل دعوات الاجتماعات."
+  },
+  "optionsEyebrowConversions": {
+    "message": "التحويلات"
+  },
+  "optionsConversionsTitle": {
+    "message": "احصل على التحويلات على الصفحة بطريقتك"
+  },
+  "optionsInlineTitle": {
+    "message": "حوّل الأوقات مباشرةً على الصفحة"
+  },
+  "optionsInlineSub": {
+    "message": "أضف علامة صغيرة للوقت المحلي بجوار كل وقت بمنطقة زمنية."
+  },
+  "optionsBadgeTitle": {
+    "message": "احتفظ بعدّ سلبي للتحويلات في الزاوية"
+  },
+  "optionsBadgeSub": {
+    "message": "عدّ سلبي للأوقات المحوّلة في علامة التبويب هذه."
+  },
+  "optionsPauseTitle": {
+    "message": "كتم التحويلات على مضيف"
+  },
+  "optionsPauseSub": {
+    "message": "استخدم النافذة المنبثقة لـ Local Time Everywhere على المضيف لإيقاف أو استئناف التحويلات على ذلك الموقع المحدد."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "تنسيق الوقت"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "النظام"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 ساعة"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 ساعة"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "تفضيل تنسيق الوقت"
+  },
+  "optionsEyebrowHosts": {
+    "message": "المضيفون"
+  },
+  "optionsHostsTitle": {
+    "message": "المواقع التي تُحوّل فيها الأوقات"
+  },
+  "optionsHostsCountPro": {
+    "message": "مضيفون مخصصون غير محدودين مع Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "تم استخدام $1 من $2 مضيف مخصص"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "المضيفون الافتراضيون، يحوّلون في كل زيارة"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "المضيفون الذين أضفتهم، يحوّلون في كل زيارة"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "تتضمن الفئة المجانية ما يصل إلى $1 مضيف مخصص. يفتح Pro مضيفين مخصصين غير محدودين."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "الترقية إلى Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "أضف مضيفًا مخصصًا"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "أضف مضيفًا"
+  },
+  "optionsRemoveHostButton": {
+    "message": "إزالة"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "إزالة المضيف المخصص $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "استخدم نمطًا محددًا مثل https://example.com/* أو https://*.yourteam.com/*. لا تستخدم أبدًا أحرف البدل الواسعة <all_urls> أو *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "أدخل نمط مضيف أولاً."
+  },
+  "optionsHostErrBlocked": {
+    "message": "نمط محظور: $1. استخدم نمط https:// محددًا."
+  },
+  "optionsHostErrScheme": {
+    "message": "يجب أن يبدأ النمط بـ https:// (أو http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "هذا النمط لا يحتوي على اسم مضيف حقيقي."
+  },
+  "optionsHostErrMalformed": {
+    "message": "هذا النمط مشوّه."
+  },
+  "optionsHostErrPath": {
+    "message": "أضف حرف بدل للمسار في النهاية (مثل /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "هذا المضيف موجود بالفعل في قائمتك."
+  },
+  "optionsHostErrDefault": {
+    "message": "هذا المضيف موجود بالفعل في القائمة الافتراضية."
+  },
+  "optionsHostErrCapHit": {
+    "message": "الفئة المجانية محدودة بـ $1 مضيف مخصص. قم بالترقية لإضافة المزيد."
+  },
+  "optionsHostErrPermission": {
+    "message": "لم يتم منح الإذن. لم تتم إضافة المضيف."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "تعذر طلب الإذن لهذا المضيف."
+  },
+  "optionsHostAdded": {
+    "message": "تمت إضافة $1. أعد تحميل علامات التبويب المفتوحة على ذلك المضيف لمسحها."
+  },
+  "optionsHostRemoved": {
+    "message": "تمت إزالة $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "حوّل الأوقات عبر كل مضيف تستخدمه"
+  },
+  "optionsProFeature1Title": {
+    "message": "احصل على كل منطقة في سطر واحد"
+  },
+  "optionsProFeature1Sub": {
+    "message": "اعرض 3pm EST و12pm PST و8pm GMT في سطر واحد."
+  },
+  "optionsProFeature2Title": {
+    "message": "أبقِ زملاءك متزامنين مع ساعات عملك"
+  },
+  "optionsProFeature2Sub": {
+    "message": "انشر حالة Slack أو Discord. بالاشتراك فقط."
+  },
+  "optionsProFeature3Title": {
+    "message": "أرسل دعوات التقويم بالوقت المحوّل"
+  },
+  "optionsProFeature3Sub": {
+    "message": "انسخ دعوة .ics للموعد الصحيح."
+  },
+  "optionsProFeature4Title": {
+    "message": "اعثر على موعد الاجتماع الأقل إزعاجًا"
+  },
+  "optionsProFeature4Sub": {
+    "message": "قارن المناطق الزمنية جنبًا إلى جنب واختر المناسب."
+  },
+  "optionsProLockLabel": {
+    "message": "ميزة Pro، مقفلة"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "عرض خطط Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "حوّل كل مضيف مع Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "للمستخدمين المحترفين والفرق الذين يعيشون عبر المناطق الزمنية."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/شهريًا"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 مدى الحياة"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "سعر واحد، اختيارك. ألغِ في أي وقت."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "مضيفون مخصصون غير محدودين (المجاني محدود بـ 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "تنسيق متعدد المناطق، اعرض كل المناطق دفعة واحدة"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "مزامنة حالة ساعات العمل مع Slack وDiscord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "تصدير تقويم ICS بالأوقات المحوّلة"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "مُقترِح الاجتماعات بأفضل تداخل"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "احصل على Pro، $$99 مدى الحياة"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "أو $$4.99/شهريًا"
+  },
+  "optionsPaywallNote": {
+    "message": "دفعة واحدة أو اشتراك واحد. يفعّل Pro في هذا الامتداد إلى الأبد."
+  },
+  "optionsPaywallRefund": {
+    "message": "ضمان استرداد الأموال خلال 14 يومًا. إذا لم يكن Pro يستحق، نعيد المال دون أسئلة."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "المجاني مقابل Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "أرسل الأوقات المحوّلة إلى تقويمك"
+  },
+  "optionsIcsExportSub": {
+    "message": "انسخ دعوة .ics مع تضمين الوقت المحلي. معاينة Pro، مرئية هنا لتعرف ما الذي يُفتح."
+  },
+  "optionsIcsExportCta": {
+    "message": "تصدير .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "افتح في Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "الترخيص"
+  },
+  "optionsLicenseTitle": {
+    "message": "تفعيل أو إزالة مفتاح"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro نشط."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "صالح حتى $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "ترخيص مدى الحياة."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "إلغاء التفعيل"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "تم إلغاء تفعيل الترخيص. العودة إلى الفئة المجانية."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "الخصوصية"
+  },
+  "optionsPrivacyTitle": {
+    "message": "احتفظ ببياناتك على هذا الجهاز"
+  },
+  "optionsPrivacyBody": {
+    "message": "يعمل Local Time Everywhere بالكامل على جهازك. يقرأ النص على المضيفين المدرجين أعلاه لغرض وحيد هو تحويل الأوقات بالمناطق الزمنية. لا يتم إرسال أي محتوى صفحة أو سجل تصفح أو بيانات ملف شخصي إلى أي مكان أبدًا. طلب الشبكة الوحيد يحدث عندما تُدخل مفتاح ترخيص، ويتم إرسال المفتاح نفسه فقط."
+  },
+  "optionsPrivacyExport": {
+    "message": "تصدير بياناتي"
+  },
+  "optionsPrivacyDelete": {
+    "message": "حذف كل البيانات"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "تم تصدير $1 مفتاح إلى تنزيلاتك."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "فشل التصدير. يرجى المحاولة مرة أخرى."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "حذف كل بيانات Local Time Everywhere من هذا الجهاز؟ لا يمكن التراجع عن هذا."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "تم مسح كل بيانات Local Time Everywhere من هذا الجهاز."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "فشل الحذف. يرجى المحاولة مرة أخرى."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0، بواسطة Zovo. غير مرتبط بـ Google أو Microsoft أو Discord أو Slack أو GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "ترخيص Pro نشط."
+  },
+  "optionsSrFree": {
+    "message": "الفئة المجانية."
+  },
+  "onboardingPage1Heading": {
+    "message": "توقف عن حساب المناطق الزمنية في رأسك"
+  },
+  "onboardingPage1Sub": {
+    "message": "تعرض دعوات الاجتماعات منطقة زمنية واحدة. الجميع يحسب في رأسه. البعض يخطئ."
+  },
+  "onboardingPage1Berlin": {
+    "message": "برلين، 9 مساءً"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "مومباي، 12:30 صباحًا"
+  },
+  "onboardingPage1Sydney": {
+    "message": "سيدني، 7 صباح الغد"
+  },
+  "onboardingPage1Button": {
+    "message": "شاهد الحل"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "شاهد وقتًا بمنطقة زمنية يتحوّل إلى وقتك"
+  },
+  "onboardingPage2Sub": {
+    "message": "إليك رسالة Slack حقيقية. انقر الزر وستظهر اللحظة نفسها بوقتك المحلي."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "أظهر وقتي المحلي"
+  },
+  "onboardingPage2Continue": {
+    "message": "متابعة"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "انقر أعلاه للتحويل."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 بتوقيتك ($2). لا حاجة للحساب."
+  },
+  "onboardingPage3Heading": {
+    "message": "أين يعمل"
+  },
+  "onboardingPage3Sub": {
+    "message": "هؤلاء الـ 12 مضيفًا مفعّلون افتراضيًا. افتح أيًا منهم وتتحوّل الأوقات بالمناطق الزمنية مباشرةً، في تلميح، أو كشارة."
+  },
+  "onboardingPage3Hint": {
+    "message": "تحتاج مضيفًا آخر؟ تغطي الفئة المجانية 3 مضيفين مخصصين. Pro غير محدود."
+  },
+  "onboardingPage3Link": {
+    "message": "تعرّف على المضيفين المخصصين"
+  },
+  "onboardingPage4Heading": {
+    "message": "مرحبًا، أنا Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "بنيت Local Time Everywhere بعد فوات الكثير من اجتماعات الوقوف عبر ثلاث مناطق زمنية. يفعل شيئًا واحدًا ويحاول فعله بهدوء. لا تتبع، لا نوافذ ترقية منبثقة على كل صفحة."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "شخص واحد، يبني علنًا في"
+  },
+  "onboardingPage5Heading": {
+    "message": "احصل على الخطة التي تناسب تقويمك"
+  },
+  "onboardingPage5Sub": {
+    "message": "يعمل المجاني إلى الأبد على 12 مضيفًا افتراضيًا. Pro للمستخدمين المحترفين والفرق."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "مجاني"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "تحويلات غير محدودة على 12 مضيفًا افتراضيًا"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "تنسيق 12 ساعة أو 24 ساعة أو النظام"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "علامة مضمّنة وتلميح وشارة"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "ما يصل إلى 3 مضيفين مخصصين"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/شهريًا أو $$99 مدى الحياة"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "أضف مضيفين مخصصين غير محدودين"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "شاهد كل منطقة في سطر واحد"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "زامن حالة ساعات العمل مع Slack أو Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "أرسل الأوقات المحوّلة إلى تقويمك"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "اعثر على موعد الاجتماع الأقل إزعاجًا"
+  },
+  "onboardingPage5ProCta": {
+    "message": "عرض خطط Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "البقاء على المجاني"
+  },
+  "onboardingPage6Heading": {
+    "message": "هل أنت مستعد للتوقف عن الحساب في رأسك"
+  },
+  "onboardingPage6Sub": {
+    "message": "افتح أي مضيف مدعوم وستتحوّل الأوقات بالمناطق الزمنية من تلقاء نفسها."
+  },
+  "onboardingPage6Button": {
+    "message": "ابدأ التحويل"
+  },
+  "onboardingSkip": {
+    "message": "تخطي الإعداد"
+  },
+  "onboardingBack": {
+    "message": "رجوع"
+  },
+  "onboardingNext": {
+    "message": "التالي"
+  },
+  "onboardingDone": {
+    "message": "تم"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "الانتقال إلى الخطوة $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "تقدم الإعداد"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "تقدم الإعداد"
+  },
+  "onboardingPageOf": {
+    "message": "$1 من $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "من إنشاء zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 مرة تم تحويلها"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 مرة تم تحويلها"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 مرة تم تحويلها"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - متوقف مؤقتًا"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

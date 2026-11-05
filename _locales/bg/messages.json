@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Спрете да смятате часовите зони наум. Преобразувайте 3pm EST, 9:00 UTC, 14:00 CET директно в Календар, Slack, Discord, GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Активно"
+  },
+  "popupStatusPaused": {
+    "message": "На пауза"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Състояние: активно"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Състояние: на пауза за този хост"
+  },
+  "popupStatLabel": {
+    "message": "На тази страница"
+  },
+  "popupStatHintSingular": {
+    "message": "път преобразуван в този раздел през тази сесия."
+  },
+  "popupStatHintPlural": {
+    "message": "пъти преобразувани в този раздел през тази сесия."
+  },
+  "popupStatAriaLabel": {
+    "message": "Преобразувани часове на тази страница"
+  },
+  "popupPauseOnHost": {
+    "message": "Пауза за този хост"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Спрете преобразуването на този сайт, докато не го включите отново."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Спрете преобразуването на $1, докато не го включите отново."
+  },
+  "popupShowInline": {
+    "message": "Показване на вградени преобразувания"
+  },
+  "popupShowInlineSub": {
+    "message": "Добавете малък маркер за местно време до всеки час с часова зона."
+  },
+  "popupShowBadge": {
+    "message": "Показване на значка"
+  },
+  "popupShowBadgeSub": {
+    "message": "Пасивно броене на преобразуваните часове в ъгъла на страницата."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Настройки на преобразуването"
+  },
+  "popupLicenseHave": {
+    "message": "Имате ли лицензен ключ?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Лицензен ключ"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Активиране"
+  },
+  "popupLicenseVerifying": {
+    "message": "Проверка..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Първо въведете лицензен ключ."
+  },
+  "popupLicenseActivated": {
+    "message": "Лицензът е активиран. Pro е отключен."
+  },
+  "popupLicenseFailed": {
+    "message": "Този ключ не се потвърди. Проверете ключа и опитайте отново."
+  },
+  "popupLicenseError": {
+    "message": "Проверката е неуспешна. Опитайте отново след малко."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Създадено от zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Още инструменти"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Отключете всеки хост и ICS експорт"
+  },
+  "popupSrActive": {
+    "message": "Преобразуванията са активни за този хост."
+  },
+  "popupSrPaused": {
+    "message": "Преобразуванията са на пауза за този хост."
+  },
+  "optionsTitle": {
+    "message": "Настройки на Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Преобразувайте часове с часови зони директно на хостовете, където пристигат покани за срещи."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Преобразувания"
+  },
+  "optionsConversionsTitle": {
+    "message": "Получете преобразувания на страницата по вашия начин"
+  },
+  "optionsInlineTitle": {
+    "message": "Преобразувайте часовете директно на страницата"
+  },
+  "optionsInlineSub": {
+    "message": "Добавете малък маркер за местно време до всеки час с часова зона."
+  },
+  "optionsBadgeTitle": {
+    "message": "Поддържайте пасивно броене на преобразуванията в ъгъла"
+  },
+  "optionsBadgeSub": {
+    "message": "Пасивно броене на преобразуваните часове в този раздел."
+  },
+  "optionsPauseTitle": {
+    "message": "Заглушаване на преобразуванията за хост"
+  },
+  "optionsPauseSub": {
+    "message": "Използвайте изскачащия прозорец на Local Time Everywhere на даден хост, за да поставите на пауза или възобновите преобразуванията на този конкретен сайт."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Формат на часа"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Системен"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-часов"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-часов"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Предпочитание за формат на часа"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Хостове"
+  },
+  "optionsHostsTitle": {
+    "message": "Сайтове, където часовете се преобразуват"
+  },
+  "optionsHostsCountPro": {
+    "message": "Неограничени персонализирани хостове с Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "Използвани са $1 от $2 персонализирани хоста"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Хостове по подразбиране, преобразуват при всяко посещение"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Хостове, които сте добавили, преобразуват при всяко посещение"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "Безплатното ниво включва до $1 персонализирани хоста. Pro отключва неограничени персонализирани хостове."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Надградете до Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Добавете персонализиран хост"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Добавяне на хост"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Премахване"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Премахване на персонализиран хост $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Използвайте конкретен шаблон като https://example.com/* или https://*.yourteam.com/*. Никога не използвайте широките заместващи символи <all_urls> или *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Първо въведете шаблон за хост."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Блокиран шаблон: $1. Използвайте конкретен https:// шаблон."
+  },
+  "optionsHostErrScheme": {
+    "message": "Шаблонът трябва да започва с https:// (или http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Този шаблон няма реално име на хост."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Този шаблон е неправилно оформен."
+  },
+  "optionsHostErrPath": {
+    "message": "Добавете заместващ символ за път в края (напр. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Този хост вече е във вашия списък."
+  },
+  "optionsHostErrDefault": {
+    "message": "Този хост вече е в списъка по подразбиране."
+  },
+  "optionsHostErrCapHit": {
+    "message": "Безплатното ниво е ограничено до $1 персонализирани хоста. Надградете, за да добавите още."
+  },
+  "optionsHostErrPermission": {
+    "message": "Разрешението не е предоставено. Хостът не е добавен."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "Не можа да се поиска разрешение за този хост."
+  },
+  "optionsHostAdded": {
+    "message": "$1 е добавен. Презаредете отворените раздели на този хост, за да ги сканирате."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 е премахнат."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Преобразувайте часовете на всеки хост, който използвате"
+  },
+  "optionsProFeature1Title": {
+    "message": "Получете всеки регион на един ред"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Покажете 3pm EST, 12pm PST, 8pm GMT на един ред."
+  },
+  "optionsProFeature2Title": {
+    "message": "Поддържайте колегите синхронизирани с работното ви време"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Публикувайте статус в Slack или Discord. Само с изрично съгласие."
+  },
+  "optionsProFeature3Title": {
+    "message": "Изпращайте покани за календар с преобразувания час"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Копирайте покана .ics за правилния слот."
+  },
+  "optionsProFeature4Title": {
+    "message": "Намерете най-безболезнения слот за среща"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Сравнете зоните една до друга и изберете подходящата."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro функция, заключена"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Вижте Pro плановете"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Преобразувайте всеки хост с Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "За напреднали потребители и екипи, които живеят между часовите зони."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/мес"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 доживотно"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Една цена, вашият избор. Отменете по всяко време."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Неограничени персонализирани хостове (безплатното е ограничено до 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Многорегионален формат, покажете всички зони наведнъж"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Синхронизиране на статус за работно време в Slack и Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ICS експорт на календар с преобразувани часове"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Предложение за среща с най-добро припокриване"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Вземете Pro, $$99 доживотно"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "Или $$4.99/месец"
+  },
+  "optionsPaywallNote": {
+    "message": "Едно плащане или един абонамент. Активира Pro в това разширение завинаги."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-дневна гаранция за връщане на парите. Ако Pro не си струва, връщаме парите без въпроси."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Безплатно срещу Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Изпратете преобразуваните часове в календара си"
+  },
+  "optionsIcsExportSub": {
+    "message": "Копирайте покана .ics с вградено местно време. Предварителен преглед на Pro, видим тук, за да знаете какво се отключва."
+  },
+  "optionsIcsExportCta": {
+    "message": "Експортиране на .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Отключете в Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Лиценз"
+  },
+  "optionsLicenseTitle": {
+    "message": "Активиране или премахване на ключ"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro е активен."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Валиден до $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Доживотен лиценз."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Деактивиране"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Лицензът е деактивиран. Обратно към безплатното ниво."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Поверителност"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Запазете данните си на това устройство"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere работи изцяло на вашето устройство. Той чете текст на хостовете, изброени по-горе, единствено с цел преобразуване на часове с часови зони. Никакво съдържание на страница, история на сърфирането или данни за профил не се изпращат никъде. Единствената мрежова заявка се случва, когато въведете лицензен ключ, и се изпраща само самият ключ."
+  },
+  "optionsPrivacyExport": {
+    "message": "Експортиране на данните ми"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Изтриване на всички данни"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "Експортирани са $1 ключ(а) в изтеглянията ви."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "Експортирането е неуспешно. Моля, опитайте отново."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Да се изтрият ли всички данни на Local Time Everywhere от това устройство? Това не може да бъде отменено."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Всички данни на Local Time Everywhere са изчистени от това устройство."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "Изтриването е неуспешно. Моля, опитайте отново."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, от Zovo. Не е свързано с Google, Microsoft, Discord, Slack или GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Pro лицензът е активен."
+  },
+  "optionsSrFree": {
+    "message": "Безплатно ниво."
+  },
+  "onboardingPage1Heading": {
+    "message": "Спрете да смятате часовите зони наум"
+  },
+  "onboardingPage1Sub": {
+    "message": "Поканите за срещи показват една часова зона. Всички останали смятат наум. Някои грешат."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Берлин, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Мумбай, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Сидни, утре в 07:00"
+  },
+  "onboardingPage1Button": {
+    "message": "Вижте решението"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Гледайте как час с часова зона се преобразува във вашия"
+  },
+  "onboardingPage2Sub": {
+    "message": "Ето истинско Slack съобщение. Кликнете бутона и същият момент се показва във вашето местно време."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Покажи местното ми време"
+  },
+  "onboardingPage2Continue": {
+    "message": "Продължи"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Кликнете отгоре, за да преобразувате."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 във вашето време ($2). Без нужда от смятане."
+  },
+  "onboardingPage3Heading": {
+    "message": "Къде работи"
+  },
+  "onboardingPage3Sub": {
+    "message": "Тези 12 хоста са включени по подразбиране. Отворете който и да е от тях и часовете с часови зони се преобразуват вградено, в подсказка или като значка."
+  },
+  "onboardingPage3Hint": {
+    "message": "Нужен ви е друг хост? Безплатното ниво покрива 3 персонализирани хоста. Pro е неограничен."
+  },
+  "onboardingPage3Link": {
+    "message": "Научете за персонализираните хостове"
+  },
+  "onboardingPage4Heading": {
+    "message": "Здравейте, аз съм Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Създадох Local Time Everywhere след като пропуснах твърде много стендъпи през три часови зони. Върши едно нещо и се опитва да го върши тихо. Без проследяване, без изскачащи прозорци за надграждане на всяка страница."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Един човек, който твори публично в"
+  },
+  "onboardingPage5Heading": {
+    "message": "Изберете плана, който пасва на календара ви"
+  },
+  "onboardingPage5Sub": {
+    "message": "Безплатното работи завинаги на 12-те хоста по подразбиране. Pro е за напреднали потребители и екипи."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Безплатно"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Неограничени преобразувания на 12 хоста по подразбиране"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12ч, 24ч или системен формат"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Вграден маркер, подсказка и значка"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "До 3 персонализирани хоста"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/мес или $$99 доживотно"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Добавете неограничени персонализирани хостове"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Вижте всеки регион на един ред"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Синхронизирайте статус за работно време в Slack или Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Изпращайте преобразувани часове в календара си"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Намерете най-безболезнения слот за среща"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Вижте Pro плановете"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Останете на Free"
+  },
+  "onboardingPage6Heading": {
+    "message": "Готови ли сте да спрете да смятате наум"
+  },
+  "onboardingPage6Sub": {
+    "message": "Отворете който и да е поддържан хост и часовете с часови зони ще се преобразуват сами."
+  },
+  "onboardingPage6Button": {
+    "message": "Започнете преобразуването"
+  },
+  "onboardingSkip": {
+    "message": "Пропусни настройката"
+  },
+  "onboardingBack": {
+    "message": "Назад"
+  },
+  "onboardingNext": {
+    "message": "Напред"
+  },
+  "onboardingDone": {
+    "message": "Готово"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Към стъпка $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Напредък на въвеждането"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Напредък на въвеждането"
+  },
+  "onboardingPageOf": {
+    "message": "$1 от $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Създадено от zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 пъти преобразувани"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 път преобразуван"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 пъти преобразувани"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - временно на пауза"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

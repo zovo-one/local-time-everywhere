@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય"
+  },
+  "extDesc": {
+    "message": "તમારા મનમાં ટાઇમઝોનની ગણતરી કરવાનું બંધ કરો. Calendar, Slack, Discord, GitHub પર 3pm EST, 9:00 UTC, 14:00 CET ને ઇનલાઇન કન્વર્ટ કરો."
+  },
+  "actionTitle": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય"
+  },
+  "popupTitle": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય"
+  },
+  "popupStatusActive": {
+    "message": "સક્રિય"
+  },
+  "popupStatusPaused": {
+    "message": "થોભાવેલ"
+  },
+  "popupStatusActiveLabel": {
+    "message": "સ્થિતિ: સક્રિય"
+  },
+  "popupStatusPausedLabel": {
+    "message": "સ્થિતિ: આ હોસ્ટ પર થોભાવેલ"
+  },
+  "popupStatLabel": {
+    "message": "આ પેજ પર"
+  },
+  "popupStatHintSingular": {
+    "message": "સમય આ સેશનમાં આ ટૅબ પર કન્વર્ટ થયો."
+  },
+  "popupStatHintPlural": {
+    "message": "સમય આ સેશનમાં આ ટૅબ પર કન્વર્ટ થયા."
+  },
+  "popupStatAriaLabel": {
+    "message": "આ પેજ પર કન્વર્ટ થયેલા સમય"
+  },
+  "popupPauseOnHost": {
+    "message": "આ હોસ્ટ પર થોભાવો"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "જ્યાં સુધી તમે ફરી ચાલુ ન કરો ત્યાં સુધી આ સાઇટ પર કન્વર્ટ કરવાનું બંધ કરો."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "જ્યાં સુધી તમે ફરી ચાલુ ન કરો ત્યાં સુધી $1 પર કન્વર્ટ કરવાનું બંધ કરો."
+  },
+  "popupShowInline": {
+    "message": "ઇનલાઇન કન્વર્ઝન બતાવો"
+  },
+  "popupShowInlineSub": {
+    "message": "ટાઇમઝોનવાળા દરેક સમયની બાજુમાં એક નાનું સ્થાનિક સમય માર્કર ઉમેરો."
+  },
+  "popupShowBadge": {
+    "message": "બૅજ બતાવો"
+  },
+  "popupShowBadgeSub": {
+    "message": "પેજના ખૂણામાં કન્વર્ટ થયેલા સમયની નિષ્ક્રિય ગણતરી."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "કન્વર્ઝન સેટિંગ્સ"
+  },
+  "popupLicenseHave": {
+    "message": "લાઇસન્સ કી છે?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "લાઇસન્સ કી"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "સક્રિય કરો"
+  },
+  "popupLicenseVerifying": {
+    "message": "ચકાસી રહ્યું છે..."
+  },
+  "popupLicenseEmpty": {
+    "message": "પહેલા લાઇસન્સ કી દાખલ કરો."
+  },
+  "popupLicenseActivated": {
+    "message": "લાઇસન્સ સક્રિય થયું. Pro અનલૉક થયું."
+  },
+  "popupLicenseFailed": {
+    "message": "એ કી ચકાસી શકાઈ નહીં. કી તપાસો અને ફરી પ્રયાસ કરો."
+  },
+  "popupLicenseError": {
+    "message": "ચકાસણી નિષ્ફળ ગઈ. થોડી વારમાં ફરી પ્રયાસ કરો."
+  },
+  "popupFooterBuiltBy": {
+    "message": "zovo.one દ્વારા બનાવેલ"
+  },
+  "popupFooterMoreTools": {
+    "message": "વધુ ટૂલ્સ"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "દરેક હોસ્ટ અને ICS એક્સપોર્ટ અનલૉક કરો"
+  },
+  "popupSrActive": {
+    "message": "આ હોસ્ટ પર કન્વર્ઝન સક્રિય છે."
+  },
+  "popupSrPaused": {
+    "message": "આ હોસ્ટ પર કન્વર્ઝન થોભાવેલ છે."
+  },
+  "optionsTitle": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય સેટિંગ્સ"
+  },
+  "optionsSub": {
+    "message": "જ્યાં મીટિંગ આમંત્રણો આવે છે તે હોસ્ટ પર ટાઇમઝોનવાળા સમય ઇનલાઇન કન્વર્ટ કરો."
+  },
+  "optionsEyebrowConversions": {
+    "message": "કન્વર્ઝન"
+  },
+  "optionsConversionsTitle": {
+    "message": "પેજ પર તમારી રીતે કન્વર્ઝન મેળવો"
+  },
+  "optionsInlineTitle": {
+    "message": "પેજ પર સમય ઇનલાઇન કન્વર્ટ કરો"
+  },
+  "optionsInlineSub": {
+    "message": "ટાઇમઝોનવાળા દરેક સમયની બાજુમાં એક નાનું સ્થાનિક સમય માર્કર ઉમેરો."
+  },
+  "optionsBadgeTitle": {
+    "message": "ખૂણામાં કન્વર્ઝનની નિષ્ક્રિય ગણતરી રાખો"
+  },
+  "optionsBadgeSub": {
+    "message": "આ ટૅબ પર કન્વર્ટ થયેલા સમયની નિષ્ક્રિય ગણતરી."
+  },
+  "optionsPauseTitle": {
+    "message": "હોસ્ટ પર કન્વર્ઝન મ્યૂટ કરો"
+  },
+  "optionsPauseSub": {
+    "message": "એ ચોક્કસ સાઇટ પર કન્વર્ઝન થોભાવવા અથવા ફરી શરૂ કરવા માટે હોસ્ટ પર દરેક જગ્યાએ સ્થાનિક સમય પૉપઅપ વાપરો."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "સમય ફોર્મેટ"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "સિસ્ટમ"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12-કલાક"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24-કલાક"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "સમય ફોર્મેટ પસંદગી"
+  },
+  "optionsEyebrowHosts": {
+    "message": "હોસ્ટ"
+  },
+  "optionsHostsTitle": {
+    "message": "સાઇટ્સ જ્યાં સમય કન્વર્ટ થાય છે"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro સાથે અમર્યાદિત કસ્ટમ હોસ્ટ"
+  },
+  "optionsHostsCountFree": {
+    "message": "$2 માંથી $1 કસ્ટમ હોસ્ટ વપરાયા"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "ડિફૉલ્ટ હોસ્ટ, દરેક મુલાકાતે કન્વર્ટ કરે છે"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "તમે ઉમેરેલા હોસ્ટ, દરેક મુલાકાતે કન્વર્ટ કરે છે"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "ફ્રી ટિયરમાં $1 સુધીના કસ્ટમ હોસ્ટનો સમાવેશ છે. Pro અમર્યાદિત કસ્ટમ હોસ્ટ અનલૉક કરે છે."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Pro પર અપગ્રેડ કરો"
+  },
+  "optionsAddHostLabel": {
+    "message": "કસ્ટમ હોસ્ટ ઉમેરો"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "હોસ્ટ ઉમેરો"
+  },
+  "optionsRemoveHostButton": {
+    "message": "દૂર કરો"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "કસ્ટમ હોસ્ટ $1 દૂર કરો"
+  },
+  "optionsAddHostHelp": {
+    "message": "https://example.com/* અથવા https://*.yourteam.com/* જેવો ચોક્કસ પૅટર્ન વાપરો. વ્યાપક વાઇલ્ડકાર્ડ <all_urls> અથવા *://*/* ક્યારેય ન વાપરો."
+  },
+  "optionsHostErrEmpty": {
+    "message": "પહેલા હોસ્ટ પૅટર્ન દાખલ કરો."
+  },
+  "optionsHostErrBlocked": {
+    "message": "અવરોધિત પૅટર્ન: $1. ચોક્કસ https:// પૅટર્ન વાપરો."
+  },
+  "optionsHostErrScheme": {
+    "message": "પૅટર્ન https:// (અથવા http://) થી શરૂ થવો જોઈએ."
+  },
+  "optionsHostErrHostname": {
+    "message": "એ પૅટર્નમાં વાસ્તવિક હોસ્ટનેમ નથી."
+  },
+  "optionsHostErrMalformed": {
+    "message": "એ પૅટર્ન ખોટી રીતે રચાયેલ છે."
+  },
+  "optionsHostErrPath": {
+    "message": "અંતે પાથ વાઇલ્ડકાર્ડ ઉમેરો (દા.ત. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "એ હોસ્ટ પહેલેથી જ તમારી યાદીમાં છે."
+  },
+  "optionsHostErrDefault": {
+    "message": "એ હોસ્ટ પહેલેથી જ ડિફૉલ્ટ યાદીમાં છે."
+  },
+  "optionsHostErrCapHit": {
+    "message": "ફ્રી ટિયર $1 કસ્ટમ હોસ્ટ સુધી મર્યાદિત છે. વધુ ઉમેરવા અપગ્રેડ કરો."
+  },
+  "optionsHostErrPermission": {
+    "message": "પરવાનગી અપાઈ નથી. હોસ્ટ ઉમેરાયો નથી."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "એ હોસ્ટ માટે પરવાનગી માંગી શકાઈ નહીં."
+  },
+  "optionsHostAdded": {
+    "message": "$1 ઉમેરાયો. તેમને સ્કૅન કરવા એ હોસ્ટ પરના ખુલ્લા ટૅબ ફરી લોડ કરો."
+  },
+  "optionsHostRemoved": {
+    "message": "$1 દૂર થયો."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "તમે વાપરો છો તે દરેક હોસ્ટ પર સમય કન્વર્ટ કરો"
+  },
+  "optionsProFeature1Title": {
+    "message": "દરેક પ્રદેશ એક લાઇનમાં મેળવો"
+  },
+  "optionsProFeature1Sub": {
+    "message": "3pm EST, 12pm PST, 8pm GMT એક લાઇનમાં બતાવો."
+  },
+  "optionsProFeature2Title": {
+    "message": "સાથીઓને તમારા કામના કલાકો સાથે સિંક રાખો"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Slack અથવા Discord સ્ટેટસ પોસ્ટ કરો. ફક્ત ઓપ્ટ-ઇન."
+  },
+  "optionsProFeature3Title": {
+    "message": "કન્વર્ટ થયેલા સમય સાથે કૅલેન્ડર આમંત્રણો મોકલો"
+  },
+  "optionsProFeature3Sub": {
+    "message": "યોગ્ય સ્લોટ માટે .ics આમંત્રણ કૉપિ કરો."
+  },
+  "optionsProFeature4Title": {
+    "message": "સૌથી ઓછો તકલીફદાયક મીટિંગ સ્લોટ શોધો"
+  },
+  "optionsProFeature4Sub": {
+    "message": "ઝોનની બાજુ-બાજુ સરખામણી કરો અને અનુકૂળ પસંદ કરો."
+  },
+  "optionsProLockLabel": {
+    "message": "Pro સુવિધા, લૉક કરેલ"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Pro પ્લાન જુઓ"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Pro સાથે દરેક હોસ્ટ કન્વર્ટ કરો"
+  },
+  "optionsPaywallPitch": {
+    "message": "ટાઇમ ઝોનમાં ફેલાયેલા પાવર યુઝર્સ અને ટીમો માટે."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/મહિનો"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 આજીવન"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "એક કિંમત, તમારી પસંદ. ગમે ત્યારે રદ કરો."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "અમર્યાદિત કસ્ટમ હોસ્ટ (ફ્રીમાં 3 ની મર્યાદા)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "મલ્ટિ-રિજન ફોર્મેટ, બધા ઝોન એકસાથે બતાવો"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack અને Discord પર કામના કલાકોની સ્થિતિ સિંક"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "કન્વર્ટ થયેલા સમય સાથે ICS કૅલેન્ડર એક્સપોર્ટ"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "શ્રેષ્ઠ ઓવરલૅપ મીટિંગ સૂચક"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Pro મેળવો, $$99 આજીવન"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "અથવા $$4.99/મહિનો"
+  },
+  "optionsPaywallNote": {
+    "message": "એક ચુકવણી અથવા એક સબ્સ્ક્રિપ્શન. આ એક્સ્ટેન્શનમાં Pro ને કાયમ માટે સક્રિય કરે છે."
+  },
+  "optionsPaywallRefund": {
+    "message": "14-દિવસની મની-બૅક ગૅરંટી. જો Pro યોગ્ય ન લાગે, તો અમે રિફંડ કરીએ છીએ, કોઈ પ્રશ્ન વગર."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "ફ્રી vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "કન્વર્ટ થયેલા સમય તમારા કૅલેન્ડરમાં મોકલો"
+  },
+  "optionsIcsExportSub": {
+    "message": "સ્થાનિક સમય સાથે એક .ics આમંત્રણ કૉપિ કરો. Pro ઝલક, અહીં દેખાય છે જેથી તમને ખબર પડે કે શું અનલૉક થાય છે."
+  },
+  "optionsIcsExportCta": {
+    "message": ".ics એક્સપોર્ટ કરો"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Pro માં અનલૉક કરો"
+  },
+  "optionsEyebrowLicense": {
+    "message": "લાઇસન્સ"
+  },
+  "optionsLicenseTitle": {
+    "message": "કી સક્રિય કરો અથવા દૂર કરો"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro સક્રિય."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "$1 સુધી માન્ય."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "આજીવન લાઇસન્સ."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "નિષ્ક્રિય કરો"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "લાઇસન્સ નિષ્ક્રિય થયું. ફ્રી ટિયર પર પાછા."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "ગોપનીયતા"
+  },
+  "optionsPrivacyTitle": {
+    "message": "તમારો ડેટા આ ડિવાઇસ પર રાખો"
+  },
+  "optionsPrivacyBody": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય સંપૂર્ણપણે તમારા ડિવાઇસ પર ચાલે છે. તે ઉપર સૂચિબદ્ધ હોસ્ટ પરનો ટેક્સ્ટ ફક્ત ટાઇમઝોનવાળા સમય કન્વર્ટ કરવાના હેતુ માટે વાંચે છે. કોઈ પેજ સામગ્રી, બ્રાઉઝિંગ ઇતિહાસ, અથવા પ્રોફાઇલ ડેટા ક્યારેય ક્યાંય મોકલાતો નથી. એકમાત્ર નેટવર્ક વિનંતી ત્યારે થાય છે જ્યારે તમે લાઇસન્સ કી દાખલ કરો, અને ફક્ત કી જ મોકલાય છે."
+  },
+  "optionsPrivacyExport": {
+    "message": "મારો ડેટા એક્સપોર્ટ કરો"
+  },
+  "optionsPrivacyDelete": {
+    "message": "બધો ડેટા કાઢી નાખો"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "તમારા ડાઉનલોડ્સમાં $1 કી એક્સપોર્ટ થઈ."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "એક્સપોર્ટ નિષ્ફળ ગયું. કૃપા કરીને ફરી પ્રયાસ કરો."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "આ ડિવાઇસમાંથી દરેક જગ્યાએ સ્થાનિક સમયનો બધો ડેટા કાઢી નાખવો છે? આ પાછું લાવી શકાતું નથી."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "આ ડિવાઇસમાંથી દરેક જગ્યાએ સ્થાનિક સમયનો બધો ડેટા સાફ થયો."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "કાઢી નાખવું નિષ્ફળ ગયું. કૃપા કરીને ફરી પ્રયાસ કરો."
+  },
+  "optionsAboutLine": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય v1.0.0, Zovo દ્વારા. Google, Microsoft, Discord, Slack, અથવા GitHub સાથે સંલગ્ન નથી."
+  },
+  "optionsSrProActive": {
+    "message": "Pro લાઇસન્સ સક્રિય."
+  },
+  "optionsSrFree": {
+    "message": "ફ્રી ટિયર."
+  },
+  "onboardingPage1Heading": {
+    "message": "તમારા મનમાં ટાઇમઝોનની ગણતરી કરવાનું બંધ કરો"
+  },
+  "onboardingPage1Sub": {
+    "message": "મીટિંગ આમંત્રણો એક ટાઇમ ઝોન બતાવે છે. બાકીના બધા મનમાં ગણતરી કરે છે. કેટલાક ખોટા પડે છે."
+  },
+  "onboardingPage1Berlin": {
+    "message": "બર્લિન, રાત્રે 9"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "મુંબઈ, રાત્રે 12:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "સિડની, આવતીકાલે સવારે 7"
+  },
+  "onboardingPage1Button": {
+    "message": "ઉકેલ જુઓ"
+  },
+  "onboardingEyebrow": {
+    "message": "દરેક જગ્યાએ સ્થાનિક સમય"
+  },
+  "onboardingPage2Heading": {
+    "message": "ટાઇમઝોનવાળો સમય તમારામાં કન્વર્ટ થતો જુઓ"
+  },
+  "onboardingPage2Sub": {
+    "message": "અહીં એક વાસ્તવિક Slack સંદેશ છે. બટન પર ક્લિક કરો અને એ જ ક્ષણ તમારા સ્થાનિક સમયમાં દેખાય છે."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (બોસ્ટન)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "મારો સ્થાનિક સમય જુઓ"
+  },
+  "onboardingPage2Continue": {
+    "message": "ચાલુ રાખો"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "કન્વર્ટ કરવા ઉપર ક્લિક કરો."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 તમારા સમયમાં ($2). કોઈ ગણતરીની જરૂર નથી."
+  },
+  "onboardingPage3Heading": {
+    "message": "તે ક્યાં ચાલે છે"
+  },
+  "onboardingPage3Sub": {
+    "message": "આ 12 હોસ્ટ ડિફૉલ્ટ રૂપે ચાલુ છે. તેમાંથી કોઈપણ ખોલો અને ટાઇમઝોનવાળા સમય ઇનલાઇન, ટૂલટિપમાં, અથવા બૅજ તરીકે કન્વર્ટ થાય છે."
+  },
+  "onboardingPage3Hint": {
+    "message": "બીજા હોસ્ટની જરૂર છે? ફ્રી ટિયર 3 કસ્ટમ હોસ્ટ આવરી લે છે. Pro અમર્યાદિત છે."
+  },
+  "onboardingPage3Link": {
+    "message": "કસ્ટમ હોસ્ટ વિશે જાણો"
+  },
+  "onboardingPage4Heading": {
+    "message": "નમસ્તે, હું Michael છું"
+  },
+  "onboardingPage4Sub": {
+    "message": "ત્રણ ટાઇમ ઝોનમાં ઘણી બધી ચૂકી ગયેલી સ્ટૅન્ડઅપ પછી મેં દરેક જગ્યાએ સ્થાનિક સમય બનાવ્યું. તે એક કામ કરે છે અને શાંતિથી કરવાનો પ્રયાસ કરે છે. કોઈ ટ્રૅકિંગ નહીં, દરેક પેજ પર કોઈ અપસેલ પૉપઅપ નહીં."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "એક વ્યક્તિ, જાહેરમાં બનાવે છે"
+  },
+  "onboardingPage5Heading": {
+    "message": "તમારા કૅલેન્ડરને અનુકૂળ પ્લાન મેળવો"
+  },
+  "onboardingPage5Sub": {
+    "message": "ફ્રી 12 ડિફૉલ્ટ હોસ્ટ પર કાયમ કામ કરે છે. Pro પાવર યુઝર્સ અને ટીમો માટે છે."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "ફ્રી"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "ફ્રી"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "12 ડિફૉલ્ટ હોસ્ટ પર અમર્યાદિત કન્વર્ઝન"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12h, 24h, અથવા સિસ્ટમ ફોર્મેટ"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "ઇનલાઇન માર્કર, ટૂલટિપ, અને બૅજ"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "3 કસ્ટમ હોસ્ટ સુધી"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/મહિનો અથવા $$99 આજીવન"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "અમર્યાદિત કસ્ટમ હોસ્ટ ઉમેરો"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "દરેક પ્રદેશ એક લાઇનમાં જુઓ"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Slack અથવા Discord પર કામના કલાકોની સ્થિતિ સિંક કરો"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "કન્વર્ટ થયેલા સમય તમારા કૅલેન્ડરમાં મોકલો"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "સૌથી ઓછો તકલીફદાયક મીટિંગ સ્લોટ શોધો"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Pro પ્લાન જુઓ"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "ફ્રી પર રહો"
+  },
+  "onboardingPage6Heading": {
+    "message": "તમારા મનમાં ગણતરી કરવાનું બંધ કરવા તૈયાર"
+  },
+  "onboardingPage6Sub": {
+    "message": "કોઈપણ સમર્થિત હોસ્ટ ખોલો અને ટાઇમઝોનવાળા સમય જાતે જ કન્વર્ટ થશે."
+  },
+  "onboardingPage6Button": {
+    "message": "કન્વર્ટ કરવાનું શરૂ કરો"
+  },
+  "onboardingSkip": {
+    "message": "સેટઅપ છોડો"
+  },
+  "onboardingBack": {
+    "message": "પાછળ"
+  },
+  "onboardingNext": {
+    "message": "આગળ"
+  },
+  "onboardingDone": {
+    "message": "થઈ ગયું"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "પગલા $1 પર જાઓ"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "ઓનબોર્ડિંગ પ્રગતિ"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "ઓનબોર્ડિંગ પ્રગતિ"
+  },
+  "onboardingPageOf": {
+    "message": "$2 માંથી $1"
+  },
+  "onboardingFooterBrand": {
+    "message": "zovo.one દ્વારા બનાવેલ"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 સમય કન્વર્ટ થયા"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 સમય કન્વર્ટ થયો"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 સમય કન્વર્ટ થયા"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "સ્થાનિક સમય - અસ્થાયી રૂપે થોભાવેલ"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy · Local Time Everywhere</title>
+  <link rel="stylesheet" href="../../styles/zovo-base.css" />
+</head>
+<body class="zovo-legal">
+  <main class="zovo-legal__container">
+    <h1>Privacy Policy. Local Time Everywhere.</h1>
+    <p class="zovo-legal__updated">Last updated: 2026-07-21</p>
+
+    <section>
+      <h2>Summary</h2>
+      <p>
+        Local Time Everywhere runs entirely on your device. It does not collect,
+        transmit, or sell personal data. The extension reads text on the web pages
+        you visit (only on the named hosts listed in the manifest) for the sole
+        purpose of converting zoned times to your local time. All settings and
+        license state stay on this device in Chrome extension storage.
+      </p>
+    </section>
+
+    <section>
+      <h2>Permissions and why each one is required</h2>
+      <ul>
+        <li>
+          <code>storage</code>. Save your host list, time format preference,
+          badge toggle, and (if you have Pro) your license state. Nothing else.
+        </li>
+        <li>
+          <code>alarms</code>. A daily tick that checks whether your local time
+          zone crossed a daylight-saving boundary since yesterday. Triggers a
+          refresh of the visible conversions if it did. No data leaves your
+          device in this tick.
+        </li>
+        <li>
+          <code>scripting</code>. Registers the conversion content script on
+          the named hosts below (and on hosts you explicitly add in Options) so
+          the per-host toggle can turn conversions on or off without a page
+          reload.
+        </li>
+        <li>
+          <code>host_permissions</code> (named list). Apply the conversion
+          logic only on the pages where meeting invites actually land. The
+          default ship list is exactly:
+          <ul>
+            <li><code>https://calendar.google.com/calendar/*</code></li>
+            <li><code>https://outlook.live.com/calendar/*</code> and <code>https://outlook.office.com/calendar/*</code></li>
+            <li><code>https://discord.com/*</code></li>
+            <li><code>https://*.slack.com/*</code></li>
+            <li><code>https://github.com/*</code> and <code>https://*.github.com/*</code></li>
+            <li><code>https://*.start.gg/*</code>, <code>https://liquipedia.net/*</code></li>
+            <li><code>https://*.twitch.tv/*</code>, <code>https://twitch.tv/*</code></li>
+            <li><code>https://www.youtube.com/*</code></li>
+          </ul>
+          The extension never requests <code>&lt;all_urls&gt;</code> and never
+          requests broad access. Hosts you add in Options go into
+          <code>optional_host_permissions</code> and require your explicit
+          grant via the Chrome permission dialog.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What we read</h2>
+      <p>
+        The content script walks visible text nodes on the hosts above, plus
+        any host you explicitly add in Options. The walk finds time+zone pairs
+        (e.g. <code>"3pm EST"</code>) and renders an inline conversion to your
+        local time. The matched text and the converted time are processed in
+        memory and never stored or transmitted. We do not read messages,
+        form fields, payment inputs, or anything you type.
+      </p>
+    </section>
+
+    <section>
+      <h2>What we store</h2>
+      <ul>
+        <li><code>storage.sync</code>. Your host list, time format preference, and badge toggle.</li>
+        <li><code>storage.local</code>. License state (only if you have Pro), the DST epoch, and a rolling 100-event funnel log (kept only on this device, never sent anywhere).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What we transmit</h2>
+      <p>
+        The only network request the extension ever makes is a POST to the Zovo
+        license Edge Function when you enter a license key in Options or in the
+        popup. The request body is your license key and the extension's product
+        ID. No page content, no browsing history, and no profile data is ever
+        sent. If you never enter a license key, the extension never opens a
+        network connection.
+      </p>
+      <p>
+        The content script that runs on web pages never calls
+        <code>fetch</code>, <code>XMLHttpRequest</code>, or
+        <code>WebSocket</code>. Conversion math uses the browser's built-in
+        <code>Intl.DateTimeFormat</code> API and your device's own time zone,
+        so no page content ever leaves the browser.
+      </p>
+    </section>
+
+    <section>
+      <h2>Your choices</h2>
+      <p>
+        You can disable the extension on any host from the popup. You can
+        remove any custom host in Options. You can export or delete all local
+        data from the Privacy section of Options. Uninstalling the extension
+        deletes all local data.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Questions: <a href="mailto:support@zovo.one">support@zovo.one</a> ·
+        <a href="https://zovo.one">https://zovo.one</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>

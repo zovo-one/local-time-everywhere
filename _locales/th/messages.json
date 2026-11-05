@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "เวลาท้องถิ่นทุกที่"
+  },
+  "extDesc": {
+    "message": "หยุดคำนวณเขตเวลาในหัวได้แล้ว แปลง 3pm EST, 9:00 UTC, 14:00 CET แบบอินไลน์บน Calendar, Slack, Discord, GitHub"
+  },
+  "actionTitle": {
+    "message": "เวลาท้องถิ่นทุกที่"
+  },
+  "popupTitle": {
+    "message": "เวลาท้องถิ่นทุกที่"
+  },
+  "popupStatusActive": {
+    "message": "กำลังทำงาน"
+  },
+  "popupStatusPaused": {
+    "message": "หยุดชั่วคราว"
+  },
+  "popupStatusActiveLabel": {
+    "message": "สถานะ: กำลังทำงาน"
+  },
+  "popupStatusPausedLabel": {
+    "message": "สถานะ: หยุดชั่วคราวบนโฮสต์นี้"
+  },
+  "popupStatLabel": {
+    "message": "บนหน้านี้"
+  },
+  "popupStatHintSingular": {
+    "message": "เวลาที่แปลงบนแท็บนี้ในเซสชันนี้"
+  },
+  "popupStatHintPlural": {
+    "message": "ครั้งที่แปลงเวลาบนแท็บนี้ในเซสชันนี้"
+  },
+  "popupStatAriaLabel": {
+    "message": "เวลาที่แปลงแล้วบนหน้านี้"
+  },
+  "popupPauseOnHost": {
+    "message": "หยุดชั่วคราวบนโฮสต์นี้"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "หยุดแปลงบนเว็บไซต์นี้จนกว่าคุณจะเปิดใช้อีกครั้ง"
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "หยุดแปลงบน $1 จนกว่าคุณจะเปิดใช้อีกครั้ง"
+  },
+  "popupShowInline": {
+    "message": "แสดงการแปลงแบบอินไลน์"
+  },
+  "popupShowInlineSub": {
+    "message": "เพิ่มเครื่องหมายเวลาท้องถิ่นเล็กๆ ข้างเวลาที่มีเขตเวลาทุกอัน"
+  },
+  "popupShowBadge": {
+    "message": "แสดงป้าย"
+  },
+  "popupShowBadgeSub": {
+    "message": "นับจำนวนครั้งที่แปลงแบบเงียบๆ ที่มุมหน้า"
+  },
+  "popupSettingsAriaLabel": {
+    "message": "การตั้งค่าการแปลง"
+  },
+  "popupLicenseHave": {
+    "message": "มีคีย์ลิขสิทธิ์ไหม?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "คีย์ลิขสิทธิ์"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "เปิดใช้งาน"
+  },
+  "popupLicenseVerifying": {
+    "message": "กำลังตรวจสอบ..."
+  },
+  "popupLicenseEmpty": {
+    "message": "กรุณากรอกคีย์ลิขสิทธิ์ก่อน"
+  },
+  "popupLicenseActivated": {
+    "message": "เปิดใช้ลิขสิทธิ์แล้ว ปลดล็อก Pro แล้ว"
+  },
+  "popupLicenseFailed": {
+    "message": "คีย์นั้นตรวจสอบไม่ผ่าน กรุณาตรวจสอบคีย์แล้วลองอีกครั้ง"
+  },
+  "popupLicenseError": {
+    "message": "การตรวจสอบล้มเหลว กรุณาลองอีกครั้งในอีกสักครู่"
+  },
+  "popupFooterBuiltBy": {
+    "message": "สร้างโดย zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "เครื่องมือเพิ่มเติม"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "ปลดล็อกทุกโฮสต์และการส่งออก ICS"
+  },
+  "popupSrActive": {
+    "message": "การแปลงกำลังทำงานบนโฮสต์นี้"
+  },
+  "popupSrPaused": {
+    "message": "การแปลงหยุดชั่วคราวบนโฮสต์นี้"
+  },
+  "optionsTitle": {
+    "message": "การตั้งค่าเวลาท้องถิ่นทุกที่"
+  },
+  "optionsSub": {
+    "message": "แปลงเวลาที่มีเขตเวลาแบบอินไลน์บนโฮสต์ที่คำเชิญประชุมส่งมาถึง"
+  },
+  "optionsEyebrowConversions": {
+    "message": "การแปลง"
+  },
+  "optionsConversionsTitle": {
+    "message": "รับการแปลงบนหน้า ในแบบของคุณ"
+  },
+  "optionsInlineTitle": {
+    "message": "แปลงเวลาแบบอินไลน์บนหน้า"
+  },
+  "optionsInlineSub": {
+    "message": "เพิ่มเครื่องหมายเวลาท้องถิ่นเล็กๆ ข้างเวลาที่มีเขตเวลาทุกอัน"
+  },
+  "optionsBadgeTitle": {
+    "message": "นับจำนวนการแปลงแบบเงียบๆ ไว้ที่มุม"
+  },
+  "optionsBadgeSub": {
+    "message": "นับจำนวนครั้งที่แปลงเวลาแบบเงียบๆ บนแท็บนี้"
+  },
+  "optionsPauseTitle": {
+    "message": "ปิดเสียงการแปลงบนโฮสต์"
+  },
+  "optionsPauseSub": {
+    "message": "ใช้ป็อปอัปเวลาท้องถิ่นทุกที่บนโฮสต์เพื่อหยุดชั่วคราวหรือกลับมาแปลงต่อบนเว็บไซต์นั้นๆ"
+  },
+  "optionsTimeFormatLabel": {
+    "message": "รูปแบบเวลา"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "ระบบ"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 ชั่วโมง"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 ชั่วโมง"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "การตั้งค่ารูปแบบเวลา"
+  },
+  "optionsEyebrowHosts": {
+    "message": "โฮสต์"
+  },
+  "optionsHostsTitle": {
+    "message": "เว็บไซต์ที่แปลงเวลา"
+  },
+  "optionsHostsCountPro": {
+    "message": "โฮสต์กำหนดเองไม่จำกัดด้วย Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "ใช้โฮสต์กำหนดเองแล้ว $1 จาก $2"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "โฮสต์เริ่มต้น แปลงทุกครั้งที่เข้าชม"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "โฮสต์ที่คุณเพิ่ม แปลงทุกครั้งที่เข้าชม"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "แพลนฟรีรวมโฮสต์กำหนดเองได้สูงสุด $1 โฮสต์ Pro ปลดล็อกโฮสต์กำหนดเองไม่จำกัด"
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "อัปเกรดเป็น Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "เพิ่มโฮสต์กำหนดเอง"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "เพิ่มโฮสต์"
+  },
+  "optionsRemoveHostButton": {
+    "message": "ลบ"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "ลบโฮสต์กำหนดเอง $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "ใช้รูปแบบเฉพาะเช่น https://example.com/* หรือ https://*.yourteam.com/* อย่าใช้ไวลด์การ์ดแบบกว้าง <all_urls> หรือ *://*/* เด็ดขาด"
+  },
+  "optionsHostErrEmpty": {
+    "message": "กรุณากรอกรูปแบบโฮสต์ก่อน"
+  },
+  "optionsHostErrBlocked": {
+    "message": "รูปแบบที่ถูกบล็อก: $1 ใช้รูปแบบ https:// ที่เฉพาะเจาะจง"
+  },
+  "optionsHostErrScheme": {
+    "message": "รูปแบบต้องขึ้นต้นด้วย https:// (หรือ http://)"
+  },
+  "optionsHostErrHostname": {
+    "message": "รูปแบบนั้นไม่มีชื่อโฮสต์ที่แท้จริง"
+  },
+  "optionsHostErrMalformed": {
+    "message": "รูปแบบนั้นผิดพลาด"
+  },
+  "optionsHostErrPath": {
+    "message": "เพิ่มไวลด์การ์ดพาธที่ท้าย (เช่น /*)"
+  },
+  "optionsHostErrDuplicate": {
+    "message": "โฮสต์นั้นอยู่ในรายการของคุณแล้ว"
+  },
+  "optionsHostErrDefault": {
+    "message": "โฮสต์นั้นอยู่ในรายการเริ่มต้นแล้ว"
+  },
+  "optionsHostErrCapHit": {
+    "message": "แพลนฟรีจำกัดที่ $1 โฮสต์กำหนดเอง อัปเกรดเพื่อเพิ่มเติม"
+  },
+  "optionsHostErrPermission": {
+    "message": "ไม่ได้รับสิทธิ์ ไม่ได้เพิ่มโฮสต์"
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "ไม่สามารถขอสิทธิ์สำหรับโฮสต์นั้นได้"
+  },
+  "optionsHostAdded": {
+    "message": "เพิ่ม $1 แล้ว โหลดแท็บที่เปิดอยู่บนโฮสต์นั้นใหม่เพื่อสแกน"
+  },
+  "optionsHostRemoved": {
+    "message": "ลบ $1 แล้ว"
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "แปลงเวลาข้ามทุกโฮสต์ที่คุณใช้"
+  },
+  "optionsProFeature1Title": {
+    "message": "ได้ทุกภูมิภาคในบรรทัดเดียว"
+  },
+  "optionsProFeature1Sub": {
+    "message": "แสดง 3pm EST, 12pm PST, 8pm GMT ในบรรทัดเดียว"
+  },
+  "optionsProFeature2Title": {
+    "message": "ทำให้เพื่อนร่วมทีมซิงก์กับเวลาทำงานของคุณ"
+  },
+  "optionsProFeature2Sub": {
+    "message": "ส่งสถานะ Slack หรือ Discord เฉพาะเมื่อเลือกเข้าร่วมเท่านั้น"
+  },
+  "optionsProFeature3Title": {
+    "message": "ส่งคำเชิญปฏิทินพร้อมเวลาที่แปลงแล้ว"
+  },
+  "optionsProFeature3Sub": {
+    "message": "คัดลอกคำเชิญ .ics สำหรับช่วงเวลาที่ถูกต้อง"
+  },
+  "optionsProFeature4Title": {
+    "message": "หาช่วงประชุมที่เจ็บปวดน้อยที่สุด"
+  },
+  "optionsProFeature4Sub": {
+    "message": "เปรียบเทียบเขตเวลาเคียงข้างกันแล้วเลือกช่วงที่เหมาะที่สุด"
+  },
+  "optionsProLockLabel": {
+    "message": "ฟีเจอร์ Pro ล็อกอยู่"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "ดูแพลน Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "แปลงทุกโฮสต์ด้วย Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "สำหรับผู้ใช้ระดับสูงและทีมที่ทำงานข้ามเขตเวลา"
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/เดือน"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 ตลอดชีพ"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "ราคาเดียว เลือกได้ตามใจ ยกเลิกได้ทุกเมื่อ"
+  },
+  "optionsPaywallBenefit1": {
+    "message": "โฮสต์กำหนดเองไม่จำกัด (ฟรีจำกัดที่ 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "รูปแบบหลายภูมิภาค แสดงทุกเขตเวลาพร้อมกัน"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "ซิงก์สถานะเวลาทำงานกับ Slack และ Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "ส่งออกปฏิทิน ICS พร้อมเวลาที่แปลงแล้ว"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "ตัวแนะนำช่วงประชุมที่ทับซ้อนดีที่สุด"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "รับ Pro, $$99 ตลอดชีพ"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "หรือ $$4.99/เดือน"
+  },
+  "optionsPaywallNote": {
+    "message": "จ่ายครั้งเดียวหรือสมัครสมาชิกหนึ่งครั้ง เปิดใช้ Pro ในส่วนขยายนี้ตลอดไป"
+  },
+  "optionsPaywallRefund": {
+    "message": "รับประกันคืนเงินภายใน 14 วัน หาก Pro ไม่คุ้มค่า เราคืนเงินโดยไม่ถามคำถาม"
+  },
+  "optionsFreeVsProHeading": {
+    "message": "ฟรี เทียบกับ Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "ส่งเวลาที่แปลงแล้วไปยังปฏิทินของคุณ"
+  },
+  "optionsIcsExportSub": {
+    "message": "คัดลอกคำเชิญ .ics ที่มีเวลาท้องถิ่นฝังอยู่ ตัวอย่าง Pro แสดงที่นี่เพื่อให้คุณรู้ว่าจะปลดล็อกอะไร"
+  },
+  "optionsIcsExportCta": {
+    "message": "ส่งออก .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "ปลดล็อกใน Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "ลิขสิทธิ์"
+  },
+  "optionsLicenseTitle": {
+    "message": "เปิดใช้หรือลบคีย์"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro ทำงานอยู่"
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "ใช้ได้ถึง $1"
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "ลิขสิทธิ์ตลอดชีพ"
+  },
+  "optionsLicenseDeactivate": {
+    "message": "ปิดใช้งาน"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "ปิดใช้ลิขสิทธิ์แล้ว กลับสู่แพลนฟรี"
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "ความเป็นส่วนตัว"
+  },
+  "optionsPrivacyTitle": {
+    "message": "เก็บข้อมูลของคุณไว้บนอุปกรณ์นี้"
+  },
+  "optionsPrivacyBody": {
+    "message": "เวลาท้องถิ่นทุกที่ทำงานทั้งหมดบนอุปกรณ์ของคุณ มันอ่านข้อความบนโฮสต์ที่ระบุไว้ข้างต้นเพื่อจุดประสงค์เดียวคือแปลงเวลาที่มีเขตเวลา ไม่มีเนื้อหาหน้า ประวัติการเข้าชม หรือข้อมูลโปรไฟล์ถูกส่งไปที่ใดเลย คำขอเครือข่ายเดียวเกิดขึ้นเมื่อคุณกรอกคีย์ลิขสิทธิ์ และส่งเฉพาะคีย์เท่านั้น"
+  },
+  "optionsPrivacyExport": {
+    "message": "ส่งออกข้อมูลของฉัน"
+  },
+  "optionsPrivacyDelete": {
+    "message": "ลบข้อมูลทั้งหมด"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "ส่งออก $1 คีย์ไปยังการดาวน์โหลดของคุณแล้ว"
+  },
+  "optionsPrivacyExportErr": {
+    "message": "การส่งออกล้มเหลว กรุณาลองอีกครั้ง"
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "ลบข้อมูลเวลาท้องถิ่นทุกที่ทั้งหมดจากอุปกรณ์นี้? การนี้ไม่สามารถย้อนกลับได้"
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "ล้างข้อมูลเวลาท้องถิ่นทุกที่ทั้งหมดจากอุปกรณ์นี้แล้ว"
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "การลบล้มเหลว กรุณาลองอีกครั้ง"
+  },
+  "optionsAboutLine": {
+    "message": "เวลาท้องถิ่นทุกที่ v1.0.0 โดย Zovo ไม่มีส่วนเกี่ยวข้องกับ Google, Microsoft, Discord, Slack หรือ GitHub"
+  },
+  "optionsSrProActive": {
+    "message": "ลิขสิทธิ์ Pro ทำงานอยู่"
+  },
+  "optionsSrFree": {
+    "message": "แพลนฟรี"
+  },
+  "onboardingPage1Heading": {
+    "message": "หยุดคำนวณเขตเวลาในหัวได้แล้ว"
+  },
+  "onboardingPage1Sub": {
+    "message": "คำเชิญประชุมแสดงเขตเวลาเดียว คนอื่นๆ ต้องคำนวณในหัว บางคนก็คิดผิด"
+  },
+  "onboardingPage1Berlin": {
+    "message": "เบอร์ลิน, 21:00"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "มุมไบ, 00:30"
+  },
+  "onboardingPage1Sydney": {
+    "message": "ซิดนีย์, 07:00 พรุ่งนี้"
+  },
+  "onboardingPage1Button": {
+    "message": "ดูวิธีแก้"
+  },
+  "onboardingEyebrow": {
+    "message": "เวลาท้องถิ่นทุกที่"
+  },
+  "onboardingPage2Heading": {
+    "message": "ดูเวลาที่มีเขตเวลาแปลงเป็นของคุณ"
+  },
+  "onboardingPage2Sub": {
+    "message": "นี่คือข้อความ Slack จริง คลิกปุ่มแล้วช่วงเวลาเดียวกันจะแสดงในเวลาท้องถิ่นของคุณ"
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "ดูเวลาท้องถิ่นของฉัน"
+  },
+  "onboardingPage2Continue": {
+    "message": "ดำเนินการต่อ"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "คลิกด้านบนเพื่อแปลง"
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 เวลาของคุณ ($2) ไม่ต้องคำนวณ"
+  },
+  "onboardingPage3Heading": {
+    "message": "ที่ที่มันทำงาน"
+  },
+  "onboardingPage3Sub": {
+    "message": "โฮสต์ 12 แห่งนี้เปิดใช้เป็นค่าเริ่มต้น เปิดอันไหนก็ได้แล้วเวลาที่มีเขตเวลาจะแปลงแบบอินไลน์ ในทูลทิป หรือเป็นป้าย"
+  },
+  "onboardingPage3Hint": {
+    "message": "ต้องการโฮสต์อื่นไหม? แพลนฟรีครอบคลุมโฮสต์กำหนดเอง 3 โฮสต์ Pro ไม่จำกัด"
+  },
+  "onboardingPage3Link": {
+    "message": "เรียนรู้เกี่ยวกับโฮสต์กำหนดเอง"
+  },
+  "onboardingPage4Heading": {
+    "message": "สวัสดี ผมชื่อ Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "ผมสร้างเวลาท้องถิ่นทุกที่หลังจากพลาดสแตนด์อัพข้ามสามเขตเวลาหลายครั้งเกินไป มันทำสิ่งเดียวและพยายามทำอย่างเงียบๆ ไม่มีการติดตาม ไม่มีป็อปอัปอัปเกรดในทุกหน้า"
+  },
+  "onboardingPage4SubMuted": {
+    "message": "คนคนเดียว สร้างแบบเปิดเผยที่"
+  },
+  "onboardingPage5Heading": {
+    "message": "เลือกแพลนที่เหมาะกับปฏิทินของคุณ"
+  },
+  "onboardingPage5Sub": {
+    "message": "ฟรีใช้ได้ตลอดไปบนโฮสต์เริ่มต้น 12 แห่ง Pro สำหรับผู้ใช้ระดับสูงและทีม"
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "ฟรี"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "ฟรี"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "แปลงไม่จำกัดบนโฮสต์เริ่มต้น 12 แห่ง"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "รูปแบบ 12h, 24h หรือระบบ"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "เครื่องหมายอินไลน์ ทูลทิป และป้าย"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "โฮสต์กำหนดเองสูงสุด 3 โฮสต์"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/เดือน หรือ $$99 ตลอดชีพ"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "เพิ่มโฮสต์กำหนดเองไม่จำกัด"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "ดูทุกภูมิภาคในบรรทัดเดียว"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "ซิงก์สถานะเวลาทำงานกับ Slack หรือ Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "ส่งเวลาที่แปลงแล้วไปยังปฏิทินของคุณ"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "หาช่วงประชุมที่เจ็บปวดน้อยที่สุด"
+  },
+  "onboardingPage5ProCta": {
+    "message": "ดูแพลน Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "อยู่กับแพลนฟรี"
+  },
+  "onboardingPage6Heading": {
+    "message": "พร้อมที่จะหยุดคำนวณในหัวหรือยัง"
+  },
+  "onboardingPage6Sub": {
+    "message": "เปิดโฮสต์ที่รองรับอันไหนก็ได้ แล้วเวลาที่มีเขตเวลาจะแปลงเอง"
+  },
+  "onboardingPage6Button": {
+    "message": "เริ่มแปลง"
+  },
+  "onboardingSkip": {
+    "message": "ข้ามการตั้งค่า"
+  },
+  "onboardingBack": {
+    "message": "ย้อนกลับ"
+  },
+  "onboardingNext": {
+    "message": "ถัดไป"
+  },
+  "onboardingDone": {
+    "message": "เสร็จสิ้น"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "ไปที่ขั้นตอน $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "ความคืบหน้าการเริ่มต้นใช้งาน"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "ความคืบหน้าการเริ่มต้นใช้งาน"
+  },
+  "onboardingPageOf": {
+    "message": "$1 จาก $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "สร้างโดย zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "แปลงแล้ว 0 ครั้ง"
+  },
+  "badgeConvertedSingular": {
+    "message": "แปลงแล้ว $1 ครั้ง"
+  },
+  "badgeConvertedPlural": {
+    "message": "แปลงแล้ว $1 ครั้ง"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "เวลาท้องถิ่น - หยุดชั่วคราว"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "別再在腦子裡換算時區了。在 Calendar、Slack、Discord、GitHub 上就地轉換下午3點 EST、9:00 UTC、14:00 CET。"
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "已啟用"
+  },
+  "popupStatusPaused": {
+    "message": "已暫停"
+  },
+  "popupStatusActiveLabel": {
+    "message": "狀態：已啟用"
+  },
+  "popupStatusPausedLabel": {
+    "message": "狀態：已在此網站暫停"
+  },
+  "popupStatLabel": {
+    "message": "在此頁面"
+  },
+  "popupStatHintSingular": {
+    "message": "次時間已在此分頁本工作階段中轉換。"
+  },
+  "popupStatHintPlural": {
+    "message": "次時間已在此分頁本工作階段中轉換。"
+  },
+  "popupStatAriaLabel": {
+    "message": "此頁面已轉換的時間"
+  },
+  "popupPauseOnHost": {
+    "message": "在此網站暫停"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "在此網站停止轉換，直到你重新開啟。"
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "在 $1 停止轉換，直到你重新開啟。"
+  },
+  "popupShowInline": {
+    "message": "顯示行內轉換"
+  },
+  "popupShowInlineSub": {
+    "message": "在每個帶時區的時間旁加上一個小的當地時間標記。"
+  },
+  "popupShowBadge": {
+    "message": "顯示角標"
+  },
+  "popupShowBadgeSub": {
+    "message": "在頁面角落被動統計已轉換的時間次數。"
+  },
+  "popupSettingsAriaLabel": {
+    "message": "轉換設定"
+  },
+  "popupLicenseHave": {
+    "message": "有授權金鑰嗎？"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "授權金鑰"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "啟用"
+  },
+  "popupLicenseVerifying": {
+    "message": "驗證中…"
+  },
+  "popupLicenseEmpty": {
+    "message": "請先輸入授權金鑰。"
+  },
+  "popupLicenseActivated": {
+    "message": "授權已啟用。Pro 已解鎖。"
+  },
+  "popupLicenseFailed": {
+    "message": "該金鑰未通過驗證。請檢查金鑰後重試。"
+  },
+  "popupLicenseError": {
+    "message": "驗證失敗。請稍後重試。"
+  },
+  "popupFooterBuiltBy": {
+    "message": "由 zovo.one 打造"
+  },
+  "popupFooterMoreTools": {
+    "message": "更多工具"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "解鎖所有網站與 ICS 匯出"
+  },
+  "popupSrActive": {
+    "message": "轉換已在此網站啟用。"
+  },
+  "popupSrPaused": {
+    "message": "轉換已在此網站暫停。"
+  },
+  "optionsTitle": {
+    "message": "Local Time Everywhere 設定"
+  },
+  "optionsSub": {
+    "message": "在會議邀請出現的網站上就地轉換帶時區的時間。"
+  },
+  "optionsEyebrowConversions": {
+    "message": "轉換"
+  },
+  "optionsConversionsTitle": {
+    "message": "以你的方式在頁面上取得轉換"
+  },
+  "optionsInlineTitle": {
+    "message": "在頁面上行內轉換時間"
+  },
+  "optionsInlineSub": {
+    "message": "在每個帶時區的時間旁加上一個小的當地時間標記。"
+  },
+  "optionsBadgeTitle": {
+    "message": "在角落被動統計轉換次數"
+  },
+  "optionsBadgeSub": {
+    "message": "被動統計此分頁已轉換的時間次數。"
+  },
+  "optionsPauseTitle": {
+    "message": "在某網站靜音轉換"
+  },
+  "optionsPauseSub": {
+    "message": "在某個網站上使用 Local Time Everywhere 彈出視窗，以暫停或恢復該特定網站上的轉換。"
+  },
+  "optionsTimeFormatLabel": {
+    "message": "時間格式"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "系統"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 小時制"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 小時制"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "時間格式偏好"
+  },
+  "optionsEyebrowHosts": {
+    "message": "網站"
+  },
+  "optionsHostsTitle": {
+    "message": "轉換時間的網站"
+  },
+  "optionsHostsCountPro": {
+    "message": "Pro 可新增無限自訂網站"
+  },
+  "optionsHostsCountFree": {
+    "message": "已使用 $2 個中的 $1 個自訂網站"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "預設網站，每次造訪都轉換"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "你新增的網站，每次造訪都轉換"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "免費版最多包含 $1 個自訂網站。Pro 可解鎖無限自訂網站。"
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "升級到 Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "新增自訂網站"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "新增網站"
+  },
+  "optionsRemoveHostButton": {
+    "message": "移除"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "移除自訂網站 $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "請使用具體的模式，例如 https://example.com/* 或 https://*.yourteam.com/*。切勿使用寬泛的萬用字元 <all_urls> 或 *://*/*。"
+  },
+  "optionsHostErrEmpty": {
+    "message": "請先輸入網站模式。"
+  },
+  "optionsHostErrBlocked": {
+    "message": "已封鎖的模式：$1。請使用具體的 https:// 模式。"
+  },
+  "optionsHostErrScheme": {
+    "message": "模式必須以 https://（或 http://）開頭。"
+  },
+  "optionsHostErrHostname": {
+    "message": "該模式沒有真實的主機名稱。"
+  },
+  "optionsHostErrMalformed": {
+    "message": "該模式格式有誤。"
+  },
+  "optionsHostErrPath": {
+    "message": "請在結尾加上路徑萬用字元（例如 /*）。"
+  },
+  "optionsHostErrDuplicate": {
+    "message": "該網站已在你的清單中。"
+  },
+  "optionsHostErrDefault": {
+    "message": "該網站已在預設清單中。"
+  },
+  "optionsHostErrCapHit": {
+    "message": "免費版上限為 $1 個自訂網站。請升級以新增更多。"
+  },
+  "optionsHostErrPermission": {
+    "message": "未授予權限。該網站未新增。"
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "無法為該網站要求權限。"
+  },
+  "optionsHostAdded": {
+    "message": "已新增 $1。請重新載入該網站已開啟的分頁以進行掃描。"
+  },
+  "optionsHostRemoved": {
+    "message": "已移除 $1。"
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "在你使用的每個網站上轉換時間"
+  },
+  "optionsProFeature1Title": {
+    "message": "一行顯示所有地區"
+  },
+  "optionsProFeature1Sub": {
+    "message": "在一行中顯示下午3點 EST、中午12點 PST、晚上8點 GMT。"
+  },
+  "optionsProFeature2Title": {
+    "message": "用你的工作時間讓隊友保持同步"
+  },
+  "optionsProFeature2Sub": {
+    "message": "推送 Slack 或 Discord 狀態。僅限選擇加入。"
+  },
+  "optionsProFeature3Title": {
+    "message": "傳送帶轉換後時間的行事曆邀請"
+  },
+  "optionsProFeature3Sub": {
+    "message": "為合適的時段複製一份 .ics 邀請。"
+  },
+  "optionsProFeature4Title": {
+    "message": "找出最不折磨人的會議時段"
+  },
+  "optionsProFeature4Sub": {
+    "message": "並排比較各時區，選出最友善的那個。"
+  },
+  "optionsProLockLabel": {
+    "message": "Pro 功能，已鎖定"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "查看 Pro 方案"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "用 Pro 轉換每個網站"
+  },
+  "optionsPaywallPitch": {
+    "message": "為跨時區生活的進階使用者與團隊打造。"
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4.99/月"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 永久"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "一個價格，任你選擇。隨時取消。"
+  },
+  "optionsPaywallBenefit1": {
+    "message": "無限自訂網站（免費版上限 3 個）"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "多地區格式，一次顯示所有時區"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Slack 與 Discord 工作時間狀態同步"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "帶轉換後時間的 ICS 行事曆匯出"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "最佳重疊會議建議"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "取得 Pro，$$99 永久"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "或 $$4.99/月"
+  },
+  "optionsPaywallNote": {
+    "message": "一次付款或一份訂閱。在此擴充功能中永久啟用 Pro。"
+  },
+  "optionsPaywallRefund": {
+    "message": "14 天退款保證。如果 Pro 不值得，我們退款，絕不多問。"
+  },
+  "optionsFreeVsProHeading": {
+    "message": "免費版 vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "將轉換後的時間傳送到你的行事曆"
+  },
+  "optionsIcsExportSub": {
+    "message": "複製一份已內嵌當地時間的 .ics 邀請。Pro 預覽，在此可見，讓你知道能解鎖什麼。"
+  },
+  "optionsIcsExportCta": {
+    "message": "匯出 .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "在 Pro 中解鎖"
+  },
+  "optionsEyebrowLicense": {
+    "message": "授權"
+  },
+  "optionsLicenseTitle": {
+    "message": "啟用或移除金鑰"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro 已啟用。"
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "有效期至 $1。"
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "永久授權。"
+  },
+  "optionsLicenseDeactivate": {
+    "message": "停用"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "授權已停用。已回到免費版。"
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "隱私"
+  },
+  "optionsPrivacyTitle": {
+    "message": "讓你的資料留在此裝置上"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere 完全在你的裝置上執行。它讀取上面所列網站上的文字，唯一目的是轉換帶時區的時間。任何頁面內容、瀏覽紀錄或個人資料都絕不會傳送到任何地方。唯一的網路要求發生在你輸入授權金鑰時，而且只傳送金鑰本身。"
+  },
+  "optionsPrivacyExport": {
+    "message": "匯出我的資料"
+  },
+  "optionsPrivacyDelete": {
+    "message": "刪除所有資料"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "已將 $1 個金鑰匯出到你的下載。"
+  },
+  "optionsPrivacyExportErr": {
+    "message": "匯出失敗。請重試。"
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "從此裝置刪除所有 Local Time Everywhere 資料？此動作無法復原。"
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "已從此裝置清除所有 Local Time Everywhere 資料。"
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "刪除失敗。請重試。"
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0，由 Zovo 出品。與 Google、Microsoft、Discord、Slack 或 GitHub 無關聯。"
+  },
+  "optionsSrProActive": {
+    "message": "Pro 授權已啟用。"
+  },
+  "optionsSrFree": {
+    "message": "免費版。"
+  },
+  "onboardingPage1Heading": {
+    "message": "別再在腦子裡換算時區了"
+  },
+  "onboardingPage1Sub": {
+    "message": "會議邀請只顯示一個時區。其他人都在腦子裡算。有些人算錯了。"
+  },
+  "onboardingPage1Berlin": {
+    "message": "柏林，晚上9點"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "孟買，凌晨0點30分"
+  },
+  "onboardingPage1Sydney": {
+    "message": "雪梨，明天早上7點"
+  },
+  "onboardingPage1Button": {
+    "message": "看看解決辦法"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "看著一個帶時區的時間轉換成你的時間"
+  },
+  "onboardingPage2Sub": {
+    "message": "這是一則真實的 Slack 訊息。點擊按鈕，同一時刻就會以你的當地時間顯示。"
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex（波士頓）"
+  },
+  "onboardingPage2Reveal": {
+    "message": "查看我的當地時間"
+  },
+  "onboardingPage2Continue": {
+    "message": "繼續"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "點擊上方進行轉換。"
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 你的時間（$2）。無需計算。"
+  },
+  "onboardingPage3Heading": {
+    "message": "適用的地方"
+  },
+  "onboardingPage3Sub": {
+    "message": "這 12 個網站預設開啟。打開其中任一個，帶時區的時間就會以行內、工具提示或角標的形式轉換。"
+  },
+  "onboardingPage3Hint": {
+    "message": "需要另一個網站？免費版涵蓋 3 個自訂網站。Pro 無限制。"
+  },
+  "onboardingPage3Link": {
+    "message": "了解自訂網站"
+  },
+  "onboardingPage4Heading": {
+    "message": "你好，我是 Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "在跨三個時區錯過太多次站立會議之後，我做了 Local Time Everywhere。它只做一件事，並盡量安靜地做。沒有追蹤，沒有每頁都跳的推銷視窗。"
+  },
+  "onboardingPage4SubMuted": {
+    "message": "一個人，公開打造於"
+  },
+  "onboardingPage5Heading": {
+    "message": "選擇適合你行事曆的方案"
+  },
+  "onboardingPage5Sub": {
+    "message": "免費版在 12 個預設網站上永久可用。Pro 面向進階使用者與團隊。"
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "免費"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "免費"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "在 12 個預設網站上無限轉換"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "12 小時制、24 小時制或系統格式"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "行內標記、工具提示與角標"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "最多 3 個自訂網站"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4.99/月 或 $$99 永久"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "新增無限自訂網站"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "一行查看所有地區"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "將工作時間狀態同步到 Slack 或 Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "將轉換後的時間傳送到你的行事曆"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "找出最不折磨人的會議時段"
+  },
+  "onboardingPage5ProCta": {
+    "message": "查看 Pro 方案"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "繼續使用免費版"
+  },
+  "onboardingPage6Heading": {
+    "message": "準備好不再用腦子算時間了嗎"
+  },
+  "onboardingPage6Sub": {
+    "message": "打開任一支援的網站，帶時區的時間就會自動轉換。"
+  },
+  "onboardingPage6Button": {
+    "message": "開始轉換"
+  },
+  "onboardingSkip": {
+    "message": "略過設定"
+  },
+  "onboardingBack": {
+    "message": "返回"
+  },
+  "onboardingNext": {
+    "message": "下一步"
+  },
+  "onboardingDone": {
+    "message": "完成"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "前往第 $1 步"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "導覽進度"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "導覽進度"
+  },
+  "onboardingPageOf": {
+    "message": "第 $1 頁，共 $2 頁"
+  },
+  "onboardingFooterBrand": {
+    "message": "由 zovo.one 打造"
+  },
+  "badgeConvertedInitial": {
+    "message": "已轉換 0 個時間"
+  },
+  "badgeConvertedSingular": {
+    "message": "已轉換 $1 個時間"
+  },
+  "badgeConvertedPlural": {
+    "message": "已轉換 $1 個時間"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - 已暫時暫停"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

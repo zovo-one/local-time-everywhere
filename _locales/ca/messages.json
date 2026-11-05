@@ -1,0 +1,578 @@
+{
+  "extName": {
+    "message": "Local Time Everywhere"
+  },
+  "extDesc": {
+    "message": "Deixa de fer càlculs de fusos horaris al cap. Converteix 3pm EST, 9:00 UTC, 14:00 CET en línia a Calendar, Slack, Discord i GitHub."
+  },
+  "actionTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupTitle": {
+    "message": "Local Time Everywhere"
+  },
+  "popupStatusActive": {
+    "message": "Actiu"
+  },
+  "popupStatusPaused": {
+    "message": "En pausa"
+  },
+  "popupStatusActiveLabel": {
+    "message": "Estat: actiu"
+  },
+  "popupStatusPausedLabel": {
+    "message": "Estat: en pausa en aquest amfitrió"
+  },
+  "popupStatLabel": {
+    "message": "En aquesta pàgina"
+  },
+  "popupStatHintSingular": {
+    "message": "hora convertida en aquesta pestanya en aquesta sessió."
+  },
+  "popupStatHintPlural": {
+    "message": "hores convertides en aquesta pestanya en aquesta sessió."
+  },
+  "popupStatAriaLabel": {
+    "message": "Hores convertides en aquesta pàgina"
+  },
+  "popupPauseOnHost": {
+    "message": "Posa en pausa en aquest amfitrió"
+  },
+  "popupPauseOnHostSubUnknown": {
+    "message": "Atura la conversió en aquest lloc fins que la tornis a activar."
+  },
+  "popupPauseOnHostSubKnown": {
+    "message": "Atura la conversió a $1 fins que la tornis a activar."
+  },
+  "popupShowInline": {
+    "message": "Mostra les conversions en línia"
+  },
+  "popupShowInlineSub": {
+    "message": "Afegeix un petit marcador d'hora local al costat de cada hora amb fus horari."
+  },
+  "popupShowBadge": {
+    "message": "Mostra la insígnia"
+  },
+  "popupShowBadgeSub": {
+    "message": "Recompte passiu d'hores convertides al racó de la pàgina."
+  },
+  "popupSettingsAriaLabel": {
+    "message": "Configuració de conversió"
+  },
+  "popupLicenseHave": {
+    "message": "Tens una clau de llicència?"
+  },
+  "popupLicenseKeyLabel": {
+    "message": "Clau de llicència"
+  },
+  "popupLicensePlaceholder": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX"
+  },
+  "popupLicenseActivate": {
+    "message": "Activa"
+  },
+  "popupLicenseVerifying": {
+    "message": "Verificant..."
+  },
+  "popupLicenseEmpty": {
+    "message": "Introdueix primer una clau de llicència."
+  },
+  "popupLicenseActivated": {
+    "message": "Llicència activada. Pro desbloquejat."
+  },
+  "popupLicenseFailed": {
+    "message": "Aquesta clau no s'ha verificat. Comprova la clau i torna-ho a provar."
+  },
+  "popupLicenseError": {
+    "message": "La verificació ha fallat. Torna-ho a provar d'aquí a un moment."
+  },
+  "popupFooterBuiltBy": {
+    "message": "Creat per zovo.one"
+  },
+  "popupFooterMoreTools": {
+    "message": "Més eines"
+  },
+  "popupUpgradeEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "popupUpgradeTitle": {
+    "message": "Desbloqueja tots els amfitrions i l'exportació ICS"
+  },
+  "popupSrActive": {
+    "message": "Conversions actives en aquest amfitrió."
+  },
+  "popupSrPaused": {
+    "message": "Conversions en pausa en aquest amfitrió."
+  },
+  "optionsTitle": {
+    "message": "Configuració de Local Time Everywhere"
+  },
+  "optionsSub": {
+    "message": "Converteix hores amb fus horari en línia als amfitrions on arriben les invitacions a reunions."
+  },
+  "optionsEyebrowConversions": {
+    "message": "Conversions"
+  },
+  "optionsConversionsTitle": {
+    "message": "Obtén conversions a la pàgina, a la teva manera"
+  },
+  "optionsInlineTitle": {
+    "message": "Converteix hores en línia a la pàgina"
+  },
+  "optionsInlineSub": {
+    "message": "Afegeix un petit marcador d'hora local al costat de cada hora amb fus horari."
+  },
+  "optionsBadgeTitle": {
+    "message": "Mantén un recompte passiu de conversions al racó"
+  },
+  "optionsBadgeSub": {
+    "message": "Recompte passiu d'hores convertides en aquesta pestanya."
+  },
+  "optionsPauseTitle": {
+    "message": "Silencia les conversions en un amfitrió"
+  },
+  "optionsPauseSub": {
+    "message": "Usa la finestra emergent de Local Time Everywhere en un amfitrió per posar en pausa o reprendre les conversions en aquest lloc concret."
+  },
+  "optionsTimeFormatLabel": {
+    "message": "Format d'hora"
+  },
+  "optionsTimeFormatSystem": {
+    "message": "Sistema"
+  },
+  "optionsTimeFormat12h": {
+    "message": "12 hores"
+  },
+  "optionsTimeFormat24h": {
+    "message": "24 hores"
+  },
+  "optionsTimeFormatAriaLabel": {
+    "message": "Preferència de format d'hora"
+  },
+  "optionsEyebrowHosts": {
+    "message": "Amfitrions"
+  },
+  "optionsHostsTitle": {
+    "message": "Llocs on es converteixen les hores"
+  },
+  "optionsHostsCountPro": {
+    "message": "Amfitrions personalitzats il·limitats amb Pro"
+  },
+  "optionsHostsCountFree": {
+    "message": "$1 de $2 amfitrions personalitzats utilitzats"
+  },
+  "optionsDefaultHostsEyebrow": {
+    "message": "Amfitrions per defecte, converteixen a cada visita"
+  },
+  "optionsCustomHostsEyebrow": {
+    "message": "Amfitrions que has afegit, converteixen a cada visita"
+  },
+  "optionsCustomHostCapHitText": {
+    "message": "El nivell gratuït inclou fins a $1 amfitrions personalitzats. Pro desbloqueja amfitrions personalitzats il·limitats."
+  },
+  "optionsCustomHostCapHitCta": {
+    "message": "Actualitza a Pro"
+  },
+  "optionsAddHostLabel": {
+    "message": "Afegeix un amfitrió personalitzat"
+  },
+  "optionsAddHostPlaceholder": {
+    "message": "https://*.yourteam.com/*"
+  },
+  "optionsAddHostButton": {
+    "message": "Afegeix amfitrió"
+  },
+  "optionsRemoveHostButton": {
+    "message": "Elimina"
+  },
+  "optionsRemoveHostLabel": {
+    "message": "Elimina l'amfitrió personalitzat $1"
+  },
+  "optionsAddHostHelp": {
+    "message": "Usa un patró específic com https://example.com/* o https://*.yourteam.com/*. No usis mai els comodins amplis <all_urls> ni *://*/*."
+  },
+  "optionsHostErrEmpty": {
+    "message": "Introdueix primer un patró d'amfitrió."
+  },
+  "optionsHostErrBlocked": {
+    "message": "Patró bloquejat: $1. Usa un patró https:// específic."
+  },
+  "optionsHostErrScheme": {
+    "message": "El patró ha de començar amb https:// (o http://)."
+  },
+  "optionsHostErrHostname": {
+    "message": "Aquest patró no té un nom d'amfitrió real."
+  },
+  "optionsHostErrMalformed": {
+    "message": "Aquest patró està mal format."
+  },
+  "optionsHostErrPath": {
+    "message": "Afegeix un comodí de ruta al final (p. ex. /*)."
+  },
+  "optionsHostErrDuplicate": {
+    "message": "Aquest amfitrió ja és a la teva llista."
+  },
+  "optionsHostErrDefault": {
+    "message": "Aquest amfitrió ja és a la llista per defecte."
+  },
+  "optionsHostErrCapHit": {
+    "message": "El nivell gratuït està limitat a $1 amfitrions personalitzats. Actualitza per afegir-ne més."
+  },
+  "optionsHostErrPermission": {
+    "message": "Permís no concedit. L'amfitrió no s'ha afegit."
+  },
+  "optionsHostErrPermissionRequest": {
+    "message": "No s'ha pogut sol·licitar permís per a aquest amfitrió."
+  },
+  "optionsHostAdded": {
+    "message": "S'ha afegit $1. Torna a carregar les pestanyes obertes en aquest amfitrió per escanejar-les."
+  },
+  "optionsHostRemoved": {
+    "message": "S'ha eliminat $1."
+  },
+  "optionsEyebrowPro": {
+    "message": "Pro"
+  },
+  "optionsProTitle": {
+    "message": "Converteix hores a cada amfitrió que uses"
+  },
+  "optionsProFeature1Title": {
+    "message": "Aconsegueix cada regió en una línia"
+  },
+  "optionsProFeature1Sub": {
+    "message": "Mostra 3pm EST, 12pm PST, 8pm GMT en una línia."
+  },
+  "optionsProFeature2Title": {
+    "message": "Mantén els companys sincronitzats amb el teu horari laboral"
+  },
+  "optionsProFeature2Sub": {
+    "message": "Publica un estat de Slack o Discord. Només amb consentiment."
+  },
+  "optionsProFeature3Title": {
+    "message": "Envia invitacions de calendari amb l'hora convertida"
+  },
+  "optionsProFeature3Sub": {
+    "message": "Copia una invitació .ics per a la franja correcta."
+  },
+  "optionsProFeature4Title": {
+    "message": "Troba la franja de reunió menys dolorosa"
+  },
+  "optionsProFeature4Sub": {
+    "message": "Compara les zones una al costat de l'altra i tria la més amable."
+  },
+  "optionsProLockLabel": {
+    "message": "Funció Pro, bloquejada"
+  },
+  "optionsProBadge": {
+    "message": "Pro"
+  },
+  "optionsSeeProPlans": {
+    "message": "Mira els plans Pro"
+  },
+  "optionsPaywallEyebrow": {
+    "message": "Zovo Pro"
+  },
+  "optionsPaywallTitle": {
+    "message": "Converteix tots els amfitrions amb Pro"
+  },
+  "optionsPaywallPitch": {
+    "message": "Per a usuaris avançats i equips que viuen entre fusos horaris."
+  },
+  "optionsPaywallPriceMonthly": {
+    "message": "$$4,99/mes"
+  },
+  "optionsPaywallPriceLifetime": {
+    "message": "$$99 de per vida"
+  },
+  "optionsPaywallPriceSub": {
+    "message": "Un preu, la teva elecció. Cancel·la quan vulguis."
+  },
+  "optionsPaywallBenefit1": {
+    "message": "Amfitrions personalitzats il·limitats (el gratuït es limita a 3)"
+  },
+  "optionsPaywallBenefit2": {
+    "message": "Format multi-regió, mostra totes les zones alhora"
+  },
+  "optionsPaywallBenefit3": {
+    "message": "Sincronització d'estat d'horari laboral amb Slack i Discord"
+  },
+  "optionsPaywallBenefit4": {
+    "message": "Exportació de calendari ICS amb hores convertides"
+  },
+  "optionsPaywallBenefit5": {
+    "message": "Suggeridor de reunions amb la millor coincidència"
+  },
+  "optionsPaywallCtaPrimary": {
+    "message": "Aconsegueix Pro, $$99 de per vida"
+  },
+  "optionsPaywallCtaSecondary": {
+    "message": "O $$4,99/mes"
+  },
+  "optionsPaywallNote": {
+    "message": "Un pagament o una subscripció. Activa Pro en aquesta extensió per sempre."
+  },
+  "optionsPaywallRefund": {
+    "message": "Garantia de devolució de 14 dies. Si Pro no val la pena, et retornem els diners, sense preguntes."
+  },
+  "optionsFreeVsProHeading": {
+    "message": "Gratuït vs Pro"
+  },
+  "optionsIcsExportTitle": {
+    "message": "Envia les hores convertides al teu calendari"
+  },
+  "optionsIcsExportSub": {
+    "message": "Copia una invitació .ics amb l'hora local integrada. Vista prèvia de Pro, visible aquí perquè sàpigues què es desbloqueja."
+  },
+  "optionsIcsExportCta": {
+    "message": "Exporta .ics"
+  },
+  "optionsIcsExportLockedHint": {
+    "message": "Desbloqueja a Pro"
+  },
+  "optionsEyebrowLicense": {
+    "message": "Llicència"
+  },
+  "optionsLicenseTitle": {
+    "message": "Activa o elimina una clau"
+  },
+  "optionsLicenseActivePrefix": {
+    "message": "Pro actiu."
+  },
+  "optionsLicenseActiveValidThrough": {
+    "message": "Vàlid fins a $1."
+  },
+  "optionsLicenseActiveLifetime": {
+    "message": "Llicència de per vida."
+  },
+  "optionsLicenseDeactivate": {
+    "message": "Desactiva"
+  },
+  "optionsLicenseDeactivated": {
+    "message": "Llicència desactivada. Tornes al nivell gratuït."
+  },
+  "optionsEyebrowPrivacy": {
+    "message": "Privadesa"
+  },
+  "optionsPrivacyTitle": {
+    "message": "Mantén les teves dades en aquest dispositiu"
+  },
+  "optionsPrivacyBody": {
+    "message": "Local Time Everywhere s'executa completament al teu dispositiu. Llegeix el text als amfitrions llistats més amunt amb l'únic propòsit de convertir hores amb fus horari. Cap contingut de pàgina, historial de navegació ni dades de perfil s'envien mai enlloc. L'única sol·licitud de xarxa passa quan introdueixes una clau de llicència, i només s'envia la clau mateixa."
+  },
+  "optionsPrivacyExport": {
+    "message": "Exporta les meves dades"
+  },
+  "optionsPrivacyDelete": {
+    "message": "Elimina totes les dades"
+  },
+  "optionsPrivacyExportOk": {
+    "message": "S'han exportat $1 clau(s) a les teves descàrregues."
+  },
+  "optionsPrivacyExportErr": {
+    "message": "L'exportació ha fallat. Torna-ho a provar."
+  },
+  "optionsPrivacyDeleteConfirm": {
+    "message": "Vols eliminar totes les dades de Local Time Everywhere d'aquest dispositiu? Això no es pot desfer."
+  },
+  "optionsPrivacyDeleteOk": {
+    "message": "Totes les dades de Local Time Everywhere s'han esborrat d'aquest dispositiu."
+  },
+  "optionsPrivacyDeleteErr": {
+    "message": "L'eliminació ha fallat. Torna-ho a provar."
+  },
+  "optionsAboutLine": {
+    "message": "Local Time Everywhere v1.0.0, de Zovo. No està afiliat amb Google, Microsoft, Discord, Slack ni GitHub."
+  },
+  "optionsSrProActive": {
+    "message": "Llicència Pro activa."
+  },
+  "optionsSrFree": {
+    "message": "Nivell gratuït."
+  },
+  "onboardingPage1Heading": {
+    "message": "Deixa de fer càlculs de fusos horaris al cap"
+  },
+  "onboardingPage1Sub": {
+    "message": "Les invitacions a reunions mostren un sol fus horari. Tothom fa el càlcul al cap. Alguns s'equivoquen."
+  },
+  "onboardingPage1Berlin": {
+    "message": "Berlín, 9 del vespre"
+  },
+  "onboardingPage1Mumbai": {
+    "message": "Bombai, 12:30 de la matinada"
+  },
+  "onboardingPage1Sydney": {
+    "message": "Sydney, 7 del matí de demà"
+  },
+  "onboardingPage1Button": {
+    "message": "Mira la solució"
+  },
+  "onboardingEyebrow": {
+    "message": "Local Time Everywhere"
+  },
+  "onboardingPage2Heading": {
+    "message": "Mira com una hora amb fus horari es converteix a la teva"
+  },
+  "onboardingPage2Sub": {
+    "message": "Aquí tens un missatge real de Slack. Fes clic al botó i el mateix moment apareix en la teva hora local."
+  },
+  "onboardingPage2Sender": {
+    "message": "Alex (Boston)"
+  },
+  "onboardingPage2Reveal": {
+    "message": "Mostra la meva hora local"
+  },
+  "onboardingPage2Continue": {
+    "message": "Continua"
+  },
+  "onboardingPage2RevealedHint": {
+    "message": "Fes clic a dalt per convertir."
+  },
+  "onboardingPage2Revealed": {
+    "message": "$1 en la teva hora ($2). No cal cap càlcul."
+  },
+  "onboardingPage3Heading": {
+    "message": "On funciona"
+  },
+  "onboardingPage3Sub": {
+    "message": "Aquests 12 amfitrions estan activats per defecte. Obre'n qualsevol i les hores amb fus horari es converteixen en línia, en un consell o com a insígnia."
+  },
+  "onboardingPage3Hint": {
+    "message": "Necessites un altre amfitrió? El nivell gratuït cobreix 3 amfitrions personalitzats. Pro és il·limitat."
+  },
+  "onboardingPage3Link": {
+    "message": "Més informació sobre amfitrions personalitzats"
+  },
+  "onboardingPage4Heading": {
+    "message": "Hola, sóc en Michael"
+  },
+  "onboardingPage4Sub": {
+    "message": "Vaig crear Local Time Everywhere després de perdre massa standups entre tres fusos horaris. Fa una sola cosa i intenta fer-la discretament. Sense seguiment, sense finestres emergents de venda a cada pàgina."
+  },
+  "onboardingPage4SubMuted": {
+    "message": "Una persona, creant en públic a"
+  },
+  "onboardingPage5Heading": {
+    "message": "Tria el pla que s'adapta al teu calendari"
+  },
+  "onboardingPage5Sub": {
+    "message": "El gratuït funciona per sempre als 12 amfitrions per defecte. Pro és per a usuaris avançats i equips."
+  },
+  "onboardingPage5FreeBadge": {
+    "message": "Free"
+  },
+  "onboardingPage5FreePrice": {
+    "message": "Gratuït"
+  },
+  "onboardingPage5FreeBullet1": {
+    "message": "Conversions il·limitades als 12 amfitrions per defecte"
+  },
+  "onboardingPage5FreeBullet2": {
+    "message": "Format 12h, 24h o de sistema"
+  },
+  "onboardingPage5FreeBullet3": {
+    "message": "Marcador en línia, consell i insígnia"
+  },
+  "onboardingPage5FreeBullet4": {
+    "message": "Fins a 3 amfitrions personalitzats"
+  },
+  "onboardingPage5ProBadge": {
+    "message": "Pro"
+  },
+  "onboardingPage5ProPrice": {
+    "message": "$$4,99/mes o $$99 de per vida"
+  },
+  "onboardingPage5ProBullet1": {
+    "message": "Afegeix amfitrions personalitzats il·limitats"
+  },
+  "onboardingPage5ProBullet2": {
+    "message": "Mira cada regió en una línia"
+  },
+  "onboardingPage5ProBullet3": {
+    "message": "Sincronitza l'estat d'horari laboral amb Slack o Discord"
+  },
+  "onboardingPage5ProBullet4": {
+    "message": "Envia les hores convertides al teu calendari"
+  },
+  "onboardingPage5ProBullet5": {
+    "message": "Troba la franja de reunió menys dolorosa"
+  },
+  "onboardingPage5ProCta": {
+    "message": "Mira els plans Pro"
+  },
+  "onboardingPage5FreeCta": {
+    "message": "Continua amb Free"
+  },
+  "onboardingPage6Heading": {
+    "message": "A punt per deixar de fer càlculs al cap"
+  },
+  "onboardingPage6Sub": {
+    "message": "Obre qualsevol amfitrió compatible i les hores amb fus horari es convertiran soles."
+  },
+  "onboardingPage6Button": {
+    "message": "Comença a convertir"
+  },
+  "onboardingSkip": {
+    "message": "Omet la configuració"
+  },
+  "onboardingBack": {
+    "message": "Enrere"
+  },
+  "onboardingNext": {
+    "message": "Següent"
+  },
+  "onboardingDone": {
+    "message": "Fet"
+  },
+  "onboardingStepAriaLabel": {
+    "message": "Ves al pas $1"
+  },
+  "onboardingProgressAriaLabel": {
+    "message": "Progrés d'incorporació"
+  },
+  "onboardingStepIndicatorAriaLabel": {
+    "message": "Progrés d'incorporació"
+  },
+  "onboardingPageOf": {
+    "message": "$1 de $2"
+  },
+  "onboardingFooterBrand": {
+    "message": "Creat per zovo.one"
+  },
+  "badgeConvertedInitial": {
+    "message": "0 hores convertides"
+  },
+  "badgeConvertedSingular": {
+    "message": "$1 hora convertida"
+  },
+  "badgeConvertedPlural": {
+    "message": "$1 hores convertides"
+  },
+  "badgeTemporarilyPaused": {
+    "message": "Local Time - en pausa temporalment"
+  },
+  "popupDemoEyebrow": {
+    "message": "How it works"
+  },
+  "popupDemoWhat": {
+    "message": "This extension rewrites zoned times on the page into your own time zone, inline as you read them."
+  },
+  "popupDemoExampleLabel": {
+    "message": "Live example"
+  },
+  "popupDemoExample": {
+    "message": "$1 becomes $2 your time ($3)"
+  },
+  "popupDemoExampleFallback": {
+    "message": "Your time zone could not be read on this page."
+  },
+  "popupWorksOnLabel": {
+    "message": "Works on"
+  },
+  "popupWorksOnSites": {
+    "message": "Google Calendar, Outlook, Discord, Slack, GitHub, start.gg, Liquipedia, Twitch, YouTube"
+  },
+  "popupDemoHint": {
+    "message": "Open any site listed above and zoned times convert on their own."
+  }
+}

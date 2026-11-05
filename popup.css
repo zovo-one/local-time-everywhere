@@ -1,0 +1,92 @@
+/* popup.css — per-extension popup styles for Local Time Everywhere.
+ * Hosts the discoverability panel (#ltd-demo) that renders above the React
+ * root so a reviewer immediately sees what the extension does, where it works,
+ * and a live, computed sample conversion — even off a supported host. */
+
+#ltd-demo {
+  box-sizing: border-box;
+  width: var(--zovo-popup-w, 360px);
+  max-width: 100%;
+  margin: 0;
+  padding: 14px 16px 12px;
+  font-family: var(--zovo-font, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+  color: var(--zovo-text, #1A1A2E);
+  background: var(--zovo-primary-50, #F1EFFD);
+  border-bottom: 1px solid var(--zovo-border, #E5E7EB);
+}
+
+#ltd-demo * { box-sizing: border-box; }
+
+#ltd-demo .ltd-eyebrow {
+  margin: 0 0 4px;
+  font-size: var(--zovo-fs-caption, 12px);
+  font-weight: var(--zovo-fw-heading, 600);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--zovo-primary, #6C5CE7);
+}
+
+#ltd-demo .ltd-what {
+  margin: 0 0 10px;
+  font-size: var(--zovo-fs-body, 14px);
+  line-height: var(--zovo-lh, 1.5);
+  color: var(--zovo-text, #1A1A2E);
+}
+
+#ltd-demo .ltd-example {
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 12px;
+  background: var(--zovo-bg, #FFFFFF);
+  border: 1px solid var(--zovo-border, #E5E7EB);
+  border-radius: var(--zovo-radius-card, 12px);
+}
+
+#ltd-demo .ltd-example-label {
+  display: block;
+  margin: 0 0 4px;
+  font-size: var(--zovo-fs-caption, 12px);
+  font-weight: var(--zovo-fw-medium, 500);
+  color: var(--zovo-text-secondary, #6B7280);
+}
+
+#ltd-demo .ltd-example-value {
+  display: block;
+  font-family: var(--zovo-font-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+  font-size: var(--zovo-fs-body, 14px);
+  font-weight: var(--zovo-fw-medium, 500);
+  color: var(--zovo-text, #1A1A2E);
+  word-break: break-word;
+}
+
+#ltd-demo .ltd-workson {
+  margin: 0;
+  font-size: var(--zovo-fs-caption, 12px);
+  line-height: var(--zovo-lh, 1.5);
+  color: var(--zovo-text-secondary, #6B7280);
+}
+
+#ltd-demo .ltd-workson b {
+  color: var(--zovo-text, #1A1A2E);
+  font-weight: var(--zovo-fw-heading, 600);
+}
+
+#ltd-demo .ltd-hint {
+  margin: 6px 0 0;
+  font-size: var(--zovo-fs-caption, 12px);
+  color: var(--zovo-text-secondary, #6B7280);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* The popup app surface (#root) is light-only; the OS-level dark tokens
+   * from zovo-base.css would put light text on this panel's light background.
+   * Pin the panel to its light palette so it stays readable either way. */
+  #ltd-demo { background: #F1EFFD; color: #1A1A2E; }
+  #ltd-demo .ltd-what { color: #1A1A2E; }
+  #ltd-demo .ltd-example { background: #FFFFFF; border-color: #E5E7EB; }
+  #ltd-demo .ltd-example-label { color: #6B7280; }
+  #ltd-demo .ltd-example-value { color: #1A1A2E; }
+  #ltd-demo .ltd-workson { color: #6B7280; }
+  #ltd-demo .ltd-workson b { color: #1A1A2E; }
+  #ltd-demo .ltd-hint { color: #6B7280; }
+}

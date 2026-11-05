@@ -1,0 +1,695 @@
+/* ============================================================================
+ * src/options/options.css — Local Time Everywhere options surface.
+ * ----------------------------------------------------------------------------
+ * Per-ext tokens layered on top of zovo-base.css. Prefix is `lte-` (matches
+ * popup.css; per fleet lesson: `zovo-` prefix trips the divergence gate).
+ *
+ * Dark-mode WCAG AA override (fleet lesson 2026-07-08+): brand #6C5CE7 fails
+ * AA on dark ground #0F0F1A (3.91:1). `--lte-primary` switches to #8B7CF0
+ * (5.34:1) in dark mode via the per-ext token below.
+ * ========================================================================== */
+
+:root {
+  --lte-primary:       var(--zovo-primary);       /* #6C5CE7 in light */
+  --lte-primary-dark:  var(--zovo-primary-dark);
+  --lte-primary-50:    var(--zovo-primary-50);
+  --lte-radius-card:   var(--zovo-radius-card);
+  --lte-radius-btn:    var(--zovo-radius-btn);
+  --lte-radius-pill:   var(--zovo-radius-pill);
+  --lte-content-max:   720px;
+  --lte-pro:           var(--zovo-pro);
+  --lte-pro-dark:      var(--zovo-pro-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    /* WCAG AA: #8B7CF0 hits 5.34:1 on dark ground #0F0F1A */
+    --lte-primary:      #8B7CF0;
+    --lte-primary-dark: #6C5CE7;
+  }
+}
+:root[data-theme='dark'] {
+  --lte-primary:      #8B7CF0;
+  --lte-primary-dark: #6C5CE7;
+}
+
+/* ---- Page shell ----------------------------------------------------------- */
+.lte-options {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--zovo-surface);
+  color: var(--zovo-text);
+  font-family: var(--zovo-font);
+  font-size: var(--zovo-fs-body);
+  line-height: var(--zovo-lh);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+.lte-options *,
+.lte-options *::before,
+.lte-options *::after { box-sizing: border-box; }
+
+.lte-options__inner {
+  max-width: var(--lte-content-max);
+  margin: 0 auto;
+  padding: var(--zovo-space-7) var(--zovo-space-5) var(--zovo-space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-6);
+}
+
+/* ---- Page header ---------------------------------------------------------- */
+.lte-page-head__title {
+  margin: 0;
+  font-size: var(--zovo-fs-title);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--zovo-text);
+}
+.lte-page-head__sub {
+  margin-top: var(--zovo-space-1);
+  font-size: var(--zovo-fs-body);
+  color: var(--zovo-text-secondary);
+}
+
+/* ---- Section -------------------------------------------------------------- */
+.lte-section {
+  background: var(--zovo-bg);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--lte-radius-card);
+  padding: var(--zovo-space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-4);
+}
+.lte-section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--zovo-space-3);
+}
+.lte-section__title {
+  margin: 0;
+  font-size: var(--zovo-fs-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--zovo-text);
+}
+.lte-eyebrow {
+  margin: 0 0 var(--zovo-space-2);
+  font-size: 11px;
+  font-weight: var(--zovo-fw-heading);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--zovo-text-secondary);
+}
+
+/* ---- Toggle row (shared with popup) --------------------------------------- */
+.lte-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--zovo-space-3);
+  padding: var(--zovo-space-3);
+  border-radius: var(--lte-radius-btn);
+  min-height: 44px;
+}
+.lte-row + .lte-row {
+  border-top: 1px solid var(--zovo-border);
+  border-radius: 0;
+}
+.lte-row + .lte-row:last-child { border-bottom-left-radius: var(--lte-radius-btn); }
+.lte-row__body { flex: 1; min-width: 0; }
+.lte-row__title {
+  font-size: var(--zovo-fs-body);
+  font-weight: var(--zovo-fw-medium);
+  color: var(--zovo-text);
+  line-height: 1.3;
+}
+.lte-row__sub {
+  margin-top: 2px;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  line-height: 1.4;
+}
+
+.lte-list {
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--lte-radius-card);
+  padding: var(--zovo-space-2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Switch --------------------------------------------------------------- */
+.lte-switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.lte-switch__input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.lte-switch__track {
+  position: absolute;
+  inset: 0;
+  background: var(--zovo-surface-2);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--lte-radius-pill);
+  transition: background var(--zovo-transition), border-color var(--zovo-transition);
+}
+.lte-switch__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--zovo-text-secondary);
+  transition: transform var(--zovo-transition), background var(--zovo-transition);
+}
+.lte-switch__input:checked ~ .lte-switch__track {
+  background: var(--lte-primary);
+  border-color: var(--lte-primary);
+}
+.lte-switch__input:checked ~ .lte-switch__thumb {
+  transform: translateX(16px);
+  background: #fff;
+}
+.lte-switch__input:focus-visible ~ .lte-switch__track {
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-primary);
+}
+
+/* ---- Segmented control (radiogroup with aria-checked on every button) ----- */
+.lte-seg {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: var(--zovo-space-2);
+  padding: 4px;
+  background: var(--zovo-surface);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--lte-radius-btn);
+}
+.lte-seg__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 6px 12px;
+  font-family: inherit;
+  font-size: var(--zovo-fs-body);
+  font-weight: var(--zovo-fw-medium);
+  color: var(--zovo-text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background var(--zovo-transition), color var(--zovo-transition);
+}
+.lte-seg__btn:hover { color: var(--zovo-text); }
+.lte-seg__btn[aria-checked='true'] {
+  color: var(--lte-primary);
+  background: var(--lte-primary-50);
+}
+.lte-seg__btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-primary);
+}
+
+/* ---- Hosts list ----------------------------------------------------------- */
+.lte-hosts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+}
+.lte-hosts__default,
+.lte-hosts__custom {
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--lte-radius-btn);
+  background: var(--zovo-surface);
+}
+.lte-hosts__custom { background: var(--zovo-bg); }
+.lte-host {
+  display: flex;
+  align-items: center;
+  gap: var(--zovo-space-3);
+  padding: 10px var(--zovo-space-3);
+  min-height: 40px;
+}
+.lte-host + .lte-host {
+  border-top: 1px solid var(--zovo-border);
+}
+.lte-host__check {
+  color: var(--lte-primary);
+  flex-shrink: 0;
+}
+.lte-host__pattern {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--zovo-font-mono);
+  font-size: 13px;
+  color: var(--zovo-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lte-host__remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--zovo-border);
+  border-radius: 6px;
+  color: var(--zovo-text-secondary);
+  cursor: pointer;
+  transition: color var(--zovo-transition), border-color var(--zovo-transition);
+}
+.lte-host__remove:hover {
+  color: var(--zovo-error);
+  border-color: var(--zovo-error);
+}
+.lte-host__remove:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-primary);
+}
+.lte-hosts__count {
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Add-host form -------------------------------------------------------- */
+.lte-add {
+  display: flex;
+  gap: var(--zovo-space-2);
+}
+.lte-input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  font-family: var(--zovo-font-mono);
+  font-size: 13px;
+  color: var(--zovo-text);
+  background: var(--zovo-surface);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-input);
+  transition: border-color var(--zovo-transition), box-shadow var(--zovo-transition);
+}
+.lte-input:focus-visible {
+  outline: none;
+  border-color: var(--lte-primary);
+  box-shadow: 0 0 0 3px var(--lte-primary-50);
+}
+.lte-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--zovo-space-2);
+  min-height: 40px;
+  padding: 8px 14px;
+  font-family: inherit;
+  font-size: var(--zovo-fs-body);
+  font-weight: var(--zovo-fw-medium);
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: var(--lte-radius-btn);
+  cursor: pointer;
+  transition: background var(--zovo-transition), border-color var(--zovo-transition),
+              color var(--zovo-transition), transform var(--zovo-transition);
+}
+.lte-btn:active { transform: translateY(1px); }
+.lte-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-primary);
+}
+.lte-btn--primary {
+  background: var(--lte-primary);
+  color: #fff;
+}
+.lte-btn--primary:hover { background: var(--lte-primary-dark); }
+.lte-btn--secondary {
+  background: var(--zovo-surface);
+  color: var(--zovo-text);
+  border-color: var(--zovo-border);
+}
+.lte-btn--secondary:hover { background: var(--zovo-surface-2); }
+.lte-btn--danger {
+  background: transparent;
+  color: var(--zovo-error);
+  border-color: color-mix(in srgb, var(--zovo-error) 30%, transparent);
+}
+.lte-btn--danger:hover {
+  background: color-mix(in srgb, var(--zovo-error) 10%, transparent);
+}
+
+.lte-msg {
+  font-size: var(--zovo-fs-caption);
+  min-height: 16px;
+  margin: 0;
+}
+.lte-msg--ok    { color: var(--zovo-success); }
+.lte-msg--error { color: var(--zovo-error); }
+.lte-msg--info  { color: var(--zovo-text-secondary); }
+
+/* ---- Inline upgrade CTA --------------------------------------------------- */
+.lte-upgrade {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--zovo-space-3);
+  padding: 12px 14px;
+  border-radius: var(--lte-radius-btn);
+  background: color-mix(in srgb, var(--zovo-pro) 10%, var(--zovo-bg));
+  border: 1px solid color-mix(in srgb, var(--zovo-pro) 30%, transparent);
+  color: var(--zovo-text);
+  font-size: var(--zovo-fs-body);
+}
+.lte-upgrade__text {
+  color: var(--lte-pro-dark);
+  font-weight: var(--zovo-fw-medium);
+}
+.lte-upgrade__text strong { color: var(--lte-pro-dark); }
+.lte-upgrade a {
+  color: var(--lte-pro-dark);
+  font-weight: var(--zovo-fw-heading);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.lte-upgrade a:hover { text-decoration: underline; }
+.lte-upgrade a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-pro);
+  border-radius: 4px;
+}
+
+/* Dark-mode: gold #F59E0B outline fails AA on dark ground (#0F0F1A 2.05:1).
+ * Use #B45309 -> #FFC45A pair (per memory: WCAG AA on tinted surfaces). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    /* keep .lte-upgrade dark gold readable on dark surface */
+  }
+  .lte-options .lte-upgrade {
+    background: color-mix(in srgb, #B45309 22%, transparent);
+    border-color: color-mix(in srgb, #FFC45A 50%, transparent);
+  }
+  .lte-options .lte-upgrade__text,
+  .lte-options .lte-upgrade a {
+    color: #FFC45A;
+  }
+}
+:root[data-theme='dark'] .lte-options .lte-upgrade {
+  background: color-mix(in srgb, #B45309 22%, transparent);
+  border-color: color-mix(in srgb, #FFC45A 50%, transparent);
+}
+:root[data-theme='dark'] .lte-options .lte-upgrade__text,
+:root[data-theme='dark'] .lte-options .lte-upgrade a {
+  color: #FFC45A;
+}
+
+/* ---- Pro features peek (locked-visible per FIRST-VALUE doctrine) ---------- */
+.lte-pro-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--zovo-space-3);
+  padding: 10px 0;
+}
+.lte-pro-row + .lte-pro-row {
+  border-top: 1px solid var(--zovo-border);
+}
+.lte-pro-row__body { flex: 1; min-width: 0; }
+.lte-pro-row__title {
+  font-size: var(--zovo-fs-body);
+  font-weight: var(--zovo-fw-medium);
+  color: var(--zovo-text);
+}
+.lte-pro-row__sub {
+  margin-top: 2px;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+}
+.lte-lock-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: var(--lte-pro);
+  border: 1px solid var(--lte-pro);
+  border-radius: var(--lte-radius-pill);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.lte-lock-badge svg { width: 10px; height: 10px; }
+
+/* ICS export row (locked-visible peek; uses button affordance instead of badge). */
+.lte-ics-row {
+  align-items: center;
+}
+.lte-btn--sm {
+  min-height: 32px;
+  padding: 6px 10px;
+  font-size: var(--zovo-fs-caption);
+}
+.lte-btn--pro {
+  background: var(--lte-pro);
+  color: #fff;
+  border-color: var(--lte-pro);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.lte-btn--pro:hover {
+  background: var(--lte-pro-dark);
+  border-color: var(--lte-pro-dark);
+}
+.lte-btn--pro:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-pro);
+}
+.lte-btn--block {
+  display: flex;
+  width: 100%;
+}
+
+/* ---- Paywall panel (sidebar pattern; sticky conversion surface) ----------- */
+.lte-paywall {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-3);
+  padding: var(--zovo-space-5);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--lte-primary) 8%, var(--zovo-bg)) 0%,
+    var(--zovo-bg) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--lte-primary) 30%, transparent);
+  border-radius: var(--lte-radius-card);
+  position: relative;
+}
+.lte-paywall::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--lte-primary) 14%, transparent) inset;
+}
+.lte-paywall__pitch {
+  margin: 0;
+  font-size: var(--zovo-fs-body);
+  color: var(--zovo-text);
+  line-height: 1.45;
+}
+.lte-paywall__list {
+  list-style: none;
+  padding: 0;
+  margin: var(--zovo-space-2) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.lte-paywall__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: var(--zovo-fs-body);
+  color: var(--zovo-text);
+  line-height: 1.4;
+}
+.lte-paywall__item svg {
+  color: var(--lte-primary);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.lte-paywall__prices {
+  display: flex;
+  align-items: baseline;
+  gap: var(--zovo-space-3);
+  padding: var(--zovo-space-3) 0;
+  border-top: 1px solid var(--zovo-border);
+  border-bottom: 1px solid var(--zovo-border);
+  margin-top: var(--zovo-space-2);
+}
+.lte-paywall__price {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.lte-paywall__price--lifetime .lte-paywall__amt {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--lte-primary);
+  letter-spacing: -0.01em;
+}
+.lte-paywall__price--monthly .lte-paywall__amt {
+  font-size: var(--zovo-fs-body);
+  color: var(--zovo-text-secondary);
+}
+.lte-paywall__cta {
+  margin-top: var(--zovo-space-1);
+  text-decoration: none;
+}
+.lte-paywall__cta:hover { background: var(--lte-primary-dark); }
+.lte-paywall__link-secondary {
+  text-align: center;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.lte-paywall__link-secondary:hover { color: var(--lte-primary); }
+.lte-paywall__note {
+  margin: 0;
+  font-size: 12px;
+  color: var(--zovo-text-secondary);
+  text-align: center;
+  line-height: 1.4;
+}
+/* Free vs Pro comparison heading — small eyebrow above the Pro benefits list.
+   WCAG AA on tinted paywall surface: --zovo-text-secondary (#6B7280) fails
+   4.5:1 on the tinted primary gradient, so we darken to --zovo-text-strong
+   (#4B5563 hits 4.74:1 per the fleet AA lesson). */
+.lte-paywall__compare-heading {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--zovo-text-strong, #4B5563);
+  text-align: center;
+}
+/* 14-day money-back risk-reversal line. Smaller and darker than the note so
+   it reads as a promise, not a disclaimer. */
+.lte-paywall__refund {
+  margin: 0;
+  padding: var(--zovo-space-2) var(--zovo-space-3);
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: center;
+  color: var(--zovo-text-strong, #4B5563);
+  background: color-mix(in srgb, var(--lte-primary) 6%, transparent);
+  border-radius: var(--lte-radius-control, 6px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .lte-paywall__compare-heading,
+  :root:not([data-theme='light']) .lte-paywall__refund {
+    color: #D1D5DB; /* light gray on dark primary tint, AA 7.1:1 */
+  }
+}
+:root[data-theme='dark'] .lte-paywall__compare-heading,
+:root[data-theme='dark'] .lte-paywall__refund {
+  color: #D1D5DB;
+}
+
+/* Dark-mode WCAG AA override: primary gradient + lifetime price must hit AA. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .lte-paywall__price--lifetime .lte-paywall__amt {
+    color: var(--lte-primary); /* #8B7CF0 hits 5.34:1 on dark ground */
+  }
+}
+:root[data-theme='dark'] .lte-paywall__price--lifetime .lte-paywall__amt {
+  color: var(--lte-primary);
+}
+
+/* ---- License section ------------------------------------------------------ */
+.lte-license__row {
+  display: flex;
+  gap: var(--zovo-space-2);
+  align-items: stretch;
+}
+.lte-license__row .lte-input { flex: 1; }
+.lte-license__active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--zovo-space-3);
+  padding: 10px 12px;
+  background: color-mix(in srgb, var(--zovo-success) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--zovo-success) 24%, transparent);
+  border-radius: var(--lte-radius-btn);
+  color: var(--zovo-text);
+  font-size: var(--zovo-fs-body);
+}
+.lte-license__active b { color: var(--zovo-success); }
+
+/* ---- Privacy / data buttons ---------------------------------------------- */
+.lte-privacy__row {
+  display: flex;
+  gap: var(--zovo-space-2);
+  flex-wrap: wrap;
+}
+
+/* ---- About footer --------------------------------------------------------- */
+.lte-about {
+  text-align: center;
+  font-size: var(--zovo-fs-caption);
+  color: var(--zovo-text-secondary);
+  padding-top: var(--zovo-space-5);
+}
+.lte-about a {
+  color: var(--lte-primary);
+  text-decoration: none;
+}
+.lte-about a:hover { text-decoration: underline; }
+.lte-about a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--lte-primary);
+  border-radius: 4px;
+}
+
+/* ---- Visually-hidden live region ----------------------------------------- */
+.lte-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lte-options *,
+  .lte-options *::before,
+  .lte-options *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
